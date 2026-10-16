@@ -1,0 +1,68 @@
+{
+  "id": "luna",
+  "accent": "#8b7cff",
+  "age": 3,
+  "title": { "de": "Luna und der verlorene Stern", "es": "Luna y la estrella perdida" },
+  "blurb": {
+    "de": "Ein kleiner Stern fällt vom Himmel. Die Füchsin Luna und ihre Freunde bringen ihn nach Hause.",
+    "es": "Una estrellita se cae del cielo. La zorrita Luna y sus amigos la llevan de vuelta a casa."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Luna ist ein kleiner Fuchs mit einer weißen Schwanzspitze.", "Jeden Abend schaut sie in den Himmel und zählt die Sterne."],
+        "es": ["Luna es una zorrita con la punta de la cola blanca.", "Cada noche mira al cielo y cuenta las estrellas."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Eines Nachts saust etwas Helles über den Himmel.", "Plumps!", "Es landet direkt hinter dem großen Hügel."],
+        "es": ["Una noche, algo brillante cruza el cielo.", "¡Plof!", "Cae justo detrás de la gran colina."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Luna läuft, so schnell sie kann.", "Im Gras liegt ein kleiner Stern.", "Er blinkt ganz schwach und weint leise."],
+        "es": ["Luna corre tan rápido como puede.", "En la hierba hay una pequeña estrella.", "Parpadea muy débil y llora bajito."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["„Ich bin heruntergefallen“, schluchzt der Stern.", "„Ohne mich fehlt am Himmel ein Licht.“", "Luna nickt: „Ich bringe dich nach Hause!“"],
+        "es": ["—Me he caído —solloza la estrella—.", "Sin mí, falta una luz en el cielo.", "Luna asiente: —¡Yo te llevaré a casa!"]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Zuerst fragt Luna die Eule Olga: „Wie kommt man zum Himmel?“", "Olga denkt lange nach.", "„Von ganz oben auf dem alten Berg.“"],
+        "es": ["Primero, Luna le pregunta a la lechuza Olga: —¿Cómo se llega al cielo?", "Olga piensa un buen rato.", "—Desde lo más alto de la vieja montaña."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Der Weg ist lang und dunkel.", "Doch der Igel Ivo leuchtet mit seiner Laterne.", "Gemeinsam klettern sie Schritt für Schritt nach oben."],
+        "es": ["El camino es largo y oscuro.", "Pero el erizo Ivo lo ilumina con su farolillo.", "Juntos suben paso a paso."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Auf dem Gipfel ist der Himmel ganz nah.", "Luna hebt den Stern hoch, so hoch sie kann.", "Olga schlägt mit den Flügeln – und hui! Der Stern fliegt hinauf."],
+        "es": ["En la cima, el cielo está muy cerca.", "Luna levanta la estrella todo lo alto que puede.", "Olga bate las alas y… ¡zas! La estrella sale volando."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Da oben funkelt er wieder, heller als alle anderen.", "Jeden Abend blinkt er Luna zu, und Luna blinzelt zurück.", "Gute Nacht, kleiner Stern."],
+        "es": ["Allí arriba vuelve a brillar, más que ninguna otra.", "Cada noche le guiña un ojo a Luna, y Luna le guiña también.", "Buenas noches, estrellita."]
+      }
+    }
+  ]
+}

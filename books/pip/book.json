@@ -1,0 +1,68 @@
+{
+  "id": "pip",
+  "accent": "#4fb6ff",
+  "age": 3,
+  "title": { "de": "Pip, die kleine Wolke", "es": "Pip, la nubecita" },
+  "blurb": {
+    "de": "Pip ist die kleinste Wolke am Himmel und kann einfach nicht regnen – bis sie jemanden trifft, der sie braucht.",
+    "es": "Pip es la nube más pequeña del cielo y no sabe llover… hasta que conoce a alguien que la necesita."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Hoch über dem Dorf wohnt Pip, die kleinste Wolke am Himmel.", "Sie ist weich und rund und ein bisschen ungeduldig."],
+        "es": ["Muy por encima del pueblo vive Pip, la nube más pequeña del cielo.", "Es suave, redonda y un poco impaciente."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Die großen Wolken können regnen.", "Plitsch, platsch, machen sie, und alle Blumen trinken.", "Nur Pip schafft keinen einzigen Tropfen."],
+        "es": ["Las nubes grandes saben llover.", "Hacen plic, plac, y todas las flores beben.", "Solo Pip no consigue ni una gota."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Pip drückt und presst, bis sie ganz rot wird.", "Aber heraus kommt nur ein winziges „Hatschi!“", "Die anderen Wolken kichern."],
+        "es": ["Pip aprieta y aprieta hasta ponerse roja.", "Pero solo le sale un diminuto «¡achís!».", "Las otras nubes se ríen por lo bajo."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Traurig schwebt Pip davon, weit weg über Felder und Wälder.", "Unten sieht sie einen Garten.", "Die Blumen lassen die Köpfe hängen."],
+        "es": ["Triste, Pip se aleja flotando, lejos, sobre campos y bosques.", "Abajo ve un jardín.", "Las flores tienen la cabeza agachada."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Im Garten steht Mia mit einer leeren Gießkanne.", "„Es hat so lange nicht geregnet“, seufzt sie.", "„Wenn doch nur eine Wolke käme!“"],
+        "es": ["En el jardín está Mía con una regadera vacía.", "—Hace mucho que no llueve —suspira—.", "¡Ojalá viniera una nube!"]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Pip will helfen, unbedingt!", "Sie denkt ganz fest an die Blumen und an Mia.", "Und plötzlich wird ihr Bauch schwer und kühl."],
+        "es": ["¡Pip quiere ayudar, como sea!", "Piensa con fuerza en las flores y en Mía.", "Y de pronto, su barriga se vuelve pesada y fresquita."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Plitsch! Platsch! Pip regnet – zum allerersten Mal!", "Und weil die Sonne gleichzeitig scheint, malt sie einen Regenbogen über den Garten."],
+        "es": ["¡Plic! ¡Plac! ¡Pip llueve por primera vez!", "Y como el sol brilla a la vez, pinta un arcoíris sobre el jardín."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Die Blumen strecken sich, und Mia tanzt im Regen.", "Pip ist jetzt ein bisschen kleiner, aber sehr glücklich.", "Manchmal braucht man einfach einen guten Grund."],
+        "es": ["Las flores se estiran y Mía baila bajo la lluvia.", "Ahora Pip es un poco más pequeña, pero muy feliz.", "A veces solo hace falta una buena razón."]
+      }
+    }
+  ]
+}

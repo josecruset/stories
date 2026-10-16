@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="theme-color" content="#17153a">
+  <title>Geschichten für Kinder</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Andika:wght@400;700&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="reader">
+  <header class="reader-bar">
+    <a class="icon-btn" href="./" data-i18n-label="home">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5M5.5 9.5V20h5v-5.5h3V20h5V9.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </a>
+    <h1 class="reader-title" id="bookTitle"></h1>
+    <div class="lang-switch" role="group" aria-label="Sprache / Idioma">
+      <button type="button" data-lang="de" lang="de">DE</button>
+      <button type="button" data-lang="es" lang="es">ES</button>
+    </div>
+  </header>
+
+  <main class="stage" id="stage" aria-live="polite"></main>
+
+  <nav class="controls" id="controls">
+    <button type="button" class="nav-btn" id="prevBtn" data-i18n-label="prev">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+    <div class="controls-mid">
+      <button type="button" class="play-btn" id="playBtn" data-i18n-label="play">
+        <svg class="i-play" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>
+        <svg class="i-pause" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h3.5v14H7zM13.5 5H17v14h-3.5z" fill="currentColor"/></svg>
+      </button>
+      <div class="dots" id="dots" aria-hidden="true"></div>
+      <span class="sr-only" id="pageLabel"></span>
+    </div>
+    <button type="button" class="nav-btn" id="nextBtn" data-i18n-label="next">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9 5 7 7-7 7" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </button>
+  </nav>
+
+  <audio id="audio" preload="auto"></audio>
+
+  <script src="assets/common.js"></script>
+  <script src="assets/reader.js"></script>
+</body>
+</html>

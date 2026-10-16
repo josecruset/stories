@@ -1,0 +1,68 @@
+{
+  "id": "bruno",
+  "accent": "#ff8a4c",
+  "age": 4,
+  "title": { "de": "Bruno baut ein Boot", "es": "Bruno construye un barco" },
+  "blurb": {
+    "de": "Bruno der Bär will zur Beereninsel. Sein erstes Boot geht unter – aber mit Freunden klappt es.",
+    "es": "Bruno el oso quiere llegar a la isla de las moras. Su primer barco se hunde, pero con amigos lo consigue."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Bruno, der Bär, wohnt an einem großen See.", "Mitten im See liegt eine kleine Insel.", "Dort wachsen die süßesten Beeren der Welt, sagt man."],
+        "es": ["Bruno, el oso, vive junto a un gran lago.", "En medio del lago hay una islita.", "Dicen que allí crecen las moras más dulces del mundo."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["„Ich baue mir ein Boot!“, ruft Bruno.", "Er sammelt Äste, Blätter und eine alte Kiste.", "Hämmern, binden, fertig!"],
+        "es": ["—¡Me voy a construir un barco! —exclama Bruno.", "Reúne ramas, hojas y una caja vieja.", "¡Martillar, atar y listo!"]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Stolz setzt sich Bruno hinein.", "Das Boot schaukelt, das Boot wackelt …", "und blubb, blubb, blubb – es geht unter!"],
+        "es": ["Orgulloso, Bruno se sube.", "El barco se balancea, el barco se tambalea…", "y glu, glu, glu, ¡se hunde!"]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Klatschnass sitzt Bruno am Ufer.", "Da kommt die Biberin Berta vorbei.", "„Holz muss dicht an dicht liegen“, sagt sie. „Ich zeige es dir.“"],
+        "es": ["Empapado, Bruno se sienta en la orilla.", "Entonces pasa por allí la castora Berta.", "—La madera tiene que ir bien juntita —dice—. Yo te enseño."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Berta nagt gerade Stämme, und Bruno trägt sie zusammen.", "Die Ente Emil bringt Schilf zum Binden.", "Zusammen geht es viel schneller."],
+        "es": ["Berta roe troncos rectos y Bruno los va juntando.", "El pato Emilio trae juncos para atarlos.", "Juntos, todo va mucho más rápido."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Zum Schluss fehlt nur noch ein Segel.", "Bruno holt seine rot-weiße Picknickdecke.", "Ein Windstoß – und das Segel bläht sich auf!"],
+        "es": ["Al final solo falta una vela.", "Bruno trae su manta de pícnic de cuadros rojos y blancos.", "Una ráfaga de viento… ¡y la vela se hincha!"]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Das Floß gleitet über das glitzernde Wasser.", "Emil schwimmt vorneweg, Berta hält das Steuer.", "Bruno singt vor Freude ganz laut."],
+        "es": ["La balsa se desliza sobre el agua brillante.", "Emilio nada delante y Berta lleva el timón.", "Bruno canta de alegría a todo pulmón."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Auf der Insel essen die drei Beeren, bis ihre Bäuche rund sind.", "„Die süßesten Beeren der Welt!“, schmatzt Bruno.", "„Und die besten Freunde dazu!“"],
+        "es": ["En la isla, los tres comen moras hasta tener la barriga redonda.", "—¡Las moras más dulces del mundo! —dice Bruno relamiéndose—.", "¡Y los mejores amigos también!"]
+      }
+    }
+  ]
+}
