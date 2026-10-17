@@ -1,0 +1,84 @@
+{
+  "id": "dornroeschen",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm", "es": "Hermanos Grimm" },
+  "accent": "#e0457b",
+  "age": 4,
+  "title": { "de": "Dornröschen", "es": "La Bella Durmiente" },
+  "blurb": {
+    "de": "Eine beleidigte weise Frau verzaubert die kleine Prinzessin: Mit fünfzehn soll sie hundert Jahre lang schlafen. Doch hinter der Dornenhecke wartet ein Rosenwunder.",
+    "es": "Un hada ofendida hechiza a la princesita: a los quince años dormirá durante cien años. Pero detrás del seto de espinos espera un milagro de rosas."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein König und eine Königin, die wünschten sich so sehr ein Kind.", "Als die Königin eines Tages am Teich saß, kroch ein Frosch aus dem Wasser.", "„Dein Wunsch wird erfüllt werden“, quakte er, „ehe ein Jahr vergeht, wirst du eine Tochter haben.“"],
+        "es": ["Érase una vez un rey y una reina que deseaban muchísimo tener un hijo.", "Un día, mientras la reina descansaba junto al estanque, salió del agua una rana.", "—Tu deseo se cumplirá —croó—: antes de que pase un año, tendrás una hija."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Und wirklich: Bald kam ein Mädchen zur Welt, so schön, dass der König vor Freude ein großes Fest gab.", "Dazu lud er die weisen Frauen des Landes ein, damit sie dem Kind Glück bringen.", "Es waren dreizehn, doch er hatte nur zwölf goldene Teller.", "Darum musste eine daheimbleiben."],
+        "es": ["Y así fue: nació una niña tan preciosa que el rey, loco de alegría, preparó una gran fiesta.", "Invitó a las hadas del reino para que le trajeran buena suerte a la niña.", "Eran trece, pero en palacio solo había doce platos de oro.", "Así que una de ellas se quedó sin invitación."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Beim Fest schenkten die weisen Frauen dem Kind ihre Wundergaben: Schönheit, Klugheit, Fröhlichkeit und alles, was man sich wünschen kann.", "Als elf ihre Sprüche gesagt hatten, flog plötzlich die Tür auf.", "Herein stapfte die dreizehnte, rot vor Ärger, weil man sie nicht eingeladen hatte."],
+        "es": ["En la fiesta, las hadas le regalaron a la niña dones maravillosos: belleza, bondad, alegría y todo lo que se puede desear.", "Cuando ya habían hablado once, la puerta se abrió de golpe.", "Entró la decimotercera hada, roja de rabia porque no la habían invitado."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Sie stemmte die Hände in die Hüften und rief: „Die Königstochter soll sich in ihrem fünfzehnten Jahr an einer Spindel stechen und umfallen – und nie wieder aufwachen!“", "Dann drehte sie sich um und stapfte grummelnd davon.", "Alle im Saal waren vor Schreck ganz still."],
+        "es": ["Se puso los brazos en jarras y gritó: —¡Cuando cumpla quince años, la princesa se pinchará con un huso y caerá al suelo para no despertar jamás!", "Después dio media vuelta y se marchó refunfuñando.", "En el salón, todos se quedaron mudos del susto."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Da trat die zwölfte weise Frau vor, die ihren Wunsch noch nicht gesagt hatte.", "„Aufheben kann ich den Spruch nicht, aber mildern“, sprach sie sanft.", "„Die Prinzessin soll nicht für immer schlafen, sondern nur hundert Jahre lang.“", "Der König aber ließ alle Spindeln im ganzen Reich verbrennen."],
+        "es": ["Entonces se adelantó la duodécima hada, que aún no había dicho su deseo.", "—No puedo deshacer el hechizo, pero sí hacerlo más suave —dijo con dulzura—.", "La princesa no dormirá para siempre, sino solo cien años.", "Aun así, el rey mandó quemar todos los husos del reino."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Die Prinzessin wuchs heran und wurde schön, freundlich und klug.", "An ihrem fünfzehnten Geburtstag stieg sie neugierig die Treppe eines alten Turms hinauf.", "Oben in einem kleinen Stübchen saß eine alte Frau und spann fleißig ihren Flachs."],
+        "es": ["La princesa creció y se volvió hermosa, amable y lista.", "El día que cumplió quince años, subió llena de curiosidad por la escalera de una vieja torre.", "Arriba, en un cuartito, una anciana hilaba lino con mucho afán."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["„Guten Tag, du altes Mütterchen, was machst du da?“, fragte die Prinzessin.", "„Ich spinne“, sagte die Alte und nickte freundlich.", "Kaum hatte die Prinzessin die Spindel angefasst, stach sie sich in den Finger.", "Sie sank auf das Bett und schlief tief und fest ein."],
+        "es": ["—Buenos días, abuelita, ¿qué estás haciendo? —preguntó la princesa.", "—Estoy hilando —respondió la anciana con una sonrisa.", "Pero en cuanto la princesa tocó el huso, se pinchó en el dedo.", "Cayó sobre la cama y se quedó profundamente dormida."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Im selben Augenblick schlief das ganze Schloss ein, vom König bis zur kleinsten Fliege an der Wand.", "Das Feuer im Herd hörte auf zu flackern, und der Braten hörte auf zu brutzeln.", "Der Koch wollte gerade mit dem Küchenjungen schimpfen – da schnarchte er schon, den Löffel noch in der Hand."],
+        "es": ["En ese mismo instante se durmió todo el castillo, desde el rey hasta la última mosca de la pared.", "El fuego del fogón se quedó quieto y el asado dejó de chisporrotear.", "El cocinero iba a regañar al pinche de cocina, pero se quedó roncando con el cucharón en alto."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Rings um das Schloss wuchs eine Dornenhecke, jedes Jahr höher und dichter.", "Viele Prinzen wollten das schlafende Dornröschen sehen, doch alle blieben in den Dornen hängen.", "Nach hundert Jahren kam wieder ein Prinz.", "Da wurde die Hecke zu lauter schönen Rosen und öffnete sich ganz von selbst."],
+        "es": ["Alrededor del castillo creció un seto de espinos, cada año más alto y más espeso.", "Muchos príncipes quisieron ver a la Bella Durmiente, pero todos se quedaban enganchados en las espinas.", "Cuando pasaron cien años, llegó otro príncipe.", "Entonces las espinas se llenaron de rosas preciosas y se apartaron solas para dejarle pasar."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Oben im Turm fand der Prinz Dornröschen und gab ihr einen Kuss.", "Da schlug sie die Augen auf, und mit ihr erwachte das ganze Schloss, vom König bis zur kleinsten Fliege.", "Bald wurde fröhlich Hochzeit gefeiert.", "Und wenn sie nicht gestorben sind, dann leben sie noch heute."],
+        "es": ["En lo alto de la torre, el príncipe encontró a la Bella Durmiente y le dio un beso.", "Ella abrió los ojos, y con ella despertó todo el castillo, desde el rey hasta la última mosca.", "Poco después celebraron una boda muy alegre.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+ "de": [
+  {
+   "src": "audio/de/00.mp3",
+   "dur": 2.36,
+   "marks": [
+    0
+   ],
+   "hash": "666d2e2d3dcc"
+  },
+  {
+   "src": "audio/de/01.mp3",
+   "dur": 17.74,
+   "marks": [
+    0,
+    5.32,
+    11.08
+   ],
+   "hash": "72597679ebfa"
+  },
+  {
+   "src": "audio/de/02.mp3",
+   "dur": 18.56,
+   "marks": [
+    0,
+    4.66,
+    8.42,
+    13.52
+   ],
+   "hash": "8520778aa71d"
+  },
+  {
+   "src": "audio/de/03.mp3",
+   "dur": 20.27,
+   "marks": [
+    0,
+    7.86,
+    15.28
+   ],
+   "hash": "b8246cac482c"
+  },
+  {
+   "src": "audio/de/04.mp3",
+   "dur": 17.86,
+   "marks": [
+    0,
+    10.42,
+    14.18
+   ],
+   "hash": "ac666d3bd8be"
+  },
+  {
+   "src": "audio/de/05.mp3",
+   "dur": 19.82,
+   "marks": [
+    0,
+    6.46,
+    10.28
+   ],
+   "hash": "945ab56a1ff6"
+  },
+  {
+   "src": "audio/de/06.mp3",
+   "dur": 17.29,
+   "marks": [
+    0,
+    8.28,
+    12.54
+   ],
+   "hash": "c182e4530b0d"
+  },
+  {
+   "src": "audio/de/07.mp3",
+   "dur": 18.54,
+   "marks": [
+    0,
+    6.48,
+    12.04
+   ],
+   "hash": "441124d679fc"
+  },
+  {
+   "src": "audio/de/08.mp3",
+   "dur": 21.34,
+   "marks": [
+    0,
+    7.12,
+    12.82,
+    17.88
+   ],
+   "hash": "08740359db5d"
+  },
+  {
+   "src": "audio/de/09.mp3",
+   "dur": 20.35,
+   "marks": [
+    0,
+    4.22,
+    7.8,
+    11.24
+   ],
+   "hash": "bf6ed35c53ad"
+  },
+  {
+   "src": "audio/de/10.mp3",
+   "dur": 20.13,
+   "marks": [
+    0,
+    7.8,
+    13.12,
+    15.96
+   ],
+   "hash": "9e5935c03a94"
+  }
+ ],
+ "es": [
+  {
+   "src": "audio/es/00.mp3",
+   "dur": 2.15,
+   "marks": [
+    0
+   ],
+   "hash": "91dedbb447e1"
+  },
+  {
+   "src": "audio/es/01.mp3",
+   "dur": 19.62,
+   "marks": [
+    0,
+    5.96,
+    11.98
+   ],
+   "hash": "c50656a89491"
+  },
+  {
+   "src": "audio/es/02.mp3",
+   "dur": 19.61,
+   "marks": [
+    0,
+    4.88,
+    8.58,
+    14.24
+   ],
+   "hash": "a1ca387b82ee"
+  },
+  {
+   "src": "audio/es/03.mp3",
+   "dur": 20.29,
+   "marks": [
+    0,
+    6.8,
+    13.86
+   ],
+   "hash": "6026c5be4b9d"
+  },
+  {
+   "src": "audio/es/04.mp3",
+   "dur": 17.45,
+   "marks": [
+    0,
+    9.12,
+    12.68
+   ],
+   "hash": "233d6b276fa5"
+  },
+  {
+   "src": "audio/es/05.mp3",
+   "dur": 19.86,
+   "marks": [
+    0,
+    6.8,
+    11
+   ],
+   "hash": "034bbfd695bf"
+  },
+  {
+   "src": "audio/es/06.mp3",
+   "dur": 16.31,
+   "marks": [
+    0,
+    7.12,
+    11.18
+   ],
+   "hash": "327914f43063"
+  },
+  {
+   "src": "audio/es/07.mp3",
+   "dur": 18.46,
+   "marks": [
+    0,
+    6.5,
+    12.16
+   ],
+   "hash": "4e383f995ef2"
+  },
+  {
+   "src": "audio/es/08.mp3",
+   "dur": 21.6,
+   "marks": [
+    0,
+    7.22,
+    12.64,
+    18.38
+   ],
+   "hash": "5c36bb552801"
+  },
+  {
+   "src": "audio/es/09.mp3",
+   "dur": 23.01,
+   "marks": [
+    0,
+    6.2,
+    10.68,
+    14.2
+   ],
+   "hash": "fa5a2c926ee0"
+  },
+  {
+   "src": "audio/es/10.mp3",
+   "dur": 22.25,
+   "marks": [
+    0,
+    7.32,
+    13.08,
+    17.82
+   ],
+   "hash": "cc5d341a137a"
+  }
+ ]
+}

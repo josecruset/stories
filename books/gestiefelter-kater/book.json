@@ -1,0 +1,84 @@
+{
+  "id": "gestiefelter-kater",
+  "shelf": "maerchen",
+  "origin": { "de": "Charles Perrault", "es": "Charles Perrault" },
+  "accent": "#d6363f",
+  "age": 5,
+  "title": { "de": "Der gestiefelte Kater", "es": "El gato con botas" },
+  "blurb": {
+    "de": "Der jüngste Müllerssohn erbt nur einen Kater. Doch dieser Kater hat Stiefel, einen Federhut und jede Menge kluge Ideen!",
+    "es": "El hijo pequeño del molinero solo hereda un gato. ¡Pero este gato tiene botas, un sombrero con pluma y muchísimo ingenio!"
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein alter Müller, der hatte drei Söhne.", "Als er sein Hab und Gut verteilte, bekam der Älteste die Mühle und der Mittlere den Esel.", "Der Jüngste aber bekam nur den Kater."],
+        "es": ["Érase una vez un viejo molinero que tenía tres hijos.", "Cuando repartió todo lo que tenía, al mayor le dio el molino y al mediano, el burro.", "Al pequeño solo le tocó el gato."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["„Was soll ich bloß mit einem Kater anfangen?“, seufzte der Jüngste.", "Da sprach der Kater: „Sei nicht traurig, mein Herr!“", "„Gib mir ein Paar Stiefel und einen Sack, dann wirst du schon sehen.“"],
+        "es": ["—¿Y qué voy a hacer yo con un gato? —suspiró el pequeño.", "Entonces el gato habló: —¡No estés triste, amo!", "—Dame un par de botas y un saco, y ya verás."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Bald trug der Kater prächtige Stiefel und einen Hut mit einer langen Feder.", "Er legte frische Möhren in seinen Sack und versteckte sich im hohen Gras.", "Hopp!", "Schon hüpfte ein dickes Kaninchen hinein."],
+        "es": ["Pronto el gato lucía unas botas espléndidas y un sombrero con una gran pluma.", "Metió zanahorias frescas en el saco y se escondió entre la hierba alta.", "¡Hop!", "Un conejo regordete se coló dentro de un salto."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Damit ging der Kater geradewegs zum König.", "Er verbeugte sich tief und sprach: „Dies schickt Euch mein Herr, der Graf von Carabas!“", "Der König freute sich sehr.", "Von da an brachte ihm der Kater oft Geschenke, mal Kaninchen, mal Rebhühner."],
+        "es": ["Con él, el gato se fue derecho al palacio.", "Hizo una gran reverencia y dijo: —Esto os lo envía mi amo, el marqués de Carabás.", "El rey se puso muy contento.", "Desde entonces, el gato le llevaba a menudo conejos y perdices."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Eines Tages hörte der Kater, dass der König mit seiner Tochter am Fluss entlangfahren wollte.", "„Spring schnell ins Wasser und bade!“, rief er seinem Herrn zu.", "Dann versteckte er die alten Kleider unter einem großen Stein."],
+        "es": ["Un día, el gato se enteró de que el rey iba a pasear en carroza con su hija por la orilla del río.", "—¡Rápido, amo, métete en el río a bañarte! —le dijo.", "Después escondió su ropa vieja debajo de una gran piedra."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Als die Kutsche kam, rief der Kater: „Hilfe, Hilfe! Der Graf von Carabas ertrinkt!“", "„Und Diebe haben seine Kleider gestohlen!“", "Der König ließ ihm sofort die schönsten Kleider bringen.", "Darin sah der Müllerssohn so fein aus, dass die Prinzessin ihn gleich gernhatte."],
+        "es": ["Al pasar la carroza, el gato gritó: —¡Socorro, socorro, que se ahoga el marqués de Carabás!", "—¡Y unos ladrones le han robado la ropa!", "El rey mandó traerle enseguida sus mejores trajes.", "Estaba tan guapo que la princesa se enamoró de él."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Der Kater lief der Kutsche voraus, bis er zu Bauern auf einem großen Kornfeld kam.", "„Wenn der König fragt, wem dieses Feld gehört, dann sagt: dem Grafen von Carabas!“", "Und genau das sagten die Bauern, als der König vorbeifuhr."],
+        "es": ["El gato corrió delante de la carroza hasta unos campesinos que segaban un campo de trigo.", "—Si el rey os pregunta de quién es este campo, decid que es del marqués de Carabás.", "Y eso dijeron los campesinos cuando pasó el rey."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Am Ende des Weges stand ein Schloss, das einem mächtigen Zauberer gehörte.", "„Man sagt, Ihr könnt Euch in jedes Tier verwandeln“, sagte der Kater.", "Schwupps, da stand ein brüllender Löwe vor ihm!", "Vor Schreck sprang der Kater hoch auf einen Schrank."],
+        "es": ["Al final del camino había un castillo donde vivía un ogro muy poderoso.", "—Dicen que podéis convertiros en cualquier animal —dijo el gato.", "De repente, ¡zas!, apareció un león enorme que rugía muy fuerte.", "Del susto, el gato saltó a lo alto de un armario."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["„Aber in etwas ganz Kleines wie eine Maus könnt Ihr Euch sicher nicht verwandeln!“", "„Und ob!“, rief der Zauberer – und schon flitzte eine Maus über den Boden.", "Der Kater stampfte mit den Stiefeln: „Buh!“", "Da rannte die Maus erschrocken davon und kam nie wieder."],
+        "es": ["—Pero seguro que no podéis convertiros en algo tan pequeño como un ratón.", "—¡Claro que sí! —gritó el ogro, y al momento un ratoncito correteaba por el suelo.", "El gato dio un pisotón con sus botas: —¡Bu!", "El ratón huyó asustado y nunca más volvió."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Da kam die Kutsche, und der Kater rief: „Willkommen im Schloss des Grafen von Carabas!“", "Bald feierte der Müllerssohn Hochzeit mit der Prinzessin.", "Und der Kater wurde ein vornehmer Herr.", "Und wenn sie nicht gestorben sind, dann leben sie noch heute."],
+        "es": ["Entonces llegó la carroza y el gato exclamó: —¡Bienvenidos al castillo del marqués de Carabás!", "Poco después, el hijo del molinero se casó con la princesa.", "Y el gato se convirtió en un gran señor.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

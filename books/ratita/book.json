@@ -1,0 +1,84 @@
+{
+  "id": "ratita",
+  "shelf": "maerchen",
+  "origin": { "de": "Spanisches Volksmärchen", "es": "Cuento popular español" },
+  "accent": "#e8434f",
+  "age": 4,
+  "title": { "de": "Das eitle Mäuschen", "es": "La ratita presumida" },
+  "blurb": {
+    "de": "Ein hübsches Mäuschen findet eine Goldmünze und kauft sich eine rote Schleife. Nun wollen alle Tiere sie heiraten – doch wer ist der Richtige?",
+    "es": "Una ratita encuentra una moneda de oro y se compra un lazo rojo. Todos los animales quieren casarse con ella, pero ¿quién será el novio de verdad?"
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein kleines Mäuschen, das war sehr hübsch und ein bisschen eitel.", "Jeden Morgen fegte sie ihr Häuschen und sang: „Trallala, trallala, ich fege, fege fein, mein Häuschen soll schön sauber sein!“", "Nebenan wohnte der schüchterne Mäuserich Martin und schaute ihr heimlich zu."],
+        "es": ["Érase una vez una ratita muy presumida que vivía en una casita blanca.", "Todas las mañanas barría la puerta y cantaba: —Tralará, tralará, barro mi casita, tralará.", "Al lado vivía el tímido ratoncito Martín, que la miraba a escondidas."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Eines Tages fand das Mäuschen beim Fegen eine Goldmünze.", "„Kaufe ich mir dafür Bonbons?“", "„Nein, nein, davon kriege ich Bauchweh!“", "„Ich weiß, ich kaufe mir eine rote Schleife!“"],
+        "es": ["Un día, mientras barría, la ratita se encontró una moneda de oro.", "—¿Me compraré caramelos?", "—No, no, que me dolerá la tripa.", "—¡Ya sé, me compraré un lazo rojo para la colita!"]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Im Laden kaufte sie die allerschönste rote Schleife.", "Die band sie sich an den Schwanz, und dann setzte sie sich ans Fenster.", "Alle, die vorbeikamen, blieben stehen und staunten: „Wie hübsch das Mäuschen ist!“"],
+        "es": ["En la tienda se compró el lazo rojo más bonito de todos.", "Se lo ató en la colita y se sentó en la ventana.", "Todos los que pasaban se paraban a mirarla: —¡Qué guapa está la ratita!"]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Da kam der Hahn stolziert: „Mäuschen, Mäuschen, du bist so fein, willst du meine Frau sein?“", "„Und was sagst du in der Nacht zu mir?“, fragte das Mäuschen.", "„Kikeriki!“", "„Ach nein, nein, da erschrecke ich mich ja!“"],
+        "es": ["Pasó por allí un gallo y le dijo: —Ratita, ratita, tú que eres tan bonita, ¿te quieres casar conmigo?", "—¿Y qué me dirás por las noches?", "—¡Quiquiriquí!", "—¡Ay, no, no, que me asustarás!"]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Dann kamen der Hund, das Schwein und der Esel und fragten genau dasselbe.", "Doch der Hund bellte „Wau, wau!“, das Schwein grunzte „Grunz, grunz!“ und der Esel schrie „I-aah!“", "„Ach nein, nein, da erschrecke ich mich ja!“, rief das Mäuschen jedes Mal."],
+        "es": ["Después vinieron el perro, el cerdo y el burro, y le preguntaron lo mismo.", "Pero el perro ladraba «¡Guau, guau!», el cerdo gruñía «¡Oinc, oinc!» y el burro rebuznaba «¡Hiaaa, hiaaa!».", "—¡Ay, no, no, que me asustaréis! —les decía la ratita."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Am Abend kam ein Kater und sprach mit samtweicher Stimme: „Mäuschen, Mäuschen, du bist so fein, willst du meine Frau sein?“", "„Und was sagst du in der Nacht zu mir?“", "„Miau, miau“, schnurrte der Kater ganz sanft.", "„Oh, wie schön, dich will ich heiraten!“"],
+        "es": ["Al atardecer llegó un gato y, con voz muy dulce, le dijo: —Ratita, ratita, tú que eres tan bonita, ¿te quieres casar conmigo?", "—¿Y qué me dirás por las noches?", "—Miau, miau —maulló el gato con mucha suavidad.", "—¡Ay, qué voz tan bonita, contigo me casaré!"]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Am nächsten Tag deckte das Mäuschen einen festlichen Tisch für die Hochzeit.", "Doch der Kater schaute gar nicht auf die Torte.", "Er leckte sich das Maul und dachte: „Das feinste Festessen ist das Mäuschen selbst!“", "Martin sah es durchs Fenster und erschrak."],
+        "es": ["Al día siguiente, la ratita preparó una mesa preciosa para la boda.", "Pero el gato no miraba la tarta.", "Se relamía los bigotes y pensaba: «El bocado más rico de este banquete es la ratita».", "Martín lo vio por la ventana y se asustó muchísimo."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Plötzlich riss der Kater sein Maul weit auf.", "„Vorsicht, Mäuschen!“, rief Martin, sprang herein und zog sie an ihrer roten Schleife zur Seite.", "Schnapp!", "Der Kater biss nur in die Torte und hatte das ganze Gesicht voller Sahne."],
+        "es": ["De repente, el gato abrió la boca de par en par.", "—¡Cuidado, ratita! —gritó Martín, que entró de un salto y la apartó tirando de su lazo rojo.", "¡Zas!", "El gato solo mordió la tarta y se quedó con toda la cara llena de nata."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["„Wau, wau!“, bellte da der Hund, der den Lärm gehört hatte.", "Der Kater erschrak so sehr, dass er davonrannte und nie wiederkam.", "Und diesmal fand das Mäuschen das Bellen gar nicht schlimm."],
+        "es": ["—¡Guau, guau! —ladró el perro, que había oído el jaleo.", "El gato se asustó tanto que salió corriendo y nunca más volvió.", "Y esta vez, a la ratita el ladrido no le dio ni pizca de miedo."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Da fragte Martin schüchtern: „Mäuschen, Mäuschen, du bist so fein, willst du meine Frau sein?“", "„Und was sagst du in der Nacht zu mir?“", "„Ich schlafe still und träume von dir.“", "Da feierten sie Hochzeit, und wenn sie nicht gestorben sind, dann leben sie noch heute."],
+        "es": ["Entonces Martín, muy tímido, le preguntó: —Ratita, ratita, tú que eres tan bonita, ¿te quieres casar conmigo?", "—¿Y qué me dirás por las noches?", "—Dormir y callar, dormir y callar.", "Y se casaron y fueron muy felices, y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

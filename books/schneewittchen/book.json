@@ -1,0 +1,84 @@
+{
+  "id": "schneewittchen",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm", "es": "Hermanos Grimm" },
+  "accent": "#e2364a",
+  "age": 4,
+  "title": { "de": "Schneewittchen", "es": "Blancanieves" },
+  "blurb": {
+    "de": "Ein Zauberspiegel, ein roter Apfel und sieben freundliche Zwerge: das berühmte Märchen vom Mädchen, so weiß wie Schnee.",
+    "es": "Un espejo mágico, una manzana roja y siete enanitos muy simpáticos: el cuento de la princesa blanca como la nieve."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal eine Königin, die saß im Winter an ihrem Fenster aus Ebenholz und nähte.", "Draußen fiel Schnee auf die roten Rosen.", "Da wünschte sie sich: „Ach, hätte ich ein Kind, so weiß wie Schnee, so rot wie Rosen und so schwarz wie Ebenholz!“", "Bald darauf bekam sie ein Töchterchen: Schneewittchen."],
+        "es": ["Érase una vez una reina que cosía junto a una ventana de ébano mientras nevaba.", "Los copos caían sobre las rosas rojas.", "—¡Ojalá tuviera una niña blanca como la nieve, roja como las rosas y negra como el ébano! —suspiró.", "Poco después nació una princesita: Blancanieves."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Später heiratete der König eine schöne, aber sehr stolze Königin.", "Jeden Tag fragte sie ihren Zauberspiegel: „Spieglein, Spieglein an der Wand, wer ist die Schönste im ganzen Land?“", "Doch als Schneewittchen größer wurde, antwortete der Spiegel: „Frau Königin, Ihr seid die Schönste hier, aber Schneewittchen ist tausendmal schöner als Ihr.“"],
+        "es": ["Años después, el rey se casó con otra reina, guapa pero muy orgullosa.", "Cada día le preguntaba a su espejo mágico: —Espejito, espejito, ¿quién es la más bella del reino?", "Pero cuando Blancanieves creció, el espejo respondió: —Mi reina, tú eres muy bella, pero Blancanieves es mil veces más bella que tú."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Da wurde die Königin gelb und grün vor Neid.", "Sie befahl einem Jäger, Schneewittchen tief in den Wald zu bringen.", "Doch dort hatte der Jäger Mitleid: „Lauf weg, du liebes Kind!“", "Und Schneewittchen lief und lief, über spitze Steine und durch dornige Büsche."],
+        "es": ["La reina se puso verde de envidia.", "Mandó a un cazador que se llevara a Blancanieves a lo más profundo del bosque.", "Pero allí el cazador sintió lástima: —¡Corre, niña, huye y no vuelvas!", "Y Blancanieves corrió y corrió, entre piedras y zarzas."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Am Abend fand sie ein kleines Häuschen.", "Drinnen war alles winzig: sieben Tellerchen, sieben Becherchen und sieben Bettchen.", "Schneewittchen aß von jedem Tellerchen ein bisschen und trank aus jedem Becherchen einen Schluck.", "Dann legte sie sich ins siebte Bettchen und schlief ein."],
+        "es": ["Al anochecer encontró una casita en el bosque.", "Dentro todo era pequeñito: siete platitos, siete vasitos y siete camitas.", "Blancanieves comió un poquito de cada plato y bebió un sorbito de cada vaso.", "Después se tumbó en la séptima camita y se quedó dormida."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["In der Nacht kamen die sieben Zwerge von der Arbeit heim.", "„Wer hat von meinem Tellerchen gegessen?“, wunderte sich einer.", "Da sahen sie Schneewittchen schlafen und flüsterten: „Ei, du mein Gott, was ist das Kind so schön!“", "Sie ließen sie gern bei sich wohnen, sagten aber: „Lass niemanden herein!“"],
+        "es": ["Por la noche volvieron a casa los siete enanitos, que trabajaban en la mina.", "—¿Quién ha comido de mi platito? —preguntó uno.", "Entonces vieron a Blancanieves dormida y susurraron: —¡Qué niña tan bonita!", "La dejaron vivir con ellos, pero le advirtieron: —¡No abras la puerta a nadie!"]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Im Schloss fragte die Königin wieder: „Spieglein, Spieglein an der Wand, wer ist die Schönste im ganzen Land?“", "Der Spiegel antwortete: „Schneewittchen über den Bergen bei den sieben Zwergen ist noch tausendmal schöner als Ihr.“", "Da machte die Königin einen giftigen Apfel und verkleidete sich als alte Bäuerin."],
+        "es": ["En el castillo, la reina volvió a preguntar: —Espejito, espejito, ¿quién es la más bella del reino?", "—Blancanieves, que vive con los siete enanitos tras las montañas, es mil veces más bella que tú —contestó el espejo.", "Furiosa, la reina preparó una manzana envenenada y se disfrazó de viejecita."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Die alte Frau klopfte ans Fenster und rief: „Schöne rote Äpfel!“", "„Ich darf niemanden hereinlassen“, sagte Schneewittchen.", "Da biss die Alte selbst in die weiße Hälfte und reichte ihr die rote.", "Kaum hatte Schneewittchen abgebissen, sank sie in einen tiefen, tiefen Schlaf."],
+        "es": ["La viejecita llamó a la ventana: —¡Manzanas rojas, manzanas ricas!", "—No puedo abrirle a nadie —dijo Blancanieves.", "Entonces la vieja mordió la mitad blanca y le dio la mitad roja.", "En cuanto Blancanieves dio un mordisco, cayó en un sueño profundo, muy profundo."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Die Zwerge weinten, denn sie konnten Schneewittchen nicht aufwecken.", "Sie legten sie in einen gläsernen Sarg auf dem Berg, und die Tiere kamen und hielten Wache.", "Eines Tages kam ein Prinz vorbei und bat: „Lasst sie mich mitnehmen, ich will gut auf sie aufpassen.“"],
+        "es": ["Los enanitos lloraron mucho, porque no conseguían despertarla.", "La pusieron en una urna de cristal en lo alto del monte, y los animales venían a hacerle compañía.", "Un día pasó por allí un príncipe y les pidió: —Dejadme llevarla conmigo; yo cuidaré de ella."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Die Diener des Prinzen trugen den Sarg den Berg hinunter.", "Da stolperte einer über eine Wurzel, und – hopp! – hüpfte das Apfelstückchen aus Schneewittchens Mund.", "Schneewittchen schlug die Augen auf: „Wo bin ich?“", "„Du bist bei mir“, sagte der Prinz glücklich."],
+        "es": ["Los criados del príncipe bajaron la urna por la montaña.", "De pronto, uno tropezó con una raíz y… ¡hop!, el trocito de manzana salió de la boca de Blancanieves.", "Blancanieves abrió los ojos: —¿Dónde estoy?", "—Estás conmigo —dijo el príncipe, muy feliz."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Bald feierten Schneewittchen und der Prinz eine fröhliche Hochzeit, und die sieben Zwerge tanzten mit.", "Die böse Königin aber wurde so wütend, dass sie davonlief und nie wiederkam.", "Und wenn sie nicht gestorben sind, dann leben sie noch heute."],
+        "es": ["Poco después, Blancanieves y el príncipe celebraron una boda muy alegre, y los siete enanitos bailaron sin parar.", "La reina malvada se enfadó tanto que salió corriendo y nunca más volvió.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

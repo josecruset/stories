@@ -1,0 +1,84 @@
+{
+  "id": "drei-schweinchen",
+  "shelf": "maerchen",
+  "origin": { "de": "Volksmärchen aus England", "es": "Cuento popular inglés" },
+  "accent": "#e8618c",
+  "age": 4,
+  "title": { "de": "Die drei kleinen Schweinchen", "es": "Los tres cerditos" },
+  "blurb": {
+    "de": "Drei kleine Schweinchen bauen sich Häuser aus Stroh, aus Holz und aus Stein. Doch dann kommt der Wolf und will alles umpusten!",
+    "es": "Tres cerditos construyen sus casas de paja, de madera y de ladrillo. Pero llega el lobo y ¡quiere derribarlas de un soplido!"
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal eine Schweinemama, die hatte drei kleine Schweinchen.", "Eines Tages sagte sie: „Ihr seid jetzt groß genug für ein eigenes Haus.“", "„Aber nehmt euch vor dem Wolf in Acht!“", "Da winkten die drei Schweinchen zum Abschied und zogen fröhlich los."],
+        "es": ["Érase una vez una mamá cerdita que tenía tres cerditos.", "Un día les dijo: —Ya sois lo bastante mayores para tener vuestra propia casa.", "—Pero tened mucho cuidado con el lobo.", "Los tres cerditos se despidieron y se pusieron en camino muy contentos."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Das erste Schweinchen hatte keine Lust auf viel Arbeit.", "Ruck, zuck baute es sich ein Haus aus Stroh.", "Dann setzte es sich in die Sonne und spielte vergnügt auf seiner Flöte."],
+        "es": ["El primer cerdito no tenía ganas de trabajar mucho.", "En un periquete se construyó una casa de paja.", "Luego se puso al sol a tocar la flauta, tan feliz."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Das zweite Schweinchen sammelte Bretter und Äste im Wald.", "Klopf, klopf, klopf – schon stand sein Haus aus Holz.", "Dann holte es seine Geige heraus und tanzte im Kreis herum."],
+        "es": ["El segundo cerdito recogió tablas y ramas en el bosque.", "Toc, toc, toc… ¡y enseguida tuvo una casa de madera!", "Después sacó su violín y se puso a bailar dando vueltas."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Das dritte Schweinchen aber schleppte schwere Steine herbei.", "Stein auf Stein baute es den ganzen Tag an einem festen Haus mit Kamin.", "Seine Brüder lachten: „Du bist ja langsam wie eine Schnecke!“", "Doch das dritte Schweinchen sagte nur: „Ein gutes Haus braucht Zeit.“"],
+        "es": ["El tercer cerdito, en cambio, cargaba pesados ladrillos.", "Ladrillo a ladrillo, trabajó todo el día en una casa fuerte con chimenea.", "Sus hermanos se reían: —¡Eres más lento que una tortuga!", "Pero él solo dijo: —Una buena casa necesita su tiempo."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Da kam der Wolf zum Strohhaus und klopfte an die Tür.", "„Schweinchen, Schweinchen, lass mich herein!“", "„Nein, nein, bei den Borsten an meinem Kinn, ich lass dich nicht hinein!“", "„Dann werde ich husten und prusten und dein Haus zusammenpusten!“, rief der Wolf."],
+        "es": ["Entonces llegó el lobo a la casa de paja y llamó a la puerta.", "—Cerdito, cerdito, ¡déjame entrar!", "—¡No, no y no, no te dejaré entrar! —gritó el cerdito.", "—¡Pues soplaré y soplaré y tu casa derribaré! —rugió el lobo."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Der Wolf holte tief Luft und pustete, so fest er konnte.", "Huiii!", "Das ganze Stroh flog durch die Luft.", "Das erste Schweinchen rannte schnell zu seinem Bruder ins Holzhaus."],
+        "es": ["El lobo cogió aire y sopló con todas sus fuerzas.", "¡Fuuuuu!", "Toda la paja salió volando por los aires.", "El primer cerdito corrió a refugiarse en la casa de madera de su hermano."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Bald klopfte der Wolf am Holzhaus: „Schweinchen, Schweinchen, lasst mich herein!“", "„Nein, nein, bei den Borsten an unserem Kinn, wir lassen dich nicht hinein!“", "Da hustete und prustete der Wolf, bis das Holzhaus krachend zusammenfiel.", "Die zwei Schweinchen flitzten zum Steinhaus ihres Bruders."],
+        "es": ["Al poco, el lobo llamó a la casa de madera: —Cerditos, cerditos, ¡dejadme entrar!", "—¡No, no y no, no te dejaremos entrar!", "El lobo sopló y sopló, y la casa se vino abajo: ¡crac!", "Los dos cerditos corrieron a la casa de ladrillo de su hermano."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Nun stand der Wolf vor dem Steinhaus und pustete und pustete.", "Er pustete, bis er ganz rot im Gesicht war.", "Aber das Steinhaus stand fest, und kein einziger Stein wackelte.", "Drinnen kicherten die drei Schweinchen."],
+        "es": ["Luego el lobo llegó a la casa de ladrillo y sopló y sopló.", "Sopló tanto que se le puso la cara roja como un tomate.", "Pero la casa de ladrillo no se movió ni un poquito.", "Dentro, los tres cerditos se reían por lo bajo."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Da wurde der Wolf wütend und kletterte aufs Dach.", "„Dann komme ich eben durch den Kamin!“, knurrte er.", "Schnell stellte das dritte Schweinchen einen großen Topf mit Wasser aufs Feuer."],
+        "es": ["El lobo, muy enfadado, trepó al tejado.", "—¡Pues entraré por la chimenea! —gruñó.", "Rápidamente, el tercer cerdito puso una gran olla con agua sobre el fuego."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Der Wolf rutschte den Kamin hinunter und – platsch! – landete mitten im warmen Wasser.", "„Auuuuu!“, jaulte er, sprang hinaus und rannte davon, so schnell er konnte.", "Er kam nie, nie wieder.", "Und wenn sie nicht gestorben sind, dann leben sie noch heute."],
+        "es": ["El lobo se deslizó por la chimenea y… ¡chof!, cayó en la olla de agua calentita.", "—¡Auuuuu! —aulló, y salió corriendo tan deprisa como pudo.", "Y nunca, nunca más volvió por allí.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

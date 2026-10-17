@@ -1,0 +1,84 @@
+{
+  "id": "haensel-gretel",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm", "es": "Hermanos Grimm" },
+  "accent": "#e07b2f",
+  "age": 4,
+  "title": { "de": "Hänsel und Gretel", "es": "Hansel y Gretel" },
+  "blurb": {
+    "de": "Zwei Geschwister verlaufen sich im Wald und finden ein Häuschen aus Lebkuchen. Doch dort wohnt eine Hexe – zum Glück ist Gretel schlauer als sie!",
+    "es": "Dos hermanos se pierden en el bosque y encuentran una casita de galleta y dulces. Allí vive una bruja… ¡pero Gretel es más lista que ella!"
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein armer Holzhacker, der wohnte mit seinen zwei Kindern am Rand eines großen Waldes.", "Der Junge hieß Hänsel, und das Mädchen hieß Gretel.", "Sie hatten so wenig zu essen, dass oft nur ein Stückchen Brot auf dem Tisch lag."],
+        "es": ["Érase una vez un leñador muy pobre que vivía con sus dos hijos a la orilla de un gran bosque.", "El niño se llamaba Hansel, y la niña, Gretel.", "Eran tan pobres que muchas noches solo tenían un pedacito de pan para cenar."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Eines Nachts sagte die Stiefmutter: „Morgen führen wir die Kinder tief in den Wald, das Brot reicht nicht für alle.“", "Hänsel hatte alles gehört.", "Leise schlich er hinaus und sammelte weiße Kieselsteine, die im Mondschein glänzten wie Silbermünzen."],
+        "es": ["Una noche, la madrastra dijo: —Mañana llevaremos a los niños al fondo del bosque, que no hay pan para todos.", "Hansel lo oyó todo.", "Sin hacer ruido, salió a recoger piedrecitas blancas, que brillaban a la luz de la luna como monedas de plata."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Am Morgen gingen alle in den Wald, und Hänsel ließ heimlich ein Steinchen nach dem anderen fallen.", "Tief im Wald blieben die Kinder allein zurück.", "Doch als der Mond aufging, leuchteten die Kieselsteine wie ein Silberweg und führten sie sicher nach Hause."],
+        "es": ["Por la mañana fueron todos al bosque, y Hansel iba dejando caer las piedrecitas una a una.", "En lo más hondo del bosque, los niños se quedaron solos.", "Pero al salir la luna, las piedrecitas brillaron como un caminito de plata y los llevaron a casa."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Bald darauf mussten die Kinder noch einmal in den Wald.", "Diesmal hatte Hänsel nur ein Stück Brot und streute kleine Krümel auf den Weg.", "Aber die Vögel kamen und pickten jeden Krümel auf.", "Nun fanden Hänsel und Gretel nicht mehr nach Hause."],
+        "es": ["Poco después, los niños tuvieron que volver al bosque.", "Esta vez Hansel solo llevaba un trozo de pan, así que fue dejando miguitas por el camino.", "Pero llegaron los pájaros y se comieron todas las miguitas.", "Y Hansel y Gretel ya no supieron volver a casa."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Drei Tage lang irrten die Kinder durch den Wald.", "Da sang ein schneeweißes Vögelchen so schön, dass sie ihm folgten.", "Es führte sie zu einem Häuschen aus Lebkuchen, mit einem Dach aus Kuchen und Fenstern aus hellem Zucker!"],
+        "es": ["Durante tres días, los niños anduvieron perdidos por el bosque.", "Entonces oyeron cantar a un pajarito blanco como la nieve, y lo siguieron.", "¡Los llevó hasta una casita de galleta de jengibre, con el tejado de bizcocho y las ventanas de azúcar!"]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Hänsel brach sich ein Stück vom Dach ab, und Gretel knabberte am Zuckerfenster.", "Da rief eine feine Stimme aus der Stube: „Knusper, knusper, Knäuschen, wer knuspert an meinem Häuschen?“", "Die Kinder antworteten: „Der Wind, der Wind, das himmlische Kind!“", "Und sie aßen fröhlich weiter."],
+        "es": ["Hansel arrancó un trozo del tejado, y Gretel mordisqueó la ventana de azúcar.", "Entonces, desde dentro, se oyó una vocecita: —Mordisquito, mordisquito, ¿quién muerde mi tejadito?", "Y los niños contestaron: —El viento, el vientecito, el niño del cielo bendito.", "Y siguieron comiendo tan contentos."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Da ging die Tür auf, und eine uralte Frau mit Stock und dicker Brille kam heraus.", "Sie tat freundlich, doch in Wahrheit war sie eine Hexe!", "Sie sperrte Hänsel in einen Stall, um ihn kugelrund zu füttern und dann zu vernaschen.", "Gretel musste Wasser schleppen und kochen."],
+        "es": ["Entonces se abrió la puerta y salió una mujer viejísima, con bastón y unas gafas gordísimas.", "Parecía muy amable, pero en realidad era una bruja.", "Encerró a Hansel en un pequeño establo para engordarlo bien y luego zampárselo.", "Y Gretel tuvo que acarrear agua y cocinar."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Jeden Morgen krächzte die Hexe: „Hänsel, streck deinen Finger heraus, damit ich fühle, ob du bald fett bist!“", "Doch der schlaue Hänsel hielt ihr nur ein Knöchlein hin.", "Die Hexe sah schlecht und merkte nichts.", "„Immer noch dünn wie ein Spargel!“, wunderte sie sich."],
+        "es": ["Cada mañana, la bruja graznaba: —Hansel, saca el dedito, que quiero ver si ya estás gordito.", "Pero el listo de Hansel le enseñaba un huesecillo.", "La bruja veía tan mal que no se daba cuenta.", "—¡Sigue flaco como un fideo! —se extrañaba."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Eines Morgens rief die Hexe: „Dick oder dünn – heute warte ich nicht länger!“", "Doch Gretel hatte nachts den Schlüssel stibitzt und Hänsel befreit.", "„Er hat sich hinten im Stall versteckt“, sagte sie.", "Die Hexe kroch hinein – rums! – und Gretel schloss die Gittertür ab."],
+        "es": ["Una mañana, la bruja gritó: —¡Gordo o flaco, hoy no espero más!", "Pero Gretel ya había cogido la llave y soltado a Hansel.", "—Está escondido al fondo del establo —le dijo.", "La bruja se metió dentro y… ¡pum! Gretel cerró la reja con llave."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Mit Perlen und Edelsteinen aus dem Hexenhaus in den Taschen liefen die Kinder davon.", "Eine große weiße Ente trug sie über das breite Wasser.", "Daheim schloss der Vater sie überglücklich in die Arme.", "Und wenn sie nicht gestorben sind, dann leben sie noch heute."],
+        "es": ["Con los bolsillos llenos de perlas y piedras preciosas, los niños salieron corriendo.", "Un gran pato blanco los llevó sobre su lomo hasta la otra orilla.", "En casa, su padre los abrazó loco de alegría.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

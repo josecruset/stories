@@ -1,0 +1,84 @@
+{
+  "id": "rattenfaenger",
+  "shelf": "maerchen",
+  "origin": { "de": "Deutsche Sage", "es": "Leyenda alemana" },
+  "accent": "#e8432f",
+  "age": 4,
+  "title": { "de": "Der Rattenfänger von Hameln", "es": "El flautista de Hamelín" },
+  "blurb": {
+    "de": "Ein bunter Pfeifer lockt mit seiner Flöte alle Ratten aus Hameln. Doch der Bürgermeister will nicht bezahlen – und muss lernen, dass man Versprechen hält.",
+    "es": "Un flautista de traje colorido saca a todas las ratas de Hamelín con su flauta. Pero el alcalde no quiere pagarle… y tendrá que aprender que las promesas se cumplen."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal eine Stadt an einem breiten Fluss, der Weser.", "Sie hieß Hameln und hatte schöne bunte Fachwerkhäuser.", "Doch in Hameln gab es ein großes Problem: Ratten, Ratten und noch mehr Ratten!"],
+        "es": ["Había una vez una ciudad a orillas de un ancho río llamado Weser.", "Se llamaba Hamelín y tenía unas casitas preciosas de madera y colores.", "Pero en Hamelín había un problema enorme: ¡ratas, ratas y más ratas!"]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Die Ratten fraßen das Brot vom Tisch und den Käse aus der Kammer.", "Sie knabberten sogar Löcher in die Sonntagshüte!", "„So geht das nicht weiter!“, jammerten die Leute."],
+        "es": ["Las ratas se comían el pan de la mesa y el queso de la despensa.", "¡Hasta mordisqueaban agujeros en los sombreros de los domingos!", "—¡Esto no puede seguir así! —se quejaba la gente."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Eines Tages kam ein Pfeifer nach Hameln, sein Gewand war rot und gelb gemustert.", "„Für tausend Taler mache ich eure Stadt rattenfrei“, sagte er zum Bürgermeister.", "Der Bürgermeister rief: „Abgemacht, tausend Taler sollst du haben!“"],
+        "es": ["Un día llegó a Hamelín un flautista con un traje de rombos rojos y amarillos.", "—Por mil monedas de oro, libraré la ciudad de todas las ratas —le dijo al alcalde.", "El alcalde exclamó: —¡Trato hecho, tendrás tus mil monedas!"]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Da nahm der Pfeifer seine Flöte und spielte eine lustige Melodie.", "Aus allen Löchern, Kellern und Dachböden kamen die Ratten gelaufen.", "Große und kleine, dicke und dünne – alle tanzten ihm hinterher!"],
+        "es": ["Entonces el flautista sacó su flauta y tocó una melodía alegre.", "De todos los agujeros, sótanos y desvanes salieron las ratas.", "Grandes y pequeñas, gordas y flacas, ¡todas lo siguieron bailando!"]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Der Pfeifer führte die Ratten bis an die Weser.", "Platsch, platsch, platsch – sie sprangen ins Wasser und schwammen ans andere Ufer.", "Dann rannten sie weit, weit fort und kamen nie wieder."],
+        "es": ["El flautista llevó a las ratas hasta el río Weser.", "¡Plaf, plaf, plaf! Saltaron al agua y nadaron hasta la otra orilla.", "Luego corrieron lejos, muy lejos, y nunca volvieron."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Nun wollte der Pfeifer seinen Lohn.", "Doch der Bürgermeister war geizig und versteckte den Geldsack hinter seinem Rücken.", "„Tausend Taler? Die Ratten sind doch schon weg!“, lachte er.", "„Das wird dir noch leidtun“, sagte der Pfeifer leise und ging davon."],
+        "es": ["Entonces el flautista pidió su recompensa.", "Pero el alcalde era muy tacaño y escondió la bolsa de dinero a su espalda.", "—¿Mil monedas? ¡Si las ratas ya se han ido! —se rio.", "—Te arrepentirás —dijo el flautista en voz baja, y se marchó."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Am nächsten Morgen, als die Großen in der Kirche waren, kam der Pfeifer zurück.", "Er spielte eine neue Melodie, so zauberhaft, dass niemand stillsitzen konnte.", "Aus allen Türen sprangen die Kinder und tanzten ihm nach."],
+        "es": ["A la mañana siguiente, mientras los mayores estaban en la iglesia, el flautista volvió.", "Tocó una melodía nueva, tan mágica que nadie podía quedarse quieto.", "De todas las puertas salieron los niños y lo siguieron bailando."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Er führte sie zum Stadttor hinaus bis zu einem großen Berg.", "Da öffnete sich im Berg eine Tür, und dahinter leuchtete ein wunderschönes, fröhliches Land.", "Lachend tanzten alle Kinder hinein – und die Tür ging zu."],
+        "es": ["Los llevó fuera de la ciudad, hasta una gran montaña.", "Allí se abrió una puerta en la roca, y detrás brillaba un país precioso y alegre.", "Riendo, todos los niños entraron bailando… y la puerta se cerró."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Als die Eltern aus der Kirche kamen, waren alle Kinder fort.", "Da weinten sie, und der Bürgermeister schämte sich sehr.", "Er lief mit dem Geldsack zum Berg und rief: „Es tut mir leid! Hier sind deine tausend Taler!“"],
+        "es": ["Cuando los padres salieron de la iglesia, los niños ya no estaban.", "Todos lloraban, y el alcalde sintió mucha vergüenza.", "Corrió a la montaña con la bolsa de oro y gritó: —¡Lo siento mucho! ¡Aquí tienes tus mil monedas!"]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Da ging die Tür im Berg wieder auf.", "Der Pfeifer spielte, und alle Kinder tanzten fröhlich heraus, zurück zu ihren Eltern.", "Seitdem weiß in Hameln jeder: Versprochen ist versprochen!", "Und wenn sie nicht gestorben sind, dann leben sie noch heute."],
+        "es": ["Entonces la puerta de la montaña se abrió de nuevo.", "El flautista tocó, y todos los niños salieron bailando, de vuelta con sus padres.", "Desde entonces, en Hamelín todos saben que las promesas se cumplen.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

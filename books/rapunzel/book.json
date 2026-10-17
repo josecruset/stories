@@ -1,0 +1,84 @@
+{
+  "id": "rapunzel",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm", "es": "Hermanos Grimm" },
+  "accent": "#d94f93",
+  "age": 4,
+  "title": { "de": "Rapunzel", "es": "Rapunzel" },
+  "blurb": {
+    "de": "Rapunzel wohnt in einem Turm ohne Tür, und nur ihr langer goldener Zopf führt hinauf. Bis eines Tages ein Königssohn ihr Lied hört …",
+    "es": "Rapunzel vive en una torre sin puerta, y solo se puede subir por su larga trenza dorada. Hasta que un día un príncipe oye su canción…"
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein Mann und eine Frau, die wünschten sich sehnlich ein Kind.", "Aus ihrem Fenster sahen sie in den prächtigen Garten einer Zauberin.", "Dort wuchsen Rapunzeln, ein zarter grüner Salat, und die Frau bekam solche Lust darauf, dass sie ganz blass wurde."],
+        "es": ["Érase una vez un hombre y una mujer que deseaban muchísimo tener un hijo.", "Desde su ventana se veía el jardín de una hechicera.", "Allí crecían unas hojitas verdes y tiernas llamadas rapunzel, y la mujer tenía tantas ganas de comerlas que se puso pálida."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Eines Abends kletterte der Mann über die Mauer und pflückte eine Handvoll Rapunzeln.", "Plötzlich stand die Zauberin vor ihm, die Hände in die Hüften gestemmt.", "„Nimm dir Rapunzeln, so viel du willst“, sprach sie, „aber euer Kind gehört dann mir!“", "Vor lauter Schreck sagte der Mann Ja."],
+        "es": ["Una noche, el hombre saltó la tapia y arrancó un puñado de rapunzel.", "De repente, apareció la hechicera con los brazos en jarras.", "—Llévate todo el rapunzel que quieras —dijo—, pero el bebé que tengáis será mío.", "Del susto, el pobre hombre dijo que sí."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Bald darauf kam ein kleines Mädchen zur Welt, und die Zauberin nahm es mit sich.", "Sie nannte es Rapunzel, und es bekam die längsten goldenen Haare der Welt.", "Als Rapunzel zwölf Jahre alt war, sperrte die Zauberin sie in einen Turm mitten im Wald."],
+        "es": ["Poco después nació una niña preciosa, y la hechicera se la llevó con ella.", "La llamó Rapunzel, y a la niña le creció el pelo más largo y dorado del mundo.", "Cuando cumplió doce años, la hechicera la encerró en una torre en medio del bosque."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Der Turm hatte weder Treppe noch Tür, nur ganz oben ein kleines Fenster.", "Wenn die Zauberin hinaufwollte, rief sie: „Rapunzel, Rapunzel, lass mir dein Haar herunter!“", "Dann fiel der lange goldene Zopf herab, und die Zauberin kletterte daran hinauf wie an einem Seil."],
+        "es": ["La torre no tenía escaleras ni puerta, solo una ventanita allá en lo alto.", "Cuando la hechicera quería subir, se ponía abajo y gritaba: —¡Rapunzel, Rapunzel, suelta tu cabello!", "Entonces caía la larga trenza dorada, y la hechicera trepaba por ella como por una cuerda."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Eines Tages ritt ein junger Königssohn durch den Wald.", "Da hörte er ein Lied, so lieblich, dass er sein Pferd anhielt und lauschte.", "Das war Rapunzel, die oben am Fenster sang.", "Doch so sehr er auch suchte, er fand keine Tür."],
+        "es": ["Un día, un joven príncipe pasó a caballo por el bosque.", "De pronto oyó una canción tan bonita que paró el caballo para escucharla.", "Era Rapunzel, que cantaba en su ventana para no aburrirse.", "Pero, por más que buscó, no encontró ninguna puerta."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Der Königssohn versteckte sich und sah, wie die Zauberin hinaufkletterte.", "Am Abend rief er selbst: „Rapunzel, Rapunzel, lass mir dein Haar herunter!“", "Zuerst erschrak Rapunzel, als ein Fremder zum Fenster hereinstieg.", "Doch er war so freundlich, dass er von nun an jeden Abend kommen durfte."],
+        "es": ["El príncipe se escondió y vio cómo subía la hechicera.", "Al anochecer, gritó él mismo: —¡Rapunzel, Rapunzel, suelta tu cabello!", "Rapunzel se asustó al ver entrar a un desconocido por la ventana.", "Pero él era tan amable que, desde entonces, venía a verla cada noche."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Eines Tages plapperte Rapunzel heraus: „Frau Gothel, warum seid Ihr nur so viel schwerer heraufzuziehen als der Königssohn?“", "„Du garstiges Kind!“, rief die Zauberin und stampfte mit dem Fuß.", "Ritsch, ratsch, war der schöne Zopf abgeschnitten.", "Dann brachte sie Rapunzel in eine weite, einsame Wüste."],
+        "es": ["Un día, a Rapunzel se le escapó: —Dígame, señora Gothel, ¿por qué me cuesta tanto más subirla a usted que al príncipe?", "—¡Niña desagradecida! —gritó la hechicera, pataleando de rabia.", "Y, tris, tras, le cortó la larga trenza.", "Después se llevó a Rapunzel a un desierto lejano y solitario."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Am Abend hängte die Zauberin den Zopf ans Fenster, und der Königssohn kletterte hinauf.", "Doch oben wartete die Zauberin und rief: „Aha! Das Vöglein ist ausgeflogen!“", "Vor Schreck purzelte er hinunter in eine Dornenhecke.", "Die Dornen kratzten ihn, und vor lauter Tränen konnte er kaum noch etwas sehen."],
+        "es": ["Esa noche, la hechicera colgó la trenza de la ventana y el príncipe subió.", "Pero arriba lo esperaba la hechicera: —¡Ajá! ¡El pajarito ha volado del nido!", "Del susto, el príncipe cayó en un zarzal.", "Las espinas lo arañaron y, con tantas lágrimas, casi no podía ver nada."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Lange irrte der Königssohn traurig durch die Welt.", "Eines Tages hörte er in der Wüste ein Lied, das er gut kannte.", "Rapunzel erkannte ihn sofort und weinte vor Freude.", "Zwei ihrer Tränen fielen ihm in die Augen, und da konnte er wieder ganz klar sehen."],
+        "es": ["Durante mucho tiempo, el príncipe vagó triste por el mundo.", "Un día, en el desierto, oyó una canción que conocía muy bien.", "Rapunzel lo reconoció enseguida y lloró de alegría.", "Dos de sus lágrimas cayeron en los ojos del príncipe, y de pronto volvió a ver con claridad."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Der Königssohn führte Rapunzel in sein Königreich, wo alle sie mit großer Freude empfingen.", "Bald feierten sie eine fröhliche Hochzeit, und Rapunzels Haar wuchs wieder lang und golden.", "Und wenn sie nicht gestorben sind, dann leben sie noch heute."],
+        "es": ["El príncipe llevó a Rapunzel a su reino, donde todos los recibieron con gran alegría.", "Pronto celebraron una boda preciosa, y el pelo de Rapunzel volvió a crecer, largo y dorado.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

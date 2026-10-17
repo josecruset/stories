@@ -1,0 +1,84 @@
+{
+  "id": "rotkaeppchen",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm", "es": "Hermanos Grimm" },
+  "accent": "#d62f3a",
+  "age": 4,
+  "title": { "de": "Rotkäppchen", "es": "Caperucita Roja" },
+  "blurb": {
+    "de": "Rotkäppchen soll der kranken Großmutter Kuchen und Saft bringen. Doch im Wald wartet der schlaue Wolf – und Rotkäppchen kommt vom Weg ab.",
+    "es": "Caperucita Roja le lleva pastel y zumo a su abuelita enferma. Pero en el bosque la espera el astuto lobo… y Caperucita se sale del camino."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein kleines Mädchen, das hatte jeder lieb, der es nur ansah.", "Am allerliebsten aber hatte es die Großmutter, und die schenkte ihm ein Käppchen aus rotem Samt.", "Weil es nichts anderes mehr tragen wollte, hieß es von da an nur noch Rotkäppchen."],
+        "es": ["Había una vez una niña a la que todo el mundo quería mucho.", "Pero quien más la quería era su abuelita, que le regaló una caperuza de terciopelo rojo.", "Le gustaba tanto que nunca se la quitaba, y por eso todos la llamaban Caperucita Roja."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Eines Tages sprach die Mutter: „Komm, Rotkäppchen, da hast du ein Stück Kuchen und eine Flasche Saft.“", "„Bring das der Großmutter, sie ist krank und schwach.“", "„Geh schön auf dem Weg und komm nicht vom Weg ab!“"],
+        "es": ["Un día, su madre le dijo: —Caperucita, aquí tienes un pastel y una botella de zumo.", "—Llévaselos a la abuelita, que está enferma y débil.", "—Y ve siempre por el camino, ¡no te salgas de él!"]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Im Wald begegnete Rotkäppchen dem Wolf.", "Es wusste nicht, was für ein schlaues Tier er war, und fürchtete sich nicht.", "„Guten Tag, Rotkäppchen, wo willst du denn hin?“", "„Zur Großmutter, ihr Haus steht unter den drei großen Eichen.“"],
+        "es": ["En el bosque, Caperucita se encontró con el lobo.", "Ella no sabía lo astuto que era, así que no tuvo miedo.", "—Buenos días, Caperucita, ¿adónde vas tan temprano?", "—A casa de mi abuelita, que vive bajo los tres grandes robles."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["„Sieh nur, wie schön die Blumen hier blühen!“, sagte der Wolf.", "Da lief Rotkäppchen vom Weg ab und pflückte einen bunten Strauß für die Großmutter.", "Der Wolf aber rannte geradewegs zum Haus unter den drei Eichen."],
+        "es": ["—¡Mira qué flores tan bonitas hay por aquí! —dijo el lobo.", "Caperucita se salió del camino y cogió un ramo de flores de todos los colores para la abuelita.", "Mientras tanto, el lobo corrió derecho a la casita de los tres robles."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Der Wolf klopfte an die Tür und rief mit feiner Stimme: „Ich bin’s, Rotkäppchen!“", "Doch die Großmutter sah durchs Fenster seine graue Nase und versteckte sich schnell im Schrank.", "Da setzte der Wolf ihre Haube auf und legte sich in ihr Bett."],
+        "es": ["El lobo llamó a la puerta con una vocecita muy fina: —¡Soy yo, Caperucita!", "Pero la abuelita vio su hocico gris por la ventana y se escondió en el armario.", "Entonces el lobo se puso su gorro de dormir y se metió en su cama."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Bald kam Rotkäppchen mit seinem Blumenstrauß und wunderte sich, dass die Tür offen stand.", "Die Großmutter lag im Bett und sah ganz sonderbar aus.", "„Großmutter, warum hast du so große Ohren?“", "„Damit ich dich besser hören kann!“"],
+        "es": ["Al poco rato llegó Caperucita con sus flores y vio que la puerta estaba abierta.", "La abuelita estaba en la cama y tenía un aspecto muy raro.", "—Abuelita, abuelita, ¡qué orejas tan grandes tienes!", "—Son para oírte mejor."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["„Großmutter, warum hast du so große Augen?“", "„Damit ich dich besser sehen kann!“", "„Großmutter, warum hast du so große Hände?“", "„Damit ich dich besser packen kann!“"],
+        "es": ["—Abuelita, ¡qué ojos tan grandes tienes!", "—Son para verte mejor.", "—Abuelita, ¡qué manos tan grandes tienes!", "—Son para abrazarte mejor."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["„Aber Großmutter, warum hast du so ein schrecklich großes Maul?“", "„Damit ich dich besser fressen kann!“", "Und mit einem Satz sprang der Wolf aus dem Bett."],
+        "es": ["—Pero abuelita, ¡qué boca tan grande tienes!", "—¡Es para comerte mejor!", "Y de un brinco, el lobo saltó de la cama."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["„Hilfe!“, rief Rotkäppchen, so laut es konnte.", "Das hörte der Jäger, der gerade vorbeiging, und stürmte ins Haus.", "„Hinaus mit dir, du alter Wolf!“, donnerte er.", "Da erschrak der Wolf so sehr, dass er durchs Fenster sprang und auf Nimmerwiedersehen davonlief."],
+        "es": ["—¡Socorro! —gritó Caperucita con todas sus fuerzas.", "Un cazador que pasaba por allí la oyó y entró corriendo.", "—¡Fuera de aquí, lobo malo! —gritó con voz de trueno.", "El lobo se asustó tanto que saltó por la ventana y nunca, nunca más volvió."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Nun kam die Großmutter aus dem Schrank und drückte Rotkäppchen fest.", "Zu dritt aßen sie Kuchen und tranken Saft, und die Großmutter wurde wieder gesund.", "Rotkäppchen aber dachte: „Nie mehr laufe ich vom Weg ab!“", "Und wenn sie nicht gestorben sind, dann leben sie noch heute."],
+        "es": ["Entonces la abuelita salió del armario y abrazó muy fuerte a Caperucita.", "Los tres comieron pastel y bebieron zumo, y la abuelita se puso buena enseguida.", "Y Caperucita pensó: «Nunca más me saldré del camino».", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "stadtmusikanten",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm", "es": "Hermanos Grimm" },
+  "accent": "#e8743b",
+  "age": 4,
+  "title": { "de": "Die Bremer Stadtmusikanten", "es": "Los músicos de Bremen" },
+  "blurb": {
+    "de": "Ein alter Esel, ein Hund, eine Katze und ein Hahn wollen in Bremen Musikanten werden. Unterwegs geben sie ein Konzert, das eine ganze Räuberbande in die Flucht schlägt.",
+    "es": "Un burro viejo, un perro, un gato y un gallo quieren ser músicos en Bremen. Por el camino dan un concierto que hace huir a toda una banda de ladrones."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein Esel, der hatte viele Jahre lang Säcke zur Mühle getragen.", "Nun war er alt und müde, und der Müller wollte ihn nicht mehr behalten.", "Da dachte der Esel: „Ich gehe nach Bremen und werde Stadtmusikant!“"],
+        "es": ["Érase una vez un burro que, durante muchos años, había llevado sacos al molino.", "Ahora estaba viejo y cansado, y el molinero ya no lo quería.", "Entonces el burro pensó: «¡Me iré a Bremen y seré músico de la ciudad!»."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Unterwegs fand er einen Hund, der keuchend am Wegrand lag.", "„Ich bin alt und kann nicht mehr jagen“, jammerte der Hund.", "„Komm mit nach Bremen“, sagte der Esel, „ich spiele die Laute, und du schlägst die Pauke!“"],
+        "es": ["Por el camino encontró a un perro tumbado en la cuneta, jadeando.", "—Soy viejo y ya no puedo cazar —se quejó el perro.", "—¡Vente conmigo a Bremen! —dijo el burro—. Yo tocaré el laúd y tú, el tambor."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Bald darauf saß eine Katze am Weg und machte ein Gesicht wie drei Tage Regenwetter.", "„Meine Zähne sind stumpf, und Mäuse fange ich auch keine mehr“, seufzte sie.", "„Komm mit uns nach Bremen“, sagten die beiden, „du verstehst dich doch auf Nachtmusik!“"],
+        "es": ["Poco después vieron a un gato junto al camino, con una cara más larga que un día sin pan.", "—Tengo los dientes gastados y ya no cazo ratones —suspiró.", "—¡Vente con nosotros a Bremen! —le dijeron—. Tú que cantas tan bien de noche serás un gran músico."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Dann kamen die drei an einem Hof vorbei, wo ein Hahn auf dem Tor saß und aus voller Kehle schrie.", "„Morgen soll ich in den Suppentopf“, klagte er.", "„Ei was, du Rotkopf“, sagte der Esel, „zieh lieber mit uns fort, etwas Besseres findest du überall!“"],
+        "es": ["Luego pasaron por una granja donde un gallo, subido a la puerta, cantaba a voz en grito.", "—¡Mañana me quieren echar a la sopa! —se lamentó.", "—¡Anda ya, cresta roja! —dijo el burro—. Vente con nosotros, que algo mejor que la cazuela encontrarás en cualquier parte."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Am Abend kamen die vier in einen großen Wald.", "Esel und Hund legten sich unter einen Baum, die Katze kletterte auf einen Ast, und der Hahn flog ganz nach oben.", "„Da hinten brennt ein Licht!“, rief er.", "Gleich machten sie sich auf den Weg dorthin."],
+        "es": ["Al anochecer, los cuatro llegaron a un bosque muy grande.", "El burro y el perro se tumbaron bajo un árbol, el gato trepó a una rama y el gallo voló hasta la copa.", "—¡Allí a lo lejos brilla una luz! —gritó.", "Y allá que se fueron todos."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Das Licht kam aus einem Räuberhaus.", "Der Esel, der der Größte war, schaute zum Fenster hinein.", "„Ich sehe einen Tisch voll mit leckerem Essen“, flüsterte er, „und Räuber sitzen daran und lassen es sich gut gehen!“", "„Das wäre etwas für uns!“, sagte der Hahn."],
+        "es": ["La luz salía de una casa de ladrones.", "El burro, que era el más alto, se asomó a la ventana.", "—Veo una mesa llena de comida riquísima —susurró—, y unos ladrones comiendo a dos carrillos.", "—¡Eso es justo lo que nos hace falta! —dijo el gallo."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Da schmiedeten die Tiere einen Plan.", "Der Esel stellte die Vorderhufe aufs Fensterbrett, der Hund sprang auf seinen Rücken, die Katze auf den Hund, und ganz obenauf flog der Hahn.", "Dann legten sie los: „I-aah! Wau, wau! Miau! Kikeriki!“"],
+        "es": ["Entonces los animales tramaron un plan.", "El burro apoyó las patas delanteras en la ventana, el perro saltó a su lomo, el gato encima del perro y, en lo más alto, se posó el gallo.", "Y empezó el concierto: «¡Hiaaa! ¡Guau, guau! ¡Miau! ¡Quiquiriquí!»."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Mit lautem Klirren sprangen sie durchs Fenster in die Stube.", "„Hilfe, ein Gespenst!“, schrien die Räuber und rannten in den Wald.", "Die vier Freunde aßen, als ob sie vier Wochen hungern sollten.", "Dann löschten sie das Licht und schliefen ein."],
+        "es": ["Con un gran estrépito de cristales, entraron de un salto por la ventana.", "—¡Socorro, un fantasma! —gritaron los ladrones, y huyeron al bosque.", "Los cuatro amigos comieron hasta hartarse, como si llevaran un mes sin probar bocado.", "Después apagaron la luz y se fueron a dormir."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Um Mitternacht schlich ein Räuber zurück.", "Er hielt die funkelnden Katzenaugen für glühende Kohlen.", "Da kratzte ihn die Katze, der Hund zwickte ihn ins Bein, und der Esel gab ihm einen Tritt.", "Vom Dach krähte der Hahn: „Kikeriki!“"],
+        "es": ["A medianoche, uno de los ladrones volvió a escondidas.", "Confundió los ojos brillantes del gato con dos brasas encendidas.", "Entonces el gato le dio un zarpazo, el perro le mordisqueó el tobillo y el burro le soltó una coz.", "Y desde el tejado, el gallo cantó: «¡Quiquiriquí!»."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["„Da drin hausen eine Hexe, ein Gespenst und ein Ungeheuer“, schlotterte der Räuber, „und auf dem Dach sitzt der Richter!“", "Seitdem kamen die Räuber nie wieder, und die vier Musikanten blieben glücklich im Haus.", "Und wenn sie nicht gestorben sind, dann musizieren sie noch heute."],
+        "es": ["—¡Ahí dentro hay una bruja, un fantasma y un monstruo! —tiritaba el ladrón—. ¡Y en el tejado está el juez!", "Desde entonces, los ladrones no volvieron nunca más, y los cuatro músicos se quedaron felices en la casa.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

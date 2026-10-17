@@ -1,0 +1,84 @@
+{
+  "id": "froschkoenig",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm", "es": "Hermanos Grimm" },
+  "accent": "#3fa34d",
+  "age": 4,
+  "title": { "de": "Der Froschkönig", "es": "El príncipe rana" },
+  "blurb": {
+    "de": "Eine goldene Kugel, ein tiefer Brunnen und ein Frosch mit Krönchen: Die jüngste Königstochter lernt, dass man Versprechen halten muss.",
+    "es": "Una pelota de oro, un pozo profundo y una rana con coronita: la princesa más pequeña aprende que las promesas se cumplen."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein König, dessen jüngste Tochter so schön war, dass sogar die Sonne über sie staunte.", "Nahe beim Schloss lag ein Wald, und dort stand unter einer alten Linde ein tiefer Brunnen.", "Am liebsten spielte die Königstochter dort mit ihrer goldenen Kugel."],
+        "es": ["Érase una vez un rey cuya hija pequeña era tan bonita que hasta el sol se asombraba al verla.", "Cerca del castillo, bajo un viejo tilo del bosque, había un pozo muy profundo.", "A la princesa le encantaba jugar allí con su pelota de oro."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Sie warf die Kugel hoch in die Luft und fing sie wieder auf.", "Doch einmal fiel sie daneben, rollte über den Rand und plumpste in den Brunnen.", "Der Brunnen war so tief, dass man keinen Grund sah, und die Königstochter fing an zu weinen."],
+        "es": ["Lanzaba la pelota muy alto y la volvía a coger.", "Pero una vez se le escapó, rodó por el borde y… ¡plof!, cayó al pozo.", "El pozo era tan hondo que no se veía el fondo, y la princesa se echó a llorar."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Da kletterte ein Frosch mit einem goldenen Krönchen auf den Brunnenrand.", "„Was hast du, Königstochter?“, fragte er. „Du weinst ja, dass sich ein Stein erbarmen möchte.“", "„Ach, du alter Wasserpatscher“, schluchzte sie, „meine goldene Kugel ist in den Brunnen gefallen.“"],
+        "es": ["Entonces una rana con una coronita de oro se subió al borde del pozo.", "—¿Qué te pasa, princesa? —preguntó—. Lloras tanto que hasta las piedras se conmoverían.", "—Ay, ranita, mi pelota de oro se ha caído al pozo —sollozó ella."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["„Ich hole sie dir herauf“, sprach der Frosch, „wenn du mich lieb hast und ich dein Geselle sein darf.“", "„Ich will von deinem goldenen Tellerlein essen, aus deinem Becherlein trinken und in deinem Bettlein schlafen.“", "„Ja, ja, ich verspreche dir alles!“, rief die Königstochter schnell."],
+        "es": ["—Yo te la traeré —dijo la rana—, si me quieres y me dejas ser tu amigo.", "—Quiero comer de tu platito de oro, beber de tu copita y dormir en tu camita.", "—¡Sí, sí, te lo prometo todo! —exclamó la princesa a toda prisa."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Der Frosch tauchte hinab und kam mit der Kugel im Maul wieder herauf.", "Die Königstochter hob sie voller Freude auf und lief damit fort.", "„Warte, warte!“, rief der Frosch. „Nimm mich mit, ich kann nicht so schnell laufen wie du!“", "Aber sie hörte gar nicht auf ihn."],
+        "es": ["La rana se zambulló y volvió a subir con la pelota en la boca.", "La princesa la cogió loca de alegría y salió corriendo.", "—¡Espera, espera! —croó la rana—. ¡Llévame contigo, que yo no puedo correr tanto!", "Pero ella no le hizo caso."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Am nächsten Abend, als alle beim Essen saßen, kam etwas die Marmortreppe heraufgehüpft: plitsch, platsch, plitsch, platsch.", "Es klopfte an die Tür und rief: „Königstochter, jüngste, mach mir auf!“", "Sie öffnete – da saß der Frosch! Schnell warf sie die Tür wieder zu."],
+        "es": ["A la noche siguiente, mientras todos cenaban, algo subió saltando por la escalera de mármol: chof, chof, chof, chof.", "Llamó a la puerta y dijo: —¡Hija menor del rey, ábreme!", "Ella abrió y… ¡era la rana! Asustada, cerró de un portazo."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Der König sah, dass ihr Herz heftig klopfte, und fragte, was los sei.", "Da erzählte sie ihm alles von der goldenen Kugel und dem Frosch.", "Der König sprach: „Was du versprochen hast, das musst du auch halten. Geh und mach ihm auf!“"],
+        "es": ["El rey vio que el corazón le latía muy deprisa y le preguntó qué pasaba.", "Ella le contó todo lo de la pelota de oro y la rana.", "Entonces el rey dijo: —Lo que se promete, se cumple. Ve y ábrele la puerta."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Da ließ sie den Frosch herein, und er hüpfte hinauf auf den Tisch.", "„Schieb mir dein goldenes Tellerlein näher, damit wir zusammen essen!“, sagte er.", "Der Frosch ließ es sich gut schmecken, aber der Königstochter blieb fast jeder Bissen im Halse stecken."],
+        "es": ["La princesa dejó entrar a la rana, que dio un salto hasta la mesa.", "—Acércame tu platito de oro para que comamos juntos —pidió.", "La rana comió con mucho gusto, pero a la princesa casi no le pasaba bocado."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Am Abend sagte der Frosch: „Ich bin müde, bring mich in dein Bettlein.“", "Die Königstochter hielt ihr Versprechen und setzte ihn sanft auf ihr Kissen.", "Sie sah ihn freundlich an und gab ihm einen Gutenachtkuss.", "Puff! Da stand ein Königssohn mit schönen, freundlichen Augen vor ihr."],
+        "es": ["Por la noche, la rana dijo: —Tengo sueño, llévame a tu camita.", "La princesa cumplió su promesa y la dejó con cuidado sobre su almohada.", "La miró con cariño y le dio un beso de buenas noches.", "¡Puf! Ante ella apareció un príncipe de ojos bonitos y amables."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Eine böse Hexe hatte ihn verzaubert, und nur die Königstochter konnte ihn erlösen.", "Am nächsten Morgen kam der treue Heinrich mit einer goldenen Kutsche, und die beiden fuhren fröhlich in das Reich des Prinzen.", "Und wenn sie nicht gestorben sind, dann leben sie noch heute."],
+        "es": ["Una bruja malvada lo había hechizado, y solo la princesa podía romper el encantamiento.", "A la mañana siguiente llegó el fiel Enrique con una carroza dorada, y los dos partieron felices hacia el reino del príncipe.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "id": "aschenputtel",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm", "es": "Hermanos Grimm" },
+  "accent": "#e6a01e",
+  "age": 4,
+  "title": { "de": "Aschenputtel", "es": "La Cenicienta" },
+  "blurb": {
+    "de": "Aschenputtel muss in der Asche schlafen und für ihre Stiefschwestern schuften. Doch mit den Täubchen und einem Zauberbäumchen tanzt sie mit dem Prinzen – und verliert einen goldenen Schuh.",
+    "es": "Cenicienta duerme junto a la ceniza y trabaja sin descanso para sus hermanastras. Pero, con ayuda de las palomas y de un arbolito mágico, baila con el príncipe… y pierde un zapatito de oro."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein Mädchen, dessen liebe Mutter gestorben war.", "Auf ihr Grab pflanzte es einen kleinen Haselzweig und goss ihn mit seinen Tränen.", "Der Zweig wuchs zu einem schönen Bäumchen, und bald wohnte darin ein weißes Täubchen."],
+        "es": ["Érase una vez una niña que había perdido a su querida madre.", "Sobre su tumba plantó una ramita de avellano y la regó con sus lágrimas.", "La ramita se convirtió en un arbolito precioso, y en él vino a vivir una palomita blanca."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Der Vater nahm eine neue Frau, die zwei Töchter mitbrachte.", "Die waren hübsch von Gesicht, aber garstig im Herzen.", "Das Mädchen bekam einen alten grauen Kittel und musste schwer arbeiten.", "Weil es nachts in der Asche am Herd schlief, nannten sie es Aschenputtel."],
+        "es": ["Su padre se casó con una mujer que tenía dos hijas.", "Eran guapas de cara, pero muy malas de corazón.", "A la niña le dieron un vestido gris y viejo, y trabajaba de sol a sol.", "Como dormía junto al fogón, entre la ceniza, la llamaron Cenicienta."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Eines Tages lud der König zu einem großen Fest, auf dem sich der Prinz eine Braut suchen sollte.", "Aschenputtel wäre so gern mitgegangen, doch die Stiefmutter schüttete eine Schüssel Linsen in die Asche.", "„Wenn du die in zwei Stunden ausgelesen hast, darfst du mit.“"],
+        "es": ["Un día, el rey anunció una gran fiesta en la que el príncipe iba a elegir novia.", "Cenicienta quería ir con toda su alma, pero la madrastra volcó una fuente de lentejas en la ceniza.", "—Si las recoges todas en dos horas, podrás venir."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Aschenputtel öffnete das Fenster und rief: „Ihr zahmen Täubchen, ihr Turteltäubchen, all ihr Vöglein unter dem Himmel, kommt und helft mir lesen!“", "„Die guten ins Töpfchen, die schlechten ins Kröpfchen!“", "Pick, pick, pick – und im Nu war die Schüssel voll."],
+        "es": ["Cenicienta abrió la ventana y llamó: —Palomitas mansas, tortolitas, pajaritos todos del cielo, ¡venid a ayudarme!", "—¡Las buenas, al pucherito; las malas, al buchecito!", "¡Pic, pic, pic! Y en un santiamén la fuente estaba llena."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Doch die Stiefmutter lachte nur: „Du hast keine Kleider und kannst nicht tanzen!“", "Dann fuhr sie mit ihren beiden Töchtern zum Schloss.", "Traurig lief Aschenputtel zum Haselbäumchen und rief: „Bäumchen, rüttel dich und schüttel dich, wirf Gold und Silber über mich!“"],
+        "es": ["Pero la madrastra se echó a reír: —¡No tienes vestido y no sabes bailar!", "Y se fue al palacio en carroza con sus dos hijas.", "Triste, Cenicienta corrió al avellano y dijo: —Arbolito, arbolito, sacúdete y menéate, ¡oro y plata échame!"]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Da warf das weiße Täubchen ein Kleid aus Gold und Silber herab und dazu ein Paar goldene Schuhe.", "Schnell zog Aschenputtel alles an und eilte zum Schloss.", "Dort leuchteten alle Fenster, und Musik klang durch die Nacht."],
+        "es": ["Entonces la palomita blanca le echó un vestido de oro y plata y unos zapatitos dorados.", "Cenicienta se vistió deprisa y corrió al palacio.", "Allí brillaban todas las ventanas y la música sonaba en la noche."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Der Prinz kam gleich auf sie zu und tanzte den ganzen Abend nur mit ihr.", "Wollte ein anderer sie auffordern, sagte er: „Das ist meine Tänzerin.“", "Die Stiefschwestern erkannten sie nicht und hielten sie für eine fremde Königstochter."],
+        "es": ["El príncipe fue enseguida a su encuentro y no bailó con nadie más en toda la noche.", "Si alguien quería sacarla a bailar, él decía: —Esta es mi pareja de baile.", "Las hermanastras no la reconocieron: creían que era una princesa de otro reino."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Drei Abende lang tanzte Aschenputtel mit dem Prinzen, und jedes Mal lief sie heimlich davon.", "Am dritten Abend ließ der Prinz die Treppe mit klebrigem Pech bestreichen.", "Als Aschenputtel hinuntersprang, blieb ein goldener Schuh kleben!", "Doch sie lief weiter, so schnell sie konnte."],
+        "es": ["Tres noches bailó Cenicienta con el príncipe, y las tres se escapó a escondidas.", "La tercera noche, el príncipe mandó untar la escalera con brea pegajosa.", "Cuando Cenicienta bajó corriendo, ¡uno de sus zapatitos de oro se quedó pegado!", "Pero ella siguió corriendo sin mirar atrás."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Am Morgen kam der Prinz mit dem goldenen Schuh.", "„Nur die, der dieser Schuh passt, wird meine Braut!“", "Doch den Stiefschwestern war er viel zu klein.", "Die Täubchen gurrten: „Rucke di guck, rucke di guck, der Schuck ist zu klein, die rechte Braut sitzt noch daheim!“"],
+        "es": ["A la mañana siguiente, el príncipe llegó con el zapatito de oro.", "—Me casaré con aquella a quien le quepa este zapato.", "Pero a las hermanastras les quedaba pequeñísimo.", "Y las palomas cantaron: —Currucucú, currucucú, el zapato no le va; la novia de verdad en casa está."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Da kam Aschenputtel aus der Küche und schlüpfte in den Schuh – er passte wie angegossen!", "Der Prinz erkannte sie sofort: „Das ist die rechte Braut!“", "Bald wurde fröhlich Hochzeit gefeiert.", "Und wenn sie nicht gestorben sind, dann leben sie noch heute."],
+        "es": ["Entonces Cenicienta salió de la cocina y se probó el zapatito: ¡le quedaba como un guante!", "El príncipe la reconoció enseguida: —¡Esta es mi verdadera novia!", "Pronto celebraron una boda preciosa y fueron muy felices.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

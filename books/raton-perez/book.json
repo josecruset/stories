@@ -1,0 +1,84 @@
+{
+  "id": "raton-perez",
+  "shelf": "maerchen",
+  "origin": { "de": "Luis Coloma (Spanien)", "es": "Luis Coloma" },
+  "accent": "#e0483e",
+  "age": 4,
+  "title": { "de": "Ratoncito Pérez, die Zahnmaus", "es": "El Ratoncito Pérez" },
+  "blurb": {
+    "de": "Der kleine König Bubi verliert seinen ersten Milchzahn. In der Nacht holt ihn Ratoncito Pérez, die spanische Zahnmaus, zu einem Abenteuer durch Madrid ab.",
+    "es": "Al pequeño rey Bubi se le cae su primer diente de leche. Esa noche, el Ratoncito Pérez se lo lleva de aventura por las calles de Madrid."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal in Madrid ein kleiner König, der hieß Bubi.", "Er war erst sechs Jahre alt und wohnte in einem riesigen Palast.", "Eines Tages wackelte sein Zahn – und plopp!", "Da hielt Bubi seinen allerersten Milchzahn in der Hand."],
+        "es": ["Érase una vez, en Madrid, un rey muy pequeñito que se llamaba Bubi.", "Tenía seis años y vivía en un palacio enorme.", "Un día se le empezó a mover un diente y… ¡plop!", "Se le cayó su primer diente de leche."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["In Spanien holt keine Zahnfee die Milchzähne ab, sondern eine kleine Maus: Ratoncito Pérez.", "Am Abend schrieb Bubi ihm einen Brief und schob ihn mit dem Zahn unter sein Kopfkissen.", "Dann machte er die Augen zu – aber wach bleiben wollte er ganz bestimmt!"],
+        "es": ["Esa noche, Bubi le escribió una carta al Ratoncito Pérez con su mejor letra.", "La metió debajo de la almohada, junto al diente.", "Después cerró los ojos… ¡pero pensaba quedarse despierto para verlo!"]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Mitten in der Nacht raschelte es am Kissen.", "Da stand eine kleine Maus mit Strohhut, goldener Brille, roten Schuhen und einem Ranzen auf dem Rücken.", "„Guten Abend, Majestät!“, sagte sie und zog den Hut.", "„Ich bin Ratoncito Pérez.“"],
+        "es": ["A medianoche, algo se movió junto a la almohada.", "Era un ratoncito con sombrero de paja, gafitas de oro, zapatos rojos y una cartera a la espalda.", "—Buenas noches, Majestad —dijo, quitándose el sombrero.", "—Soy el Ratoncito Pérez, para serviros."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["„Möchtest du mit mir kommen?“, fragte Pérez.", "Bubi nickte, und die Maus kitzelte ihn mit der Schwanzspitze an der Nase.", "Hatschi!", "Auf einmal war Bubi selbst ein Mäuschen – mit Krone und blauem Nachthemd!"],
+        "es": ["—¿Queréis venir conmigo, Majestad? —preguntó Pérez.", "Bubi dijo que sí, y el ratón le hizo cosquillas en la nariz con la punta de la cola.", "¡Achís!", "De repente, Bubi también era un ratoncito, ¡con su corona y su camisón azul!"]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Durch ein Loch hinter dem Vorhang huschten sie hinaus in die Straßen von Madrid.", "Die Laternen leuchteten, und alles war riesengroß.", "„Pssst!“, flüsterte Pérez.", "„Ganz leise, dort drüben schläft der dicke Kater.“"],
+        "es": ["Por un agujerito detrás de la cortina salieron a las calles de Madrid.", "Las farolas brillaban y todo parecía gigante.", "—¡Chis! —susurró Pérez.", "—Despacito, que ahí duerme el gato gordo."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["In der Calle del Arenal, im Keller einer Konditorei, stand eine große Keksdose.", "Darin wohnte Familie Pérez!", "Frau Pérez und die Mäusekinder begrüßten Bubi mit Käse und süßen Keksbröseln."],
+        "es": ["En la calle del Arenal, en el sótano de una confitería, había una gran caja de galletas.", "¡Allí vivía la familia Pérez!", "La señora Pérez y los ratoncitos recibieron a Bubi con queso y migas de galleta."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["„Jetzt besuchen wir noch Gilito“, sagte Pérez.", "Sie kletterten hinauf in eine kleine, kalte Dachkammer.", "Dort schlief ein armer Junge auf einem Strohsack, nur mit einer dünnen Decke.", "Auch er hatte heute einen Zahn verloren."],
+        "es": ["—Ahora vamos a ver a Gilito —dijo Pérez.", "Subieron hasta una buhardilla pequeña y fría.", "Allí dormía un niño pobre sobre un colchón de paja, tapado con una manta muy fina.", "¡A él también se le había caído un diente!"]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["„Er hat ja nicht mal ein richtiges Bett!“, flüsterte Bubi traurig.", "Pérez legte ein Geschenk unter Gilitos Kissen.", "„Alle Kinder sind gleich wichtig, ob König oder armer Junge“, sagte er.", "„Und ein guter König sorgt dafür, dass niemand frieren muss.“"],
+        "es": ["—¡Si no tiene ni una cama de verdad! —susurró Bubi, muy triste.", "Pérez dejó un regalito debajo de la almohada de Gilito.", "—Todos los niños valen lo mismo, Bubi, sean reyes o pobres —le dijo.", "—Y un buen rey cuida de que nadie pase frío."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Als Bubi am Morgen aufwachte, war er wieder ein Junge in seinem großen Bett.", "Hatte er alles nur geträumt?", "Er griff unter das Kissen – da lag eine glänzende Goldmünze!"],
+        "es": ["Cuando Bubi se despertó por la mañana, volvía a ser un niño en su gran cama.", "¿Lo habría soñado todo?", "Metió la mano debajo de la almohada y… ¡allí había una moneda de oro reluciente!"]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Noch am selben Tag besuchte Bubi Gilito und schenkte ihm eine warme Decke und seine Goldmünze.", "Die beiden lachten mit ihren Zahnlücken und wurden die besten Freunde.", "Und Ratoncito Pérez holt bis heute die Milchzähne ab – vielleicht bald auch deinen!"],
+        "es": ["Ese mismo día, Bubi le llevó a Gilito una manta calentita y su moneda de oro.", "Se rieron enseñando las mellas y se hicieron amigos para siempre.", "¿Y quién sabe si el Ratoncito Pérez vendrá pronto a por el tuyo?", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

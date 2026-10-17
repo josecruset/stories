@@ -1,0 +1,84 @@
+{
+  "id": "sterntaler",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm", "es": "Hermanos Grimm" },
+  "accent": "#e9a23b",
+  "age": 4,
+  "title": { "de": "Die Sterntaler", "es": "Las monedas de las estrellas" },
+  "blurb": {
+    "de": "Ein armes Mädchen verschenkt alles, was es hat. Doch in einer dunklen Nacht fallen die Sterne vom Himmel.",
+    "es": "Una niña pobre lo regala todo, todo lo que tiene. Pero una noche oscura, las estrellas caen del cielo."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein kleines Mädchen, das hatte keinen Vater und keine Mutter mehr.", "Es war so arm, dass es kein Kämmerlein zum Wohnen hatte und kein Bettchen zum Schlafen.", "Aber das Mädchen war gut und hatte ein freundliches Herz."],
+        "es": ["Érase una vez una niña pequeña que ya no tenía ni padre ni madre.", "Era tan pobre que no tenía un cuartito donde vivir ni una camita donde dormir.", "Pero la niña era buena y tenía un corazón de oro."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Zuletzt hatte es gar nichts mehr als die Kleider auf dem Leib.", "In der Hand hielt es ein Stückchen Brot, das ihm ein mitleidiges Herz geschenkt hatte.", "Im Vertrauen auf den lieben Gott ging es ganz allein hinaus ins weite Feld."],
+        "es": ["Al final, ya solo le quedaba la ropa que llevaba puesta.", "En la mano tenía un pedacito de pan que le había regalado alguien de buen corazón.", "Y, confiando en el buen Dios, se marchó solita por el campo."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Da begegnete ihm ein armer Mann, der sprach: „Ach, gib mir etwas zu essen, ich bin so hungrig.“", "Das Mädchen reichte ihm sein ganzes Stückchen Brot.", "„Gott segne dir's“, sagte es und ging weiter."],
+        "es": ["Por el camino se encontró con un hombre pobre que le dijo: —¡Ay, dame algo de comer, que tengo mucha hambre!", "La niña le dio su pedacito de pan entero.", "—¡Que Dios te bendiga! —le dijo, y siguió su camino."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Bald kam ein Kind, das jammerte: „Mich friert es so an meinem Kopf!“", "„Schenk mir doch etwas, womit ich ihn bedecken kann.“", "Da nahm das Mädchen seine rote Mütze ab und setzte sie dem Kind auf."],
+        "es": ["Poco después apareció un niño que se quejaba: —¡Qué frío tengo en la cabeza!", "—Dame algo para taparme, por favor.", "La niña se quitó su gorrito rojo y se lo puso al niño."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Als es ein Stück weitergegangen war, kam wieder ein Kind.", "Das hatte kein Leibchen an und zitterte vor Kälte.", "Da zog das Mädchen sein grünes Leibchen aus und gab es ihm."],
+        "es": ["Un poco más adelante apareció otro niño.", "No llevaba chalequito y tiritaba de frío.", "Entonces la niña se quitó su chalequito verde y se lo regaló."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Und noch ein Stück weiter bat ein Kind um ein Röcklein.", "Das Mädchen überlegte nicht lange und gab ihm auch sein blaues Röckchen.", "Nun hatte es nur noch sein Hemdchen an."],
+        "es": ["Y aún más allá, una chiquilla le pidió una faldita.", "Nuestra niña no se lo pensó dos veces y le dio también su falda azul.", "Ya solo le quedaba su camisita."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Endlich kam das Mädchen in einen großen Wald, und es war schon dunkel geworden.", "Da kam noch ein Kind und bat um ein Hemdlein.", "Es fror ganz schrecklich unter den hohen Bäumen."],
+        "es": ["Por fin llegó a un bosque muy grande, y ya se había hecho de noche.", "Allí apareció un niño más y le pidió una camisita.", "Tiritaba de frío bajo los árboles altos."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Das gute Mädchen dachte: „Es ist dunkle Nacht, da sieht mich niemand, ich kann wohl mein Hemdchen weggeben.“", "Und es schenkte dem Kind auch noch sein Hemdchen.", "Nun stand es nur in seinem dünnen Unterkleidchen da und hatte gar nichts mehr."],
+        "es": ["La niña buena pensó: «Es noche cerrada y nadie me ve; bien puedo dar mi camisita».", "Y también le regaló al niño su camisita.", "Ahora solo llevaba su fina enagüita y ya no le quedaba nada de nada."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Und wie es so dastand und gar nichts mehr hatte, fielen auf einmal die Sterne vom Himmel.", "Es klingelte und funkelte überall um das Mädchen herum.", "Die Sterne waren lauter harte, blanke Taler!"],
+        "es": ["Y estando allí, sin nada de nada, de repente las estrellas empezaron a caer del cielo.", "Tintineaban y brillaban por todas partes alrededor de la niña.", "¡Las estrellas eran monedas, duras y relucientes!"]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Und obwohl es sein Hemdchen weggegeben hatte, trug es auf einmal ein neues, aus allerfeinstem Leinen.", "Da sammelte das Mädchen die Taler hinein und war reich für sein Lebtag.", "Nie mehr musste es hungern oder frieren."],
+        "es": ["Y aunque había regalado su camisita, de pronto llevaba puesta una nueva, del lino más fino.", "La niña recogió en ella las monedas y fue rica para toda la vida.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

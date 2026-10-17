@@ -1,0 +1,84 @@
+{
+  "id": "rumpelstilzchen",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm", "es": "Hermanos Grimm" },
+  "accent": "#e09a1a",
+  "age": 5,
+  "title": { "de": "Rumpelstilzchen", "es": "Rumpelstiltskin" },
+  "blurb": {
+    "de": "Eine Müllerstochter soll Stroh zu Gold spinnen. Ein komisches Männlein hilft ihr – doch am Ende muss sie seinen Namen erraten!",
+    "es": "Una muchacha tiene que convertir la paja en oro. Un hombrecillo muy raro la ayuda… pero al final ella tendrá que adivinar su nombre."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein armer Müller, der hatte eine schöne Tochter.", "Eines Tages kam der König an seiner Mühle vorbei.", "Da wollte sich der Müller wichtig machen und rief: „Meine Tochter kann Stroh zu Gold spinnen!“"],
+        "es": ["Érase una vez un molinero pobre que tenía una hija muy guapa.", "Un día, el rey pasó por delante de su molino.", "El molinero, que quería darse importancia, exclamó: —¡Mi hija sabe hilar la paja y convertirla en oro!"]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Der König nahm das Mädchen mit in sein Schloss.", "Er sperrte es in eine Kammer voller Stroh, mit einem Spinnrad.", "„Bis morgen muss das alles Gold sein!“, sagte er.", "Da weinte das Mädchen, denn es konnte gar kein Gold spinnen."],
+        "es": ["El rey se llevó a la muchacha a su castillo.", "La encerró en un cuarto lleno de paja, con una rueca.", "—¡Mañana todo esto tiene que ser oro! —le dijo.", "Ella se echó a llorar, porque no sabía hilar oro."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Auf einmal ging die Tür auf, und ein kleines Männlein hüpfte herein.", "„Was gibst du mir, wenn ich dir das Stroh zu Gold spinne?“, fragte es.", "„Mein Halsband“, sagte das Mädchen.", "Schnurr, schnurr, schnurr – und schon war die Spule voll Gold!"],
+        "es": ["De pronto se abrió la puerta y entró dando saltitos un hombrecillo.", "—¿Qué me das si te hilo la paja en oro? —preguntó.", "—Mi collar —contestó la muchacha.", "Y el hombrecillo se puso a hilar: ¡zum, zum, zum!, y el carrete se llenó de oro."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Am Morgen staunte der König über das viele Gold.", "Doch er wollte noch mehr und brachte das Mädchen in eine größere Kammer.", "In der Nacht kam das Männlein wieder, und das Mädchen gab ihm ihren Ring.", "Schnurr, schnurr, schnurr – am Morgen war alles Gold!"],
+        "es": ["Por la mañana, el rey se quedó boquiabierto al ver tanto oro.", "Pero quería más, y llevó a la muchacha a un cuarto aún más grande.", "Por la noche volvió el hombrecillo, y ella le dio su anillo.", "¡Zum, zum, zum!, y al amanecer todo era oro."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["In der dritten Nacht stand das Mädchen in der allergrößten Kammer.", "„Spinnst du auch das zu Gold, wirst du meine Frau“, hatte der König gesagt.", "Aber das Mädchen hatte nichts mehr zu verschenken.", "„Dann versprich mir dein erstes Kind!“, kicherte das Männlein, und das Mädchen nickte."],
+        "es": ["La tercera noche, la llevaron al cuarto más grande de todos.", "—Si hilas también esto, te casarás conmigo —le había dicho el rey.", "Pero a ella ya no le quedaba nada que regalar.", "—Pues prométeme tu primer hijo —rio el hombrecillo, y ella dijo que sí."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Der König hielt Wort, und die Müllerstochter wurde Königin.", "Bald bekam sie ein wunderschönes Kind.", "Da stand plötzlich das Männlein im Zimmer und wollte das Kind holen.", "Die Königin weinte so, dass es sagte: „Errätst du in drei Tagen meinen Namen, darfst du dein Kind behalten.“"],
+        "es": ["El rey cumplió su palabra, y la muchacha se convirtió en reina.", "Al poco tuvo un bebé precioso.", "Entonces apareció el hombrecillo y quiso llevarse al niño.", "La reina lloró tanto que él le dijo: —Si en tres días adivinas mi nombre, podrás quedarte con tu hijo."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Die ganze Nacht schrieb die Königin Namen auf, die sie kannte.", "„Heißt du Kaspar? Melchior? Balthasar?“", "Am zweiten Tag probierte sie die lustigsten Namen: „Heißt du Rippenbiest? Hammelswade? Schnürbein?“", "Doch das Männlein lachte nur: „So heiß ich nicht!“"],
+        "es": ["La reina pasó toda la noche apuntando los nombres que conocía.", "—¿Te llamas Gaspar? ¿Melchor? ¿Baltasar?", "Al segundo día probó con los nombres más raros: —¿Te llamas Patachula? ¿Narizpepino? ¿Cordóndebota?", "Pero el hombrecillo solo se reía: —¡Así no me llamo!"]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Ein Bote der Königin suchte überall nach neuen Namen.", "Tief im Wald sah er das Männlein auf einem Bein um ein Feuer hüpfen und singen:", "„Heute back ich, morgen brau ich, übermorgen hol ich der Königin ihr Kind; ach, wie gut, dass niemand weiß, dass ich Rumpelstilzchen heiß!“"],
+        "es": ["Un mensajero de la reina buscó nombres nuevos.", "En el bosque, vio al hombrecillo saltar a la pata coja junto a una hoguera, cantando:", "«Hoy horneo pan, mañana cerveza, pasado me llevo al niño de la reina; ¡qué suerte que nadie sepa, tralarí, tralarín, que me llamo Rumpelstiltskin!»"]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Am dritten Tag kam das Männlein und rieb sich schon die Hände.", "„Heißt du Kunz?“ – „Nein!“", "„Heißt du Heinz?“ – „Nein!“", "Da lächelte die Königin: „Heißt du etwa … Rumpelstilzchen?“"],
+        "es": ["Al tercer día llegó el hombrecillo frotándose las manos.", "—¿Te llamas Pepe? —¡No!", "—¿Te llamas Juan? —¡No!", "Entonces la reina sonrió: —¿No será que te llamas… Rumpelstiltskin?"]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["„Das hat dir eine Hexe verraten!“, kreischte Rumpelstilzchen.", "Vor Wut stampfte es so fest auf, dass es bis zum Bauch im Boden versank.", "Dann zappelte es sich heraus, hüpfte davon und kam nie wieder.", "Und wenn sie nicht gestorben sind, dann leben sie noch heute."],
+        "es": ["—¡Eso te lo ha contado una bruja! —chilló Rumpelstiltskin.", "Dio un pisotón tan fuerte que se hundió en el suelo hasta la barriga.", "Luego salió como pudo, se fue dando saltos y nunca más volvió.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

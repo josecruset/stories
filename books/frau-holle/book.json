@@ -1,0 +1,84 @@
+{
+  "id": "frau-holle",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm", "es": "Hermanos Grimm" },
+  "accent": "#5b7fe0",
+  "age": 4,
+  "title": { "de": "Frau Holle", "es": "Doña Holle" },
+  "blurb": {
+    "de": "Ein fleißiges Mädchen springt in einen Brunnen und landet bei Frau Holle. Wenn sie dort die Betten schüttelt, schneit es bei uns auf der Erde.",
+    "es": "Una niña muy trabajadora salta a un pozo y llega a casa de Doña Holle. Cuando allí sacude las camas, aquí en la tierra nieva."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal eine Witwe, die hatte zwei Töchter.", "Ihre eigene Tochter war faul und lag am liebsten in der Sonne herum.", "Die Stieftochter aber war fleißig und musste alle Arbeit tun.", "Jeden Tag saß sie am Brunnen und spann, bis ihr die Finger wehtaten."],
+        "es": ["Érase una vez una viuda que tenía dos hijas.", "Su propia hija era perezosa y se pasaba el día tumbada al sol.", "La hijastra, en cambio, era trabajadora y lo hacía todo.", "Cada día hilaba junto al pozo hasta que le dolían los dedos."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Eines Tages fiel ihr die Spule in den tiefen Brunnen.", "„Hast du sie hineinfallen lassen, so hol sie auch wieder herauf!“, schimpfte die Stiefmutter.", "Da wusste das Mädchen keinen anderen Rat und sprang hinterher."],
+        "es": ["Un día, el huso con el que hilaba se le cayó al pozo, que era muy hondo.", "—¡Si lo has dejado caer, ve tú a sacarlo! —gruñó la madrastra.", "La niña no sabía qué hacer, así que saltó al pozo detrás del huso."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Sie erwachte auf einer wunderschönen Wiese voller Blumen.", "Sie ging los und kam zu einem Backofen voller Brot.", "„Ach, zieh mich raus, zieh mich raus, sonst verbrenn ich, ich bin schon längst ausgebacken!“, rief das Brot.", "Da holte sie alle Brote mit dem Schieber heraus."],
+        "es": ["Despertó en un prado precioso, lleno de flores y de sol.", "Caminando, llegó a un horno lleno de pan.", "—¡Ay, sácanos, sácanos, que nos quemamos, que ya hace rato que estamos dorados! —gritaban los panes.", "La niña cogió la pala y los sacó todos, uno a uno."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Dann kam sie zu einem Baum, der hing voller Äpfel.", "„Ach, schüttel mich, schüttel mich, wir Äpfel sind alle miteinander reif!“, rief der Baum.", "Sie schüttelte, bis kein Apfel mehr oben hing, und legte alle schön auf einen Haufen."],
+        "es": ["Después llegó a un manzano cargado de fruta.", "—¡Ay, sacúdeme, sacúdeme, que mis manzanas están maduras, todas a una! —gritó el árbol.", "La niña lo sacudió hasta que no quedó ni una, y las colocó todas en un montón."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Endlich sah sie eine alte Frau aus einem kleinen Haus schauen.", "Die hatte so große Zähne, dass das Mädchen erschrak und weglaufen wollte.", "„Hab keine Angst, liebes Kind!“, rief die Alte freundlich.", "„Ich bin Frau Holle. Bleib bei mir, dann soll es dir gut gehen.“"],
+        "es": ["Por fin vio a una anciana asomada a la puerta de una casita.", "Tenía unos dientes tan grandes que la niña se asustó y quiso salir corriendo.", "—¡No tengas miedo, bonita! —le dijo la anciana con mucho cariño.", "—Soy Doña Holle; quédate conmigo y te irá muy bien."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Jeden Morgen schüttelte das Mädchen das Federbett kräftig aus dem Fenster.", "Da flogen die Federn wie Schneeflocken, und unten auf der Erde schneite es.", "Denn wenn Frau Holle ihre Betten schüttelt, ist bei uns Winter.", "Frau Holle war immer gut zu ihr."],
+        "es": ["Cada mañana, la niña sacudía con fuerza el edredón de plumas por la ventana.", "Las plumas volaban como copos, y allá abajo, en la tierra, nevaba.", "Porque cuando Doña Holle sacude sus camas, en nuestro mundo cae la nieve.", "Y Doña Holle la trataba siempre con cariño."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Nach einer Weile bekam das Mädchen Heimweh.", "Frau Holle führte sie zu einem großen Tor.", "Als sie darunter stand, fiel ein Regen aus lauter Gold auf sie herab.", "„Das ist der Lohn für deinen Fleiß“, sagte Frau Holle und gab ihr die Spule zurück."],
+        "es": ["Pasado un tiempo, la niña echó de menos su casa.", "Doña Holle la llevó hasta un gran portón.", "Al pasar por debajo, cayó sobre ella una lluvia de oro.", "—Es el premio por lo trabajadora que has sido —le dijo, y le devolvió el huso."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Schwupps, stand sie wieder vor ihrem Haus.", "Der Hahn auf dem Brunnen rief: „Kikeriki, unsere goldene Jungfrau ist wieder hie!“", "Als die Stiefmutter das Gold sah, wollte sie dasselbe Glück für ihre eigene Tochter.", "Also warf die Faule ihre Spule in den Brunnen und sprang hinterher."],
+        "es": ["¡Zas! De pronto estaba otra vez delante de su casa.", "El gallo, subido al pozo, cantó: —¡Quiquiriquí, nuestra niña de oro ya está aquí!", "Al ver tanto oro, la madrastra lo quiso también para su hija.", "Así que la perezosa tiró su huso al pozo y saltó detrás."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Auch die Faule erwachte auf der Blumenwiese.", "Doch als Brot und Apfelbaum riefen, sagte sie nur: „Ich mach mich doch nicht schmutzig!“", "Bei Frau Holle blieb sie morgens faul im Bett liegen und schüttelte kein einziges Kissen.", "So fiel auf der Erde nicht eine Schneeflocke."],
+        "es": ["También ella despertó en el prado de flores.", "Pero al pan y al manzano solo les dijo: —¡Uy, no, que me ensucio!", "En casa de Doña Holle se quedaba en la cama y no sacudía nada.", "Y en la tierra no caía ni un solo copo de nieve."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Zum Abschied regnete es unter dem Tor klebriges, schwarzes Pech.", "Der Hahn rief: „Kikeriki, unsere schmutzige Jungfrau ist wieder hie!“", "Das Pech ging lange nicht ab, so sehr sie auch schrubbte.", "Doch von da an packte sie fleißig mit an – und das war das Beste daran."],
+        "es": ["Al despedirse, bajo el portón cayó sobre ella una lluvia de brea negra y pegajosa.", "El gallo cantó: —¡Quiquiriquí, nuestra niña pringosa ya está aquí!", "La brea tardó mucho en quitarse, pero desde entonces fue mucho más trabajadora.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

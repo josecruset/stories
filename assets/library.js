@@ -3,7 +3,8 @@
 
 (function () {
   const { t } = window.Stories;
-  const shelf = document.getElementById('shelf');
+  const shelves = document.getElementById('shelves');
+  const SHELVES = ['maerchen', 'geschichten']; // Reihenfolge der Regale
   let books = [];
 
   function el(tag, cls, text) {
@@ -36,6 +37,7 @@
     body.append(el('p', 'book-blurb', book.blurb[lang]));
     const meta = el('p', 'book-meta');
     const bits = [t('age', book.age), t('pages', pages)];
+    if (book.origin) body.insertBefore(el('p', 'book-origin', book.origin[lang]), body.firstChild);
     const mins = window.Stories.minutes(book, lang);
     if (mins) bits.push('🎧 ' + t('minutes', mins));
     meta.textContent = bits.join(' · ');
@@ -59,8 +61,21 @@
   }
 
   function render() {
-    shelf.replaceChildren(...books.map(card));
-    document.getElementById('bookCount').textContent = t('count', books.length);
+    const sections = SHELVES.map((id) => {
+      const list = books.filter((b) => (b.shelf || 'geschichten') === id);
+      if (!list.length) return null;
+      const sec = el('section', 'shelf-section');
+      sec.setAttribute('aria-labelledby', 'shelf-' + id);
+      const head = el('div', 'section-head');
+      const h = el('h2', null, t('shelf_' + id));
+      h.id = 'shelf-' + id;
+      head.append(h, el('span', 'count', t('count', list.length)));
+      const grid = el('div', 'shelf');
+      grid.append(...list.map(card));
+      sec.append(head, grid);
+      return sec;
+    }).filter(Boolean);
+    shelves.replaceChildren(...sections);
   }
 
   Promise.all((window.BOOKS || []).map((id) => window.Stories.loadBook(id).catch(() => null)))

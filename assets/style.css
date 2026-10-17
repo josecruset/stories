@@ -89,6 +89,7 @@ button { font: inherit; }
 .section-head h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0; }
 .count { color: var(--muted); font-size: 14px; }
 
+.shelf-section + .shelf-section { margin-top: 8px; }
 .shelf {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -136,6 +137,7 @@ button { font: inherit; }
 .badge.done { background: var(--listen); color: var(--listen-text); }
 
 .book-body { display: flex; flex-direction: column; gap: 8px; padding: 14px 16px 16px; flex: 1; }
+.book-origin { margin: 0; color: var(--accent); font: 600 13px var(--display); letter-spacing: .3px; text-transform: uppercase; }
 .book-blurb { margin: 0; color: var(--text); font-size: 15px; flex: 1; text-wrap: pretty; }
 .book-meta { margin: 0; color: var(--muted); font-size: 13px; }
 .book-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: 6px; }
@@ -190,6 +192,7 @@ button { font: inherit; }
   display: grid;
   padding: 8px 14px;
   touch-action: pan-y;
+  overflow-y: auto;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -214,14 +217,14 @@ button { font: inherit; }
   box-shadow: 0 18px 40px rgba(0, 0, 0, .35), inset 0 0 0 1px var(--paper-edge);
   width: 100%;
   max-width: 1280px;
-  max-height: 100%;
   margin: 0 auto;
   align-self: center;
 }
 .page-art { margin: 0; min-height: 0; display: grid; place-items: center; }
 .page-art img {
   display: block;
-  width: min(100%, 78dvh);
+  /* so groß, dass darunter noch Platz für etwa vier Zeilen Text bleibt */
+  width: max(220px, min(100%, 78dvh, (100dvh - 430px) * 1.5));
   aspect-ratio: 3 / 2;
   border-radius: 14px;
   background: #e9e4f5;
@@ -272,10 +275,11 @@ button { font: inherit; }
 
 @media (max-width: 699px), (max-aspect-ratio: 5/4) {
   .cover-view { grid-template-columns: none; justify-items: center; text-align: center; gap: 18px; align-content: center; }
-  .cover-art { height: auto; width: min(64vw, 38dvh, 360px); }
+  .cover-art { height: auto; width: min(60vw, 32dvh, 340px); }
+  .cover-side { width: 100%; max-width: 560px; }
   .cover-blurb { margin: 0 auto 18px; }
   .cover-actions { justify-content: center; }
-  .cover-actions .btn { flex: 1 1 200px; }
+  .cover-actions .btn { flex: 1 1 0; min-width: 150px; }
 }
 
 /* Ende */
@@ -342,6 +346,7 @@ button { font: inherit; }
   .nav-btn { width: 54px; height: 54px; }
   .stage { padding: 6px 10px; }
   .page-view { padding: 8px; }
+  .cover-actions .btn { flex-basis: 100%; }
   .controls { gap: 8px; }
   .controls-mid { gap: 10px; }
   .dots { gap: 4px; }

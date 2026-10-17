@@ -10,11 +10,12 @@ index.html              Bücherei (Startseite, Deutsch / Spanisch)
 read.html               Leser und Hörbuch-Player: read.html?b=<id>[&mode=read|listen|start]
 books.js                Bücherregal – Reihenfolge der Bücher auf der Startseite
 assets/                 Styles, Skripte (common.js, library.js, reader.js), Icons
-books/<id>/book.json    Titel, Kurztext, Alter, Seiten mit Text (de/es, Satz für Satz)
+books/<id>/book.json    Titel, Kurztext, Alter, Regal, Herkunft, Seiten mit Text (de/es, Satz für Satz)
 books/<id>/img/         cover.svg (3:4) und p01.svg … (3:2), eine Illustration pro Seite
 books/<id>/audio/       Hörbuch-Spuren: <lang>/00.mp3 (Titel), 01.mp3 … (Seiten)
 books/<id>/audio.json   Länge und Startzeit jedes Satzes pro Spur (für das Mitleuchten)
 tools/make-audio.mjs    spricht die Bücher mit OpenAI TTS ein (nicht Teil der Webseite)
+tools/check-books.mjs   prüft alle Bücher: Aufbau, Bilder, Audio passend zum Text
 sw.js                   Service Worker: online immer aktuell, offline die letzte Version
 ```
 
@@ -27,6 +28,22 @@ Im Leser:
   `?lang=es` bzw. `?lang=de` setzt sie per Link. Der Lesefortschritt liegt unter `stories.progress`.
 - Vorgelesen wird nur mit echten Aufnahmen. Fehlt `audio.json` (oder die Sprache darin), zeigt der
   Leser keine Vorlese-Knöpfe – es gibt bewusst keine Computerstimme als Ersatz.
+
+## Bücher
+
+Die Startseite zeigt zwei Regale (Feld `shelf` in `book.json`):
+
+- **Märchen** (`"shelf": "maerchen"`): 20 klassische Märchen, kindgerecht nacherzählt und entschärft
+  (niemand wird grausam bestraft oder gefressen), mit den bekannten Reimen in der jeweils
+  traditionellen Form der Sprache. Grimm: Rotkäppchen, Hänsel und Gretel, Schneewittchen,
+  Aschenputtel, Dornröschen, Froschkönig, Bremer Stadtmusikanten, Wolf und sieben Geißlein,
+  Rumpelstilzchen, Rapunzel, Frau Holle, Sterntaler. Außerdem: Die drei kleinen Schweinchen,
+  Goldlöckchen (englisch), Der gestiefelte Kater (Perrault), Das hässliche Entlein (Andersen),
+  Der Rattenfänger von Hameln (Sage) sowie aus Spanien El Ratoncito Pérez (Coloma),
+  La ratita presumida und Garbancito.
+- **Neue Geschichten** (ohne `shelf`): Luna, Pip, Bruno.
+
+`origin` nennt die Quelle (wird auf der Karte angezeigt). Jedes Märchen hat 10 Seiten.
 
 ## Neues Buch hinzufügen
 
@@ -42,7 +59,7 @@ Im Leser:
    klingt – als warme Vorleserin, Deutsch bzw. Spanisch aus Spanien. Danach ermittelt Whisper per
    Wort-Zeitstempel, wann welcher Satz beginnt. Stimme und Regieanweisung stehen oben im Skript.
    Unveränderte Seiten werden beim nächsten Lauf übersprungen (`--force` spricht alles neu ein).
-5. Die `id` in `books.js` eintragen.
+5. Die `id` in `books.js` eintragen und `node tools/check-books.mjs` laufen lassen.
 
 **Eigene Aufnahmen** (z. B. selbst vorgelesen): MP3s in `audio/<lang>/` ersetzen und in
 `audio.json` `dur` (Länge in Sekunden) und `marks` (Startsekunde jedes Satzes) anpassen.

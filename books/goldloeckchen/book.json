@@ -1,0 +1,84 @@
+{
+  "id": "goldloeckchen",
+  "shelf": "maerchen",
+  "origin": { "de": "Volksmärchen aus England", "es": "Cuento popular inglés" },
+  "accent": "#f0a020",
+  "age": 3,
+  "title": { "de": "Goldlöckchen und die drei Bären", "es": "Ricitos de Oro y los tres osos" },
+  "blurb": {
+    "de": "Drei Teller Brei, drei Stühle, drei Betten – und ein neugieriges Mädchen mit goldenen Locken. Was sagen wohl die drei Bären, wenn sie nach Hause kommen?",
+    "es": "Tres platos de sopa, tres sillas, tres camas… y una niña muy curiosa con rizos dorados. ¿Qué dirán los tres osos cuando vuelvan a casa?"
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein kleines Häuschen mitten im Wald.", "Darin wohnten drei Bären: der große Papa Bär, die mittelgroße Mama Bär und der kleine Baby Bär.", "Jeder hatte seinen eigenen Teller, seinen eigenen Stuhl und sein eigenes Bett."],
+        "es": ["Érase una vez una casita en medio del bosque.", "Allí vivían tres osos: Papá Oso, que era muy grande; Mamá Osa, que era mediana; y Osito, que era pequeñito.", "Cada uno tenía su plato, su silla y su cama."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Eines Morgens kochte Mama Bär einen leckeren Brei.", "Doch der Brei war noch viel zu heiß zum Essen.", "„Lasst uns ein Stück spazieren gehen, bis er abgekühlt ist“, brummte Papa Bär."],
+        "es": ["Una mañana, Mamá Osa preparó una sopa riquísima.", "Pero la sopa estaba demasiado caliente para comérsela.", "—Vamos a dar un paseo mientras se enfría —dijo Papá Oso con su vozarrón."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Da kam ein kleines Mädchen mit goldenen Locken durch den Wald.", "Alle nannten es Goldlöckchen.", "Es klopfte an die Tür des Häuschens, doch niemand antwortete.", "Neugierig ging Goldlöckchen einfach hinein."],
+        "es": ["Por el bosque paseaba una niña con el pelo lleno de rizos dorados.", "Todos la llamaban Ricitos de Oro.", "Llamó a la puerta de la casita, pero nadie contestó.", "Y como era muy curiosa, entró sin más."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Auf dem Tisch standen drei Teller mit Brei.", "Der Brei im großen Teller war viel zu heiß.", "Der Brei im mittleren Teller war viel zu kalt.", "Der Brei im kleinen Teller war genau richtig – und Goldlöckchen aß ihn ganz auf."],
+        "es": ["En la mesa había tres platos de sopa.", "La sopa del plato grande estaba demasiado caliente.", "La del plato mediano estaba demasiado fría.", "La del plato pequeño estaba perfecta, ¡y Ricitos de Oro se la comió toda!"]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Dann sah Goldlöckchen drei Stühle.", "Der große Stuhl war zu hart, und der mittlere Stuhl war zu weich.", "Der kleine Stuhl war genau richtig.", "Doch sie wippte so wild darauf herum, dass er – knacks! – zerbrach."],
+        "es": ["Luego, Ricitos de Oro vio tres sillas.", "La silla grande era demasiado dura, y la mediana, demasiado blanda.", "La sillita pequeña era perfecta.", "Pero se balanceó tanto en ella que… ¡crac!, se rompió."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Nun war Goldlöckchen müde und stieg die Treppe hinauf.", "Dort standen drei Betten.", "Das große Bett war zu hart, und das mittlere Bett war zu weich.", "Das kleine Bett war genau richtig, und schwups, schlief sie ein."],
+        "es": ["Ricitos de Oro tenía sueño y subió las escaleras.", "Allí había tres camas.", "La cama grande era demasiado dura, y la mediana, demasiado blanda.", "La camita pequeña era perfecta, y en un momento se quedó dormida."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Bald kamen die drei Bären nach Hause.", "„Wer hat von meinem Brei gegessen?“, brummte Papa Bär mit tiefer Stimme.", "„Wer hat von meinem Brei gegessen?“, fragte Mama Bär.", "„Wer hat von meinem Brei gegessen“, piepste Baby Bär, „und hat ihn ganz aufgegessen!“"],
+        "es": ["Al poco rato, los tres osos volvieron a casa.", "—¿Quién ha probado mi sopa? —gruñó Papá Oso con su vozarrón.", "—¿Quién ha probado mi sopa? —preguntó Mamá Osa.", "—¿Quién ha probado mi sopa? —chilló Osito con su vocecita—. ¡Y se la ha comido toda!"]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["„Wer hat auf meinem Stuhl gesessen?“, brummte Papa Bär.", "„Wer hat auf meinem Stuhl gesessen?“, fragte Mama Bär.", "„Wer hat auf meinem Stuhl gesessen“, piepste Baby Bär, „und hat ihn ganz kaputt gemacht!“"],
+        "es": ["—¿Quién se ha sentado en mi silla? —gruñó Papá Oso.", "—¿Quién se ha sentado en mi silla? —preguntó Mamá Osa.", "—¿Quién se ha sentado en mi silla? —chilló Osito—. ¡Y me la ha roto!"]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Leise stiegen die drei Bären die Treppe hinauf.", "„Wer hat in meinem Bett gelegen?“, brummte Papa Bär.", "„Wer hat in meinem Bett gelegen?“, fragte Mama Bär.", "„Wer hat in meinem Bett gelegen“, piepste Baby Bär, „und da liegt sie ja noch!“"],
+        "es": ["Los tres osos subieron las escaleras sin hacer ruido.", "—¿Quién se ha acostado en mi cama? —gruñó Papá Oso.", "—¿Quién se ha acostado en mi cama? —preguntó Mamá Osa.", "—¿Quién se ha acostado en mi cama? —chilló Osito—. ¡Mirad, todavía está aquí!"]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Da wachte Goldlöckchen auf und sah die drei Bären.", "Vor Schreck sprang sie aus dem Fenster und rannte, so schnell sie konnte, nach Hause.", "Von da an ging sie nie wieder ungefragt in ein fremdes Haus."],
+        "es": ["Entonces Ricitos de Oro se despertó… ¡y vio a los tres osos!", "Del susto, saltó por la ventana y corrió a casa a toda prisa.", "Desde aquel día, nunca más entró en una casa ajena sin permiso.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

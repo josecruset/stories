@@ -1,0 +1,84 @@
+{
+  "id": "geisslein",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm", "es": "Hermanos Grimm" },
+  "accent": "#f2843a",
+  "age": 4,
+  "title": { "de": "Der Wolf und die sieben Geißlein", "es": "El lobo y los siete cabritillos" },
+  "blurb": {
+    "de": "Mutter Geiß muss in den Wald, und schon klopft der listige Wolf an die Tür. Ob die sieben Geißlein ihn erkennen?",
+    "es": "Mamá cabra se va al bosque y el astuto lobo llama a la puerta. ¿Lo reconocerán los siete cabritillos?"
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal eine alte Geiß, die hatte sieben junge Geißlein.", "Eines Tages wollte sie in den Wald gehen und Futter holen.", "„Liebe Kinder, nehmt euch in Acht vor dem Wolf!“, sagte sie.", "„Ihr erkennt ihn an seiner rauen Stimme und an seinen schwarzen Pfoten.“"],
+        "es": ["Érase una vez una vieja cabra que tenía siete cabritillos y los quería muchísimo.", "Un día tuvo que ir al bosque a buscar comida.", "—Hijos míos, tened mucho cuidado con el lobo —les dijo—.", "Lo reconoceréis por su voz ronca y sus patas negras."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Kaum war die Mutter fort, da klopfte es an die Haustür.", "„Macht auf, ihr lieben Kinder, eure Mutter ist da und hat jedem von euch etwas mitgebracht.“", "Doch die Stimme klang rau und brummig.", "„Wir machen nicht auf, du bist der Wolf!“, riefen die Geißlein."],
+        "es": ["En cuanto la madre se marchó, alguien llamó a la puerta.", "—Abrid, hijitos, que soy vuestra madre y os traigo algo a cada uno.", "Pero aquella voz era ronca y gruñona.", "—¡No abrimos! ¡Tú eres el lobo! —gritaron los cabritillos."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Da ging der Wolf zum Krämer und kaufte sich ein großes Stück Kreide.", "Er aß die Kreide auf, und seine Stimme wurde ganz fein.", "Dann lief er zum Müller: „Streu mir weißes Mehl auf meine Pfote!“", "Der Müller bekam Angst und machte ihm die Pfote schneeweiß."],
+        "es": ["Entonces el lobo fue a la tienda y compró un trozo de tiza.", "Se la comió, y su voz se volvió finita y dulce.", "Después corrió al molino: —¡Molinero, échame harina blanca en la pata!", "El molinero, asustado, se la dejó blanca como la nieve."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Wieder klopfte der Wolf und rief mit feiner Stimme: „Macht auf, ihr lieben Kinder!“", "Dann legte er seine weiße Pfote ins Fenster.", "„Das ist unsere Mutter!“, riefen die Geißlein und machten die Tür auf.", "Doch herein kam – der Wolf!"],
+        "es": ["El lobo volvió a llamar y dijo con vocecita fina: —¡Abrid, hijitos, que soy vuestra madre!", "Luego apoyó su pata blanca en la ventana.", "—¡Es mamá! —exclamaron los cabritillos, y abrieron la puerta.", "Pero quien entró fue… ¡el lobo!"]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Die Geißlein erschraken und versteckten sich schnell.", "Eins sprang unter den Tisch, das zweite ins Bett, das dritte in den Ofen und das vierte in die Küche.", "Das fünfte kroch in den Schrank, das sechste unter die Waschschüssel.", "Und das jüngste sprang in den Uhrkasten."],
+        "es": ["Los cabritillos, asustadísimos, corrieron a esconderse.", "Uno se metió debajo de la mesa, otro en la cama, otro en el horno y otro en la cocina.", "El quinto, en el armario, y el sexto, bajo la palangana.", "Y el más pequeño, en la caja del reloj."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Aber der Wolf fand eins nach dem anderen und schluckte es ganz hinunter, schwupp!", "Nur das jüngste im Uhrkasten fand er nicht.", "Satt und kugelrund legte sich der Wolf draußen unter einen Baum.", "Bald schnarchte er so laut, dass die Blätter zitterten."],
+        "es": ["Pero el lobo los fue encontrando uno a uno y, ¡glup!, se los tragó enteritos.", "Solo al más pequeño, escondido en el reloj, no lo encontró.", "Redondo como una pelota, el lobo se tumbó fuera, bajo un árbol.", "Enseguida roncaba tan fuerte que temblaban las hojas."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Bald kam die alte Geiß nach Hause.", "Die Tür stand offen, die Stühle lagen am Boden, und von den Kindern war keins zu sehen.", "Da rief eine feine Stimme: „Liebe Mutter, ich stecke im Uhrkasten!“", "Das jüngste Geißlein sprang heraus und erzählte ihr alles."],
+        "es": ["Al poco, mamá cabra volvió del bosque.", "La puerta estaba abierta, las sillas por el suelo, y no había ni rastro de sus hijos.", "Y oyó una vocecita: —¡Mamá, estoy aquí, en la caja del reloj!", "El pequeño salió de un salto y se lo contó todo."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Die Mutter und das Jüngste liefen hinaus und fanden den Wolf unter dem Baum.", "In seinem dicken Bauch zappelte und wackelte es.", "„Meine Kinder leben noch!“, flüsterte die Mutter.", "Leise holte sie eine Feder und kitzelte den Wolf an der Nase."],
+        "es": ["Mamá cabra y el pequeño salieron corriendo y encontraron al lobo bajo el árbol.", "En su enorme barriga algo se movía y pataleaba.", "—¡Mis hijos están vivos! —susurró la madre.", "Despacito, cogió una pluma y le hizo cosquillas en la nariz."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["„Haaatschi!“", "Der Wolf nieste so gewaltig, dass alle sechs Geißlein herauspurzelten, eins nach dem anderen.", "Sie waren heil und munter, denn der gierige Wolf hatte sie ja ganz hinuntergeschluckt.", "Und der Wolf? Der schnarchte einfach weiter!"],
+        "es": ["—¡Aaaachís!", "El lobo estornudó con tanta fuerza que los seis cabritillos salieron rodando, uno tras otro.", "Estaban sanos y salvos, porque el glotón se los había tragado sin masticar.", "¿Y el lobo? ¡Siguió roncando como si nada!"]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Endlich wachte der Wolf auf, und von der vielen Kreide hatte er schrecklichen Durst.", "Am Bach beugte er sich zu weit vor, und plumps, fiel er hinein!", "Er schwamm davon und kam nie wieder.", "Die sieben Geißlein tanzten mit ihrer Mutter: „Der Wolf ist fort!“"],
+        "es": ["Al fin el lobo despertó con una sed terrible por culpa de la tiza.", "Se asomó al arroyo, se inclinó demasiado y… ¡chof!, se cayó al agua.", "Se fue nadando y nunca más volvió.", "Los siete cabritillos bailaron con su madre.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}

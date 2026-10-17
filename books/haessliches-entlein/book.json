@@ -1,0 +1,84 @@
+{
+  "id": "haessliches-entlein",
+  "shelf": "maerchen",
+  "origin": { "de": "Hans Christian Andersen", "es": "Hans Christian Andersen" },
+  "accent": "#2a9fd0",
+  "age": 4,
+  "title": { "de": "Das hässliche Entlein", "es": "El patito feo" },
+  "blurb": {
+    "de": "Ein graues Küken wird überall ausgelacht, weil es anders aussieht als die anderen. Doch nach einem langen Winter entdeckt es, wer es wirklich ist.",
+    "es": "Todos se ríen de un patito gris porque es distinto a los demás. Pero, tras un largo invierno, descubre quién es de verdad."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein herrlicher Sommer auf dem Land.", "Unter großen Blättern am Bauernhof saß eine Entenmutter auf ihrem Nest und brütete.", "Knack, knack! Ein gelbes Küken nach dem anderen schlüpfte.", "Nur das größte Ei, ein graues, lag noch ganz still da."],
+        "es": ["Érase una vez un verano precioso en el campo.", "Bajo unas hojas enormes, junto a una granja, una mamá pata empollaba sus huevos.", "¡Cric, crac! Uno tras otro, fueron saliendo patitos amarillos.", "Solo el huevo más grande, uno gris, seguía quieto en el nido."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Endlich knackte auch das große Ei.", "Heraus purzelte ein Küken, viel größer und grauer als die anderen.", "Die Entenmutter staunte: „Wie groß du bist – und so grau!“", "Aber dann nahm sie es lieb unter ihren Flügel."],
+        "es": ["Por fin, el huevo grande también se rompió.", "De él salió un patito mucho más grande y más gris que los demás.", "—¡Qué grande eres, y qué gris! —se asombró mamá pata.", "Pero enseguida lo arropó bajo su ala, como a todos sus hijos."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Auf dem Entenhof lachten alle über das graue Küken.", "Die Hühner gackerten, der Truthahn plusterte sich auf, und die Enten schnatterten: „Wie hässlich es ist!“", "Sogar seine Geschwister riefen: „Du gehörst nicht zu uns!“", "Das Entlein wurde ganz traurig."],
+        "es": ["En el corral, todos se reían del patito gris.", "Las gallinas cacareaban, el pavo se hinchaba como un globo y los patos graznaban: —¡Qué feo es!", "Hasta sus hermanos le decían: —¡Tú no eres de los nuestros!", "El patito se puso muy, muy triste."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Da lief das Entlein davon, bis ins große Moor zu den Wildenten.", "Die quakten: „Du bist komisch, aber das ist uns gleich!“", "Doch eines Morgens bellte ein Hund im Schilf, und alle flogen erschrocken auf.", "Das Entlein duckte sich ganz still, und der Hund lief vorbei."],
+        "es": ["Entonces el patito se escapó hasta el gran pantano de los patos salvajes.", "—Eres rarito, pero nos da igual —le dijeron.", "Pero una mañana, un perro ladró entre los juncos y todos echaron a volar asustados.", "El patito se quedó muy quietecito, y el perro pasó de largo."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Am Abend kam das Entlein zu einer Hütte, wo eine alte Frau mit Kater und Huhn wohnte.", "„Kannst du Eier legen?“, gackerte das Huhn.", "„Kannst du einen Buckel machen und schnurren?“, fragte der Kater.", "Nein, das konnte das Entlein nicht – es wollte doch nur schwimmen!"],
+        "es": ["Al anochecer, el patito llegó a una casita donde vivían una ancianita, su gato y su gallina.", "—¿Sabes poner huevos? —cacareó la gallina.", "—¿Sabes arquear el lomo y ronronear? —preguntó el gato.", "Pero el patito no sabía hacer nada de eso: ¡él solo quería nadar!"]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Da zog das Entlein weiter, bis zu einem stillen See.", "Es wurde Herbst, und die Blätter färbten sich gelb und rot.", "Eines Abends zogen wunderschöne weiße Vögel mit langen Hälsen über den Himmel.", "Das Entlein sah ihnen nach und vergaß sie nie wieder."],
+        "es": ["Así que el patito siguió su camino hasta un lago tranquilo.", "Llegó el otoño, y las hojas se volvieron amarillas y rojas.", "Una tarde, unas aves blanquísimas de cuello largo cruzaron el cielo.", "El patito las miró embobado y nunca, nunca las olvidó."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Dann kam der Winter, und es wurde bitterkalt.", "Das Entlein schwamm im Kreis, damit das Wasser nicht zufror.", "Doch eines Nachts war es so müde, dass es mit den Füßen im Eis festfror.", "„Hilfe!“, piepste es leise."],
+        "es": ["Entonces llegó el invierno, y hacía un frío terrible.", "El patito nadaba en círculos para que el agua no se helara.", "Pero una noche estaba tan cansado que las patitas se le quedaron atrapadas en el hielo.", "—¡Socorro! —piaba bajito."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Am Morgen kam ein Bauer vorbei.", "Er schlug das Eis mit seinem Holzschuh auf und trug das Entlein in seine warme Stube.", "Am Ofen taute es langsam auf, und die Kinder streichelten es ganz vorsichtig."],
+        "es": ["Por la mañana pasó por allí un campesino.", "Rompió el hielo con su zueco y se llevó al patito a su casa calentita.", "Junto al fuego entró en calor, y los niños lo acariciaron con mucho cuidado."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Endlich kam der Frühling, und das Entlein flog mit kräftigen Flügeln zu einem großen See.", "Dort schwammen die schönen weißen Vögel vom Herbst!", "Schüchtern senkte es den Kopf – und sah sein Spiegelbild im Wasser.", "Es war kein graues Entlein mehr: Es war ein Schwan!"],
+        "es": ["Por fin llegó la primavera, y el patito voló con sus fuertes alas hasta un gran lago.", "¡Allí nadaban las preciosas aves blancas del otoño!", "Tímido, bajó la cabeza… y vio su reflejo en el agua.", "Ya no era un patito gris: ¡era un cisne!"]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Die anderen Schwäne schwammen zu ihm und streichelten ihn sanft mit ihren Schnäbeln.", "„Ein neuer ist gekommen!“, riefen die Kinder am Ufer.", "Der junge Schwan war glücklich wie nie zuvor, denn nun wusste er: Jeder ist auf seine Weise schön."],
+        "es": ["Los otros cisnes nadaron hacia él y lo acariciaron con el pico.", "—¡Ha llegado uno nuevo! —gritaron los niños desde la orilla.", "El joven cisne era más feliz que nunca, porque ahora sabía que cada uno es bonito a su manera.", "Y colorín colorado, este cuento se ha acabado."]
+      }
+    }
+  ]
+}
