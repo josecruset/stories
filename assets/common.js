@@ -11,6 +11,16 @@
       heroText: 'Such dir eine Geschichte aus: Lies sie selbst oder lass sie dir vorlesen – mit Bildern auf jeder Seite.',
       shelf_maerchen: 'Märchen',
       shelf_geschichten: 'Neue Geschichten',
+      shelf_interaktiv: 'Interaktive Geschichten',
+      endings: (n) => `${n} Enden`,
+      endingsBadge: (f, n) => `⭐ ${f} von ${n} Enden`,
+      endingsFound: (f, n) => `Du hast ${f} von ${n} Enden entdeckt. Wie geht es wohl anders aus?`,
+      allEndings: 'Super! Du hast alle Enden entdeckt! 🎉',
+      otherWay: 'Anders entscheiden',
+      youDecide: 'Du entscheidest!',
+      short_maerchen: 'Märchen',
+      short_geschichten: 'Neu',
+      short_interaktiv: 'Interaktiv',
       categories: 'Kategorien',
       count: (n) => (n === 1 ? '1 Geschichte' : `${n} Geschichten`),
       footer: 'Märchen und neue Geschichten – liebevoll gemalt und vorgelesen. Viel Spaß!',
@@ -47,6 +57,16 @@
       heroText: 'Elige un cuento: léelo tú mismo o deja que te lo lean, con dibujos en cada página.',
       shelf_maerchen: 'Cuentos clásicos',
       shelf_geschichten: 'Cuentos nuevos',
+      shelf_interaktiv: 'Cuentos interactivos',
+      endings: (n) => `${n} finales`,
+      endingsBadge: (f, n) => `⭐ ${f} de ${n} finales`,
+      endingsFound: (f, n) => `Has descubierto ${f} de ${n} finales. ¿Cómo acabará si eliges otra cosa?`,
+      allEndings: '¡Genial! ¡Has descubierto todos los finales! 🎉',
+      otherWay: 'Elegir otro camino',
+      youDecide: '¡Tú decides!',
+      short_maerchen: 'Clásicos',
+      short_geschichten: 'Nuevos',
+      short_interaktiv: 'Interactivos',
       categories: 'Categorías',
       count: (n) => (n === 1 ? '1 cuento' : `${n} cuentos`),
       footer: 'Cuentos clásicos y nuevos, con dibujos y para escuchar. ¡Que los disfrutes!',
@@ -143,10 +163,23 @@
   }
 
   // Gesamtlänge der Hörbuch-Spuren in Minuten (aufgerundet)
+  // Hördauer in Minuten; bei interaktiven Geschichten der längste Weg (Titel + Seiten bis zu einem Ende)
   function minutes(book, l) {
     const tracks = book.audio && book.audio[l];
     if (!tracks) return 0;
-    return Math.max(1, Math.round(tracks.reduce((s, x) => s + x.dur, 0) / 60));
+    let secs = tracks.reduce((s, x) => s + x.dur, 0);
+    if (book.interactive && book.pages.length) {
+      const index = new Map(book.pages.map((p, i) => [p.id, i]));
+      const longest = (id, depth) => {
+        const i = index.get(id);
+        if (i == null || depth > 50) return 0;
+        const p = book.pages[i];
+        const next = p.next ? [p.next] : p.choices ? p.choices.map((c) => c.to) : [];
+        return (tracks[i + 1]?.dur || 0) + Math.max(0, ...next.map((n) => longest(n, depth + 1)));
+      };
+      secs = (tracks[0]?.dur || 0) + longest(book.pages[0].id, 0);
+    }
+    return Math.max(1, Math.round(secs / 60));
   }
 
   document.addEventListener('click', (e) => {

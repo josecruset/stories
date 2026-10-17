@@ -6,6 +6,9 @@
 // Blättern auch durch Wischen; die Seite folgt dabei dem Finger.
 // Ein Tipp auf einen Satz liest nur diesen Satz vor. Vorgelesen wird nur mit echten
 // Aufnahmen (audio.json) – ohne sie gibt es keine Vorlese-Knöpfe, keine Computerstimme.
+// Interaktive Geschichten (book.interactive): Seiten haben eine id und entweder `next`,
+// `choices` (Knöpfe, das Kind entscheidet) oder `end`. „Zurück“ geht den gegangenen Weg zurück;
+// am Ende sieht man, wie viele Enden schon entdeckt sind (gemerkt im Lesefortschritt).
 'use strict';
 
 (function () {
@@ -25,9 +28,45 @@
   let segmentEnd = null;  // beim Antippen eines Satzes: hier anhalten
   let turnTimer = 0;
   let activeSentence = -1;
+  let trail = [];         // interaktiv: bisher besuchte Ansichten (für „Zurück“)
+  let ending = null;      // interaktiv: erreichtes Ende
 
   const last = () => book.pages.length + 1;
   const isPage = (v) => v >= 1 && v <= book.pages.length;
+  const inter = () => !!(book && book.interactive);
+  const viewOf = (id) => book.pages.findIndex((p) => p.id === id) + 1;
+
+  // Nächste Ansicht nach v – bei interaktiven Geschichten null, solange eine Entscheidung fehlt
+  function nextOf(v) {
+    if (!inter()) return v < last() ? v + 1 : null;
+    if (v === 0) return 1;
+    if (!isPage(v)) return null;
+    const p = book.pages[v - 1];
+    if (p.end) return last();
+    if (p.choices) return null;
+    return p.next ? viewOf(p.next) || last() : last();
+  }
+
+  // Vorwärts (Knopf, Wischen, Vorlesen); bei interaktiven Geschichten wird der Weg gemerkt
+  function forward(opts) {
+    const n = nextOf(view);
+    if (n == null || n === view) return;
+    if (inter()) trail.push(view);
+    go(n, opts);
+  }
+
+  function back(opts) {
+    if (!inter()) { go(view - 1, opts); return; }
+    if (view === 0) return;
+    go(trail.length ? trail.pop() : 0, opts);
+  }
+
+  function choose(c) {
+    const n = viewOf(c.to);
+    if (!n) return;
+    trail.push(view);
+    go(n);
+  }
 
   function el(tag, cls, text) {
     const n = document.createElement(tag);
@@ -66,12 +105,12 @@
     read.type = 'button';
     read.innerHTML = '<span aria-hidden="true">📖</span> ';
     read.append(t('startRead'));
-    read.onclick = () => { stop(); go(1); };
+    read.onclick = () => { stop(); forward(); };
     const listen = el('button', 'btn btn-listen big' + (mode === 'listen' ? ' pulse' : ''));
     listen.type = 'button';
     listen.innerHTML = '<span aria-hidden="true">🎧</span> ';
     listen.append(t('startListen'));
-    listen.onclick = () => { go(1); start(); };
+    listen.onclick = () => { forward(); start(); };
     actions.append(read);
     if (hasAudio()) actions.append(listen);
     side.append(actions);
@@ -99,12 +138,35 @@
       if (i) p.append(' ');
       p.append(sentenceSpan(txt, i));
     });
-    paper.append(p, el('span', 'page-no', String(v)));
+    let box = null;
+    if (inter()) {
+      const inner = el('div', 'paper-inner');
+      inner.append(p);
+      if (page.choices) {
+        wrap.classList.add('has-choices');
+        box = el('div', 'choices'); // eigene Zeile unter Bild und Text, immer sichtbar
+        page.choices.forEach((c, i) => {
+          const b = el('button', 'choice');
+          b.type = 'button';
+          b.style.setProperty('--c', c.color || 'var(--accent)');
+          b.append(el('span', 'choice-no', String(i + 1)), el('span', 'choice-icon', c.icon || ''), el('span', 'choice-label', c.label[S.lang]));
+          b.querySelector('.choice-icon').setAttribute('aria-hidden', 'true');
+          b.setAttribute('aria-label', `${i + 1}: ${c.label[S.lang]}`);
+          b.addEventListener('click', (e) => { e.stopPropagation(); choose(c); });
+          box.append(b);
+        });
+      }
+      paper.append(inner);
+    } else {
+      paper.append(p, el('span', 'page-no', String(v)));
+    }
     wrap.append(fig, paper);
+    if (box) wrap.append(box);
     return wrap;
   }
 
   function renderEnd() {
+    if (inter()) return renderInterEnd();
     const wrap = el('section', 'end-view');
     const stars = el('div', 'end-stars');
     stars.setAttribute('aria-hidden', 'true');
@@ -131,6 +193,45 @@
     return wrap;
   }
 
+  // Ende einer interaktiven Geschichte: erreichtes Ende und alle bisher entdeckten Enden
+  function renderInterEnd() {
+    const wrap = el('section', 'end-view inter-end');
+    const stars = el('div', 'end-stars');
+    stars.setAttribute('aria-hidden', 'true');
+    for (let i = 0; i < 12; i++) {
+      const s = el('i');
+      s.style.setProperty('--d', i);
+      stars.append(s);
+    }
+    const all = book.endings || [];
+    const found = S.progress(book.id).endings || [];
+    const e = all.find((x) => x.id === ending);
+    const big = el('div', 'ending-icon', e ? e.icon : '⭐');
+    big.setAttribute('aria-hidden', 'true');
+    const list = el('ul', 'ending-list');
+    all.forEach((x) => {
+      const got = found.includes(x.id);
+      const li = el('li', 'ending' + (got ? ' found' : '') + (x.id === ending ? ' now' : ''));
+      li.append(el('span', 'ending-chip-icon', got ? x.icon : '❓'), el('span', 'ending-chip-name', got ? x.title[S.lang] : '…'));
+      list.append(li);
+    });
+    const actions = el('div', 'cover-actions');
+    const again = el('button', 'btn btn-listen big');
+    again.type = 'button';
+    again.innerHTML = '<span aria-hidden="true">🔀</span> ';
+    again.append(t('otherWay'));
+    again.onclick = () => { trail = []; go(0); };
+    const another = el('a', 'btn btn-read big');
+    another.href = './#interaktiv';
+    another.innerHTML = '<span aria-hidden="true">📚</span> ';
+    another.append(t('another'));
+    actions.append(again, another);
+    const n = all.filter((x) => found.includes(x.id)).length;
+    wrap.append(stars, big, el('h2', 'end-title', t('theEnd')), el('p', 'ending-name', e ? e.title[S.lang] : ''),
+      el('p', 'end-text', n >= all.length ? t('allEndings') : t('endingsFound', n, all.length)), list, actions);
+    return wrap;
+  }
+
   function render(dir = 0) {
     const node = view === 0 ? renderCover() : view === last() ? renderEnd() : renderPage(view);
     if (dir) node.classList.add(dir > 0 ? 'enter-next' : 'enter-prev');
@@ -143,8 +244,9 @@
   function updateChrome() {
     document.body.classList.toggle('no-audio', !hasAudio());
     document.body.dataset.view = view === 0 ? 'cover' : view === last() ? 'end' : 'page';
+    document.body.classList.toggle('interactive', inter());
     $('prevBtn').disabled = view === 0;
-    $('nextBtn').disabled = view === last();
+    $('nextBtn').disabled = nextOf(view) == null;
     const dots = $('dots');
     if (dots.children.length !== last() + 1) {
       dots.replaceChildren(...Array.from({ length: last() + 1 }, () => el('i')));
@@ -179,7 +281,13 @@
     clearTimeout(turnTimer);
     halt();
     view = v;
-    if (isPage(view)) S.progress(book.id, { page: view });
+    if (view === 0) trail = [];
+    if (inter() && isPage(view) && book.pages[view - 1].end) {
+      ending = book.pages[view - 1].end;
+      const found = S.progress(book.id).endings || [];
+      if (!found.includes(ending)) S.progress(book.id, { endings: [...found, ending] });
+    }
+    if (isPage(view) && !inter()) S.progress(book.id, { page: view });
     if (view === last()) { S.progress(book.id, { page: 0, done: true }); keepPlaying = false; }
     playing = keepPlaying;
     render(dir);
@@ -243,7 +351,7 @@
     clearTimeout(turnTimer);
     turnTimer = 0;
     if (target < 0) {
-      if (isPage(view - 1) && track(view - 1)) { go(view - 1, { keepPlaying: true, fromSentence: -1 }); return; }
+      if (!inter() && isPage(view - 1) && track(view - 1)) { go(view - 1, { keepPlaying: true, fromSentence: -1 }); return; }
       target = 0;
     }
     halt();
@@ -264,8 +372,8 @@
     const on = (a, fn) => { try { ms.setActionHandler(a, fn); } catch { /* nicht unterstützt */ } };
     on('play', () => { if (!playing) playBtn.click(); });
     on('pause', () => { if (playing) stop(); });
-    on('nexttrack', () => go(view + 1));
-    on('previoustrack', () => go(view - 1));
+    on('nexttrack', () => forward());
+    on('previoustrack', () => back());
     on('seekbackward', () => sentenceBack());
   }
 
@@ -273,7 +381,11 @@
     highlight(-1);
     if (!playing) return;
     if (view === 0 || isPage(view)) {
-      turnTimer = setTimeout(() => { turnTimer = 0; go(view + 1, { keepPlaying: true }); }, view === 0 ? 500 : 1100);
+      if (nextOf(view) == null) { // interaktiv: das Kind entscheidet – Knöpfe hüpfen kurz
+        stage.querySelectorAll('.choice').forEach((b, i) => { b.style.setProperty('--i', i); b.classList.add('nudge'); });
+        return;
+      }
+      turnTimer = setTimeout(() => { turnTimer = 0; forward({ keepPlaying: true }); }, view === 0 ? 500 : 1100);
     }
   }
 
@@ -298,11 +410,11 @@
   playBtn.addEventListener('click', () => {
     if (playing) { stop(); return; }
     if (view === last()) return;
-    if (view === 0) go(1, { keepPlaying: true }); else start();
+    if (view === 0) forward({ keepPlaying: true }); else start();
   });
   $('backBtn').addEventListener('click', sentenceBack);
-  $('prevBtn').addEventListener('click', () => go(view - 1));
-  $('nextBtn').addEventListener('click', () => go(view + 1));
+  $('prevBtn').addEventListener('click', () => back());
+  $('nextBtn').addEventListener('click', () => forward());
 
   // Satz antippen: diesen Satz vorlesen (im Vorlese-Modus ab hier weiterlesen)
   stage.addEventListener('click', (e) => {
@@ -315,8 +427,9 @@
 
   document.addEventListener('keydown', (e) => {
     if (e.target.closest('input, textarea')) return;
-    if (e.key === 'ArrowRight') go(view + 1);
-    else if (e.key === 'ArrowLeft') go(view - 1);
+    if (e.key === 'ArrowRight') forward();
+    else if (e.key === 'ArrowLeft') back();
+    else if (/^[1-3]$/.test(e.key) && inter()) stage.querySelectorAll('.choice')[Number(e.key) - 1]?.click();
     else if (e.key === 'ArrowUp' && playing) { e.preventDefault(); sentenceBack(); }
     else if (e.key === ' ') { e.preventDefault(); playBtn.click(); }
   });
@@ -344,7 +457,7 @@
       drag.node.classList.remove('enter-next', 'enter-prev');
       drag.node.style.transition = 'none';
     }
-    const blocked = (dx > 0 && view === 0) || (dx < 0 && view === last());
+    const blocked = (dx > 0 && view === 0) || (dx < 0 && nextOf(view) == null);
     const shift = blocked ? dx * 0.25 : dx;
     drag.node.style.transform = `translateX(${shift}px)`;
     drag.node.style.opacity = String(1 - Math.min(Math.abs(shift) / (stage.clientWidth * 1.5), 0.4));
@@ -359,9 +472,9 @@
     const dir = dx < 0 ? 1 : -1;
     const far = Math.abs(dx) > Math.min(120, stage.clientWidth * 0.2);
     const fast = Math.abs(dx) > 30 && Math.abs(dx) / Math.max(1, Date.now() - d.t) > 0.45;
-    const possible = view + dir >= 0 && view + dir <= last();
+    const possible = dir > 0 ? nextOf(view) != null : view > 0;
     if (!cancelled && possible && (far || fast)) {
-      go(view + dir);
+      if (dir > 0) forward(); else back();
     } else {
       d.node.style.transition = 'transform .25s ease, opacity .25s ease';
       d.node.style.transform = '';
@@ -396,7 +509,7 @@
       render();
       start(); // klappt nur, wenn der Browser Ton ohne Antippen erlaubt; sonst blinkt der Knopf
     } else {
-      view = !p.done && isPage(p.page) && mode !== 'start' ? p.page : 0;
+      view = !inter() && !p.done && isPage(p.page) && mode !== 'start' ? p.page : 0;
       render();
     }
   }).catch(() => {

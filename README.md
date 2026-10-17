@@ -49,8 +49,27 @@ Die Startseite zeigt zwei Regale (Feld `shelf` in `book.json`):
   Der Rattenfänger von Hameln (Sage) sowie aus Spanien El Ratoncito Pérez (Coloma),
   La ratita presumida und Garbancito.
 - **Neue Geschichten** (ohne `shelf`): Luna, Pip, Bruno.
+- **Interaktive Geschichten** (`"shelf": "interaktiv"`, `"interactive": true`): Luzi, Ole – das Kind
+  entscheidet an mehreren Stellen über große Knöpfe (Symbol, Farbe, Nummer, ein Wort), wie es weitergeht.
 
 `origin` nennt die Quelle (wird auf der Karte angezeigt). Jedes Märchen hat 10 Seiten.
+
+## Interaktive Geschichten
+
+Gleiches Format wie die anderen Bücher, zusätzlich `"interactive": true`, eine Liste `endings`
+(`id`, `icon`, `title`) und pro Seite eine `id` und genau eins von:
+
+- `"next": "<seiten-id>"` – weiter zur nächsten Seite,
+- `"choices": [{ "icon": "🌙", "color": "#ffb547", "label": { "de": "Mond", "es": "Luna" }, "to": "<seiten-id>" }, …]`
+  – 2 bis 3 Knöpfe; die Nummer zeigt der Leser selbst an; die Frage steht als letzter Satz im Text,
+- `"end": "<ende-id>"` – danach kommt die Ende-Seite mit allen entdeckten Enden.
+
+Die erste Seite ist der Anfang. „Zurück“ geht den gegangenen Weg zurück, beim Vorlesen wartet der
+Leser an Entscheidungen, bis ein Knopf gedrückt wird (Tasten 1–3 gehen auch). Entdeckte Enden stehen im
+Lesefortschritt (`endings`) und auf der Karte („⭐ 2 von 3 Enden“). `tools/check-books.mjs` prüft
+zusätzlich, dass alle Seiten erreichbar sind, jeder Weg endet und es keine Schleifen gibt.
+`tools/make-audio.mjs` spricht interaktive Bücher genauso ein (eine Spur pro Seite in der Reihenfolge
+von `pages`).
 
 ## Neues Buch hinzufügen
 

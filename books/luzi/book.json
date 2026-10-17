@@ -1,0 +1,177 @@
+{
+  "id": "luzi",
+  "accent": "#7c6cff",
+  "age": 4,
+  "shelf": "interaktiv",
+  "interactive": true,
+  "title": { "de": "Luzi, die kleine Rakete", "es": "Luzi, el pequeño cohete" },
+  "blurb": {
+    "de": "Die kleine Rakete Luzi startet zu ihrem allerersten Flug ins All. Wohin die Reise geht, entscheidest du!",
+    "es": "El pequeño cohete Luzi despega en su primer viaje al espacio. ¡Tú decides adónde va!"
+  },
+  "endings": [
+    { "id": "picknick", "icon": "🧺", "title": { "de": "Das Mond-Picknick", "es": "El pícnic en la Luna" } },
+    { "id": "sternenstaub", "icon": "✨", "title": { "de": "Sternenstaub für alle", "es": "Polvo de estrellas para todos" } },
+    { "id": "sternbild", "icon": "🎨", "title": { "de": "Das Raketen-Sternbild", "es": "La constelación del cohete" } },
+    { "id": "fest", "icon": "🎉", "title": { "de": "Das Fest auf dem roten Planeten", "es": "La fiesta en el planeta rojo" } }
+  ],
+  "pages": [
+    {
+      "id": "start",
+      "image": "p01.svg",
+      "text": {
+        "de": ["Luzi ist eine kleine Rakete mit einem gelben Stern auf dem Bauch.", "Sie wohnt auf einer Wiese am Rand einer kleinen Stadt.", "Heute ist ein ganz besonderer Tag: Luzi fliegt zum allerersten Mal ins All!"],
+        "es": ["Luzi es un cohete pequeño con una estrella amarilla en la barriga.", "Vive en un prado, a las afueras de un pueblo.", "Hoy es un día muy especial: ¡Luzi va a volar al espacio por primera vez!"]
+      },
+      "next": "start-los"
+    },
+    {
+      "id": "start-los",
+      "image": "p02.svg",
+      "text": {
+        "de": ["Drei, zwei, eins – los! Mit einem lauten Wuuusch saust Luzi in den Himmel.", "Unter ihr wird die Erde kleiner und kleiner.", "Vor ihr leuchten der Mond, die Sterne und ein roter Planet.", "Wohin soll Luzi fliegen?"],
+        "es": ["Tres, dos, uno… ¡despegue! Con un fuerte ¡fiuuu!, Luzi sale disparado hacia el cielo.", "Abajo, la Tierra se hace cada vez más pequeña.", "Delante brillan la Luna, las estrellas y un planeta rojo.", "¿Adónde debe volar Luzi?"]
+      },
+      "choices": [
+        { "icon": "🌙", "color": "#ffb547", "label": { "de": "Mond", "es": "Luna" }, "to": "mond-weg" },
+        { "icon": "⭐", "color": "#4aa3ff", "label": { "de": "Sterne", "es": "Estrella" }, "to": "sterne" },
+        { "icon": "🔴", "color": "#ff6b6b", "label": { "de": "Planet", "es": "Planeta" }, "to": "planet" }
+      ]
+    },
+    {
+      "id": "mond-weg",
+      "image": "p03.svg",
+      "text": {
+        "de": ["Unterwegs zum Mond hört Luzi ein leises „Piep, piep!“.", "Auf einem Stein sitzt Plim, ein kleiner Außerirdischer, und sein Ufo springt nicht mehr an.", "Da saust ein glitzernder Komet vorbei und ruft: „Fang mich doch!“", "Was soll Luzi tun?"],
+        "es": ["De camino a la Luna, Luzi oye un débil «¡pip, pip!».", "Sobre una roca está Plim, un extraterrestre pequeñito, y su platillo volante no arranca.", "Justo entonces pasa zumbando un cometa brillante y grita: «¡A que no me pillas!».", "¿Qué debe hacer Luzi?"]
+      },
+      "choices": [
+        { "icon": "🤝", "color": "#4cc38a", "label": { "de": "Helfen", "es": "Ayudar" }, "to": "mond-plim" },
+        { "icon": "☄️", "color": "#ff9f43", "label": { "de": "Komet", "es": "Cometa" }, "to": "komet" }
+      ]
+    },
+    {
+      "id": "mond-plim",
+      "image": "p04.svg",
+      "text": {
+        "de": ["„Halt dich fest!“, ruft Luzi und schiebt das kleine Ufo ganz vorsichtig an.", "Brumm, brumm, blink – die Lichter gehen wieder an!", "„Danke!“, jubelt Plim.", "„Komm mit, ich zeige dir meinen Lieblingsplatz!“"],
+        "es": ["—¡Agárrate fuerte! —dice Luzi, y empuja el platillo con mucho cuidado.", "Brum, brum, blink… ¡las luces se vuelven a encender!", "—¡Gracias! —grita Plim, feliz—.", "¡Ven conmigo, te enseño mi sitio favorito!"]
+      },
+      "next": "mond-huepfen"
+    },
+    {
+      "id": "mond-huepfen",
+      "image": "p05.svg",
+      "text": {
+        "de": ["Plims Lieblingsplatz ist der Mond!", "Hier ist alles so leicht, dass man riesig hoch hüpfen kann.", "Hopp – Luzi springt über einen Krater, hopp – Plim schlägt einen Purzelbaum.", "Vom vielen Hüpfen bekommen die beiden großen Hunger."],
+        "es": ["¡El sitio favorito de Plim es la Luna!", "Aquí todo pesa tan poco que se puede saltar altísimo.", "Hop, Luzi salta por encima de un cráter; hop, Plim da una voltereta.", "De tanto saltar, a los dos les entra mucha hambre."]
+      },
+      "next": "ende-picknick"
+    },
+    {
+      "id": "komet",
+      "image": "p06.svg",
+      "text": {
+        "de": ["Luzi flitzt dem Kometen hinterher, im Zickzack zwischen den Sternen hindurch.", "„Du bist ja schnell!“, lacht der Komet.", "„Ich bin Funki – und das ist für dich!“", "Er schüttelt seinen Schweif, und glitzernder Sternenstaub rieselt auf Luzi herab."],
+        "es": ["Luzi sale disparado detrás del cometa, en zigzag entre las estrellas.", "—¡Qué rápido vuelas! —se ríe el cometa—.", "¡Soy Chispa, y esto es para ti!", "Sacude su cola, y una lluvia de polvo de estrellas cae brillando sobre Luzi."]
+      },
+      "next": "ende-sternenstaub"
+    },
+    {
+      "id": "sterne",
+      "image": "p07.svg",
+      "text": {
+        "de": ["Mitten im Sternenmeer kichern und blinken die kleinen Sterne.", "„Machst du beim Sternenstaub-Rennen mit?“, rufen die Sternschnuppen.", "Gleich daneben schimmert ein rosa Sternennebel, weich wie ein Kissen.", "Was soll Luzi tun?"],
+        "es": ["En medio del mar de estrellas, las estrellitas se ríen y parpadean.", "—¿Te apuntas a la carrera de polvo de estrellas? —gritan las estrellas fugaces.", "Justo al lado brilla una nube rosa de estrellas, suave como una almohada.", "¿Qué debe hacer Luzi?"]
+      },
+      "choices": [
+        { "icon": "🏁", "color": "#ff9f43", "label": { "de": "Rennen", "es": "Carrera" }, "to": "rennen" },
+        { "icon": "☁️", "color": "#a77bf3", "label": { "de": "Nebel", "es": "Nube" }, "to": "nebel" }
+      ]
+    },
+    {
+      "id": "rennen",
+      "image": "p08.svg",
+      "text": {
+        "de": ["Auf die Plätze, fertig, los!", "Luzi rast mit den Sternschnuppen durch eine Wolke aus Sternenstaub.", "Alle kommen gleichzeitig ins Ziel – unentschieden!", "Jetzt glitzert Luzi von der Nasenspitze bis zu den Flossen."],
+        "es": ["Preparados, listos… ¡ya!", "Luzi vuela a toda velocidad con las estrellas fugaces a través de una nube de polvo de estrellas.", "Todas llegan a la meta a la vez: ¡empate!", "Ahora Luzi brilla desde la punta de la nariz hasta las aletas."]
+      },
+      "next": "ende-sternenstaub"
+    },
+    {
+      "id": "nebel",
+      "image": "p09.svg",
+      "text": {
+        "de": ["Luzi kuschelt sich in den weichen Sternennebel.", "Ein paar kleine Sterne gähnen und schmiegen sich an sie.", "„Malst du uns ein Bild an den Himmel?“, fragt der kleinste Stern.", "Luzi überlegt – und dann hat sie eine Idee."],
+        "es": ["Luzi se acurruca en la nube rosa, blandita y calentita.", "Unas estrellitas bostezan y se acurrucan junto a Luzi.", "—¿Nos pintas un dibujo en el cielo? —pregunta la estrella más pequeña.", "Luzi lo piensa… ¡y se le ocurre una idea!"]
+      },
+      "next": "ende-sternbild"
+    },
+    {
+      "id": "planet",
+      "image": "p10.svg",
+      "text": {
+        "de": ["Luzi landet sanft auf dem roten Planeten.", "Hinter einem Felsen schaut Plim hervor, ein kleiner grüner Außerirdischer.", "„Wollen wir die große Düne hinunterrutschen oder willst du meine Glitzerhöhle sehen?“, fragt er.", "Was soll Luzi tun?"],
+        "es": ["Luzi aterriza suavemente en el planeta rojo.", "Detrás de una roca asoma Plim, un extraterrestre pequeñito y verde.", "—¿Bajamos por la gran duna o prefieres ver mi cueva brillante? —le pregunta.", "¿Qué debe hacer Luzi?"]
+      },
+      "choices": [
+        { "icon": "🛝", "color": "#ff9f43", "label": { "de": "Rutschen", "es": "Tobogán" }, "to": "rutschen" },
+        { "icon": "💎", "color": "#a77bf3", "label": { "de": "Höhle", "es": "Cueva" }, "to": "hoehle" }
+      ]
+    },
+    {
+      "id": "rutschen",
+      "image": "p11.svg",
+      "text": {
+        "de": ["Luzi und Plim sausen die riesige rote Düne hinunter.", "Wiiiii! Der Sand spritzt nach allen Seiten.", "Unten landen sie – plumps – mitten in Plims Familie.", "„Gerade richtig zu unserem Fest!“, rufen alle."],
+        "es": ["Luzi y Plim bajan a toda velocidad por la enorme duna roja.", "¡Yujuuu! La arena sale volando por todas partes.", "Abajo aterrizan, ¡plof!, justo en medio de la familia de Plim.", "—¡Justo a tiempo para nuestra fiesta! —gritan todos."]
+      },
+      "next": "ende-fest"
+    },
+    {
+      "id": "hoehle",
+      "image": "p12.svg",
+      "text": {
+        "de": ["In Plims Höhle funkeln Steine in allen Farben.", "Als Luzi einen anstupst, macht er „Pling!“.", "Ein anderer macht „Plong!“, und bald klingt die ganze Höhle wie Musik.", "„Damit machen wir heute Abend Musik auf unserem Fest!“, ruft Plim."],
+        "es": ["En la cueva de Plim brillan piedras de todos los colores.", "Cuando Luzi toca una, hace «¡cling!».", "Otra hace «¡clong!», y pronto toda la cueva suena como una canción.", "—¡Con ellas haremos música esta noche en nuestra fiesta! —dice Plim."]
+      },
+      "next": "ende-fest"
+    },
+    {
+      "id": "ende-picknick",
+      "image": "p13.svg",
+      "text": {
+        "de": ["Plim breitet eine Decke aus, mitten zwischen den Kratern.", "Es gibt Sternkekse, Mondmilch und blubbernde Weltraumbrause.", "Über ihnen leuchtet die Erde wie eine blaue Murmel.", "„Jetzt sind wir Freunde für immer“, sagt Plim, und Luzi strahlt."],
+        "es": ["Plim extiende un mantel entre los cráteres.", "Hay galletas de estrella, leche de luna y un refresco espacial lleno de burbujas.", "Sobre ellos, la Tierra brilla como una canica azul.", "—Ahora somos amigos para siempre —dice Plim, y Luzi sonríe de felicidad."]
+      },
+      "end": "picknick"
+    },
+    {
+      "id": "ende-sternenstaub",
+      "image": "p14.svg",
+      "text": {
+        "de": ["Glitzernd wie eine Laterne fliegt Luzi nach Hause.", "Über der schlafenden Stadt schüttelt sie sich ganz sacht.", "Sternenstaub rieselt auf alle Dächer, und in jedem Bett träumt ein Kind etwas Schönes.", "Was für ein wunderbarer erster Flug!"],
+        "es": ["Brillando como un farolillo, Luzi vuelve a casa.", "Sobre el pueblo dormido se sacude con mucha suavidad.", "El polvo de estrellas cae sobre los tejados, y en cada cama un niño sueña algo bonito.", "¡Qué primer vuelo tan maravilloso!"]
+      },
+      "end": "sternenstaub"
+    },
+    {
+      "id": "ende-sternbild",
+      "image": "p15.svg",
+      "text": {
+        "de": ["Luzi fliegt von Stern zu Stern und zieht mit ihrem Feuerschweif leuchtende Linien.", "Am Ende ist am Himmel eine Rakete zu sehen – eine Rakete aus Sternen!", "Die kleinen Sterne jubeln.", "Und wer heute Nacht genau hinschaut, entdeckt vielleicht Luzis Sternbild."],
+        "es": ["Luzi vuela de estrella en estrella y, con su cola de fuego, dibuja líneas brillantes.", "Al final, en el cielo aparece un cohete… ¡un cohete hecho de estrellas!", "Las estrellitas aplauden.", "Y si esta noche miras con atención, quizá veas la constelación de Luzi."]
+      },
+      "end": "sternbild"
+    },
+    {
+      "id": "ende-fest",
+      "image": "p16.svg",
+      "text": {
+        "de": ["Am Abend feiert Plims ganze Familie mit Luzi ein großes Fest.", "Alle tanzen und hüpfen, und Luzi pustet mit ihrer Flamme Funkenkringel in die Luft.", "Zum Abschied bekommt sie einen glänzenden roten Stein.", "„Komm bald wieder!“, rufen alle – und Luzi verspricht es."],
+        "es": ["Por la noche, toda la familia de Plim celebra una gran fiesta con Luzi.", "Todos bailan y saltan, y Luzi sopla con su llama aros de chispas.", "Para despedirse, le regalan una piedra roja y brillante.", "—¡Vuelve pronto! —gritan todos, y Luzi lo promete."]
+      },
+      "end": "fest"
+    }
+  ]
+}

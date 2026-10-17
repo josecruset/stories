@@ -1,0 +1,173 @@
+{
+  "id": "ole",
+  "accent": "#ff7f6e",
+  "age": 4,
+  "shelf": "interaktiv",
+  "interactive": true,
+  "title": { "de": "Ole, der kleine Oktopus", "es": "Ole, el pequeño pulpo" },
+  "blurb": {
+    "de": "Der kleine Oktopus Ole findet eine Flaschenpost mit einer Schatzkarte. Wohin ihn sein Abenteuer im Meer führt, entscheidest du!",
+    "es": "El pequeño pulpo Ole encuentra una botella con un mapa del tesoro. ¡Tú decides adónde lo lleva su aventura por el mar!"
+  },
+  "endings": [
+    { "id": "fest", "icon": "🎉", "title": { "de": "Das große Riff-Fest", "es": "La gran fiesta del arrecife" } },
+    { "id": "regenbogen", "icon": "🌈", "title": { "de": "Der Sprung zum Regenbogen", "es": "El salto al arcoíris" } },
+    { "id": "piraten", "icon": "🏴‍☠️", "title": { "de": "Die Unterwasser-Piraten", "es": "Los piratas del fondo del mar" } },
+    { "id": "perle", "icon": "🌙", "title": { "de": "Das Perlen-Nachtlicht", "es": "La lamparita de perla" } }
+  ],
+  "pages": [
+    {
+      "id": "start",
+      "image": "p01.svg",
+      "text": {
+        "de": ["Tief unten im Meer, in einem bunten Korallenriff, wohnt Ole, der kleine Oktopus.", "Er hat acht flinke Arme, große runde Augen und eine blau-weiß gestreifte Mütze mit Bommel.", "Eines Morgens sinkt etwas Glitzerndes direkt vor seiner Nase in den Sand.", "Was kann das sein?"],
+        "es": ["En el fondo del mar, en un arrecife de mil colores, vive Ole, el pequeño pulpo.", "Tiene ocho brazos, unos ojazos redondos y un gorro de rayas azules y blancas con pompón.", "Una mañana, algo brillante cae a la arena ante su nariz.", "¿Qué será?"]
+      },
+      "next": "flaschenpost"
+    },
+    {
+      "id": "flaschenpost",
+      "image": "p02.svg",
+      "text": {
+        "de": ["Es ist eine Flaschenpost – und darin steckt eine Schatzkarte mit einem großen roten Kreuz!", "Da schwimmt Lino, der Delfin, vorbei: „Halt dich an mir fest, ich kenne den Weg!“", "Doch die Karte zeigt auch eine Abkürzung durch eine geheimnisvolle Höhle.", "Was soll Ole tun?"],
+        "es": ["¡Es una botella, y dentro hay un mapa del tesoro con una gran cruz roja!", "Justo entonces pasa Lino, el delfín: —¡Agárrate a mí, que conozco el camino!", "Pero en el mapa también hay un atajo por una cueva misteriosa.", "¿Qué debe hacer Ole?"]
+      },
+      "choices": [
+        { "icon": "🐬", "color": "#4aa3ff", "label": { "de": "Delfin", "es": "Delfín" }, "to": "delfin" },
+        { "icon": "🔦", "color": "#a77bf3", "label": { "de": "Höhle", "es": "Cueva" }, "to": "hoehle" }
+      ]
+    },
+    {
+      "id": "delfin",
+      "image": "p03.svg",
+      "text": {
+        "de": ["Ole hält sich mit acht Armen fest, und schwupp – Lino saust mit ihm los.", "Unten im Sand liegt die alte Schildkröte Tilda auf dem Rücken und kommt nicht mehr hoch.", "Daneben rufen die Seepferdchen: „Machst du bei unserem Wettrennen mit?“", "Was soll Ole tun?"],
+        "es": ["Ole se agarra con sus ocho brazos y, ¡zas!, Lino sale disparado.", "Abajo, en la arena, la vieja tortuga Tilda está panza arriba y no puede darse la vuelta.", "Al lado, los caballitos de mar gritan: —¿Te apuntas a nuestra carrera?", "¿Qué debe hacer Ole?"]
+      },
+      "choices": [
+        { "icon": "🐢", "color": "#4cc38a", "label": { "de": "Helfen", "es": "Ayudar" }, "to": "tilda" },
+        { "icon": "🏁", "color": "#ff9f43", "label": { "de": "Rennen", "es": "Carrera" }, "to": "rennen" }
+      ]
+    },
+    {
+      "id": "tilda",
+      "image": "p04.svg",
+      "text": {
+        "de": ["Ole packt den Panzer mit allen acht Armen: „Hau – ruck!“", "Plumps, schon liegt Tilda wieder richtig herum.", "„Danke, kleiner Ole!“, lacht sie.", "„Ich kenne jeden Winkel im Meer – steig auf, ich bringe dich zum Schatz!“"],
+        "es": ["Ole agarra el caparazón con sus ocho brazos: —A la de una, a la de dos… ¡y a la de tres!", "¡Plof! Tilda vuelve a estar panza abajo.", "—¡Gracias, pequeño Ole! —se ríe—.", "Conozco todo el mar: ¡súbete, que te llevo al tesoro!"]
+      },
+      "next": "wrack"
+    },
+    {
+      "id": "wrack",
+      "image": "p05.svg",
+      "text": {
+        "de": ["Gemütlich gleitet Tilda mit Ole zu einem alten Schiffswrack voller Korallen.", "Davor steht eine Kiste – Ole hebt den Deckel, und es funkelt: lauter bunte Perlen!", "„So viele!“, staunt Ole.", "„Die reichen ja für das ganze Riff!“"],
+        "es": ["Tilda nada tranquila con Ole hasta un viejo barco hundido, cubierto de corales.", "Delante hay un cofre; Ole levanta la tapa y… ¡está lleno de perlas de colores!", "—¡Cuántas! —exclama Ole—.", "¡Hay para todo el arrecife!"]
+      },
+      "next": "ende-fest"
+    },
+    {
+      "id": "rennen",
+      "image": "p06.svg",
+      "text": {
+        "de": ["Eins, zwei, drei – los geht’s!", "Die Seepferdchen flitzen davon, doch Ole wirbelt mit seinen acht Armen wie ein kleiner Propeller.", "Mit einer Bommellänge Vorsprung gewinnt er!", "Das Ziel ist ein alter Anker – genau dort, wo auf der Karte das Kreuz ist."],
+        "es": ["Tres, dos, uno… ¡a nadar!", "Los caballitos de mar salen zumbando, pero Ole mueve sus ocho brazos como una hélice.", "¡Llega el primero a la meta por un pompón de ventaja!", "La meta es un ancla vieja, justo donde el mapa tiene la cruz."]
+      },
+      "next": "anker"
+    },
+    {
+      "id": "anker",
+      "image": "p07.svg",
+      "text": {
+        "de": ["Unter dem Anker gräbt Ole eine kleine Schatzkiste aus.", "Darin liegt ein goldenes Fernrohr!", "Ole schaut hindurch, hinauf zum glitzernden Wasser: „Was wohl über dem Meer ist?“", "Da taucht Lino neben ihm auf: „Komm, ich zeig es dir!“"],
+        "es": ["Debajo del ancla, Ole desentierra un pequeño cofre.", "¡Dentro hay un catalejo de oro!", "Ole mira por él hacia arriba, donde brilla el agua: —¿Qué habrá encima del mar?", "Entonces aparece Lino a su lado: —¡Ven, que te lo enseño!"]
+      },
+      "next": "ende-regenbogen"
+    },
+    {
+      "id": "hoehle",
+      "image": "p08.svg",
+      "text": {
+        "de": ["Ole macht sich ganz dünn und flutscht in die Höhle – das können Oktopusse besonders gut!", "Drinnen leuchten kleine Quallen wie Laternen.", "In einem Gang schnarcht ein großer Hai, im anderen steigen glitzernde Blasen nach oben.", "Was soll Ole tun?"],
+        "es": ["Ole se hace muy finito y se cuela en la cueva: ¡a los pulpos eso se les da genial!", "Dentro, unas medusas pequeñitas brillan como farolillos.", "En un túnel ronca un tiburón enorme, y por el otro suben burbujas brillantes.", "¿Qué debe hacer Ole?"]
+      },
+      "choices": [
+        { "icon": "🦈", "color": "#ff9f43", "label": { "de": "Hai", "es": "Tiburón" }, "to": "hai" },
+        { "icon": "🫧", "color": "#4aa3ff", "label": { "de": "Blasen", "es": "Burbujas" }, "to": "blasen" }
+      ]
+    },
+    {
+      "id": "hai",
+      "image": "p09.svg",
+      "text": {
+        "de": ["Ganz leise schwimmt Ole näher.", "Da kitzelt sein Bommel den Hai an der Nase: „Ha… ha… HATSCHI!“", "Der Hai reibt sich die Augen und lächelt: „Oh, Besuch! Ich bin Hugo.“", "„Ich schlafe so schlecht – unter meinem Bauch ist irgendwas Hubbeliges.“"],
+        "es": ["Ole se acerca nadando muy despacito.", "De repente, su pompón le hace cosquillas al tiburón en la nariz: —¡A… a… ACHÍS!", "El tiburón se frota los ojos y sonríe: —¡Anda, visita! Me llamo Hugo.", "—Es que duermo fatal: hay algo duro debajo de mi barriga."]
+      },
+      "next": "hai-kiste"
+    },
+    {
+      "id": "hai-kiste",
+      "image": "p10.svg",
+      "text": {
+        "de": ["Hugo rutscht zur Seite, und Ole buddelt mit allen acht Armen im Sand.", "Da ist sie: die Schatzkiste von der Karte!", "Drinnen liegen Goldmünzen, ein Piratenhut und eine Augenklappe.", "„Darum war mein Bett so hubbelig!“, lacht Hugo."],
+        "es": ["Hugo se aparta, y Ole escarba en la arena con sus ocho brazos.", "¡Ahí está: el cofre del mapa!", "Dentro hay monedas de oro, un sombrero de pirata y un parche para el ojo.", "—¡Por eso mi cama era tan incómoda! —se ríe Hugo."]
+      },
+      "next": "ende-piraten"
+    },
+    {
+      "id": "blasen",
+      "image": "p11.svg",
+      "text": {
+        "de": ["Ole schwimmt den glitzernden Blasen hinterher.", "Plötzlich schlüpft er in eine riesige Blase – und hui, sie trägt ihn nach oben wie ein Fahrstuhl!", "Oben kommt er in eine Grotte, in die ein Sonnenstrahl fällt.", "Mitten im Licht liegt eine riesengroße Muschel."],
+        "es": ["Ole sigue nadando detrás de las burbujas brillantes.", "De pronto se mete en una burbuja enorme y… ¡hala!, lo sube hacia arriba como un ascensor.", "Arriba hay una gruta donde entra un rayo de sol.", "En medio de la luz descansa una concha gigante."]
+      },
+      "next": "muschel"
+    },
+    {
+      "id": "muschel",
+      "image": "p12.svg",
+      "text": {
+        "de": ["Langsam öffnet sich die Muschel und gähnt: „Aaah, endlich kommt jemand!“", "Darin liegt eine Perle, die leuchtet wie ein kleiner Mond.", "„Die Flaschenpost war von mir“, sagt die Muschel.", "„Die Perle ist für jemanden, der mutig und neugierig ist – also für dich!“"],
+        "es": ["La concha se abre despacio y bosteza: —¡Aaah, por fin viene alguien!", "Dentro hay una perla que brilla como una lunita.", "—La botella la mandé yo —dice la concha—.", "Esta perla es para alguien valiente y curioso… ¡o sea, para ti!"]
+      },
+      "next": "ende-perle"
+    },
+    {
+      "id": "ende-fest",
+      "image": "p13.svg",
+      "text": {
+        "de": ["Ole und Tilda bringen die Perlen nach Hause und verteilen sie an alle.", "Die Krebse tragen Perlenketten, und die Fische schmücken das Riff.", "Dann feiern alle ein großes Fest mit Musik und Tanz.", "Ole tanzt mit allen acht Armen gleichzeitig – das kann sonst keiner!"],
+        "es": ["Ole y Tilda llevan las perlas a casa y las reparten entre todos.", "Los cangrejos se ponen collares, y los peces decoran el arrecife.", "Luego celebran una gran fiesta con música y baile.", "¡Ole baila con sus ocho brazos a la vez, como nadie!"]
+      },
+      "end": "fest"
+    },
+    {
+      "id": "ende-regenbogen",
+      "image": "p14.svg",
+      "text": {
+        "de": ["Lino schießt nach oben und springt mit Ole hoch aus dem Wasser.", "Über ihnen leuchten die Sonne und ein riesiger Regenbogen!", "Ole winkt den Möwen mit allen acht Armen zu – was für ein Abenteuer!", "Platsch! Zurück im Riff erzählt Ole allen davon."],
+        "es": ["Lino sube a toda velocidad y salta con Ole por encima del agua.", "¡Arriba brillan el sol y un arcoíris enorme!", "Ole saluda a las gaviotas con sus ocho brazos: ¡qué aventura!", "¡Chof! De vuelta en el arrecife, Ole se lo cuenta a todos."]
+      },
+      "end": "regenbogen"
+    },
+    {
+      "id": "ende-piraten",
+      "image": "p15.svg",
+      "text": {
+        "de": ["Ole setzt den Piratenhut auf – natürlich über seine Mütze.", "Hugo bekommt die Augenklappe und brummt: „Arrr!“", "Zusammen spielen sie Piraten, bis die Fische vor Lachen blubbern.", "Und seit diesem Tag hat niemand mehr Angst vor Hugo."],
+        "es": ["Ole se pone el sombrero de pirata… encima de su gorro, claro.", "Hugo se pone el parche y gruñe: —¡Arrr!", "Juntos juegan a los piratas, y los peces se ríen tanto que les salen burbujas.", "Y desde ese día, nadie le tiene miedo a Hugo."]
+      },
+      "end": "piraten"
+    },
+    {
+      "id": "ende-perle",
+      "image": "p16.svg",
+      "text": {
+        "de": ["Am Abend hängt Ole die leuchtende Perle vor seine Höhle.", "Die kleinen Fische kommen herbei und kuscheln sich in ihr warmes Licht.", "Ole erzählt von seinem Abenteuer, bis allen die Augen zufallen.", "Gute Nacht, kleiner Ole!"],
+        "es": ["Por la noche, Ole cuelga la perla brillante en la puerta de su cueva.", "Los pececitos se acercan y se acurrucan bajo su luz calentita.", "Ole les cuenta su aventura hasta que a todos se les cierran los ojos.", "¡Buenas noches, pequeño Ole!"]
+      },
+      "end": "perle"
+    }
+  ]
+}

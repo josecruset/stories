@@ -11,4 +11,6 @@ window.BOOKS = [
   'raton-perez', 'ratita', 'garbancito', 'rattenfaenger', 'sterntaler',
   // Neue Geschichten
   'luna', 'pip', 'bruno',
+  // Interaktive Geschichten
+  'luzi', 'ole',
 ];

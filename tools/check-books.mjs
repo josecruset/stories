@@ -11,6 +11,66 @@ const listed = (readFileSync(join(ROOT, 'books.js'), 'utf8').match(/BOOKS\s*=\s*
 const ids = process.argv.slice(2).length ? process.argv.slice(2)
   : readdirSync(join(ROOT, 'books'), { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name);
 
+// Interaktive Geschichten: Seiten-IDs, Weiter/Knöpfe/Ende, Erreichbarkeit, keine Schleifen
+const COLORS = /^#[0-9a-f]{6}$/i;
+function checkInteractive(book, bad, warn) {
+  const pages = book.pages || [];
+  const byId = new Map();
+  pages.forEach((p, i) => {
+    if (!/^[a-z0-9-]+$/.test(p.id || '')) bad.push(`Seite ${i + 1}: id fehlt/ungültig`);
+    else if (byId.has(p.id)) bad.push(`Seite ${i + 1}: id „${p.id}“ doppelt`);
+    else byId.set(p.id, p);
+  });
+  const endings = new Map((book.endings || []).map((e) => [e.id, e]));
+  if (endings.size < 2) bad.push('weniger als 2 Enden');
+  for (const e of book.endings || []) {
+    if (!e.icon) bad.push(`Ende ${e.id}: icon fehlt`);
+    for (const l of LANGS) if (!e.title?.[l]) bad.push(`Ende ${e.id}: title.${l} fehlt`);
+  }
+  const used = new Set();
+  for (const p of pages) {
+    const kinds = ['next', 'choices', 'end'].filter((k) => p[k] != null);
+    if (kinds.length !== 1) { bad.push(`Seite ${p.id}: genau eins von next/choices/end nötig (${kinds.join(', ') || 'keins'})`); continue; }
+    if (p.next && !byId.has(p.next)) bad.push(`Seite ${p.id}: next „${p.next}“ gibt es nicht`);
+    if (p.end) { if (!endings.has(p.end)) bad.push(`Seite ${p.id}: Ende „${p.end}“ nicht in endings`); used.add(p.end); }
+    if (p.choices) {
+      if (!Array.isArray(p.choices) || p.choices.length < 2 || p.choices.length > 3) bad.push(`Seite ${p.id}: 2–3 Knöpfe nötig`);
+      const colors = new Set();
+      for (const c of p.choices || []) {
+        if (!byId.has(c.to)) bad.push(`Seite ${p.id}: Knopf zu „${c.to}“ – Seite fehlt`);
+        if (!c.icon) bad.push(`Seite ${p.id}: Knopf ohne icon`);
+        if (!COLORS.test(c.color || '')) bad.push(`Seite ${p.id}: Knopf-Farbe ungültig`);
+        else if (colors.has(c.color.toLowerCase())) warn.push(`Seite ${p.id}: zwei Knöpfe mit gleicher Farbe`);
+        else colors.add(c.color.toLowerCase());
+        for (const l of LANGS) {
+          const w = c.label?.[l];
+          if (!w) bad.push(`Seite ${p.id}: Knopf-Wort ${l} fehlt`);
+          else if (w.length > 10) warn.push(`Seite ${p.id}: Knopf-Wort „${w}“ ist lang`);
+        }
+      }
+    }
+  }
+  for (const id of endings.keys()) if (!used.has(id)) bad.push(`Ende „${id}“ wird nie erreicht`);
+  // Erreichbarkeit und Schleifen (Tiefensuche ab der ersten Seite)
+  const seen = new Set();
+  const onPath = new Set();
+  let loops = 0;
+  const walk = (id, depth) => {
+    const p = byId.get(id);
+    if (!p) return;
+    if (onPath.has(id)) { loops++; return; }
+    if (depth > 40) return;
+    seen.add(id);
+    onPath.add(id);
+    const next = p.next ? [p.next] : p.choices ? p.choices.map((c) => c.to) : [];
+    next.forEach((n) => walk(n, depth + 1));
+    onPath.delete(id);
+  };
+  if (pages[0]) walk(pages[0].id, 0);
+  if (loops) bad.push('Schleife im Ablauf');
+  for (const p of pages) if (p.id && !seen.has(p.id)) bad.push(`Seite ${p.id} ist nicht erreichbar`);
+}
+
 let problems = 0;
 for (const id of ids) {
   const dir = join(ROOT, 'books', id);
@@ -36,6 +96,7 @@ for (const id of ids) {
         }
       }
     });
+    if (book.interactive) checkInteractive(book, bad, warn);
     for (const img of images) {
       const f = join(dir, 'img', img || '');
       if (!img || !existsSync(f)) { bad.push(`Bild fehlt: ${img}`); continue; }

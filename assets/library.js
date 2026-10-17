@@ -1,4 +1,4 @@
-// Startseite: Kategorien oben (Märchen / Neue Geschichten), darunter das Regal der gewählten
+// Startseite: Kategorien oben (Märchen / Neue Geschichten / Interaktiv), darunter das Regal der gewählten
 // Kategorie mit Titelbildern, „Lesen“ und „Hören“. Die Wahl steht im Link (#maerchen) und
 // wird auf dem Gerät gemerkt.
 'use strict';
@@ -11,6 +11,7 @@
   const SHELVES = [ // Reihenfolge der Kategorien
     { id: 'maerchen', icon: '🏰' },
     { id: 'geschichten', icon: '🌈' },
+    { id: 'interaktiv', icon: '🔀' },
   ];
   const shelfOf = (b) => b.shelf || 'geschichten';
   let books = [];
@@ -55,13 +56,18 @@
     img.alt = '';
     img.loading = 'lazy';
     cover.append(img, el('span', 'book-title', book.title[lang]));
-    if (p.done) cover.append(el('span', 'badge done', '✓ ' + t('finished')));
+    const nEnd = (book.endings || []).length;
+    const found = (p.endings || []).filter((id) => (book.endings || []).some((e) => e.id === id)).length;
+    if (book.interactive) {
+      if (found) cover.append(el('span', 'badge' + (found >= nEnd ? ' done' : ''), t('endingsBadge', found, nEnd)));
+      else cover.append(el('span', 'badge decide', '🔀 ' + t('youDecide')));
+    } else if (p.done) cover.append(el('span', 'badge done', '✓ ' + t('finished')));
     else if (p.page > 0 && p.page <= pages) cover.append(el('span', 'badge', t('continueAt', p.page)));
 
     const body = el('div', 'book-body');
     body.append(el('p', 'book-blurb', book.blurb[lang]));
     const meta = el('p', 'book-meta');
-    const bits = [t('age', book.age), t('pages', pages)];
+    const bits = [t('age', book.age), book.interactive ? '🔀 ' + t('endings', nEnd) : t('pages', pages)];
     if (book.origin) body.insertBefore(el('p', 'book-origin', book.origin[lang]), body.firstChild);
     const mins = window.Stories.minutes(book, lang);
     if (mins) bits.push('🎧 ' + t('minutes', mins));
@@ -97,7 +103,10 @@
       b.setAttribute('aria-controls', 'shelf');
       b.tabIndex = id === current ? 0 : -1;
       const n = books.filter((x) => shelfOf(x) === id).length;
-      b.append(el('span', 'shelf-tab-icon', icon), el('span', 'shelf-tab-name', t('shelf_' + id)));
+      // volle Bezeichnung, auf schmalen Bildschirmen die Kurzform
+      b.append(el('span', 'shelf-tab-icon', icon), el('span', 'shelf-tab-name', t('shelf_' + id)),
+        el('span', 'shelf-tab-short', t('short_' + id)));
+      b.setAttribute('aria-label', t('shelf_' + id));
       if (n) b.append(el('span', 'shelf-tab-count', String(n)));
       b.querySelector('.shelf-tab-icon').setAttribute('aria-hidden', 'true');
       return b;
