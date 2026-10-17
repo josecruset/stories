@@ -14,7 +14,7 @@ books/<id>/book.json    Titel, Kurztext, Alter, Seiten mit Text (de/es, Satz fü
 books/<id>/img/         cover.svg (3:4) und p01.svg … (3:2), eine Illustration pro Seite
 books/<id>/audio/       Hörbuch-Spuren: <lang>/00.mp3 (Titel), 01.mp3 … (Seiten)
 books/<id>/audio.json   Länge und Startzeit jedes Satzes pro Spur (für das Mitleuchten)
-tools/make-audio.mjs    erzeugt audio/ und audio.json (nicht Teil der Webseite)
+tools/make-audio.mjs    spricht die Bücher mit OpenAI TTS ein (nicht Teil der Webseite)
 sw.js                   Service Worker: online immer aktuell, offline die letzte Version
 ```
 
@@ -25,7 +25,8 @@ Im Leser:
   automatisch umgeblättert. Pause mit dem großen Knopf oder der Leertaste.
 - Die Sprache (DE/ES) lässt sich jederzeit umschalten; sie wird unter `stories.lang` gespeichert,
   `?lang=es` bzw. `?lang=de` setzt sie per Link. Der Lesefortschritt liegt unter `stories.progress`.
-- Fehlt `audio.json`, liest die Sprachausgabe des Browsers vor.
+- Vorgelesen wird nur mit echten Aufnahmen. Fehlt `audio.json` (oder die Sprache darin), zeigt der
+  Leser keine Vorlese-Knöpfe – es gibt bewusst keine Computerstimme als Ersatz.
 
 ## Neues Buch hinzufügen
 
@@ -35,8 +36,12 @@ Im Leser:
 3. Bilder als `img/cover.svg` (Hochformat 600×800, ohne Titel – den blendet die Seite ein) und
    `img/p01.svg` … (Querformat 1200×800) ablegen. PNG/JPG/WebP gehen auch, dann den Dateinamen
    in `book.json` (`image`) anpassen.
-4. Audio erzeugen: `node tools/make-audio.mjs <id>` (braucht macOS `say` und `ffmpeg`).
-   Stimmen: Anna (de) und Mónica (es), einstellbar oben im Skript.
+4. Audio erzeugen: `OPENAI_API_KEY=… node tools/make-audio.mjs <id>` (braucht `ffmpeg`; der Key
+   kann auch als `OPENAI_API_KEY=…` in einer Datei `.env` im Repo liegen, sie ist in `.gitignore`).
+   Jede Seite wird mit `gpt-4o-mini-tts` (Stimme `marin`) am Stück eingesprochen, damit sie flüssig
+   klingt – als warme Vorleserin, Deutsch bzw. Spanisch aus Spanien. Danach ermittelt Whisper per
+   Wort-Zeitstempel, wann welcher Satz beginnt. Stimme und Regieanweisung stehen oben im Skript.
+   Unveränderte Seiten werden beim nächsten Lauf übersprungen (`--force` spricht alles neu ein).
 5. Die `id` in `books.js` eintragen.
 
 **Eigene Aufnahmen** (z. B. selbst vorgelesen): MP3s in `audio/<lang>/` ersetzen und in
@@ -48,7 +53,8 @@ Im Leser:
 python3 -m http.server 8644
 ```
 
-Dann http://localhost:8644 öffnen.
+Dann http://localhost:8644 öffnen. Hinweis: Pythons Server kann keine Range-Anfragen, deshalb
+springt das Antippen eines Satzes lokal manchmal an den Seitenanfang; auf dem Server (nginx) klappt es.
 
 ## Deployment
 
