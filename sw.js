@@ -1,7 +1,7 @@
 // Service Worker: immer zuerst beim Server nachfragen (Updates kommen sofort an),
 // offline die zuletzt geladene Version liefern. Hörbuch-Spuren (mp3) nicht abfangen:
 // Browser laden sie in Teilen (Range-Anfragen), das soll direkt der Server beantworten.
-const CACHE = 'stories-v5';
+const CACHE = 'stories-v6';
 const ASSETS = ['./', './index.html', './read.html', './books.js', './manifest.webmanifest',
   './assets/style.css', './assets/common.js', './assets/library.js', './assets/reader.js',
   './assets/favicon.svg', './assets/icon-192.png', './assets/icon-512.png'];

@@ -206,6 +206,20 @@ button { font: inherit; }
   padding-top: 20px; padding-bottom: 28px; color: var(--muted); font-size: 14px;
 }
 .site-footer a { color: var(--text); text-decoration: none; }
+.author {
+  flex-basis: 100%;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px;
+  margin-top: 8px; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, .1);
+}
+.author strong { color: var(--text); font-weight: 600; }
+.author-links { display: flex; flex-wrap: wrap; gap: 8px; }
+.author-links a {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 6px 12px; border-radius: 999px; background: var(--surface); color: var(--text);
+  transition: background .2s ease;
+}
+.author-links a:hover { background: var(--surface-2); }
+.author-links svg { width: 16px; height: 16px; flex: none; }
 
 :focus-visible { outline: 3px solid var(--read); outline-offset: 3px; }
 
