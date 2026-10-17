@@ -1,0 +1,96 @@
+{
+  "id": "leuchtturm",
+  "accent": "#1e9e9a",
+  "age": 7,
+  "title": { "de": "Juli und der Leuchtturm", "es": "Juli y el faro" },
+  "blurb": {
+    "de": "Juli verbringt die Ferien bei Oma Greta, der Leuchtturmwärterin. Als in einer Sturmnacht das große Licht ausgeht, muss sie die dunkle Wendeltreppe hinauf – dabei hat sie genau davor Angst.",
+    "es": "Juli pasa las vacaciones con su abuela Greta, la guardiana del faro. Cuando una noche de tormenta se apaga la gran luz, tendrá que subir la oscura escalera de caracol… justo lo que más miedo le da."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Juli ist sieben, hat wilde braune Locken und trägt am liebsten ihre gelben Gummistiefel.", "In den Sommerferien fährt sie mit der Fähre zu einer winzigen Insel in der Nordsee.", "Dort wohnt Oma Greta, und Oma Greta ist Leuchtturmwärterin!", "Schon von Weitem sieht Juli den rot-weiß gestreiften Turm und Oma, die am Steg mit beiden Armen winkt."],
+        "es": ["Juli tiene siete años, el pelo lleno de rizos alborotados y unas botas de agua amarillas.", "Estas vacaciones viaja en ferri a una isla diminuta del mar del Norte.", "Allí vive su abuela Greta, ¡que es la guardiana del faro!", "Desde lejos ya ve la torre de rayas rojas y blancas, y a la abuela, que la saluda con los dos brazos desde el muelle."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Kaum steht Juli auf dem Steg, saust etwas Weißes vom Himmel.", "Schnapp – schon ist ihr Käsebrot weg!", "Auf dem Geländer sitzt eine dicke Möwe mit gelbem Schnabel und schmatzt zufrieden.", "„Das ist Kalle“, lacht Oma Greta.", "„Er wohnt auf unserem Dach und ist der frechste Vogel der ganzen Insel.“"],
+        "es": ["Nada más pisar el muelle, algo blanco baja del cielo como un rayo.", "¡Zas!, y su bocadillo de queso desaparece.", "En la barandilla, una gaviota gorda de pico amarillo se relame tan contenta.", "—Te presento a Kalle —se ríe la abuela Greta—.", "Vive en nuestro tejado y es el pájaro más descarado de toda la isla."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Am Nachmittag zeigt Oma ihr den Leuchtturm von innen.", "Eine Wendeltreppe schraubt sich in die Höhe, bis hinauf zur großen Lampe, die den Schiffen nachts den Weg zeigt.", "„Hundertzwölf Stufen“, sagt Oma stolz.", "Juli schaut hinauf, und ihre Knie werden weich wie Wackelpudding.", "„Ich bleibe lieber hier unten“, murmelt sie leise."],
+        "es": ["Por la tarde, la abuela le enseña el faro por dentro.", "Una escalera de caracol sube y sube hasta la gran lámpara, la que por la noche guía a los barcos.", "—Ciento doce escalones —dice la abuela con orgullo.", "Juli mira hacia arriba y le tiemblan las rodillas como un flan.", "—Yo mejor me quedo aquí abajo —murmura."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["In den nächsten Tagen entdeckt Juli die Insel.", "Bei Ebbe läuft sie mit Oma weit hinaus ins Watt, wo der Schlick unter ihren Gummistiefeln schmatzt.", "Ein kleiner Krebs zwickt neugierig in ihre Stiefelspitze, und auf der Sandbank sonnen sich drei dicke Robben.", "Kalle fliegt immer mit und bettelt um Krabben."],
+        "es": ["Los días siguientes, Juli explora la isla.", "Con la marea baja, camina con la abuela por el fondo del mar, y el barro hace chof, chof bajo sus botas.", "Un cangrejito curioso le pellizca la punta de la bota, y en un banco de arena toman el sol tres focas gorditas.", "Kalle las acompaña siempre, a ver si cae alguna gamba."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Abends sitzen sie im warmen Wohnzimmer, und Oma liest aus dem alten Logbuch vor.", "Darin steht, wie Uropa Hinrich vor langer Zeit in einer Sturmnacht das Licht gerettet hat.", "Juli hört gern zu, aber vor dem Schlafengehen wird ihr mulmig, denn im Dunkeln hat sie Angst.", "Da schenkt Oma ihr eine Taschenlampe: „Für Mutige – und für alle, die es noch werden.“"],
+        "es": ["Por las noches se acurrucan en el salón, y la abuela lee en voz alta el viejo diario del faro.", "Allí cuenta cómo el bisabuelo Hinrich salvó la luz hace muchísimos años, en una noche de tormenta.", "A Juli le encantan esas historias, pero le da miedo la oscuridad.", "Entonces la abuela le regala una linterna: —Para valientes… y para los que lo van a ser."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Eines Nachmittags wird der Himmel grau wie Blei, und der Wind fängt an zu heulen.", "Herr Hansen ist mit seinem kleinen Fischerboot noch draußen auf dem Meer.", "Oma eilt hinaus, um die Wäsche zu retten – da rutscht sie auf den nassen Stufen aus.", "„Autsch, mein Fuß!“, ruft sie und hält sich den Knöchel."],
+        "es": ["Una tarde, el cielo se pone gris como el plomo y el viento empieza a aullar.", "El señor Hansen todavía está en el mar con su pequeño barco de pesca.", "La abuela sale corriendo a recoger la ropa tendida… y resbala en los escalones mojados.", "—¡Ay, mi pie! —se queja, agarrándose el tobillo."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Juli hilft Oma aufs Sofa und legt ihr ein Kühlkissen auf den dicken Knöchel.", "Draußen ist es inzwischen dunkel geworden, und der Regen trommelt an die Fenster.", "Plötzlich flackert das Licht oben im Turm – einmal, zweimal – und geht aus.", "Aus dem Funkgerät knistert Herrn Hansens Stimme: „Greta, ich sehe euer Licht nicht mehr!“"],
+        "es": ["Juli ayuda a la abuela a llegar al sofá y le pone una bolsa de hielo en el tobillo hinchado.", "Fuera ya es de noche, y la lluvia tamborilea en los cristales.", "De pronto, la luz de lo alto del faro parpadea una vez, dos veces… y se apaga.", "Por la radio se oye la voz del señor Hansen entre chasquidos: —¡Greta, no veo vuestra luz!"]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["„Mit dem Fuß komme ich keine Stufe hoch“, seufzt Oma.", "Juli schluckt: Der Turm ist dunkel und hoch, genau die zwei Dinge, vor denen sie sich fürchtet.", "Dann knipst sie ihre Taschenlampe an und nimmt Omas kleines Funkgerät.", "„Ich bin bei dir, bei jeder Stufe“, verspricht Oma.", "Mit Kalle auf der Schulter läuft Juli durch den Regen zur Turmtür."],
+        "es": ["—Con este pie no puedo subir ni un escalón —suspira la abuela.", "Juli traga saliva: el faro está oscuro y es altísimo, justo las dos cosas que más miedo le dan.", "Aun así, enciende la linterna y coge el walkie de la abuela.", "—Estaré contigo en cada escalón —le promete la abuela.", "Con Kalle en el hombro, Juli corre bajo la lluvia hasta la puerta del faro."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Stufe für Stufe steigt Juli die Wendeltreppe hinauf und zählt laut mit.", "Die Taschenlampe malt einen kleinen hellen Kreis in die Dunkelheit, und draußen pfeift der Sturm.", "Kalle hüpft immer eine Stufe voraus, als wollte er zeigen, wie leicht das geht.", "Als ihre Knie wackeln, knistert Omas Stimme: „Nicht nach unten schauen, Juli – zähl einfach weiter!“"],
+        "es": ["Escalón a escalón, Juli sube por la escalera de caracol contando en voz alta.", "La linterna pinta un pequeño círculo de luz en la oscuridad, y fuera silba la tormenta.", "Kalle va siempre un escalón por delante, como diciendo que es facilísimo.", "Cuando le tiemblan las rodillas, la voz de la abuela suena por el walkie: —No mires hacia abajo, Juli, ¡tú sigue contando!"]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Bei Stufe hundertzwölf steht Juli endlich oben, und vor ihr glänzt die riesige gläserne Lampe.", "„Siehst du den grauen Kasten an der Wand?“, fragt Oma.", "„Darin ist ein Schalter umgekippt, den musst du wieder hochdrücken.“", "Doch im Kasten sind so viele Schalter, dass Juli ganz schwindelig wird.", "Da klopft Kalle mit dem Schnabel auf einen einzigen – den, der nach unten zeigt!"],
+        "es": ["En el escalón ciento doce, Juli llega por fin junto a la enorme lámpara de cristal.", "—¿Ves la caja gris de la pared? —pregunta la abuela—.", "Dentro hay un interruptor que se ha bajado, y tienes que volver a subirlo.", "Pero hay tantos interruptores que a Juli le da vueltas la cabeza.", "Entonces Kalle picotea uno solo: ¡el único que apunta hacia abajo!"]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": ["Juli drückt den Schalter nach oben, und es macht klack!", "Die große Lampe brummt, glüht auf, und ein langer Lichtstrahl wandert wieder über das tosende Meer.", "Weit draußen blinkt ein kleines Licht zurück: Herr Hansen hat den Weg gefunden!", "Mit der Nase an der Scheibe sieht Juli zu, wie sein Boot sicher in den Hafen tuckert."],
+        "es": ["Juli sube el interruptor y… ¡clac!", "La gran lámpara zumba, se enciende, y un largo rayo de luz vuelve a recorrer el mar embravecido.", "A lo lejos, una lucecita parpadea en respuesta: ¡el señor Hansen ha encontrado el camino!", "Con la nariz pegada al cristal, Juli ve cómo su barquito entra sano y salvo en el puerto."]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": ["Am nächsten Morgen scheint die Sonne, und die ganze Insel feiert am Hafen.", "Herr Hansen setzt Juli seine Kapitänsmütze auf, und Kalle stibitzt vor lauter Freude gleich drei Fischbrötchen.", "Oma humpelt mit ihrer Krücke heran und schreibt ins Logbuch: „Juli, sieben Jahre, hat das Licht gerettet.“", "Und Juli denkt: Hundertzwölf Stufen sind gar nicht so viele, wenn man einfach losgeht."],
+        "es": ["A la mañana siguiente brilla el sol y toda la isla está de fiesta en el puerto.", "El señor Hansen le pone a Juli su gorra de capitán, y Kalle birla tres bocadillos de pura alegría.", "La abuela llega cojeando con su muleta y escribe en el diario: «Juli, siete años, salvó la luz».", "Y Juli piensa que ciento doce escalones no son tantos cuando una se atreve a empezar."]
+      }
+    }
+  ]
+}

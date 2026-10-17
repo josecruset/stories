@@ -48,8 +48,10 @@ Die Startseite zeigt zwei Regale (Feld `shelf` in `book.json`):
   Goldlöckchen (englisch), Der gestiefelte Kater (Perrault), Das hässliche Entlein (Andersen),
   Der Rattenfänger von Hameln (Sage) sowie aus Spanien El Ratoncito Pérez (Coloma),
   La ratita presumida und Garbancito.
-- **Neue Geschichten** (ohne `shelf`): Luna, Pip, Bruno.
-- **Interaktive Geschichten** (`"shelf": "interaktiv"`, `"interactive": true`): Luzi, Ole – das Kind
+- **Neue Geschichten** (ohne `shelf`): Luna, Pip, Bruno (ab 3–4); Emma und der Roboter Bolt,
+  Juli und der Leuchtturm (ab 6–7, 12 Seiten, längere Texte).
+- **Interaktive Geschichten** (`"shelf": "interaktiv"`, `"interactive": true`): Luzi, Ole (ab 4); Nils und das Drachenei, Opa Kunos Zeitmaschine,
+  Detektivin Mila (ab 6–7, 23–26 Seiten, 3 Entscheidungen pro Weg, 5 Enden) – das Kind
   entscheidet an mehreren Stellen über große Knöpfe (Symbol, Farbe, Nummer, ein Wort), wie es weitergeht.
 
 `origin` nennt die Quelle (wird auf der Karte angezeigt). Jedes Märchen hat 10 Seiten.
@@ -70,6 +72,9 @@ Lesefortschritt (`endings`) und auf der Karte („⭐ 2 von 3 Enden“). `tools/
 zusätzlich, dass alle Seiten erreichbar sind, jeder Weg endet und es keine Schleifen gibt.
 `tools/make-audio.mjs` spricht interaktive Bücher genauso ein (eine Spur pro Seite in der Reihenfolge
 von `pages`).
+
+Lange Seiten (mehr als 48 Wörter) bekommen eine etwas kleinere Schrift. Im Hochformat verkleinert
+der Leser bei Bedarf nur das Bild, damit Text und Entscheidungsknöpfe immer ganz sichtbar sind.
 
 ## Neues Buch hinzufügen
 

@@ -1,0 +1,96 @@
+{
+  "id": "roboter-bolt",
+  "accent": "#f0643c",
+  "age": 6,
+  "title": { "de": "Emma und der Roboter Bolt", "es": "Emma y el robot Bolt" },
+  "blurb": {
+    "de": "Emma baut aus Schrott einen Roboter für den Erfinderwettbewerb. Nach einem Blitz wird Bolt lebendig – und nimmt alles ganz wörtlich!",
+    "es": "Emma construye un robot con chatarra para el concurso de inventos. Tras un rayo, Bolt cobra vida… ¡y se lo toma todo al pie de la letra!"
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Emma ist sieben Jahre alt und hat eine Zahnlücke, durch die sie wunderbar pfeifen kann.", "Am liebsten trägt sie ihre Latzhose mit der Werkzeugtasche, denn Emma ist Erfinderin.", "In der Garage schraubt sie an allem herum, was quietscht, klappert oder blinkt.", "Heute hat sie ein Plakat aus der Schule mitgebracht: In zwei Wochen ist der große Erfinderwettbewerb!", "„Ich baue einen Roboter!“, ruft Emma."],
+        "es": ["Emma tiene siete años y una ventanita en la sonrisa, porque se le ha caído un diente.", "Siempre lleva su peto vaquero con la bolsa de herramientas, porque Emma es inventora.", "En el garaje trastea con todo lo que chirría, traquetea o parpadea.", "Hoy ha traído un cartel del cole: ¡dentro de dos semanas es el gran concurso de inventos!", "—¡Voy a construir un robot! —exclama Emma."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Emma sammelt allerlei Schrott: einen alten Toaster, einen kaputten Staubsauger und eine Fahrradklingel.", "Der Toaster wird der Kopf, der Staubsauger der Bauch, und aus dem Schlauch werden zwei biegsame Arme.", "Zwei Fahrradlampen sind die Augen, und die Klingel kommt vorne auf den Bauch.", "Emma tauft ihren Roboter Bolt.", "Nur leider bewegt er sich keinen Millimeter."],
+        "es": ["Emma reúne un montón de chatarra: una tostadora vieja, una aspiradora rota y un timbre de bicicleta.", "La tostadora será la cabeza; la aspiradora, la barriga; y con la manguera hace dos brazos que se doblan.", "Dos faros de bici hacen de ojos, y el timbre va en mitad de la barriga.", "Emma llama a su robot Bolt, pero, por desgracia, no se mueve ni un milímetro."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["In der Nacht zieht ein gewaltiges Gewitter über die Stadt.", "Der Regen trommelt aufs Dach, und der Donner grollt wie ein hungriger Bauch.", "Plötzlich zuckt ein Blitz durch das offene Dachfenster der Garage – genau in Bolts Antenne!", "Es zischt und knistert, und überall sprühen Funken.", "Dann flackern Bolts Augen, erst schwach und dann immer heller."],
+        "es": ["Por la noche estalla una tormenta enorme sobre la ciudad.", "La lluvia repiquetea en el tejado y los truenos rugen como una tripa con hambre.", "De repente, un rayo entra por la claraboya abierta del garaje… ¡y da justo en la antena de Bolt!", "Todo chisporrotea y saltan chispas por todas partes.", "Entonces los ojos de Bolt parpadean, primero flojito y luego cada vez más fuerte."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Emma hat den Knall gehört und schleicht im Schlafanzug in die Garage.", "Da rollt Bolt ihr entgegen, und seine Augen leuchten wie zwei kleine Sonnen.", "„Hallo, wer bin ich?“, piepst er.", "„Du bist Bolt, mein Roboter!“, jubelt Emma.", "Bolt klingelt aufgeregt mit seiner Klingel: „Darf ich auch dein richtiger Freund sein?“"],
+        "es": ["Emma ha oído el estruendo y baja al garaje en pijama, de puntillas.", "Bolt rueda hacia ella con los ojos brillando como dos solecitos.", "—Hola, ¿quién soy yo? —pregunta con un pitido.", "—¡Eres Bolt, mi robot! —grita Emma de alegría.", "Bolt hace sonar su timbre, emocionado: —¿Puedo ser también tu amigo de verdad?"]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Am nächsten Morgen schaut Emma zur Haustür hinaus und seufzt: „Es regnet in Strömen!“", "Sofort saust Bolt mit einem Schwimmring hinaus in den Garten.", "Er sucht hinter jedem Busch und in jeder Pfütze nach dem großen Strom.", "Emma lacht, bis ihr der Bauch wehtut.", "„Das sagt man nur so, Bolt – es heißt, dass es ganz doll regnet!“"],
+        "es": ["A la mañana siguiente, Emma se asoma a la puerta y suspira: —¡Está lloviendo a mares!", "Bolt sale disparado al jardín con un flotador.", "Busca el mar detrás de cada arbusto y dentro de cada charco.", "Emma se ríe tanto que le duele la barriga.", "—Es solo una forma de hablar, Bolt: ¡quiere decir que llueve muchísimo!"]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Am Nachmittag liegt Emma im Gras und träumt von neuen Erfindungen.", "„Unsere Emma ist mal wieder mit dem Kopf in den Wolken“, schmunzelt Papa.", "Da schleppt Bolt die Leiter herbei und fischt mit dem Kescher nach den Wolken.", "„Keine Sorge, ich hole deinen Kopf zurück!“, piepst er.", "Emma kichert: „Mein Kopf ist doch hier unten, du Blechbüchse!“"],
+        "es": ["Por la tarde, Emma se tumba en la hierba y sueña con nuevos inventos.", "—Nuestra Emma está otra vez en las nubes —dice papá con una sonrisa.", "Bolt arrastra la escalera hasta allí y pesca nubes con un cazamariposas.", "—¡No te preocupes, Emma, yo te bajo de ahí! —pita.", "Emma se parte de risa: —¡Pero si estoy aquí abajo, lata con ruedas!"]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Bolt möchte unbedingt ein richtiger Freund sein, also hilft er, wo er nur kann.", "Er toastet Emma ein Frühstücksbrot, aber leider wird es kohlrabenschwarz.", "Beim Aufräumen saugt er aus Versehen ihre ganze Murmelsammlung ein.", "Bolt lässt die Lampenaugen hängen: „Ich mache alles falsch.“", "Doch Emma lacht: „Fehler gehören dazu, Bolt – ich mache auch ständig welche!“"],
+        "es": ["Bolt quiere ser un amigo de verdad, así que ayuda en todo lo que puede.", "Le tuesta a Emma el pan del desayuno, pero le sale negro como el carbón.", "Al recoger, aspira sin querer toda su colección de canicas.", "Bolt baja sus ojos de faro: —Lo hago todo mal.", "Pero Emma se ríe: —Equivocarse es normal, Bolt, ¡yo también me equivoco un montón!"]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Endlich ist der große Tag da, und die Turnhalle ist voller Erfindungen.", "Max hat eine riesige, glänzende Murmelbahn gebaut, die fast bis an die Decke reicht.", "Als er Bolt sieht, prustet er los: „Ha, ein Roboter aus Müll!“", "Ein paar andere Kinder kichern mit.", "Bolts Augen werden ganz trüb, und seine Klingel bleibt still."],
+        "es": ["Por fin llega el gran día, y el gimnasio del cole está lleno de inventos.", "Max ha construido un circuito de canicas enorme y reluciente que llega casi hasta el techo.", "Al ver a Bolt, se parte de risa: —¡Ja, un robot hecho de basura!", "Algunos niños se ríen también.", "Los ojos de Bolt se apagan, y su timbre se queda callado."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Emma will gerade ihren Vortrag üben, da merkt sie: Bolt ist weg!", "Auf dem Tisch liegt nur noch eine einzelne Schraube.", "Emma sucht unter den Tischen, hinter der Bühne und zwischen den Rucksäcken.", "Dann entdeckt sie eine Spur aus kleinen Öltropfen, wie Roboter-Tränen, die zum Geräteraum führt.", "Von drinnen klingt es ganz leise und traurig: „Kling.“"],
+        "es": ["Emma va a ensayar su presentación cuando, de pronto, se da cuenta: ¡Bolt no está!", "Sobre la mesa solo queda un tornillo suelto.", "Emma busca debajo de las mesas, detrás del escenario y entre las mochilas.", "Entonces descubre un rastro de gotitas de aceite, como lágrimas de robot, que lleva al cuarto del material.", "Y desde dentro se oye un «clin» muy bajito y muy triste."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Zwischen Bällen und Turnmatten sitzt Bolt und lässt den Toasterkopf hängen.", "„Ich bin nur Schrott“, schnieft er, „und ein richtiger Freund macht keine Fehler.“", "Emma setzt sich neben ihn: „Mir fehlt ein Zahn, und dein Kopf sitzt ein bisschen schief – na und?“", "„Du bist mein bester Freund, genau so, wie du bist!“", "Da gehen Bolts Augen langsam wieder an."],
+        "es": ["Entre balones y colchonetas está Bolt, con la cabeza de tostadora gacha.", "—Solo soy chatarra —gimotea—, y los amigos de verdad no se equivocan.", "Emma se sienta a su lado: —A mí me falta un diente y tú tienes la cabeza un poco torcida, ¿y qué?", "—¡Eres mi mejor amigo, tal y como eres!", "Poco a poco, los ojos de Bolt vuelven a encenderse."]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": ["Plötzlich kracht es laut in der Halle.", "Max’ Murmelbahn ist umgekippt, und Hunderte Murmeln kullern kreuz und quer über den Boden.", "Kinder schlittern, und Frau Sommer, die Schulleiterin, wackelt wie ein Pudding.", "Da saust Bolt los und schwingt seine Staubsaugerarme: Schlürf, schlürf, schlürf!", "Diesmal saugt er die Murmeln mit Absicht ein, und bald ist der Boden blitzblank."],
+        "es": ["De repente, se oye un estruendo en el gimnasio.", "El circuito de Max se ha volcado, y cientos de canicas ruedan por todo el suelo.", "Los niños patinan, y la señora Sol, la directora, se tambalea como un flan.", "Entonces Bolt sale disparado y mueve sus brazos de aspiradora: ¡sluuurp, sluuurp, sluuurp!", "Esta vez aspira las canicas a propósito, y en un periquete el suelo queda reluciente."]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": ["Alle jubeln, und Max wird ganz rot: „Danke, Bolt – tut mir leid, dass ich gelacht habe.“", "Frau Sommer überreicht Emma und Bolt einen goldenen Pokal: den Sonderpreis für das beste Team.", "Bolt klingelt so fröhlich, dass ihm vor Freude ein Toast aus dem Kopf hüpft.", "Und Emma weiß jetzt: Richtige Freunde machen auch mal Fehler – und halten trotzdem zusammen."],
+        "es": ["Todos aplauden, y Max se pone colorado: —Gracias, Bolt, y perdona por reírme de ti.", "La señora Sol les entrega a Emma y a Bolt una copa dorada: el premio especial al mejor equipo.", "Bolt toca el timbre tan contento que le sale una tostada disparada de la cabeza.", "Y Emma ya lo sabe: los amigos de verdad también se equivocan… y aun así siguen juntos."]
+      }
+    }
+  ]
+}

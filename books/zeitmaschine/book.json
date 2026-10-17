@@ -1,0 +1,274 @@
+{
+  "id": "zeitmaschine",
+  "accent": "#26a69a",
+  "age": 7,
+  "shelf": "interaktiv",
+  "interactive": true,
+  "title": { "de": "Opa Kunos Zeitmaschine", "es": "La máquina del tiempo del abuelo Kuno" },
+  "blurb": { "de": "In Opa Kunos Schuppen steht eine Zeitmaschine aus einer alten Badewanne, und Hund Knopf tritt aus Versehen auf den Startknopf! Dinos, Ritterburg oder Zukunft: Du entscheidest, wohin die Reise geht.", "es": "En el cobertizo del abuelo Kuno hay una máquina del tiempo hecha con una bañera vieja… ¡y el perro Botón pisa sin querer el botón de arranque! Dinosaurios, castillo o futuro: tú decides adónde va el viaje." },
+  "endings": [
+    { "id": "ei", "icon": "🥚", "title": { "de": "Die Dino-Eierschale", "es": "La cáscara de dinosaurio" } },
+    { "id": "ritter", "icon": "🛡️", "title": { "de": "Sir Knopf, der Ritterhund", "es": "Sir Botón, el perro caballero" } },
+    { "id": "fest", "icon": "👑", "title": { "de": "Das Fest der Königin", "es": "La fiesta de la reina" } },
+    { "id": "zukunft", "icon": "🛸", "title": { "de": "Ein Andenken aus der Zukunft", "es": "Un recuerdo del futuro" } },
+    { "id": "pyramide", "icon": "🐪", "title": { "de": "Kamelritt am Nil", "es": "En camello por el Nilo" } }
+  ],
+  "pages": [
+    {
+      "id": "start",
+      "image": "p01.svg",
+      "text": {
+        "de": ["Jeden Samstag besuchen Lea und Tim ihren Opa Kuno, den Erfinder mit den wuscheligen weißen Haaren und der Schutzbrille auf der Stirn.", "„Ich hole schnell Kuchen beim Bäcker“, sagt Opa heute.", "„Ihr dürft im Schuppen spielen, aber drückt bloß nicht auf den großen roten Knopf!“", "Opas kleiner Hund heißt auch Knopf, und der wedelt sofort wie verrückt mit dem Schwanz."],
+        "es": ["Todos los sábados, Lea y Tim visitan a su abuelo Kuno, un inventor de pelo blanco y alborotado con unas gafas protectoras en la frente.", "—Voy un momento a la panadería a por bizcocho —dice hoy el abuelo.", "—Podéis jugar en el cobertizo, pero ¡ni se os ocurra apretar el gran botón rojo!", "Su perrito se llama Botón, y al oír su nombre mueve la cola como loco."]
+      },
+      "next": "wanne"
+    },
+    {
+      "id": "wanne",
+      "image": "p02.svg",
+      "text": {
+        "de": ["Im Schuppen steht eine alte Badewanne mit Hebeln, bunten Lämpchen und einer großen Uhr.", "Auf der Uhr sind drei Bilder: ein Dino, eine Burg und eine Rakete.", "Da hüpft Knopf in die Wanne und tritt mit der Pfote genau auf den roten Knopf!", "Es summt und blinkt, Lea und Tim springen schnell hinterher, und Lea packt den großen Hebel.", "Wohin soll die Reise gehen?"],
+        "es": ["En el cobertizo hay una bañera antigua con palancas, lucecitas de colores y un reloj enorme.", "En el reloj hay tres dibujos: un dinosaurio, un castillo y un cohete.", "De repente, Botón salta dentro de la bañera… ¡y pisa con la pata el botón rojo!", "Todo zumba y parpadea; Lea y Tim saltan detrás de él, y Lea agarra la palanca grande.", "¿Adónde deben viajar los tres?"]
+      },
+      "choices": [
+        { "icon": "🦕", "color": "#4cc38a", "label": { "de": "Dinos", "es": "Dinos" }, "to": "dino" },
+        { "icon": "🏰", "color": "#ff9f43", "label": { "de": "Burg", "es": "Castillo" }, "to": "burg" },
+        { "icon": "🚀", "color": "#4aa3ff", "label": { "de": "Zukunft", "es": "Futuro" }, "to": "zukunft" }
+      ]
+    },
+    {
+      "id": "dino",
+      "image": "p03.svg",
+      "text": {
+        "de": ["Rumms! Die Wanne landet zwischen Farnen, die so hoch sind wie Häuser.", "Ein Dinosaurier mit einem langen, langen Hals knabbert gemütlich an einer Baumkrone.", "Da flitzt ein kleiner, gepunkteter Dino aus dem Gebüsch, und Knopf saust bellend hinterher!", "„Knopf, komm zurück!“, ruft Tim, doch der ist schon zwischen den Blättern verschwunden.", "Sollen sie hinterherrennen oder Knopf mit einem Leckerli aus Tims Tasche zurücklocken?"],
+        "es": ["¡Pataplum! La bañera aterriza entre helechos tan altos como casas.", "Un dinosaurio con un cuello larguísimo mordisquea tranquilamente la copa de un árbol.", "De pronto, un dinosaurio pequeñito con lunares sale de un arbusto, ¡y Botón corre detrás ladrando!", "—¡Botón, vuelve! —grita Tim, pero el perrito ya ha desaparecido entre las hojas.", "¿Corren tras él o lo llaman con la chuche que Tim lleva en el bolsillo?"]
+      },
+      "choices": [
+        { "icon": "🐾", "color": "#4cc38a", "label": { "de": "Hinterher", "es": "Correr" }, "to": "dino-spur" },
+        { "icon": "🦴", "color": "#ffb547", "label": { "de": "Leckerli", "es": "Chuche" }, "to": "dino-chuche" }
+      ]
+    },
+    {
+      "id": "dino-spur",
+      "image": "p04.svg",
+      "text": {
+        "de": ["Lea und Tim rennen los, mitten durch die riesigen Farne.", "Im weichen Boden sehen sie Knopfs kleine Pfotenabdrücke und daneben Dino-Spuren, so groß wie eine Badewanne!", "Hinter einem Felsen finden sie Knopf endlich wieder.", "Er spielt mit dem kleinen Dino Fangen, rund um ein riesiges Nest aus Zweigen."],
+        "es": ["Lea y Tim echan a correr entre los helechos gigantes.", "En el barro ven las huellas pequeñitas de Botón y, a su lado, ¡unas huellas de dinosaurio tan grandes como una bañera!", "Detrás de una roca, por fin, encuentran a Botón.", "Está jugando a pillar con el dinosaurio pequeñito alrededor de un nido enorme hecho de ramas."]
+      },
+      "next": "dino-nest"
+    },
+    {
+      "id": "dino-chuche",
+      "image": "p05.svg",
+      "text": {
+        "de": ["Tim raschelt mit der Tüte: „Knopf, ein Leckerli!“", "Sofort springt Knopf aus den Farnen, und der kleine Dino hüpft gleich hinterher.", "Der möchte nämlich auch ein Leckerli, und als er eins bekommt, quiekt er vor Freude.", "Dann zupft er Tim am Ärmel und führt alle zu einem riesigen Nest aus Zweigen."],
+        "es": ["Tim agita la bolsita: —¡Botón, mira, una chuche!", "Botón sale disparado de entre los helechos… ¡y el dinosaurio pequeñito va detrás!", "Resulta que él también quiere una chuche, y cuando se la dan, chilla de alegría.", "Luego tira a Tim de la manga y los lleva a todos hasta un nido enorme hecho de ramas."]
+      },
+      "next": "dino-nest"
+    },
+    {
+      "id": "dino-nest",
+      "image": "p06.svg",
+      "text": {
+        "de": ["Im Nest liegen drei große Eier mit grünen Punkten.", "Plötzlich wackelt eins, kullert über den Rand und rollt den Hang hinunter, direkt auf den Fluss zu!", "Tim will schon losrennen, doch Lea hat eine Idee: „Die Wanne steht gleich da drüben, damit drehen wir die Zeit eine Minute zurück!“", "Was sollen die beiden tun?"],
+        "es": ["En el nido hay tres huevos enormes con lunares verdes.", "De pronto, uno se tambalea, salta por el borde y rueda cuesta abajo… ¡directo hacia el río!", "Tim ya va a echar a correr, pero Lea tiene una idea: —¡La bañera está ahí al lado, podemos rebobinar el tiempo un minuto!", "¿Qué deben hacer los dos?"]
+      },
+      "choices": [
+        { "icon": "🥚", "color": "#ff9f43", "label": { "de": "Fangen", "es": "Atrapar" }, "to": "dino-fang" },
+        { "icon": "⏪", "color": "#a77bf3", "label": { "de": "Zurück", "es": "Rebobinar" }, "to": "dino-zeit" }
+      ]
+    },
+    {
+      "id": "dino-fang",
+      "image": "p07.svg",
+      "text": {
+        "de": ["Tim rennt, Lea rennt, und Knopf rennt am allerschnellsten.", "Kurz vor dem Wasser rutscht Tim auf dem Po durch den Matsch und fängt das Ei mit beiden Armen: „Hab es!“", "Da bebt der Boden, und die Dino-Mama mit dem langen Hals beugt sich zu ihnen herunter.", "Ganz vorsichtig nimmt sie das Ei ins Maul und trägt die Kinder auf ihrem Rücken zurück zum Nest."],
+        "es": ["Tim corre, Lea corre, y Botón corre más que nadie.", "Justo antes del agua, Tim resbala de culete por el barro y atrapa el huevo con los dos brazos: —¡Lo tengo!", "Entonces el suelo tiembla: la mamá dinosaurio del cuello largo se inclina hacia ellos.", "Con muchísimo cuidado coge el huevo con la boca y lleva a los niños a lomos hasta el nido."]
+      },
+      "next": "ende-ei"
+    },
+    {
+      "id": "ende-ei",
+      "image": "p08.svg",
+      "text": {
+        "de": ["Zum Dank schenkt der kleine Dino ihnen die Schale von seinem eigenen Ei, so groß wie ein Wäschekorb.", "Mit dem grünen Heim-Hebel fliegen sie zurück in den Schuppen, wo Opa Kuno schon mit dem Kuchen wartet.", "Opa schiebt die Schutzbrille hoch und staunt: „Eine echte Dino-Eierschale!“", "Und Knopf rollt sich darin zusammen, denn das ist jetzt das gemütlichste Hundebett der Welt."],
+        "es": ["Para darles las gracias, el dinosaurio pequeñito les regala la cáscara de su huevo, grande como un cesto de la ropa.", "Con la palanca verde vuelven al cobertizo, donde el abuelo Kuno ya los espera con el bizcocho.", "El abuelo se sube las gafas y exclama: —¡Una cáscara de huevo de dinosaurio de verdad!", "Y Botón se acurruca dentro: ¡es la cama de perro más cómoda del mundo!"]
+      },
+      "end": "ei"
+    },
+    {
+      "id": "dino-zeit",
+      "image": "p09.svg",
+      "text": {
+        "de": ["Lea und Tim flitzen zur Wanne, und Lea dreht den Zeiger ein winziges Stück zurück.", "Die Lämpchen leuchten, und das Ei rollt rückwärts den Hang hinauf, mitten hinein ins Nest!", "Tim legt schnell einen dicken Ast davor, damit es nicht noch einmal wegkullert.", "Doch plötzlich ruckelt die Wanne, der Zeiger dreht sich wie wild, und schwupp, sind alle drei verschwunden!"],
+        "es": ["Lea y Tim corren a la bañera, y Lea gira la aguja del reloj un poquitín hacia atrás.", "Las lucecitas brillan, y el huevo rueda marcha atrás cuesta arriba… ¡hasta meterse otra vez en el nido!", "Tim pone enseguida una rama gorda delante para que no vuelva a escaparse.", "Pero de pronto la bañera da una sacudida, la aguja gira como loca y… ¡zas!, los tres desaparecen."]
+      },
+      "next": "aegypten"
+    },
+    {
+      "id": "burg",
+      "image": "p10.svg",
+      "text": {
+        "de": ["Die Wanne landet mitten im Hof einer Ritterburg, wo gerade ein großes Fest gefeiert wird.", "Fahnen flattern, Gaukler jonglieren, und alle bestaunen den „Zauberbottich“.", "Da schießt eine freche Elster herab, schnappt sich das goldene Zahnrad der Zeitmaschine und fliegt damit auf den höchsten Turm!", "Ohne das Zahnrad kommen sie nicht mehr nach Hause.", "Sollen sie selbst hinaufsteigen oder den freundlichen Ritter Bodo um Hilfe bitten?"],
+        "es": ["La bañera aterriza en el patio de un castillo, justo en mitad de una gran fiesta.", "Ondean banderas, hay malabaristas y todos admiran el «caldero mágico».", "De pronto, una urraca descarada baja en picado, roba la rueda dorada de la máquina y vuela hasta la torre más alta.", "¡Sin esa rueda no pueden volver a casa!", "¿Suben ellos solos o piden ayuda a don Bodo, el amable caballero?"]
+      },
+      "choices": [
+        { "icon": "🪜", "color": "#4aa3ff", "label": { "de": "Turm", "es": "Torre" }, "to": "burg-turm" },
+        { "icon": "🛡️", "color": "#ff6b6b", "label": { "de": "Ritter", "es": "Caballero" }, "to": "burg-ritter" }
+      ]
+    },
+    {
+      "id": "burg-turm",
+      "image": "p11.svg",
+      "text": {
+        "de": ["Lea und Tim rennen die Wendeltreppe hinauf, immer rundherum, bis ihnen ganz schwindelig ist.", "Knopf bellt bei jeder Stufe, und es sind bestimmt hundert Stufen!", "Oben im Turmzimmer pfeift der Wind durch die schmalen Fenster.", "Und da, in einer Mauernische, sitzt die Elster auf ihrem Nest!"],
+        "es": ["Lea y Tim suben corriendo por la escalera de caracol, vueltas y más vueltas, hasta que se marean.", "Botón ladra en cada escalón, ¡y hay por lo menos cien!", "Arriba, en la sala de la torre, el viento silba por las ventanas estrechas.", "Y allí, en un hueco de la pared, está la urraca sentada en su nido."]
+      },
+      "next": "burg-nest"
+    },
+    {
+      "id": "burg-ritter",
+      "image": "p12.svg",
+      "text": {
+        "de": ["„Eine Elster? Nichts leichter als das!“, ruft Ritter Bodo und stapft los.", "Doch seine Rüstung ist so schwer, dass er auf der Wendeltreppe bei jeder Stufe quietscht und klappert.", "Lea und Tim schieben von hinten, und Knopf feuert ihn mit lautem Bellen an.", "Oben ist Ritter Bodo ganz aus der Puste: „Nächstes Mal ziehe ich das leichte Kettenhemd an!“"],
+        "es": ["—¿Una urraca? ¡Eso está hecho! —exclama don Bodo, y sale a paso firme.", "Pero su armadura pesa tanto que, en la escalera de caracol, chirría y tintinea en cada escalón.", "Lea y Tim lo empujan por detrás, y Botón lo anima con sus ladridos.", "Arriba, don Bodo llega sin aliento: —¡La próxima vez me pongo la cota de malla ligera!"]
+      },
+      "next": "burg-nest"
+    },
+    {
+      "id": "burg-nest",
+      "image": "p13.svg",
+      "text": {
+        "de": ["Im Nest der Elster glitzert es: Löffel, Knöpfe, ein goldener Ring und mittendrin ihr Zahnrad!", "Die Elster hockt darauf und schimpft: „Schack-schack-schack!“", "Tim findet in seiner Hosentasche seine schönste Glitzermurmel, die könnte er ihr zum Tausch anbieten.", "Knopf aber hat schon die Ohren gespitzt und will sich ganz leise anschleichen.", "Was sollen sie jetzt tun?"],
+        "es": ["El nido de la urraca está lleno de cosas brillantes: cucharas, botones, un anillo de oro y, en medio, ¡su rueda dorada!", "La urraca se sienta encima y protesta: —¡Chac, chac, chac!", "Tim encuentra en el bolsillo su canica más brillante; podría ofrecérsela a cambio.", "Pero Botón ya ha levantado las orejas y quiere acercarse sin hacer ruido.", "¿Qué deben hacer ahora?"]
+      },
+      "choices": [
+        { "icon": "🔮", "color": "#a77bf3", "label": { "de": "Tauschen", "es": "Cambiar" }, "to": "burg-tausch" },
+        { "icon": "🐶", "color": "#ff9f43", "label": { "de": "Knopf", "es": "Botón" }, "to": "burg-knopf" }
+      ]
+    },
+    {
+      "id": "burg-knopf",
+      "image": "p14.svg",
+      "text": {
+        "de": ["Knopf schleicht auf leisen Pfoten an der Wand entlang, ganz flach, fast wie eine Katze.", "Die Elster putzt sich gerade die Federn und merkt nichts.", "Schwupp, schon hat Knopf das Zahnrad vorsichtig im Maul und trabt stolz zu Lea zurück.", "Als sie mit dem Zahnrad die Treppe hinunterkommen, wartet unten schon der König auf sie."],
+        "es": ["Botón avanza pegado a la pared, muy agachado y sin hacer ruido, casi como un gato.", "La urraca está tan ocupada atusándose las plumas que no se da cuenta de nada.", "¡Zas! Con mucho cuidado, Botón coge la rueda con la boca y vuelve orgulloso junto a Lea.", "Cuando bajan la escalera con la rueda, el rey ya los está esperando abajo."]
+      },
+      "next": "ende-ritter"
+    },
+    {
+      "id": "ende-ritter",
+      "image": "p15.svg",
+      "text": {
+        "de": ["„So einen mutigen Hund habe ich noch nie gesehen!“, ruft der König.", "Er tippt Knopf mit dem Schwert ganz sanft auf beide Schultern: „Ich ernenne dich zu Sir Knopf, dem Ritterhund!“", "Alle jubeln, und Knopf bekommt einen kleinen roten Umhang.", "Zu Hause trägt er ihn jeden Tag, und Opa Kuno muss sich jetzt immer vor ihm verbeugen."],
+        "es": ["—¡Nunca he visto un perro tan valiente! —exclama el rey.", "Toca con la espada, muy suavemente, los hombros de Botón: —¡Yo te nombro Sir Botón, el perro caballero!", "Todos aplauden, y Botón recibe una capita roja.", "En casa la lleva todos los días, y ahora el abuelo Kuno tiene que hacerle una reverencia cada vez que lo ve."]
+      },
+      "end": "ritter"
+    },
+    {
+      "id": "burg-tausch",
+      "image": "p16.svg",
+      "text": {
+        "de": ["Tim hält die Murmel ins Licht, und sie funkelt in allen Regenbogenfarben.", "Die Elster legt den Kopf schief, hüpft näher und tauscht!", "Sie gibt das Zahnrad her, und weil die Murmel so schön ist, schiebt sie den goldenen Ring gleich mit dazu.", "Da ruft von unten eine Stimme: „Mein Ring! Hat jemand meinen Ring gesehen?“"],
+        "es": ["Tim levanta la canica hacia la luz, y brilla con todos los colores del arcoíris.", "La urraca ladea la cabeza, se acerca dando saltitos… ¡y acepta el cambio!", "Les devuelve la rueda y, como la canica es tan bonita, les da también el anillo de oro.", "Entonces, desde abajo, se oye una voz: —¡Mi anillo! ¿Alguien ha visto mi anillo?"]
+      },
+      "next": "ende-fest"
+    },
+    {
+      "id": "ende-fest",
+      "image": "p17.svg",
+      "text": {
+        "de": ["Die Königin strahlt, als Lea und Tim ihr den Ring zurückbringen.", "„Ihr seid heute unsere Ehrengäste!“, ruft sie, und schon tanzt die ganze Burg im Hof.", "Tim isst die größte Hähnchenkeule seines Lebens, und Knopf bekommt einen Knochen, fast so groß wie er selbst.", "Am Abend reisen sie nach Hause, und Opa Kuno staunt über die zwei goldenen Kronen auf ihren Köpfen."],
+        "es": ["La reina sonríe de oreja a oreja cuando le devuelven el anillo.", "—¡Hoy sois nuestros invitados de honor! —exclama, y todo el castillo baila en el patio.", "Tim se come el muslo de pollo más grande de su vida, y Botón recibe un hueso casi tan grande como él.", "Por la noche vuelven a casa, y el abuelo Kuno se queda pasmado al ver sus dos coronitas doradas."]
+      },
+      "end": "fest"
+    },
+    {
+      "id": "zukunft",
+      "image": "p18.svg",
+      "text": {
+        "de": ["Die Wanne landet auf einem Dachgarten, hoch über einer glitzernden Stadt.", "Fliegende Autos sausen vorbei, und ein kleiner Roboter gießt summend die Blumen.", "Da gehen die Lämpchen der Zeitmaschine aus, eins nach dem anderen: Der Strom ist alle!", "„Neuen Strom gibt es im Zeitmuseum“, piepst der Roboter Blinki.", "Sollen sie ein Flugtaxi nehmen oder lieber mit Blinki durch die Stadt gehen?"],
+        "es": ["La bañera aterriza en una azotea con jardín, muy por encima de una ciudad reluciente.", "Pasan coches voladores zumbando, y un robot pequeñito riega las flores canturreando.", "De pronto, las lucecitas de la máquina se apagan una tras otra: ¡no queda energía!", "—En el Museo del Tiempo os pueden cargar la bañera —pita el robot Blinki.", "¿Toman un taxi volador o van a pie con Blinki?"]
+      },
+      "choices": [
+        { "icon": "🚕", "color": "#ffb547", "label": { "de": "Flugtaxi", "es": "Taxi" }, "to": "zuk-taxi" },
+        { "icon": "🤖", "color": "#4aa3ff", "label": { "de": "Roboter", "es": "Robot" }, "to": "zuk-robo" }
+      ]
+    },
+    {
+      "id": "zuk-taxi",
+      "image": "p19.svg",
+      "text": {
+        "de": ["Ein rundes, gelbes Flugtaxi landet neben ihnen und hängt die Wanne einfach an einen Haken.", "Schon schweben sie zwischen den Hochhäusern hindurch, vorbei an Gärten mitten in den Wolken.", "Tim drückt die Nase an die Scheibe, und Knopf bellt die Vögel an, die neben ihnen herfliegen.", "Dann landet das Taxi sanft vor einem riesigen Haus aus Glas: dem Zeitmuseum."],
+        "es": ["Un taxi volador, redondo y amarillo, aterriza a su lado y cuelga la bañera de un gancho.", "Enseguida flotan entre los rascacielos, junto a jardines que están en mitad de las nubes.", "Tim pega la nariz al cristal, y Botón les ladra a los pájaros que vuelan a su lado.", "Al final, el taxi aterriza suavemente delante de un edificio enorme de cristal: el Museo del Tiempo."]
+      },
+      "next": "zuk-museum"
+    },
+    {
+      "id": "zuk-robo",
+      "image": "p20.svg",
+      "text": {
+        "de": ["Blinki rollt voraus und zieht die Wanne an einem Seil hinter sich her.", "Sie fahren auf einem Gehweg, der sich ganz von allein bewegt, und kaufen Eis, das in der Luft schwebt.", "Knopf schließt Freundschaft mit einem Roboterhund, der genauso schnell wedeln kann wie er.", "Endlich stehen sie vor einem riesigen Haus aus Glas: dem Zeitmuseum."],
+        "es": ["Blinki va delante rodando y tira de la bañera con una cuerda.", "Pasean por una acera que se mueve sola y se compran un helado que flota en el aire.", "Botón se hace amigo de un perro robot que mueve la cola tan rápido como él.", "Por fin llegan a un edificio enorme de cristal: el Museo del Tiempo."]
+      },
+      "next": "zuk-museum"
+    },
+    {
+      "id": "zuk-museum",
+      "image": "p21.svg",
+      "text": {
+        "de": ["Im Museum trauen Lea und Tim ihren Augen kaum.", "Hinter Glas steht eine Badewanne mit Hebeln und Lämpchen, und daneben hängt ein großes Bild von Opa Kuno!", "„Der Erfinder der ersten Zeitmaschine“, sagt die Museumsroboterin stolz.", "Mit Blitz-Strom ist die Wanne sofort voll, aber dann springt sie manchmal ganz woandershin.", "Sollen sie den Blitz nehmen oder eine Stunde warten?"],
+        "es": ["En el museo, Lea y Tim no dan crédito a sus ojos.", "Tras un cristal hay una bañera con palancas y lucecitas y, al lado, ¡un gran retrato del abuelo Kuno!", "—El inventor de la primera máquina del tiempo —dice orgullosa la guía robot.", "Con un rayo, la bañera se carga al instante, pero a veces sale disparada a otro sitio.", "¿Usan el rayo o esperan una hora?"]
+      },
+      "choices": [
+        { "icon": "⚡", "color": "#ffb547", "label": { "de": "Blitz", "es": "Rayo" }, "to": "aegypten" },
+        { "icon": "⏳", "color": "#4cc38a", "label": { "de": "Warten", "es": "Esperar" }, "to": "zuk-warten" }
+      ]
+    },
+    {
+      "id": "zuk-warten",
+      "image": "p22.svg",
+      "text": {
+        "de": ["Während die Wanne in Ruhe lädt, dürfen Lea und Tim das ganze Museum erkunden.", "Sie probieren Hüpfschuhe aus, mit denen man springen kann wie auf dem Mond.", "Zum Abschied schenkt ihnen die Roboterin eine silberne Kugel, die leise summend in der Luft schwebt.", "„Für den Erfinder“, sagt sie und zwinkert mit ihrem Lampenauge."],
+        "es": ["Mientras la bañera se carga tranquilamente, Lea y Tim pueden explorar todo el museo.", "Se prueban unas zapatillas saltarinas con las que se brinca como en la Luna.", "Al despedirse, la guía robot les regala una bola plateada que flota en el aire zumbando bajito.", "—Para el inventor —dice, y les guiña su ojo de lucecita."]
+      },
+      "next": "ende-zukunft"
+    },
+    {
+      "id": "ende-zukunft",
+      "image": "p23.svg",
+      "text": {
+        "de": ["Zu Hause im Schuppen wartet Opa Kuno schon mit dem Kuchen.", "Als die silberne Kugel aus Leas Tasche schwebt und über seinem Kopf zu leuchten beginnt, fällt ihm fast die Kuchengabel aus der Hand.", "„Die ist ja aus der Zukunft!“, staunt er.", "„Und in der Zukunft steht deine Zeitmaschine im Museum, Opa!“, ruft Tim, und Opa wird vor Stolz ganz rot."],
+        "es": ["En el cobertizo, el abuelo Kuno ya los espera con el bizcocho.", "Cuando la bola plateada sale flotando del bolsillo de Lea y se ilumina sobre su cabeza, al abuelo casi se le cae el tenedor.", "—¡Pero si esto viene del futuro! —exclama asombrado.", "—¡Y en el futuro tu máquina está en un museo, abuelo! —dice Tim, y el abuelo se pone colorado de orgullo."]
+      },
+      "end": "zukunft"
+    },
+    {
+      "id": "aegypten",
+      "image": "p24.svg",
+      "text": {
+        "de": ["Plumps! Die Wanne landet in heißem, goldgelbem Sand.", "Vor ihnen ragen riesige Pyramiden in den Himmel, und ein Kamel guckt neugierig über den Wannenrand.", "„Ägypten war doch gar nicht auf der Uhr!“, staunt Lea.", "Tim zieht am grünen Heim-Hebel, doch der rührt sich nicht, denn er steckt voller Sand."],
+        "es": ["¡Plaf! La bañera aterriza en una arena dorada y calentita.", "Delante de ellos se alzan unas pirámides gigantes, y un camello asoma la cabeza por el borde de la bañera.", "—¡Pero si Egipto no estaba en el reloj! —se asombra Lea.", "Tim tira de la palanca verde de volver a casa, pero no se mueve: está llena de arena."]
+      },
+      "next": "aeg-nefi"
+    },
+    {
+      "id": "aeg-nefi",
+      "image": "p25.svg",
+      "text": {
+        "de": ["Da kommt ein Mädchen mit einer Katze auf dem Arm angelaufen.", "„Ich bin Nefi“, sagt sie, „wartet, ich helfe euch!“", "Mit einem großen Palmwedel fegt Nefi den Sand fort, und Lea und Tim pusten, so fest sie können.", "Knopf hilft auf seine Art und buddelt, dass es nur so staubt.", "Mit einem lauten Klack springt der Hebel endlich wieder frei!"],
+        "es": ["Entonces llega corriendo una niña con un gato en brazos.", "—Me llamo Nefi —dice—. ¡Esperad, que os ayudo!", "Con una gran hoja de palmera, Nefi barre la arena, y Lea y Tim soplan con todas sus fuerzas.", "Botón ayuda a su manera: escarba y escarba, levantando una nube de polvo.", "¡Clac! Por fin la palanca vuelve a moverse."]
+      },
+      "next": "ende-pyramide"
+    },
+    {
+      "id": "ende-pyramide",
+      "image": "p26.svg",
+      "text": {
+        "de": ["Bevor sie heimreisen, reiten sie mit Nefi auf dem Kamel zum Nil und essen süße Datteln im Schatten der Palmen.", "Zum Abschied winken alle, bis die Wanne verschwunden ist.", "Im Schuppen schüttelt sich Knopf, und überall rieselt Wüstensand heraus.", "„Jetzt hat mein Schuppen sogar einen Sandkasten!“, lacht Opa Kuno und holt drei Schaufeln."],
+        "es": ["Antes de volver a casa, montan con Nefi en el camello hasta el Nilo y comen dátiles dulces a la sombra de las palmeras.", "Al despedirse, todos dicen adiós con la mano hasta que la bañera desaparece.", "En el cobertizo, Botón se sacude, y cae arena del desierto por todas partes.", "—¡Ahora mi cobertizo hasta tiene un arenero! —se ríe el abuelo Kuno, y trae tres palas."]
+      },
+      "end": "pyramide"
+    }
+  ]
+}

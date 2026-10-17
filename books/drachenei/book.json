@@ -1,0 +1,241 @@
+{
+  "id": "drachenei",
+  "accent": "#2fa86b",
+  "age": 6,
+  "shelf": "interaktiv",
+  "interactive": true,
+  "title": { "de": "Nils und das Drachenei", "es": "Nils y el huevo de dragón" },
+  "blurb": {
+    "de": "Nils findet am Waldrand ein warmes, schillerndes Ei – und heraus schlüpft ein kleiner Drache mit Schluckauf! Wie Nils ihm hilft, nach Hause zu finden, entscheidest du.",
+    "es": "Nils encuentra junto al bosque un huevo calentito y brillante… ¡y de él sale un dragoncito con hipo! Tú decides cómo lo ayuda Nils a volver a casa."
+  },
+  "endings": [
+    { "id": "mama", "icon": "🐉", "title": { "de": "Pfeffers Drachenmama", "es": "La mamá de Pimentón" } },
+    { "id": "nest", "icon": "🥚", "title": { "de": "Das Schluckauf-Nest", "es": "El nido del hipo" } },
+    { "id": "flug", "icon": "🌙", "title": { "de": "Nachtflug über die Stadt", "es": "Vuelo nocturno sobre la ciudad" } },
+    { "id": "fest", "icon": "🏮", "title": { "de": "Der Held vom Laternenfest", "es": "El héroe de los farolillos" } },
+    { "id": "pfeife", "icon": "🎶", "title": { "de": "Die silberne Drachenpfeife", "es": "El silbato de plata" } }
+  ],
+  "pages": [
+    {
+      "id": "start",
+      "image": "p01.svg",
+      "text": {
+        "de": ["Nils ist sechs Jahre alt, trägt eine runde Brille und am liebsten seine gelbe Regenjacke.", "An einem nebligen Morgen spielt er am Waldrand Schatzsucher.", "Plötzlich glitzert etwas zwischen den Farnen: ein Ei, so groß wie eine Melone, grün und golden schillernd.", "Nils legt vorsichtig die Hand darauf – es ist ganz warm!", "Und von innen klopft es: tock, tock, tock."],
+        "es": ["Nils tiene seis años, unas gafas redondas y un chubasquero amarillo que no se quita casi nunca.", "Una mañana de niebla, juega a buscar tesoros junto al bosque.", "De pronto, algo brilla entre los helechos: un huevo grande como un melón, verde y dorado.", "Nils lo toca con cuidado y… ¡está calentito!", "Y desde dentro alguien llama: toc, toc, toc."]
+      },
+      "next": "schluepfen"
+    },
+    {
+      "id": "schluepfen",
+      "image": "p02.svg",
+      "text": {
+        "de": ["Knack! Die Schale bricht, und heraus purzelt ein kleiner grüner Drache mit riesigen Augen.", "„Hicks!“, macht er, und aus seiner Nase sprühen winzige Funken – scharf wie Pfeffer.", "„Dann heißt du Pfeffer!“, lacht Nils.", "Aber was werden Mama und Papa wohl sagen?", "Soll Nils den Drachen verstecken oder seiner Familie zeigen?"],
+        "es": ["¡Crac! La cáscara se rompe y sale rodando un dragoncito verde con unos ojos enormes.", "—¡Hip! —hace el dragón, y de la nariz le saltan chispitas, como pimentón picante.", "—¡Pues te llamarás Pimentón! —se ríe Nils.", "Pero ¿qué dirán papá y mamá?", "¿Debe Nils esconder al dragón o enseñárselo a su familia?"]
+      },
+      "choices": [
+        { "icon": "🙈", "color": "#a77bf3", "label": { "de": "Verstecken", "es": "Esconder" }, "to": "versteck" },
+        { "icon": "🏠", "color": "#ff9f43", "label": { "de": "Zeigen", "es": "Enseñar" }, "to": "familie" }
+      ]
+    },
+    {
+      "id": "versteck",
+      "image": "p03.svg",
+      "text": {
+        "de": ["Nils schmuggelt Pfeffer unter seiner Regenjacke ins Kinderzimmer und versteckt ihn in der Spielzeugkiste.", "Am Abend hat Pfeffer wieder Schluckauf.", "Hicks – ein Funke fliegt, und die Gardine hat ein schwarzes Loch!", "Schnell kippt Nils sein Wasserglas darüber.", "„Pssst, sonst hört uns Mama!“, flüstert er."],
+        "es": ["Nils mete a Pimentón en su cuarto bajo el chubasquero y lo esconde en el baúl de los juguetes.", "Por la noche, a Pimentón le vuelve el hipo.", "¡Hip! Salta una chispa y la cortina se queda con un agujero negro.", "Nils le echa encima su vaso de agua a toda prisa.", "—¡Chsss, que nos va a oír mamá! —susurra."]
+      },
+      "next": "kuchen"
+    },
+    {
+      "id": "kuchen",
+      "image": "p04.svg",
+      "text": {
+        "de": ["Am nächsten Morgen ist Pfeffer schon so groß wie ein Hund.", "Und Omas Pflaumenkuchen ist verschwunden – nur ein paar Krümel und ein angekokelter Teller sind übrig!", "Papa kratzt sich am Kopf: „Hab ich etwa im Schlaf Kuchen gegessen?“", "Unter der Tischdecke schaut eine grüne Schwanzspitze hervor.", "Nils muss sich das Lachen verkneifen."],
+        "es": ["A la mañana siguiente, Pimentón ya es tan grande como un perro.", "Y la tarta de ciruelas de la abuela ha desaparecido: solo quedan migas y un plato chamuscado.", "Papá se rasca la cabeza: —¿Me la habré comido yo dormido?", "Por debajo del mantel asoma la punta de una cola verde.", "Nils tiene que aguantarse la risa."]
+      },
+      "next": "heimweh"
+    },
+    {
+      "id": "familie",
+      "image": "p05.svg",
+      "text": {
+        "de": ["Nils trägt Pfeffer vorsichtig nach Hause und ruft: „Mama, Papa, schaut mal!“", "Mama lässt vor Schreck den Wäschekorb fallen.", "Papa rückt seine Brille zurecht: „Das ist ja ein echter Drache!“", "Pfeffer hickst und landet mitten in den Socken.", "Da müssen alle lachen, und Mama sagt: „Na gut, er darf bleiben, bis wir wissen, wo er hingehört.“"],
+        "es": ["Nils lleva a Pimentón a casa con mucho cuidado y grita: —¡Mamá, papá, mirad!", "Del susto, a mamá se le cae el cesto de la ropa.", "Papá se ajusta las gafas: —¡Pero si es un dragón de verdad!", "Pimentón suelta un hipido y aterriza en medio de los calcetines.", "Todos se echan a reír, y mamá dice: —Bueno, puede quedarse hasta que sepamos de dónde viene."]
+      },
+      "next": "grill"
+    },
+    {
+      "id": "grill",
+      "image": "p06.svg",
+      "text": {
+        "de": ["Pfeffer wächst schnell und ist bald so groß wie ein Hund.", "Er hilft Papa beim Grillen, aber leider kokelt er dabei auch die Gardine an.", "Omas ganzen Pflaumenkuchen verputzt er mit einem einzigen Happs.", "„Dieser Drache isst mehr als drei Feuerwehrleute“, stöhnt Mama.", "Trotzdem krault sie ihn hinter den Ohren."],
+        "es": ["Pimentón crece muy deprisa y pronto es tan grande como un perro.", "Ayuda a papá con la barbacoa, pero, sin querer, también chamusca la cortina.", "Y se zampa la tarta de ciruelas de la abuela de un solo bocado.", "—Este dragón come más que tres bomberos —suspira mamá.", "Aun así, le rasca detrás de las orejas."]
+      },
+      "next": "heimweh"
+    },
+    {
+      "id": "heimweh",
+      "image": "p07.svg",
+      "text": {
+        "de": ["Am Abend sitzt Pfeffer auf der Gartenmauer und schaut zu den fernen Bergen, wo auf dem höchsten Gipfel Rauchwölkchen aufsteigen.", "Er seufzt leise, und eine dicke Träne kullert über seine Schuppen.", "„Du hast Heimweh, oder?“, fragt Nils. „Ich bringe dich nach Hause!“", "Doch vorher muss Pfeffer noch ein richtiger Drache werden.", "Was sollen die beiden zuerst üben?"],
+        "es": ["Por la tarde, Pimentón se sienta en el muro del jardín y mira las montañas lejanas, donde sale humo de la cumbre más alta.", "Suspira bajito y una lagrimona le resbala por las escamas.", "—Echas de menos tu casa, ¿verdad? —pregunta Nils—. ¡Yo te llevaré!", "Pero antes, Pimentón tiene que aprender a ser un dragón de verdad.", "¿Qué deben practicar primero?"]
+      },
+      "choices": [
+        { "icon": "🪶", "color": "#4aa3ff", "label": { "de": "Fliegen", "es": "Volar" }, "to": "fliegen" },
+        { "icon": "🔥", "color": "#ff6b6b", "label": { "de": "Feuer", "es": "Fuego" }, "to": "feuer" }
+      ]
+    },
+    {
+      "id": "fliegen",
+      "image": "p08.svg",
+      "text": {
+        "de": ["Nils stellt sich auf einen Baumstumpf und flattert mit den Armen: „So geht das!“", "Pfeffer flattert auch – und plumpst kopfüber in den Komposthaufen.", "Doch beim zehnten Versuch hebt er ab und dreht eine wackelige Runde um den Apfelbaum.", "„Du fliegst!“, jubelt Nils.", "Von oben schnuppert Pfeffer in die Luft und zeigt mit der Kralle zum Drachenberg: Dort ist sein Zuhause!"],
+        "es": ["Nils se sube a un tocón y mueve los brazos como si fueran alas: —¡Así se hace!", "Pimentón aletea también… y cae de cabeza en el montón de compost.", "Pero al décimo intento despega y da una vuelta tambaleante alrededor del manzano.", "—¡Estás volando! —grita Nils.", "Desde arriba, Pimentón olfatea el aire y señala con la garra la Montaña del Dragón: ¡allí está su casa!"]
+      },
+      "next": "schlucht"
+    },
+    {
+      "id": "schlucht",
+      "image": "p09.svg",
+      "text": {
+        "de": ["Am nächsten Morgen wandern die beiden los, mit Butterbroten im Rucksack.", "Bald stehen sie vor einer tiefen Schlucht.", "Darüber schaukelt eine alte Wackelbrücke, und daneben leuchtet der Eingang einer Glühwürmchen-Höhle.", "Pfeffer stupst Nils an und zeigt auf seinen Rücken: Er will ihn tragen!", "Welchen Weg sollen sie nehmen?"],
+        "es": ["A la mañana siguiente, los dos se ponen en marcha con bocadillos en la mochila.", "Pronto llegan a un barranco muy hondo.", "Encima se balancea un viejo puente colgante, y al lado brilla la entrada de una cueva de luciérnagas.", "Pimentón le da un empujoncito a Nils y señala su lomo: ¡quiere llevarlo volando!", "¿Qué camino deben elegir?"]
+      },
+      "choices": [
+        { "icon": "🌉", "color": "#ff9f43", "label": { "de": "Brücke", "es": "Puente" }, "to": "bruecke" },
+        { "icon": "✨", "color": "#a77bf3", "label": { "de": "Höhle", "es": "Cueva" }, "to": "hoehle" },
+        { "icon": "🐲", "color": "#4cc38a", "label": { "de": "Reiten", "es": "Montar" }, "to": "ritt" }
+      ]
+    },
+    {
+      "id": "bruecke",
+      "image": "p10.svg",
+      "text": {
+        "de": ["Nils hält sich am Seil fest und setzt einen Fuß vor den anderen.", "Die Brücke wackelt und quietscht, und tief unten rauscht ein Bach.", "Mitten auf der Brücke knackt ein Brett!", "Doch Pfeffer flattert schon neben ihm und hält ihn mit seinem Schwanz, bis Nils sicher drüben ist.", "„Wir sind ein gutes Team!“, keucht Nils, und Pfeffer hickst stolz einen Funkenregen."],
+        "es": ["Nils se agarra a la cuerda y pone un pie delante del otro.", "El puente se balancea y cruje, y muy abajo corre un arroyo.", "¡En medio del puente, una tabla hace crac!", "Pero Pimentón ya aletea a su lado y lo sujeta con la cola hasta que Nils llega al otro lado.", "—¡Somos un gran equipo! —resopla Nils, y Pimentón, orgulloso, suelta un hipido lleno de chispas."]
+      },
+      "next": "gipfel"
+    },
+    {
+      "id": "gipfel",
+      "image": "p11.svg",
+      "text": {
+        "de": ["Oben auf dem Drachenberg wartet eine riesige Drachin mit goldenem Bauch.", "„Mama!“, ruft Pfeffer – sein allererstes Wort – und kuschelt sich an sie.", "Die Drachenmama legt ihre Flügel um beide und brummt wie ein warmer Ofen.", "Und seitdem landet Pfeffer jeden Sommer in Nils’ Garten, mit einem Riesen-Hickser zur Begrüßung."],
+        "es": ["En la cima de la Montaña del Dragón espera una dragona enorme con la barriga dorada.", "—¡Mamá! —grita Pimentón, que es su primera palabra, y se acurruca contra ella.", "La mamá dragona los envuelve a los dos con sus alas y ronronea como una estufa calentita.", "Y desde entonces, cada verano, Pimentón aterriza en el jardín de Nils con un hipido de bienvenida."]
+      },
+      "end": "mama"
+    },
+    {
+      "id": "hoehle",
+      "image": "p12.svg",
+      "text": {
+        "de": ["In der Höhle ist es dunkel – aber nur einen Augenblick lang.", "Dann leuchten tausend Glühwürmchen auf, wie ein Sternenhimmel unter der Erde.", "Pfeffer staunt so sehr, dass er sogar vergisst zu hicksen.", "Doch ganz hinten in der Höhle klingt es: „Hicks! Hicks! Hicks!“", "Und dort flackern lauter kleine Funken."],
+        "es": ["En la cueva está oscuro, pero solo un momento.", "Enseguida se encienden mil luciérnagas, como un cielo de estrellas bajo tierra.", "Pimentón se queda tan asombrado que hasta se le olvida el hipo.", "Pero al fondo de la cueva se oye: —¡Hip! ¡Hip! ¡Hip!", "Y allí parpadean un montón de chispitas."]
+      },
+      "next": "nest"
+    },
+    {
+      "id": "nest",
+      "image": "p13.svg",
+      "text": {
+        "de": ["In einem Nest aus Moos sitzen fünf kleine Drachen – und alle haben Schluckauf!", "Eine große Drachin springt auf: „Mein Kleines! Dein Ei ist damals den Berg hinuntergekullert!“", "Pfeffer quiekt vor Freude, und seine Geschwister hicksen ihn zur Begrüßung an.", "Nils schiebt seine Brille hoch: „Gegen Schluckauf kenne ich einen Trick!“"],
+        "es": ["En un nido de musgo hay cinco dragoncitos… ¡y todos tienen hipo!", "Una dragona enorme se levanta de un salto: —¡Mi pequeño! ¡Tu huevo se fue rodando montaña abajo!", "Pimentón chilla de alegría, y sus hermanos le dan la bienvenida a base de hipidos.", "Nils se sube las gafas: —¡Yo conozco un truco contra el hipo!"]
+      },
+      "next": "trick"
+    },
+    {
+      "id": "trick",
+      "image": "p14.svg",
+      "text": {
+        "de": ["„Alle mal herhören!“, ruft Nils. „Luft anhalten, auf einem Bein stehen und bis zehn zählen!“", "Sechs kleine Drachen wackeln auf einem Bein, die Backen dick wie Kürbisse.", "Bei zehn ist es mucksmäuschenstill – der Schluckauf ist weg!", "Die Drachenmama lacht so laut, dass die Glühwürmchen tanzen, und ernennt Nils zum Ehren-Drachen."],
+        "es": ["—¡Atención todos! —grita Nils—. ¡Aguantad la respiración, a la pata coja, y contad hasta diez!", "Seis dragoncitos se tambalean sobre una pata, con los mofletes hinchados como calabazas.", "Al llegar a diez, no se oye ni una mosca: ¡el hipo ha desaparecido!", "La mamá dragona se ríe tan fuerte que las luciérnagas bailan, y nombra a Nils dragón de honor."]
+      },
+      "end": "nest"
+    },
+    {
+      "id": "ritt",
+      "image": "p15.svg",
+      "text": {
+        "de": ["Nils klettert auf Pfeffers Rücken und hält sich an den Zacken fest.", "Pfeffer nimmt Anlauf, flattert wild – und hebt ab!", "Unter ihnen werden Wald und Schlucht ganz klein, und in der Ferne sieht Nils sogar sein eigenes Haus.", "„Juhuuu!“, ruft Nils, und seine gelbe Jacke flattert im Wind.", "Die Sonne geht unter, und vor ihnen glüht der Drachenberg."],
+        "es": ["Nils se sube al lomo de Pimentón y se agarra bien a sus crestas.", "Pimentón coge carrerilla, aletea como loco… ¡y despega!", "Abajo, el bosque y el barranco se hacen pequeñitos, y a lo lejos Nils ve hasta su casa.", "—¡Yujuuu! —grita Nils, con el chubasquero amarillo ondeando al viento.", "El sol se pone y, delante de ellos, brilla la Montaña del Dragón."]
+      },
+      "next": "nachtflug"
+    },
+    {
+      "id": "nachtflug",
+      "image": "p16.svg",
+      "text": {
+        "de": ["Auf dem Gipfel wartet Pfeffers Mama und drückt ihr Kleines ganz fest.", "Zum Dank fliegen die beiden Drachen Nils in der Nacht nach Hause, über die funkelnden Lichter der Stadt.", "Unten zeigen die Leute nach oben: „Schaut mal, eine Sternschnuppe mit Schluckauf!“", "Seitdem holt Pfeffer Nils in jeder Vollmondnacht zu einem Ausflug ab."],
+        "es": ["En la cima los espera la mamá de Pimentón, que abraza muy fuerte a su pequeño.", "Para darle las gracias, los dos dragones llevan a Nils a casa por la noche, sobre las luces de la ciudad.", "Abajo, la gente señala el cielo: —¡Mirad, una estrella fugaz con hipo!", "Desde entonces, cada noche de luna llena, Pimentón pasa a buscar a Nils para dar un paseo."]
+      },
+      "end": "flug"
+    },
+    {
+      "id": "feuer",
+      "image": "p17.svg",
+      "text": {
+        "de": ["Pfeffer pustet und pustet, doch statt Feuer kommen nur Hickser und ein paar Funken.", "Da kitzelt Nils ihn am Bauch, bis Pfeffer lachen muss – und fffft, schießt eine Flamme heraus!", "Heute Abend ist Laternenfest: Vielleicht sieht Pfeffers Mama die Lichter vom Berg aus?", "Oder weiß Frau Mohnblum aus der Bücherei, wie man eine Drachenmama findet?", "Wohin sollen die beiden gehen?"],
+        "es": ["Pimentón sopla y sopla, pero solo le salen hipidos y alguna chispa.", "Entonces Nils le hace cosquillas en la barriga hasta que se ríe… y, ¡fffsss!, le sale una llama.", "Esta noche es la fiesta de los farolillos: ¿y si la mamá de Pimentón ve las luces desde la montaña?", "¿O sabrá doña Amapola, la bibliotecaria, cómo encontrar a una mamá dragona?", "¿Adónde deben ir los dos?"]
+      },
+      "choices": [
+        { "icon": "🏮", "color": "#ffb547", "label": { "de": "Fest", "es": "Fiesta" }, "to": "fest" },
+        { "icon": "📚", "color": "#4cc38a", "label": { "de": "Bücherei", "es": "Biblioteca" }, "to": "buecherei" }
+      ]
+    },
+    {
+      "id": "fest",
+      "image": "p18.svg",
+      "text": {
+        "de": ["Auf dem Marktplatz hängen hundert bunte Laternen.", "Doch gerade als das Fest beginnen soll, bläst ein Windstoß alle Kerzen aus, und die Streichhölzer sind nass.", "„Ohne Licht kein Laternenfest“, seufzt der Bürgermeister.", "Da tritt Nils vor: „Wir können helfen!“", "Alle starren auf den grünen Drachen an seiner Seite."],
+        "es": ["En la plaza cuelgan cien farolillos de colores.", "Pero justo cuando va a empezar la fiesta, una ráfaga de viento apaga todas las velas, y las cerillas están mojadas.", "—Sin luz no hay fiesta —suspira el alcalde.", "Entonces Nils da un paso al frente: —¡Nosotros podemos ayudar!", "Todos se quedan mirando al dragón verde que lo acompaña."]
+      },
+      "next": "laternen"
+    },
+    {
+      "id": "laternen",
+      "image": "p19.svg",
+      "text": {
+        "de": ["Nils kitzelt Pfeffer am Bauch, und Pfeffer lacht und hickst und lacht.", "Mit jedem Hickser fliegt ein Funke – pling, pling, pling – genau in eine Laterne.", "Bald leuchtet der ganze Platz in Rot, Gelb und Blau.", "Die Leute klatschen und jubeln: „Ein Hoch auf Pfeffer!“"],
+        "es": ["Nils le hace cosquillas a Pimentón en la barriga, y él se ríe, hipa y vuelve a reírse.", "Con cada hipido sale una chispa —¡pin, pin, pin!— que cae justo dentro de un farolillo.", "Enseguida toda la plaza brilla de rojo, amarillo y azul.", "La gente aplaude y grita: —¡Viva Pimentón!"]
+      },
+      "next": "festende"
+    },
+    {
+      "id": "festende",
+      "image": "p20.svg",
+      "text": {
+        "de": ["Da rauscht es über den Dächern, und eine große Drachin landet sanft auf dem Marktplatz.", "Sie hat die vielen Lichter vom Berg aus gesehen – es ist Pfeffers Mama!", "Sie bleibt zum Fest, isst drei Bleche Kuchen und tanzt mit dem Bürgermeister.", "Und jedes Jahr kommen Pfeffer und seine Mama wieder, um die Laternen anzuzünden."],
+        "es": ["De pronto, algo zumba sobre los tejados, y una dragona enorme aterriza suavemente en la plaza.", "Ha visto las luces desde la montaña: ¡es la mamá de Pimentón!", "Se queda a la fiesta, se come tres bandejas de bizcocho y baila con el alcalde.", "Y cada año, Pimentón y su mamá vuelven para encender los farolillos de la fiesta."]
+      },
+      "end": "fest"
+    },
+    {
+      "id": "buecherei",
+      "image": "p21.svg",
+      "text": {
+        "de": ["In der Bücherei riecht es nach Papier und ein bisschen nach Staub.", "Frau Mohnblum hat silberne Haare und eine Brille an einer Kette.", "Als sie Pfeffer sieht, fällt ihr fast das Buch aus der Hand.", "„Ein Drachenkind!“, flüstert sie. „Als ich klein war, habe ich auch einmal ein Drachenei gefunden.“", "Dann holt sie eine alte silberne Pfeife aus der Schublade."],
+        "es": ["La biblioteca huele a papel y un poquito a polvo.", "Doña Amapola tiene el pelo plateado y unas gafas colgadas de una cadenita.", "Al ver a Pimentón, casi se le cae el libro de las manos.", "—¡Un dragoncito! —susurra—. Cuando yo era pequeña, también encontré un huevo de dragón.", "Entonces saca de un cajón un viejo silbato de plata."]
+      },
+      "next": "huegel"
+    },
+    {
+      "id": "huegel",
+      "image": "p22.svg",
+      "text": {
+        "de": ["Zu dritt steigen sie auf den Hügel hinter dem Dorf, während die ersten Sterne aufgehen.", "Frau Mohnblum pfeift eine Melodie, hell und lang.", "„Meine Drachin hieß Zimt“, erzählt sie. „Mit dieser Pfeife habe ich sie immer gerufen.“", "Eine Weile ist es ganz still.", "Dann hören sie über den Wolken ein tiefes, fröhliches Brummen."],
+        "es": ["Los tres suben a la colina que hay detrás del pueblo mientras salen las primeras estrellas.", "Doña Amapola silba una melodía larga y clara.", "—Mi dragona se llamaba Canela —cuenta—. Con este silbato siempre la llamaba.", "Durante un rato, no se oye nada.", "Entonces, por encima de las nubes, suena un ruido grave y alegre."]
+      },
+      "next": "zimt"
+    },
+    {
+      "id": "zimt",
+      "image": "p23.svg",
+      "text": {
+        "de": ["Eine große Drachin mit goldenem Bauch landet vor ihnen und schleckt Frau Mohnblum quer übers Gesicht.", "„Zimt!“, lacht die alte Frau. „Du bist ja Mama geworden!“", "Pfeffer kuschelt sich glücklich an seine Mama.", "Zum Abschied schenkt Frau Mohnblum Nils die Silberpfeife, und wann immer er pfeift, kommt Pfeffer angeflogen."],
+        "es": ["Una dragona grande con la barriga dorada aterriza delante de ellos y le da un lametón a doña Amapola en toda la cara.", "—¡Canela! —se ríe la anciana—. ¡Pero si te has hecho mamá!", "Pimentón se acurruca feliz junto a su mamá.", "Al despedirse, doña Amapola le regala a Nils el silbato de plata, y cada vez que silba, Pimentón llega volando."]
+      },
+      "end": "pfeife"
+    }
+  ]
+}

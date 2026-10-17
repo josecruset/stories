@@ -9,8 +9,8 @@ window.BOOKS = [
   'drei-schweinchen', 'froschkoenig', 'stadtmusikanten', 'geisslein', 'rumpelstilzchen',
   'gestiefelter-kater', 'haessliches-entlein', 'goldloeckchen', 'rapunzel', 'frau-holle',
   'raton-perez', 'ratita', 'garbancito', 'rattenfaenger', 'sterntaler',
-  // Neue Geschichten
-  'luna', 'pip', 'bruno',
-  // Interaktive Geschichten
-  'luzi', 'ole',
+  // Neue Geschichten (ab 3–4, dann ab 6–7)
+  'luna', 'pip', 'bruno', 'roboter-bolt', 'leuchtturm',
+  // Interaktive Geschichten (ab 4, dann ab 6–7)
+  'luzi', 'ole', 'drachenei', 'zeitmaschine', 'detektivin-mila',
 ];

@@ -1,0 +1,283 @@
+{
+  "id": "detektivin-mila",
+  "accent": "#e4573d",
+  "age": 7,
+  "shelf": "interaktiv",
+  "interactive": true,
+  "title": { "de": "Detektivin Mila und der verschwundene Kristall", "es": "La detective Mila y el cristal desaparecido" },
+  "blurb": {
+    "de": "Im Naturkundemuseum ist der blaue Mondkristall verschwunden! Folge mit Detektivin Mila den Spuren, befrage die Verdächtigen und entscheide selbst, wie der Fall gelöst wird.",
+    "es": "¡En el Museo de Ciencias Naturales ha desaparecido el Cristal de Luna! Sigue las pistas con la detective Mila, interroga a los sospechosos y decide tú cómo se resuelve el caso."
+  },
+  "endings": [
+    { "id": "dino", "icon": "🦕", "title": { "de": "Das Herz des Dinosauriers", "es": "El corazón del dinosaurio" } },
+    { "id": "fest", "icon": "🎉", "title": { "de": "Die große Überraschung", "es": "La gran sorpresa" } },
+    { "id": "professor", "icon": "🫖", "title": { "de": "Der blitzblanke Kristall", "es": "El cristal reluciente" } },
+    { "id": "nest", "icon": "🐱", "title": { "de": "Tigers Glitzerschatz", "es": "El tesoro brillante de Tigre" } },
+    { "id": "storch", "icon": "🥚", "title": { "de": "Das blaue Storchenei", "es": "El huevo azul de la cigüeña" } }
+  ],
+  "pages": [
+    {
+      "id": "start",
+      "image": "p01.svg",
+      "text": {
+        "de": ["Mila ist sieben Jahre alt und will später einmal Detektivin werden.", "Ihre rote Mütze, ihre Lupe und ihr Notizbuch hat sie immer dabei.", "Heute besucht ihre Klasse das Naturkundemuseum, und ihr bester Freund Jonas hüpft vor Aufregung.", "„Gleich sehen wir den blauen Mondkristall!“, ruft er.", "„Er leuchtet im Dunkeln, genau wie der Mond!“"],
+        "es": ["Mila tiene siete años y de mayor quiere ser detective.", "Siempre lleva encima su gorro rojo, su lupa y su libreta.", "Hoy su clase visita el Museo de Ciencias Naturales, y su mejor amigo, Jonás, va dando saltitos de emoción.", "—¡Enseguida veremos el Cristal de Luna! —exclama—.", "¡Dicen que brilla en la oscuridad, igual que la Luna!"]
+      },
+      "next": "alarm"
+    },
+    {
+      "id": "alarm",
+      "image": "p02.svg",
+      "text": {
+        "de": ["Doch in der großen Halle ist die Vitrine leer!", "„Der Mondkristall ist weg!“, ruft Professor Funkel und rauft sich die weißen Haare.", "Herr Brumm, der Nachtwächter, gähnt so laut wie ein Bär.", "Nur die strenge Direktorin, Frau Adler, bleibt seltsam ruhig und schaut auf die Uhr.", "Mila zückt ihr Notizbuch: „Das ist ein Fall für mich!“"],
+        "es": ["Pero en la gran sala, ¡la vitrina está vacía!", "—¡El Cristal de Luna ha desaparecido! —grita el profesor Chispas, tirándose de los pelos blancos.", "El señor Modorro, el vigilante nocturno, bosteza como un oso.", "Solo la directora, la seria señora Aguilar, se queda tranquila, demasiado tranquila, y mira el reloj.", "Mila saca su libreta: —¡Este caso es para mí!"]
+      },
+      "next": "vitrine"
+    },
+    {
+      "id": "vitrine",
+      "image": "p03.svg",
+      "text": {
+        "de": ["Mila kniet sich vor die Vitrine und hält ihre Lupe ganz nah an den Boden.", "Der Glasdeckel steht einen Spalt offen.", "Und da sind gleich drei Spuren: Kekskrümel, winzige Pfotenabdrücke und ein goldener Knopf mit einem Stern.", "„Wo fangen wir an?“, flüstert Jonas.", "Welcher Spur soll Mila folgen?"],
+        "es": ["Mila se arrodilla delante de la vitrina y acerca la lupa al suelo.", "La tapa de cristal está un poquito abierta.", "Y ahí hay tres pistas: migas de galleta, unas huellas de pata diminutas y un botón dorado con una estrella.", "—¿Por dónde empezamos? —susurra Jonás.", "¿Qué pista debe seguir Mila?"]
+      },
+      "choices": [
+        { "icon": "🍪", "color": "#ffb547", "label": { "de": "Krümel", "es": "Migas" }, "to": "brumm" },
+        { "icon": "🐾", "color": "#4cc38a", "label": { "de": "Pfoten", "es": "Huellas" }, "to": "pfoten" },
+        { "icon": "⭐", "color": "#4aa3ff", "label": { "de": "Knopf", "es": "Botón" }, "to": "knopf" }
+      ]
+    },
+    {
+      "id": "brumm",
+      "image": "p04.svg",
+      "text": {
+        "de": ["Die Krümel führen zur Wachstube, und dort schnarcht Herr Brumm im Sessel, eine Keksdose auf dem Bauch.", "Erschrocken fährt er hoch: „Ich war’s nicht!“", "„Um Mitternacht hörte ich ein Klirren, und dann weiß ich nichts mehr.“", "Die Krümelspur führt weiter zu den Dinosauriern.", "„Aber die Direktorin war gestern spät noch mit einer großen Kiste unterwegs“, murmelt Herr Brumm.", "Wohin soll Mila jetzt gehen?"],
+        "es": ["Las migas llevan al cuarto del vigilante: el señor Modorro ronca en su sillón, con una lata de galletas en la barriga.", "Se despierta de un brinco: —¡Yo no he sido!", "—A medianoche oí un tintineo, y luego ya no me acuerdo de nada.", "Las migas siguen hacia la sala de los dinosaurios.", "—Anoche la directora andaba por aquí con una caja enorme —murmura.", "¿Adónde debe ir Mila ahora?"]
+      },
+      "choices": [
+        { "icon": "🦕", "color": "#4cc38a", "label": { "de": "Dinos", "es": "Dinos" }, "to": "dinosaal" },
+        { "icon": "👩‍💼", "color": "#a77bf3", "label": { "de": "Direktorin", "es": "Directora" }, "to": "buero" }
+      ]
+    },
+    {
+      "id": "dinosaal",
+      "image": "p05.svg",
+      "text": {
+        "de": ["Die Krümelspur endet genau unter Berta, dem riesigen Dinosaurier-Skelett.", "Mila schaut mit der Lupe nach oben: Zwischen den Rippen funkelt etwas Blaues!", "Herr Brumm wird knallrot: „Jetzt fällt’s mir wieder ein!“", "„Ich dachte, ein Dieb ist da, und habe den Kristall schnell in Berta versteckt – und dann bin ich eingeschlafen.“", "Wie soll Mila den Kristall herunterholen?"],
+        "es": ["Las migas terminan justo debajo de Berta, el enorme esqueleto de dinosaurio.", "Mila mira hacia arriba con la lupa: ¡entre las costillas brilla algo azul!", "El señor Modorro se pone rojo como un tomate: —¡Ahora me acuerdo!", "—Creí que había un ladrón, escondí el cristal dentro de Berta… y luego me quedé dormido.", "¿Cómo puede Mila bajar el cristal de ahí arriba?"]
+      },
+      "choices": [
+        { "icon": "🪜", "color": "#ff9f43", "label": { "de": "Leiter", "es": "Escalera" }, "to": "leiter" },
+        { "icon": "🦋", "color": "#4aa3ff", "label": { "de": "Netz", "es": "Red" }, "to": "netz" }
+      ]
+    },
+    {
+      "id": "leiter",
+      "image": "p06.svg",
+      "text": {
+        "de": ["Herr Brumm holt die lange Museumsleiter, und Jonas hält sie mit ihm ganz fest.", "Sprosse für Sprosse klettert Mila nach oben, an Bertas Knochen vorbei.", "„Bloß nicht nach unten schauen“, sagt sie sich und streckt die Hand aus.", "Der Kristall ist kühl und glatt und leuchtet in ihrer Hand wie ein kleines Stück Mond."],
+        "es": ["El señor Modorro trae la escalera larga del museo, y Jonás la sujeta bien fuerte a su lado.", "Peldaño a peldaño, Mila sube entre los huesos de Berta.", "«No mires hacia abajo», se dice, y estira la mano.", "El cristal está fresquito y suave, y brilla en su mano como un trocito de Luna."]
+      },
+      "next": "dino-ende"
+    },
+    {
+      "id": "netz",
+      "image": "p07.svg",
+      "text": {
+        "de": ["Jonas flitzt in den Schmetterlingssaal und kommt mit einem Kescher an einer langen Stange zurück.", "Mila zielt ganz genau, so wie eine echte Detektivin.", "Ein kleiner Stups zwischen die Rippen, und plopp, der Kristall rollt hinaus und landet weich im Netz.", "„Volltreffer!“, jubelt Jonas und macht einen Luftsprung."],
+        "es": ["Jonás corre a la sala de las mariposas y vuelve con un cazamariposas de mango muy largo.", "Mila apunta con mucho cuidado, como una detective de verdad.", "Un toquecito entre las costillas y… ¡plop!, el cristal rueda y cae suavecito en la red.", "—¡Bingo! —grita Jonás, y pega un salto de alegría."]
+      },
+      "next": "dino-ende"
+    },
+    {
+      "id": "dino-ende",
+      "image": "p08.svg",
+      "text": {
+        "de": ["Bald leuchtet der Mondkristall wieder in seiner Vitrine, und alle klatschen.", "Frau Adler steckt Mila einen glänzenden Anstecker an: „Ehren-Detektivin des Museums“.", "Herr Brumm bekommt einen riesigen Wecker, damit er nachts nicht mehr einschläft.", "Und wenn man ganz genau hinschaut, lächelt sogar die alte Berta."],
+        "es": ["Al poco rato, el Cristal de Luna vuelve a brillar en su vitrina, y todos aplauden.", "La señora Aguilar le pone a Mila una insignia reluciente: «Detective de Honor del Museo».", "Al señor Modorro le regalan un despertador gigante, para que no se duerma por las noches.", "Y si te fijas bien, hasta la vieja Berta parece sonreír."]
+      },
+      "end": "dino"
+    },
+    {
+      "id": "buero",
+      "image": "p09.svg",
+      "text": {
+        "de": ["Mila und Jonas klopfen an die Tür der Direktorin.", "Frau Adler eilt gerade mit einem großen, verhüllten Paket hinaus: „Keine Zeit, Kinder!“", "Doch Mila entdeckt ein verstecktes Zeichen im Wandkalender: Beim heutigen Tag ist ein kleiner Mond gemalt, daneben eine Sieben und eine Uhr.", "„Ein Mond, wie beim Mondkristall“, flüstert Jonas.", "Was soll Mila tun?"],
+        "es": ["Mila y Jonás llaman a la puerta del despacho de la directora.", "La señora Aguilar sale a toda prisa con un paquete enorme, tapado con una tela: —¡Ahora no, niños!", "Pero Mila descubre una señal escondida en el calendario: en el día de hoy hay una lunita dibujada, un siete y un reloj.", "—Una luna, como el Cristal de Luna —susurra Jonás.", "¿Qué debe hacer Mila?"]
+      },
+      "choices": [
+        { "icon": "💬", "color": "#ff9f43", "label": { "de": "Fragen", "es": "Preguntar" }, "to": "fragen" },
+        { "icon": "👣", "color": "#a77bf3", "label": { "de": "Folgen", "es": "Seguirla" }, "to": "folgen" }
+      ]
+    },
+    {
+      "id": "fragen",
+      "image": "p10.svg",
+      "text": {
+        "de": ["Mila nimmt all ihren Mut zusammen: „Frau Adler, was passiert heute um zwölf Uhr in Saal 7?“", "Die Direktorin schaut streng über ihre Brille.", "Dann zuckt ihr Mundwinkel, und plötzlich lacht sie.", "„Du bist wirklich eine gute Detektivin“, sagt sie.", "„Kommt mit, ihr zwei, aber verratet noch nichts!“"],
+        "es": ["Mila se arma de valor: —Señora Aguilar, ¿qué pasa hoy a las doce en la sala 7?", "La directora la mira muy seria por encima de las gafas.", "Luego se le escapa una sonrisa, y al final se echa a reír.", "—Eres una detective estupenda —dice—.", "Venid conmigo, pero ni una palabra a nadie."]
+      },
+      "next": "fest-ende"
+    },
+    {
+      "id": "folgen",
+      "image": "p11.svg",
+      "text": {
+        "de": ["Auf Zehenspitzen schleichen Mila und Jonas hinter der Direktorin her.", "Sie verstecken sich hinter einem ausgestopften Bären und dann hinter einem Mammut.", "Plötzlich muss Jonas niesen: „Hatschi!“", "Frau Adler dreht sich um, die Hände in die Hüften gestemmt, und muss lachen.", "„Na gut, ihr Spürnasen, dann kommt eben mit!“"],
+        "es": ["De puntillas, Mila y Jonás siguen a la directora por los pasillos.", "Se esconden detrás de un oso disecado y luego detrás de un mamut.", "De repente, Jonás estornuda: —¡Achís!", "La señora Aguilar se da la vuelta con los brazos en jarras… y se echa a reír.", "—Está bien, sabuesos, venid conmigo."]
+      },
+      "next": "fest-ende"
+    },
+    {
+      "id": "fest-ende",
+      "image": "p12.svg",
+      "text": {
+        "de": ["In Saal 7 ist es dunkel, bis Frau Adler einen Schalter drückt.", "Über ihnen leuchtet ein Himmel voller Sterne, und in der Mitte strahlt der Mondkristall auf einem silbernen Sockel.", "„Überraschung!“, ruft Frau Adler. „Unser Museum wird heute hundert Jahre alt, und der Kristall bekommt einen neuen Saal.“", "Um zwölf Uhr darf Mila den Sternensaal eröffnen, und alle jubeln der Detektivin zu."],
+        "es": ["La sala 7 está a oscuras, hasta que la señora Aguilar pulsa un interruptor.", "Sobre sus cabezas se enciende un cielo lleno de estrellas, y en el centro brilla el Cristal de Luna sobre un pedestal plateado.", "—¡Sorpresa! —exclama la señora Aguilar—. Hoy el museo cumple cien años, y el cristal estrena sala.", "A las doce, Mila inaugura la Sala de las Estrellas, y todos aplauden a la detective."]
+      },
+      "end": "fest"
+    },
+    {
+      "id": "knopf",
+      "image": "p13.svg",
+      "text": {
+        "de": ["Mila hält den goldenen Knopf ins Licht und vergleicht genau.", "Die Direktorin hat auch goldene Knöpfe, aber auf ihren sind kleine Eulen.", "Am weißen Kittel von Professor Funkel sind Sternknöpfe, und einer fehlt!", "Doch da versteckt Frau Adler schnell eine Papierrolle hinter ihrem Rücken.", "Wen soll Mila befragen?"],
+        "es": ["Mila pone el botón dorado a la luz y compara con atención.", "La directora también lleva botones dorados, pero los suyos tienen búhos.", "La bata blanca del profesor Chispas tiene botones de estrella… ¡y le falta uno!", "Pero entonces la señora Aguilar esconde a toda prisa un rollo de papel detrás de la espalda.", "¿A quién debe interrogar Mila?"]
+      },
+      "choices": [
+        { "icon": "👨‍🔬", "color": "#4aa3ff", "label": { "de": "Professor", "es": "Profesor" }, "to": "werkstatt" },
+        { "icon": "👩‍💼", "color": "#a77bf3", "label": { "de": "Direktorin", "es": "Directora" }, "to": "buero" }
+      ]
+    },
+    {
+      "id": "werkstatt",
+      "image": "p14.svg",
+      "text": {
+        "de": ["Die Werkstatt des Professors ist voller Steine, Gläser, Lupen und Bücherstapel.", "„Der Mondkristall?“, murmelt Professor Funkel.", "„Ich putze jeden Abend meine Steine, aber ob ich gestern …?“", "Er kratzt sich am Kopf und sucht seine Brille, die auf seiner Stirn sitzt.", "Wie soll Mila den Kristall finden?"],
+        "es": ["El taller del profesor está lleno de piedras, frascos, lupas y montañas de libros.", "—¿El Cristal de Luna? —murmura el profesor Chispas.", "—Todas las noches limpio mis piedras, pero si ayer… no sé.", "Se rasca la cabeza y busca sus gafas, que lleva puestas en la frente.", "¿Cómo puede Mila encontrar el cristal?"]
+      },
+      "choices": [
+        { "icon": "🤔", "color": "#ffb547", "label": { "de": "Erinnern", "es": "Recordar" }, "to": "erinnern" },
+        { "icon": "🔍", "color": "#4cc38a", "label": { "de": "Suchen", "es": "Buscar" }, "to": "suchen" }
+      ]
+    },
+    {
+      "id": "erinnern",
+      "image": "p15.svg",
+      "text": {
+        "de": ["Mila schlägt ihr Notizbuch auf: „Erzählen Sie mal, Schritt für Schritt!“", "„Zuerst habe ich den Kristall geputzt“, sagt der Professor.", "„Dann habe ich mir Tee gekocht, und dann habe ich meine Brille gesucht.“", "Mila zählt eins und eins zusammen.", "Wo der Tee ist, da ist bestimmt auch der Kristall!"],
+        "es": ["Mila abre su libreta: —Cuéntemelo todo, paso a paso.", "—Primero limpié el cristal —dice el profesor.", "—Luego me preparé un té, y después me puse a buscar mis gafas.", "Mila suma dos y dos, como hacen los buenos detectives.", "¡Donde esté el té, seguro que está el cristal!"]
+      },
+      "next": "prof-ende"
+    },
+    {
+      "id": "suchen",
+      "image": "p16.svg",
+      "text": {
+        "de": ["Mila und Jonas suchen überall: unter Papierbergen, in Schubladen und hinter einem Fischskelett.", "Jonas findet drei Brillen, eine Socke und ein uraltes Käsebrot, das schon ganz grün ist.", "„Igitt!“, lacht er.", "Da sieht Mila etwas Seltsames: Der Teewärmer auf dem Tisch leuchtet ganz leise blau."],
+        "es": ["Mila y Jonás buscan por todas partes: bajo montañas de papeles, en los cajones y detrás de un esqueleto de pez.", "Jonás encuentra tres gafas, un calcetín y un bocadillo de queso viejísimo.", "—¡Puaj! —se ríe.", "Entonces Mila ve algo raro: el cubreteteras de lana brilla con una lucecita azul."]
+      },
+      "next": "prof-ende"
+    },
+    {
+      "id": "prof-ende",
+      "image": "p17.svg",
+      "text": {
+        "de": ["Mila hebt den Teewärmer hoch, und darunter funkelt der Mondkristall, blitzblank geputzt!", "„Ich habe ihn zum Trocknen hingelegt und dann vergessen“, sagt Professor Funkel verlegen.", "Zum Dank schenkt er Mila einen kleinen glitzernden Stein für ihre Detektiv-Sammlung.", "Und im Museum strahlt der Kristall heller als je zuvor."],
+        "es": ["Mila levanta el cubreteteras y… ¡ahí está el Cristal de Luna, limpio y reluciente!", "—Lo dejé ahí para que se secara y se me olvidó —dice el profesor, colorado.", "Para darle las gracias, le regala a Mila una piedrecita brillante para su colección de detective.", "Y en el museo, el cristal brilla más que nunca."]
+      },
+      "end": "professor"
+    },
+    {
+      "id": "pfoten",
+      "image": "p18.svg",
+      "text": {
+        "de": ["Die winzigen Pfotenabdrücke führen quer durch die Halle bis in den Vogelsaal.", "Hinter einer ausgestopften Eule blinzeln zwei grüne Augen hervor.", "„Das ist Tiger, unsere Museumskatze“, sagt Herr Brumm. „Sie liebt alles, was glitzert.“", "Husch, schon flitzt das Kätzchen davon, die Treppe hinauf.", "Was soll Mila tun?"],
+        "es": ["Las huellas diminutas cruzan toda la sala y llegan hasta la sala de los pájaros.", "Detrás de un búho disecado asoman dos ojos verdes.", "—Es Tigre, la gata del museo —dice el señor Modorro—. Le encanta todo lo que brilla.", "¡Zas! La gatita sale corriendo escaleras arriba.", "¿Qué debe hacer Mila?"]
+      },
+      "choices": [
+        { "icon": "🐈", "color": "#4cc38a", "label": { "de": "Folgen", "es": "Seguirla" }, "to": "dachboden" },
+        { "icon": "🪤", "color": "#ff6b6b", "label": { "de": "Falle", "es": "Trampa" }, "to": "falle" }
+      ]
+    },
+    {
+      "id": "dachboden",
+      "image": "p19.svg",
+      "text": {
+        "de": ["Leise schleichen Mila und Jonas die knarrende Treppe hinauf bis auf den Dachboden.", "Hier stehen alte Kisten, ein ausgestopfter Fuchs und ein Schaukelpferd im Sonnenlicht.", "Irgendwo schnurrt es, aber Tiger hat sich hinter einer Wand aus Kisten versteckt.", "Nur ein schmaler Tunnel führt hindurch.", "Wie soll Mila zu Tiger kommen?"],
+        "es": ["Sin hacer ruido, Mila y Jonás suben por la escalera que cruje hasta el desván.", "Allí hay cajas viejas, un zorro disecado y un caballito de balancín bañado por el sol.", "Algo ronronea, pero Tigre se ha escondido detrás de una pared de cajas.", "Solo un túnel estrechito pasa entre ellas.", "¿Cómo puede llegar Mila hasta Tigre?"]
+      },
+      "choices": [
+        { "icon": "📣", "color": "#ffb547", "label": { "de": "Rufen", "es": "Llamar" }, "to": "rufen" },
+        { "icon": "📦", "color": "#ff9f43", "label": { "de": "Kriechen", "es": "A gatas" }, "to": "kriechen" }
+      ]
+    },
+    {
+      "id": "rufen",
+      "image": "p20.svg",
+      "text": {
+        "de": ["Mila setzt sich ganz still auf den Boden und ruft sanft: „Tiger, komm, miez, miez!“", "Dann wackelt sie mit dem Bommel ihrer roten Mütze.", "Zwei Ohren tauchen auf, dann eine Pfote, und schwupp, springt Tiger nach dem Bommel!", "Schnurrend führt das Kätzchen die beiden hinter die Kisten."],
+        "es": ["Mila se sienta muy quieta en el suelo y llama con voz suave: —Tigre, ven, michi, michi.", "Luego mueve el pompón de su gorro rojo.", "Asoman dos orejas, luego una pata y… ¡hop!, Tigre salta a por el pompón.", "Ronroneando, la gatita los lleva detrás de las cajas."]
+      },
+      "next": "nest-ende"
+    },
+    {
+      "id": "kriechen",
+      "image": "p21.svg",
+      "text": {
+        "de": ["Mutig kriecht Mila in den engen Tunnel, und Jonas krabbelt hinterher.", "Es ist eng und staubig, und Jonas muss dreimal niesen: „Hatschi, hatschi, hatschi!“", "Hinter einer Kurve wird es hell, und etwas glitzert und funkelt.", "„Ich glaube, wir haben ein Versteck gefunden“, flüstert Mila."],
+        "es": ["Mila se mete a gatas en el túnel estrecho, muy valiente, y Jonás va detrás.", "Hay mucho polvo, y Jonás estornuda tres veces: —¡Achís, achís, achís!", "Tras una curva hay más luz, y algo brilla y centellea.", "—Creo que hemos encontrado un escondite —susurra Mila."]
+      },
+      "next": "nest-ende"
+    },
+    {
+      "id": "nest-ende",
+      "image": "p22.svg",
+      "text": {
+        "de": ["In einem alten Korb liegt Tigers Nest, voller glitzernder Schätze!", "Da sind ein Schlüsselbund, ein Silberlöffel, Herrn Brumms Trillerpfeife und mittendrin der Mondkristall.", "Alle bekommen ihre verlorenen Sachen zurück und lachen.", "Tiger bekommt eine eigene Glitzerkugel, und Mila wird als beste Detektivin der Stadt gefeiert."],
+        "es": ["En una cesta vieja está el nido de Tigre, ¡lleno de tesoros brillantes!", "Hay un manojo de llaves, una cucharilla de plata, el silbato del señor Modorro… y, en medio de todo, el Cristal de Luna.", "Todos recuperan las cosas que habían perdido y se ríen un montón.", "Tigre recibe una bola brillante solo para ella, y Mila es la heroína del día."]
+      },
+      "end": "nest"
+    },
+    {
+      "id": "falle",
+      "image": "p23.svg",
+      "text": {
+        "de": ["„Wer Glitzer liebt, den locken wir mit einer Falle“, sagt Mila.", "Im Vogelsaal verstecken sich die beiden hinter einem großen ausgestopften Bären.", "Über ihnen thront ein riesiges Storchennest auf einer hohen Säule.", "Jonas kramt in seinem Rucksack: Er hat glänzendes Silberpapier und ein Thunfischbrot dabei.", "Womit soll Mila Tiger anlocken?"],
+        "es": ["—Si le gusta lo que brilla, le pondremos una trampa —dice Mila.", "En la sala de los pájaros, los dos se esconden detrás de un gran oso disecado.", "Sobre ellos, en lo alto de una columna, hay un enorme nido de cigüeña.", "Jonás rebusca en su mochila: lleva papel de aluminio brillante y un bocadillo de atún.", "¿Con qué debe atraer Mila a Tigre?"]
+      },
+      "choices": [
+        { "icon": "✨", "color": "#a77bf3", "label": { "de": "Glitzer", "es": "Brillo" }, "to": "glitzer" },
+        { "icon": "🐟", "color": "#4aa3ff", "label": { "de": "Fisch", "es": "Atún" }, "to": "fisch" }
+      ]
+    },
+    {
+      "id": "glitzer",
+      "image": "p24.svg",
+      "text": {
+        "de": ["Mila knüllt das Silberpapier zu einer Kugel und legt sie in einen Sonnenstrahl.", "Die Kugel funkelt wie ein kleiner Stern.", "Schon schleicht Tiger heran, schnappt sich die Kugel und springt mit einem riesigen Satz hinauf ins große Storchennest.", "„Da oben ist ihr Versteck!“, flüstert Mila."],
+        "es": ["Mila arruga el papel de aluminio hasta hacer una bola y la deja en un rayo de sol.", "La bola brilla como una estrellita.", "Enseguida aparece Tigre, la atrapa con la boca y, de un salto enorme, sube al gran nido de cigüeña.", "—¡Su escondite está ahí arriba! —susurra Mila."]
+      },
+      "next": "storch-ende"
+    },
+    {
+      "id": "fisch",
+      "image": "p25.svg",
+      "text": {
+        "de": ["Jonas legt ein Stückchen Thunfisch auf den Boden.", "Schnupper, schnupper, da kommt Tiger angetrippelt, frisst alles auf und leckt sich genüsslich das Mäulchen.", "Satt und zufrieden klettert sie hinauf zu ihrem Lieblingsplatz, dem großen Storchennest.", "Mila zwinkert Jonas zu: „Jetzt wissen wir, wo sie schläft!“"],
+        "es": ["Jonás deja un trocito de atún en el suelo.", "Ñam, ñam: llega Tigre dando saltitos, se lo come todo y se relame el hocico.", "Llena y contenta, trepa hasta su sitio favorito: el gran nido de cigüeña.", "Mila le guiña un ojo a Jonás: —¡Ya sabemos dónde duerme!"]
+      },
+      "next": "storch-ende"
+    },
+    {
+      "id": "storch-ende",
+      "image": "p26.svg",
+      "text": {
+        "de": ["Mila klettert die Leiter hinauf und schaut ins Nest.", "Zwischen den Storcheneiern liegt ein blaues, leuchtendes Ei: der Mondkristall!", "Tiger dachte, es sei ein besonders schönes Ei, und hat es warm gehalten wie eine Storchenmama.", "Am nächsten Tag steht in der Zeitung: Detektivin Mila löst den Fall!"],
+        "es": ["Mila sube por la escalera y se asoma al nido.", "Entre los huevos de cigüeña hay un huevo azul que brilla: ¡el Cristal de Luna!", "Tigre creyó que era un huevo precioso y lo estaba empollando como una mamá cigüeña.", "Al día siguiente, el periódico dice: «¡La detective Mila resuelve el caso!»"]
+      },
+      "end": "storch"
+    }
+  ]
+}

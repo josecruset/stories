@@ -281,8 +281,6 @@ button { font: inherit; }
   position: relative;
   color: var(--ink);
   padding: 8px 10px 24px;
-  max-height: 46dvh;
-  overflow: auto;
   display: flex; align-items: center; justify-content: center;
 }
 .story-text {
@@ -293,6 +291,7 @@ button { font: inherit; }
   line-height: 1.5;
   text-wrap: pretty;
 }
+.page-view.long .story-text { font-size: clamp(19px, 1.3vw + 1vh + 7px, 30px); }
 .sentence { border-radius: 8px; padding: 1px 3px; margin: 0 -3px; cursor: pointer; transition: background-color .25s ease, color .25s ease; box-decoration-break: clone; -webkit-box-decoration-break: clone; }
 .sentence:hover { background: rgba(255, 207, 74, .25); }
 .sentence.active { background: var(--read); color: var(--read-text); }

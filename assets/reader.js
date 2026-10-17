@@ -127,6 +127,7 @@
   function renderPage(v) {
     const page = book.pages[v - 1];
     const wrap = el('section', 'page-view');
+    if (page.text[S.lang].join(' ').split(/\s+/).length > 48) wrap.classList.add('long');
     const fig = el('figure', 'page-art');
     const img = el('img');
     img.src = book.base + 'img/' + page.image;
@@ -232,10 +233,29 @@
     return wrap;
   }
 
+  // Untereinander-Layout (Hochformat): Passen Bild, Text und Knöpfe nicht auf den Bildschirm,
+  // wird nur das Bild kleiner – Text und Entscheidungsknöpfe bleiben immer sichtbar.
+  const wide = window.matchMedia('(min-aspect-ratio: 13/10) and (min-width: 700px)');
+  function fitPage() {
+    const pv = stage.firstElementChild;
+    const img = pv && pv.classList.contains('page-view') && pv.querySelector('.page-art img');
+    if (!img) return;
+    img.style.width = '';
+    if (wide.matches) return;
+    const cs = getComputedStyle(stage);
+    const room = stage.clientHeight - (parseFloat(cs.paddingTop) || 0) - (parseFloat(cs.paddingBottom) || 0);
+    const over = pv.getBoundingClientRect().height - room; // Höhe, nicht Lage: die Seite ist zentriert
+    if (over > 1) img.style.width = Math.max(150, img.getBoundingClientRect().width - over * 1.5) + 'px';
+  }
+  let fitTimer = 0;
+  window.addEventListener('resize', () => { clearTimeout(fitTimer); fitTimer = setTimeout(fitPage, 120); });
+  if (document.fonts) document.fonts.ready.then(fitPage);
+
   function render(dir = 0) {
     const node = view === 0 ? renderCover() : view === last() ? renderEnd() : renderPage(view);
     if (dir) node.classList.add(dir > 0 ? 'enter-next' : 'enter-prev');
     stage.replaceChildren(node);
+    fitPage();
     activeSentence = -1;
     updateChrome();
     preload(view + 1);
