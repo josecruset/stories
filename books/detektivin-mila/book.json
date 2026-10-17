@@ -40,7 +40,7 @@
       "image": "p03.svg",
       "text": {
         "de": ["Mila kniet sich vor die Vitrine und hält ihre Lupe ganz nah an den Boden.", "Der Glasdeckel steht einen Spalt offen.", "Und da sind gleich drei Spuren: Kekskrümel, winzige Pfotenabdrücke und ein goldener Knopf mit einem Stern.", "„Wo fangen wir an?“, flüstert Jonas.", "Welcher Spur soll Mila folgen?"],
-        "es": ["Mila se arrodilla delante de la vitrina y acerca la lupa al suelo.", "La tapa de cristal está un poquito abierta.", "Y ahí hay tres pistas: migas de galleta, unas huellas de pata diminutas y un botón dorado con una estrella.", "—¿Por dónde empezamos? —susurra Jonás.", "¿Qué pista debe seguir Mila?"]
+        "es": ["Mila se arrodilla delante de la vitrina y acerca la lupa al suelo.", "La tapa de cristal está un poquito abierta.", "Y ahí hay tres pistas: migas de galleta, unas huellas de pata diminutas y un botón dorado con una estrella.", "—¿Por dónde empezamos? —susurra Jonás.", "Y tú, ¿qué pista crees que debería seguir Mila?"]
       },
       "choices": [
         { "icon": "🍪", "color": "#ffb547", "label": { "de": "Krümel", "es": "Migas" }, "to": "brumm" },
