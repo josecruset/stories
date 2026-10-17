@@ -153,10 +153,12 @@ async function makeTrack({ dir, lang, n, sentences, isTitle }) {
   try {
     const raw = join(tmp, 'raw.mp3');
     writeFileSync(raw, await speak(sentences.join(' '), lang, isTitle));
-    // Lautstärke angleichen, kurze Stille vorne und hinten, mono 64 kbit/s
+    // Lautstärke angleichen, kurze Stille vorne und hinten (über WAV), dann mono 64 kbit/s
+    const wav = join(tmp, 'page.wav');
     execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', raw,
       '-af', 'silenceremove=start_periods=1:start_threshold=-50dB,loudnorm=I=-18:TP=-1.5:LRA=11,adelay=350,apad=pad_dur=0.6',
-      '-ar', '24000', '-ac', '1', '-c:a', 'libmp3lame', '-b:a', '64k', out]);
+      '-ar', '24000', '-ac', '1', '-c:a', 'pcm_s16le', wav]);
+    execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', wav, '-c:a', 'libmp3lame', '-b:a', '64k', out]);
     const dur = Math.round(duration(out) * 100) / 100;
     const marks = sentences.length > 1 ? sentenceMarks(sentences, await words(out, lang), dur) : [0];
     return { src: `audio/${lang}/${name}`, dur, marks };
