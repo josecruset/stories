@@ -6,7 +6,7 @@ das Gegenstück zu games.cruset.com. Reines HTML5, kein Build-Schritt.
 ## Aufbau
 
 ```
-index.html              Bücherei (Startseite, Deutsch / Spanisch)
+index.html              Bücherei (Startseite, Deutsch / Spanisch) mit Kategorien oben
 read.html               Leser und Hörbuch-Player: read.html?b=<id>[&mode=read|listen|start]
 books.js                Bücherregal – Reihenfolge der Bücher auf der Startseite
 assets/                 Styles, Skripte (common.js, library.js, reader.js), Icons
@@ -19,11 +19,18 @@ tools/check-books.mjs   prüft alle Bücher: Aufbau, Bilder, Audio passend zum T
 sw.js                   Service Worker: online immer aktuell, offline die letzte Version
 ```
 
+Auf der Startseite wählt man oben die Kategorie (Märchen / Neue Geschichten). Die Wahl wird auf
+dem Gerät gemerkt und steht im Link: `/#maerchen`, `/#geschichten`.
+
 Im Leser:
-- **Selbst lesen:** blättern mit Pfeilen, Wischen oder Pfeiltasten. Ein Tipp auf einen Satz liest
-  genau diesen Satz vor.
+- **Blättern:** mit den Pfeilknöpfen, den Pfeiltasten oder durch Wischen (die Seite folgt dem
+  Finger; weit oder schnell genug gewischt, wird umgeblättert).
+- **Selbst lesen:** Ein Tipp auf einen Satz liest genau diesen Satz vor.
 - **Vorlesen lassen:** spielt Seite für Seite ab, der gesprochene Satz leuchtet mit, danach wird
   automatisch umgeblättert. Pause mit dem großen Knopf oder der Leertaste.
+- **Satz zurück** (Knopf links neben Pause, nur beim Vorlesen; Taste ↑): wiederholt den laufenden
+  Satz bzw. springt – kurz nach Satzbeginn – einen Satz zurück, am Seitenanfang auf den letzten
+  Satz der vorigen Seite.
 - Die Sprache (DE/ES) lässt sich jederzeit umschalten; sie wird unter `stories.lang` gespeichert,
   `?lang=es` bzw. `?lang=de` setzt sie per Link. Der Lesefortschritt liegt unter `stories.progress`.
 - Vorgelesen wird nur mit echten Aufnahmen. Fehlt `audio.json` (oder die Sprache darin), zeigt der

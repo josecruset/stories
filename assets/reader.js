@@ -2,6 +2,8 @@
 // Ansichten: 0 = Titelseite, 1 … n = Seiten der Geschichte, n + 1 = Ende.
 // „Vorlesen“ spielt die Spur der Seite ab (books/<id>/audio/<lang>/NN.mp3), lässt den
 // gerade gesprochenen Satz mitleuchten und blättert danach von selbst weiter.
+// „Satz zurück“ (nur beim Vorlesen) wiederholt den aktuellen Satz bzw. springt einen Satz zurück.
+// Blättern auch durch Wischen; die Seite folgt dabei dem Finger.
 // Ein Tipp auf einen Satz liest nur diesen Satz vor. Vorgelesen wird nur mit echten
 // Aufnahmen (audio.json) – ohne sie gibt es keine Vorlese-Knöpfe, keine Computerstimme.
 'use strict';
@@ -169,7 +171,8 @@
 
   // ---------- Blättern ----------
 
-  function go(v, { keepPlaying = playing } = {}) {
+  // fromSentence: ab welchem Satz vorgelesen wird (-1 = letzter Satz der Seite)
+  function go(v, { keepPlaying = playing, fromSentence = 0 } = {}) {
     if (!book) return;
     v = Math.max(0, Math.min(last(), v));
     const dir = Math.sign(v - view);
@@ -180,7 +183,7 @@
     if (view === last()) { S.progress(book.id, { page: 0, done: true }); keepPlaying = false; }
     playing = keepPlaying;
     render(dir);
-    if (playing) playView(0);
+    if (playing) playView(fromSentence < 0 ? sentences(view).length - 1 : fromSentence);
   }
 
   // ---------- Vorlesen ----------
@@ -222,6 +225,31 @@
     }
   }
 
+  // Satz zurück: Ist der aktuelle Satz schon ein Stück gelaufen, beginnt er von vorn,
+  // sonst kommt der vorige Satz – am Seitenanfang der letzte Satz der vorigen Seite.
+  function sentenceBack() {
+    const tr = track(view);
+    if (!playing || !tr) return;
+    const marks = tr.marks;
+    let target;
+    if (turnTimer && audio.ended) {
+      target = marks.length - 1; // Seite fertig, wartet aufs Umblättern
+    } else {
+      const now = audio.currentTime;
+      let cur = 0;
+      marks.forEach((m, k) => { if (now >= m - 0.05) cur = k; });
+      target = now - marks[cur] > 1.5 ? cur : cur - 1;
+    }
+    clearTimeout(turnTimer);
+    turnTimer = 0;
+    if (target < 0) {
+      if (isPage(view - 1) && track(view - 1)) { go(view - 1, { keepPlaying: true, fromSentence: -1 }); return; }
+      target = 0;
+    }
+    halt();
+    playView(target);
+  }
+
   // Sperrbildschirm / Kopfhörer-Tasten: Titel, Seite und Bedienung
   function mediaInfo() {
     if (!('mediaSession' in navigator) || !window.MediaMetadata) return;
@@ -238,13 +266,14 @@
     on('pause', () => { if (playing) stop(); });
     on('nexttrack', () => go(view + 1));
     on('previoustrack', () => go(view - 1));
+    on('seekbackward', () => sentenceBack());
   }
 
   function finishedView() {
     highlight(-1);
     if (!playing) return;
     if (view === 0 || isPage(view)) {
-      turnTimer = setTimeout(() => go(view + 1, { keepPlaying: true }), view === 0 ? 500 : 1100);
+      turnTimer = setTimeout(() => { turnTimer = 0; go(view + 1, { keepPlaying: true }); }, view === 0 ? 500 : 1100);
     }
   }
 
@@ -271,6 +300,7 @@
     if (view === last()) return;
     if (view === 0) go(1, { keepPlaying: true }); else start();
   });
+  $('backBtn').addEventListener('click', sentenceBack);
   $('prevBtn').addEventListener('click', () => go(view - 1));
   $('nextBtn').addEventListener('click', () => go(view + 1));
 
@@ -287,23 +317,59 @@
     if (e.target.closest('input, textarea')) return;
     if (e.key === 'ArrowRight') go(view + 1);
     else if (e.key === 'ArrowLeft') go(view - 1);
+    else if (e.key === 'ArrowUp' && playing) { e.preventDefault(); sentenceBack(); }
     else if (e.key === ' ') { e.preventDefault(); playBtn.click(); }
   });
 
-  // Wischen zum Blättern
-  let touch = null;
+  // Wischen zum Blättern (Finger, Stift und Maus): Die Seite folgt der Bewegung; weit genug
+  // oder schnell genug gewischt, wird umgeblättert, sonst springt sie zurück.
+  // Senkrechte Bewegungen bleiben dem Scrollen (touch-action: pan-y in style.css).
+  let drag = null;
   let swiped = false; // der Klick nach dem Wischen soll keinen Satz vorlesen
-  stage.addEventListener('pointerdown', (e) => { touch = { x: e.clientX, y: e.clientY, t: Date.now() }; swiped = false; });
-  stage.addEventListener('pointerup', (e) => {
-    if (!touch) return;
-    const dx = e.clientX - touch.x;
-    const dy = e.clientY - touch.y;
-    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5 && Date.now() - touch.t < 800) {
-      swiped = true;
-      go(view + (dx < 0 ? 1 : -1));
-    }
-    touch = null;
+  stage.addEventListener('dragstart', (e) => e.preventDefault()); // Bilder nicht „ziehen“
+  stage.addEventListener('pointerdown', (e) => {
+    swiped = false;
+    if (!book || (e.pointerType === 'mouse' && e.button !== 0)) return;
+    drag = { id: e.pointerId, x: e.clientX, y: e.clientY, t: Date.now(), active: false, node: stage.firstElementChild };
   });
+  stage.addEventListener('pointermove', (e) => {
+    if (!drag || e.pointerId !== drag.id || !drag.node) return;
+    const dx = e.clientX - drag.x;
+    const dy = e.clientY - drag.y;
+    if (!drag.active) {
+      if (Math.abs(dy) > 14 && Math.abs(dy) > Math.abs(dx)) { drag = null; return; } // scrollt
+      if (Math.abs(dx) < 12 || Math.abs(dx) < Math.abs(dy) * 1.2) return;
+      drag.active = true;
+      try { stage.setPointerCapture(e.pointerId); } catch { /* egal */ }
+      drag.node.classList.remove('enter-next', 'enter-prev');
+      drag.node.style.transition = 'none';
+    }
+    const blocked = (dx > 0 && view === 0) || (dx < 0 && view === last());
+    const shift = blocked ? dx * 0.25 : dx;
+    drag.node.style.transform = `translateX(${shift}px)`;
+    drag.node.style.opacity = String(1 - Math.min(Math.abs(shift) / (stage.clientWidth * 1.5), 0.4));
+  });
+  function endDrag(e, cancelled) {
+    if (!drag || e.pointerId !== drag.id) return;
+    const d = drag;
+    drag = null;
+    if (!d.active) return;
+    swiped = true;
+    const dx = e.clientX - d.x;
+    const dir = dx < 0 ? 1 : -1;
+    const far = Math.abs(dx) > Math.min(120, stage.clientWidth * 0.2);
+    const fast = Math.abs(dx) > 30 && Math.abs(dx) / Math.max(1, Date.now() - d.t) > 0.45;
+    const possible = view + dir >= 0 && view + dir <= last();
+    if (!cancelled && possible && (far || fast)) {
+      go(view + dir);
+    } else {
+      d.node.style.transition = 'transform .25s ease, opacity .25s ease';
+      d.node.style.transform = '';
+      d.node.style.opacity = '';
+    }
+  }
+  stage.addEventListener('pointerup', (e) => endDrag(e, false));
+  stage.addEventListener('pointercancel', (e) => endDrag(e, true));
 
   // Sprache wechseln: Text neu zeichnen, beim Vorlesen in der neuen Sprache weiter
   S.onLang(() => {

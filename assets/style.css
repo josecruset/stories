@@ -77,7 +77,7 @@ button { font: inherit; }
 
 .library main { flex: 1; }
 
-.hero { padding: 36px 0 28px; max-width: 640px; }
+.hero { padding: 22px 0 24px; max-width: 640px; }
 .hero h1 {
   font-family: var(--display); font-weight: 700;
   font-size: clamp(32px, 7vw, 52px); line-height: 1.08; letter-spacing: -.5px;
@@ -89,7 +89,41 @@ button { font: inherit; }
 .section-head h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0; }
 .count { color: var(--muted); font-size: 14px; }
 
-.shelf-section + .shelf-section { margin-top: 8px; }
+/* Kategorien: oben, beim Scrollen sichtbar */
+.shelf-tabs {
+  position: sticky; top: 0; z-index: 5;
+  display: flex; gap: 8px; justify-content: center;
+  width: 100%; max-width: 1080px; margin: 0 auto;
+  padding: 10px 16px;
+  background: linear-gradient(var(--bg) 70%, transparent);
+}
+.shelf-tab {
+  flex: 1 1 0; max-width: 300px;
+  display: inline-flex; align-items: center; justify-content: center; gap: 10px;
+  min-height: 56px; padding: 8px 16px;
+  border: 2px solid transparent; border-radius: 18px; cursor: pointer;
+  background: var(--surface); color: var(--muted);
+  font: 600 19px var(--display);
+  transition: background .2s ease, color .2s ease, transform .12s ease;
+}
+.shelf-tab:hover { color: var(--text); }
+.shelf-tab:active { transform: scale(.97); }
+.shelf-tab[aria-selected="true"] {
+  background: var(--read); color: var(--read-text);
+  box-shadow: 0 4px 0 rgba(0, 0, 0, .25);
+}
+.shelf-tab-icon { font-size: 22px; line-height: 1; }
+.shelf-tab-count {
+  min-width: 26px; padding: 2px 7px; border-radius: 999px;
+  font: 700 13px/1.4 system-ui, sans-serif;
+  background: rgba(0, 0, 0, .18);
+}
+.shelf-tab[aria-selected="true"] .shelf-tab-count { background: rgba(58, 38, 0, .15); }
+@media (max-width: 480px) {
+  .shelf-tab { font-size: 16px; gap: 6px; padding: 8px 10px; min-height: 52px; }
+  .shelf-tab-icon { font-size: 19px; }
+}
+
 .shelf {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -197,6 +231,9 @@ button { font: inherit; }
   -webkit-user-select: none;
 }
 .stage > section { min-height: 0; }
+/* Waagerechtes Wischen gehört dem Blättern, auch über scrollbarem Text */
+.stage, .stage * { touch-action: pan-y; }
+.stage img { -webkit-user-drag: none; user-select: none; }
 
 .enter-next { animation: enter-next .38s cubic-bezier(.2, .8, .3, 1); }
 .enter-prev { animation: enter-prev .38s cubic-bezier(.2, .8, .3, 1); }
@@ -325,6 +362,16 @@ button { font: inherit; }
 .play-btn { width: 64px; height: 64px; border-radius: 50%; background: var(--listen); color: var(--listen-text); box-shadow: 0 4px 0 rgba(0, 0, 0, .25); flex: none; }
 .play-btn svg { width: 32px; height: 32px; }
 .play-btn:disabled { opacity: .3; }
+/* Satz zurück: nur während des Vorlesens */
+.back-btn {
+  display: none; place-items: center; flex: none;
+  width: 50px; height: 50px; border-radius: 50%; border: 0; cursor: pointer;
+  background: var(--surface-2); color: var(--text);
+  transition: transform .12s ease;
+}
+.back-btn svg { width: 28px; height: 28px; }
+.back-btn:active { transform: scale(.92) rotate(-20deg); }
+.playing:not(.no-audio):not([data-view="end"]) .back-btn { display: inline-grid; }
 .play-btn .i-pause, .playing .play-btn .i-play { display: none; }
 .playing .play-btn .i-pause { display: block; }
 .playing .play-btn { background: var(--read); color: var(--read-text); }
@@ -350,6 +397,7 @@ button { font: inherit; }
   .controls { gap: 8px; }
   .controls-mid { gap: 10px; }
   .dots { gap: 4px; }
+  .playing .dots { display: none; } /* Platz für „Satz zurück“ */
   .dots i { width: 7px; height: 7px; }
 }
 
