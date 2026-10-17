@@ -113,8 +113,16 @@
     }));
   }
 
+  // Überschrift passend zur Kategorie (ohne eigene Überschrift: die allgemeine)
+  function renderHero() {
+    const key = 'heroTitle_' + current;
+    const title = t(key);
+    document.getElementById('heroTitle').textContent = title === key ? t('heroTitle') : title;
+  }
+
   function render() {
     renderTabs();
+    renderHero();
     shelf.setAttribute('aria-labelledby', 'tab-' + current);
     shelf.replaceChildren(...books.filter((b) => shelfOf(b) === current).map(card));
   }

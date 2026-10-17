@@ -8,6 +8,8 @@
     de: {
       siteTitle: 'Geschichten für Kinder',
       heroTitle: 'Bücher zum Lesen und Zuhören',
+      heroTitle_maerchen: 'Märchen zum Lesen und Zuhören',
+      heroTitle_interaktiv: 'Mitmachbücher zum Lesen und Zuhören',
       heroText: 'Such dir eine Geschichte aus: Lies sie selbst oder lass sie dir vorlesen – mit Bildern auf jeder Seite.',
       shelf_maerchen: 'Märchen',
       shelf_geschichten: 'Neue Geschichten',
@@ -55,6 +57,8 @@
     es: {
       siteTitle: 'Cuentos para niños',
       heroTitle: 'Libros para leer y escuchar',
+      heroTitle_maerchen: 'Cuentos de hadas para leer y escuchar',
+      heroTitle_interaktiv: 'Libros interactivos para leer y escuchar',
       heroText: 'Elige un cuento: léelo tú mismo o deja que te lo lean, con dibujos en cada página.',
       shelf_maerchen: 'Cuentos clásicos',
       shelf_geschichten: 'Cuentos nuevos',
