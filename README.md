@@ -85,6 +85,10 @@ von `pages`).
    klingt – als warme Vorleserin, Deutsch bzw. Spanisch aus Spanien. Danach ermittelt Whisper per
    Wort-Zeitstempel, wann welcher Satz beginnt. Stimme und Regieanweisung stehen oben im Skript.
    Unveränderte Seiten werden beim nächsten Lauf übersprungen (`--force` spricht alles neu ein).
+   Die Sprachausgabe lässt gelegentlich einen Satz weg (oft die Frage am Seitenende). Deshalb prüft
+   das Skript jede neue Aufnahme per Transkription und spricht die Seite bei fehlenden Sätzen bis zu
+   viermal neu ein. `--verify` prüft zusätzlich alle vorhandenen Aufnahmen und repariert nur die
+   fehlerhaften.
 5. Die `id` in `books.js` eintragen und `node tools/check-books.mjs` laufen lassen.
 
 **Eigene Aufnahmen** (z. B. selbst vorgelesen): MP3s in `audio/<lang>/` ersetzen und in

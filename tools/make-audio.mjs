@@ -4,12 +4,16 @@
 //   OPENAI_API_KEY=… node tools/make-audio.mjs            alle Bücher
 //   OPENAI_API_KEY=… node tools/make-audio.mjs luna pip   nur diese Bücher
 //   … --force                                             auch unveränderte Seiten neu einsprechen
+//   … --verify                                            vorhandene Aufnahmen prüfen (fehlt ein Satz?) und
+//                                                         nur fehlerhafte neu einsprechen
 //
 // Der Key kann auch in einer Datei .env im Repo liegen (OPENAI_API_KEY=…, ist in .gitignore).
 //
 // Jede Seite wird am Stück eingesprochen, damit sie flüssig klingt. Danach transkribiert Whisper
 // die Aufnahme mit Wort-Zeitstempeln; daraus ergibt sich, wann welcher Satz beginnt
 // (für das Mitleuchten im Leser). Braucht ffmpeg.
+// Die Sprachausgabe lässt gelegentlich einen Satz weg (z. B. die Frage am Seitenende). Darum wird
+// jede Aufnahme gegen den Text geprüft und bei fehlenden Sätzen bis zu ATTEMPTS-mal neu erzeugt.
 //
 // Ergebnis pro Buch:
 //   books/<id>/audio/<lang>/00.mp3   Titel (Deckblatt)
@@ -17,7 +21,7 @@
 //   books/<id>/audio.json            je Spur: src, dur (Sekunden), marks (Startsekunde je Satz), hash
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
-import { existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
+import { copyFileSync, existsSync, mkdirSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
@@ -25,6 +29,12 @@ const ROOT = new URL('..', import.meta.url).pathname;
 const MODEL = 'gpt-4o-mini-tts';
 const VOICE = 'marin';
 const FALLBACK_VOICE = 'coral';
+const ATTEMPTS = 4;
+// Zusatz zur Regieanweisung (nicht im Hash, damit vorhandene Aufnahmen gültig bleiben)
+const COMPLETE = {
+  de: ' Lies den Text vollständig und wörtlich vor – jeden Satz, auch die Frage am Schluss.',
+  es: ' Lee el texto completo y literal, todas las frases, también la pregunta del final.',
+};
 
 // Regieanweisung für die Stimme – in der Sprache der Geschichte
 const STYLE = {
@@ -78,7 +88,7 @@ async function speak(text, lang, isTitle) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       model: MODEL, voice: v, input: text, response_format: 'mp3',
-      instructions: STYLE[lang] + (isTitle ? TITLE_STYLE[lang] : ''),
+      instructions: STYLE[lang] + (isTitle ? TITLE_STYLE[lang] : '') + COMPLETE[lang],
     }),
   });
   try {
@@ -107,7 +117,8 @@ async function words(file, lang) {
 const norm = (w) => w.toLowerCase().normalize('NFC').replace(/[^\p{L}\p{N}]+/gu, '');
 const tokens = (s) => s.split(/[\s—–-]+/).map(norm).filter(Boolean);
 
-// Startzeit jedes Satzes: Wörter des Textes mit den transkribierten Wörtern abgleichen (LCS)
+// Startzeit jedes Satzes: Wörter des Textes mit den transkribierten Wörtern abgleichen (LCS).
+// missing: Sätze, von denen (fast) nichts zu hören ist – dann fehlt der Satz in der Aufnahme.
 function sentenceMarks(sentences, heard, dur) {
   const script = [];
   const firstOf = [];
@@ -125,8 +136,14 @@ function sentenceMarks(sentences, heard, dur) {
   for (let i = 0, j = 0; i < n && j < m;) {
     if (script[i] === h[j].w) { at[i] = h[j].t; i++; j++; } else if (L[i + 1][j] >= L[i][j + 1]) i++; else j++;
   }
+  const missing = [];
   const marks = firstOf.map((first, k) => {
     const end = k + 1 < firstOf.length ? firstOf[k + 1] : n;
+    const len = end - first;
+    let hit = 0;
+    for (let i = first; i < end; i++) if (at[i] != null) hit++;
+    // kurze Ausrufe („Plumps!“) werden oft anders geschrieben – erst ab 3 Wörtern prüfen
+    if (len >= 3 && hit / len < 0.34) missing.push(k);
     for (let i = first; i < end; i++) if (at[i] != null) return at[i];
     return null;
   });
@@ -139,29 +156,46 @@ function sentenceMarks(sentences, heard, dur) {
     marks[k] = prev + (next - prev) / 2;
   });
   marks[0] = 0;
-  return marks.map((v, k) => (k ? Math.max(0, Math.round((v - 0.12) * 100) / 100) : 0));
+  return { marks: marks.map((v, k) => (k ? Math.max(0, Math.round((v - 0.12) * 100) / 100) : 0)), missing };
+}
+
+// Aufnahme gegen den Text prüfen: Zeitmarken und fehlende Sätze
+async function analyze(file, sentences, lang) {
+  const dur = Math.round(duration(file) * 100) / 100;
+  if (sentences.length < 2) return { dur, marks: [0], missing: [] };
+  return { dur, ...sentenceMarks(sentences, await words(file, lang), dur) };
 }
 
 function duration(file) {
   return parseFloat(execFileSync('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', file]).toString());
 }
 
-async function makeTrack({ dir, lang, n, sentences, isTitle }) {
+const problems = [];
+
+async function makeTrack({ dir, lang, n, sentences, isTitle, label }) {
   const name = String(n).padStart(2, '0') + '.mp3';
   const out = join(dir, 'audio', lang, name);
   const tmp = mkdtempSync(join(tmpdir(), 'stories-'));
   try {
-    const raw = join(tmp, 'raw.mp3');
-    writeFileSync(raw, await speak(sentences.join(' '), lang, isTitle));
-    // Lautstärke angleichen, kurze Stille vorne und hinten (über WAV), dann mono 64 kbit/s
-    const wav = join(tmp, 'page.wav');
-    execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', raw,
-      '-af', 'silenceremove=start_periods=1:start_threshold=-50dB,loudnorm=I=-18:TP=-1.5:LRA=11,adelay=350,apad=pad_dur=0.6',
-      '-ar', '24000', '-ac', '1', '-c:a', 'pcm_s16le', wav]);
-    execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', wav, '-c:a', 'libmp3lame', '-b:a', '64k', out]);
-    const dur = Math.round(duration(out) * 100) / 100;
-    const marks = sentences.length > 1 ? sentenceMarks(sentences, await words(out, lang), dur) : [0];
-    return { src: `audio/${lang}/${name}`, dur, marks };
+    let best = null;
+    for (let attempt = 1; attempt <= ATTEMPTS; attempt++) {
+      const raw = join(tmp, 'raw.mp3');
+      writeFileSync(raw, await speak(sentences.join(' '), lang, isTitle));
+      // Lautstärke angleichen, kurze Stille vorne und hinten (über WAV), dann mono 64 kbit/s
+      const wav = join(tmp, 'page.wav');
+      const mp3 = join(tmp, `try${attempt}.mp3`);
+      execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', raw,
+        '-af', 'silenceremove=start_periods=1:start_threshold=-50dB,loudnorm=I=-18:TP=-1.5:LRA=11,adelay=350,apad=pad_dur=0.6',
+        '-ar', '24000', '-ac', '1', '-c:a', 'pcm_s16le', wav]);
+      execFileSync('ffmpeg', ['-y', '-v', 'error', '-i', wav, '-c:a', 'libmp3lame', '-b:a', '64k', mp3]);
+      const a = await analyze(mp3, sentences, lang);
+      if (!best || a.missing.length < best.missing.length) best = { ...a, mp3 };
+      if (!a.missing.length) break;
+      console.warn(`  ${label}: Satz ${a.missing.map((k) => k + 1).join(', ')} fehlt in der Aufnahme – neuer Versuch (${attempt}/${ATTEMPTS})`);
+    }
+    copyFileSync(best.mp3, out);
+    if (best.missing.length) problems.push(`${label}: Satz ${best.missing.map((k) => k + 1).join(', ')} fehlt weiterhin`);
+    return { src: `audio/${lang}/${name}`, dur: best.dur, marks: best.marks };
   } finally {
     rmSync(tmp, { recursive: true, force: true });
   }
@@ -179,6 +213,7 @@ async function pool(jobs, size) {
 
 const args = process.argv.slice(2);
 const force = args.includes('--force');
+const verify = args.includes('--verify');
 const wanted = args.filter((a) => !a.startsWith('--'));
 const ids = wanted.length ? wanted : readdirSync(join(ROOT, 'books'), { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name);
 
@@ -194,8 +229,14 @@ for (const id of ids) {
     const jobs = tracks.map((sentences, n) => async () => {
       const hash = createHash('sha1').update(JSON.stringify([MODEL, STYLE[lang], sentences])).digest('hex').slice(0, 12);
       const prev = old[lang] && old[lang][n];
-      if (!force && prev && prev.hash === hash && existsSync(join(dir, prev.src))) return prev;
-      const tr = await makeTrack({ dir, lang, n, sentences, isTitle: n === 0 });
+      const label = `${id} ${lang} ${String(n).padStart(2, '0')}`;
+      if (!force && prev && prev.hash === hash && existsSync(join(dir, prev.src))) {
+        if (!verify || n === 0) return prev;
+        const a = await analyze(join(dir, prev.src), sentences, lang);
+        if (!a.missing.length) return prev;
+        console.warn(`  ${label}: Satz ${a.missing.map((k) => k + 1).join(', ')} fehlt in der vorhandenen Aufnahme`);
+      }
+      const tr = await makeTrack({ dir, lang, n, sentences, isTitle: n === 0, label });
       process.stdout.write(`  ${id} ${lang} ${tr.src} ${tr.dur}s [${tr.marks.join(', ')}]\n`);
       return { ...tr, hash };
     });
@@ -204,4 +245,9 @@ for (const id of ids) {
     console.log(`${id} ${lang}: ${tracks.length} Spuren, ${Math.round(total)} s`);
     writeFileSync(jsonFile, JSON.stringify({ ...old, ...result }, null, 1) + '\n');
   }
+}
+if (problems.length) {
+  console.error('\nNoch unvollständig (bitte Text leicht umformulieren oder erneut versuchen):');
+  problems.forEach((p) => console.error('  ' + p));
+  process.exit(1);
 }
