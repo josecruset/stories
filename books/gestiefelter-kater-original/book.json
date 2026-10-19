@@ -1,0 +1,359 @@
+{
+  "id": "gestiefelter-kater-original",
+  "variantOf": "gestiefelter-kater",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": { "de": "Charles Perrault, 1697", "es": "Charles Perrault, 1697" },
+  "accent": "#d6363f",
+  "age": 6,
+  "title": { "de": "Der gestiefelte Kater", "es": "El gato con botas" },
+  "blurb": {
+    "de": "Ein Müller hinterlässt seinem jüngsten Sohn nur einen Kater. Mit Stiefeln, Sack und List macht der Kater ihn zum „Marquis von Carabas“ – Perraults Märchen in der Originalfassung.",
+    "es": "Un molinero solo le deja un gato a su hijo pequeño. Con unas botas, un saco y mucha astucia, el gato lo convierte en el «marqués de Carabás»: el cuento de Perrault en su versión original."
+  },
+  "differences": {
+    "de": [
+      "Im Original stirbt der Müller, und der Jüngste klagt, er könne den Kater nur noch essen und sich aus seinem Fell einen Muff machen; in der kindgerechten Fassung fehlt diese Klage.",
+      "Im Original tötet der Kater das gefangene Kaninchen „ohne Erbarmen“; in der kindgerechten Fassung hüpft es nur, von Möhren angelockt, in den Sack.",
+      "Im Original droht der Kater den Mähern und Schnittern, sie würden „so klein gehackt wie Pastetenfleisch“; in der kindgerechten Fassung bittet er die Bauern nur um die richtige Antwort.",
+      "Im Original gehört das Schloss einem Oger, einem Menschenfresser, der sich in eine Maus verwandelt und vom Kater gefressen wird; in der kindgerechten Fassung ist es ein Zauberer, und die Maus läuft davon.",
+      "Im Original heißt der Müllerssohn „Marquis von Carabas“ (kindgerecht: „Graf“), und am Schluss stehen Perraults zwei Moralsprüche statt „Und wenn sie nicht gestorben sind …“."
+    ],
+    "es": [
+      "En el original muere el molinero y el hijo pequeño se lamenta de que solo podrá comerse el gato y hacerse un manguito con su piel; en la versión infantil no aparece ese lamento.",
+      "En el original el gato mata «sin misericordia» al conejo que ha cazado; en la versión infantil el conejo solo salta dentro del saco, atraído por unas zanahorias.",
+      "En el original el gato amenaza a los segadores con hacerlos «picadillo, como carne de empanada»; en la versión infantil solo les pide que den la respuesta adecuada.",
+      "En el original el ogro se convierte en ratón y el gato se lo come; en la versión infantil el ratón huye asustado y no vuelve nunca más.",
+      "El original termina con las dos moralejas de Perrault; la versión infantil termina con «colorín colorado»."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Ein Müller hinterließ bei seinem Tod seinen drei Söhnen nichts weiter als seine Mühle, seinen Esel und seinen Kater.",
+          "Die Teilung war schnell gemacht, und weder Notar noch Anwalt wurden dazu gerufen.",
+          "Die hätten das arme Erbe sonst bald aufgezehrt.",
+          "Der Älteste bekam die Mühle, der Zweite bekam den Esel, und der Jüngste bekam nur den Kater."
+        ],
+        "es": [
+          "Un molinero, al morir, no dejó a sus tres hijos más bienes que su molino, su asno y su gato.",
+          "El reparto se hizo enseguida, sin llamar ni al notario ni al procurador.",
+          "Ellos se habrían comido en un momento todo el pobre patrimonio.",
+          "Al mayor le tocó el molino, al segundo el asno, y al más pequeño solo le tocó el gato."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Der Jüngste konnte sich gar nicht darüber trösten, dass er ein so armseliges Erbteil bekommen hatte.",
+          "„Meine Brüder“, sagte er, „können sich ehrlich ihr Brot verdienen, wenn sie sich zusammentun.“",
+          "„Ich aber muss vor Hunger sterben, sobald ich meinen Kater gegessen und mir aus seinem Fell einen Muff gemacht habe.“",
+          "Der Kater hörte diese Rede, ließ sich aber nichts anmerken."
+        ],
+        "es": [
+          "El pequeño no se consolaba de que le hubiera tocado una parte tan pobre.",
+          "—Mis hermanos —decía— podrán ganarse la vida honradamente si se juntan.",
+          "—Pero yo, cuando me haya comido el gato y me haya hecho un manguito con su piel, tendré que morirme de hambre.",
+          "El gato, que oía estas palabras, hizo como si no las oyera."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Dann sagte er mit ruhiger, ernster Miene: „Seid nicht betrübt, mein Herr.“",
+          "„Gebt mir nur einen Sack und lasst mir ein Paar Stiefel machen, damit ich durchs Gestrüpp gehen kann.“",
+          "„Dann werdet Ihr sehen, dass Ihr nicht so schlecht weggekommen seid, wie Ihr glaubt.“",
+          "Der Müllerssohn verließ sich nicht sehr darauf, kannte aber die Kunststücke, mit denen der Kater Ratten und Mäuse fing.",
+          "Er hängte sich an den Füßen auf oder stellte sich im Mehl tot – darum gab sein Herr die Hoffnung nicht auf."
+        ],
+        "es": [
+          "Y le dijo con aire tranquilo y serio: —No os aflijáis, mi amo.",
+          "—Dadme solo un saco y mandad que me hagan un par de botas para andar por los matorrales.",
+          "—Y veréis que no os ha tocado tan mala parte como creéis.",
+          "El amo no se fiaba mucho, pero conocía las mañas con que el gato cazaba ratas y ratones.",
+          "Se colgaba de las patas o se hacía el muerto en la harina, así que su amo no perdió del todo la esperanza."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Als der Kater bekommen hatte, was er verlangte, zog er sich flink die Stiefel an und hängte sich den Sack um den Hals.",
+          "Er ging in ein Kaninchengehege, tat Kleie und Gänsedisteln in den Sack und streckte sich aus, als wäre er tot.",
+          "Kaum lag er da, kroch ein junges Kaninchen, das die Listen der Welt noch nicht kannte, in den Sack, um zu fressen, was darin war.",
+          "Sofort zog der Herr Kater die Schnüre zu, fing es und tötete es ohne Erbarmen."
+        ],
+        "es": [
+          "Cuando el gato tuvo lo que había pedido, se calzó las botas con garbo y se colgó el saco del cuello.",
+          "Se fue a un monte lleno de conejos, metió salvado y cerrajas en el saco y se tumbó haciéndose el muerto.",
+          "Apenas se había tumbado, un conejo joven, que aún no conocía las trampas de este mundo, se metió en el saco para comer lo que había dentro.",
+          "Al instante, el señor gato tiró de los cordones, lo atrapó y lo mató sin misericordia."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Stolz auf seine Beute ging er zum König und bat, ihn sprechen zu dürfen.",
+          "Man führte ihn hinauf in die Gemächer Seiner Majestät, und er machte eine tiefe Verbeugung.",
+          "„Hier, Majestät, ist ein Kaninchen, das mein Herr, der Marquis von Carabas, Euch in seinem Namen überreichen lässt.“",
+          "Diesen Namen hatte sich der Kater für seinen Herrn ausgedacht.",
+          "„Sag deinem Herrn“, antwortete der König, „dass ich ihm danke und dass er mir eine Freude macht.“"
+        ],
+        "es": [
+          "Muy orgulloso de su presa, se fue a ver al rey y pidió hablar con él.",
+          "Lo hicieron subir a los aposentos de Su Majestad, y allí hizo una gran reverencia.",
+          "—Majestad, aquí tenéis un conejo que mi señor, el marqués de Carabás, me ha encargado que os ofrezca de su parte.",
+          "Ese era el nombre que al gato se le había ocurrido dar a su amo.",
+          "—Dile a tu amo —respondió el rey— que se lo agradezco y que me da una gran alegría."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Ein andermal versteckte er sich in einem Kornfeld und hielt seinen Sack wieder offen.",
+          "Als zwei Rebhühner hineingelaufen waren, zog er die Schnüre zu und fing alle beide.",
+          "Dann brachte er sie dem König, wie er es mit dem Kaninchen getan hatte.",
+          "Der König nahm auch die Rebhühner mit Freude an und ließ ihm ein Trinkgeld geben.",
+          "So brachte der Kater dem König zwei oder drei Monate lang immer wieder Wild von der Jagd seines Herrn."
+        ],
+        "es": [
+          "Otra vez se escondió en un trigal, con el saco abierto como siempre.",
+          "Cuando entraron dos perdices, tiró de los cordones y las atrapó a las dos.",
+          "Luego fue a ofrecérselas al rey, igual que había hecho con el conejo.",
+          "El rey recibió también las perdices con gusto y mandó que le dieran una propina.",
+          "Así siguió el gato durante dos o tres meses, llevándole de vez en cuando al rey caza de parte de su amo."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Eines Tages erfuhr der Kater, dass der König mit seiner Tochter, der schönsten Prinzessin der Welt, am Flussufer spazieren fahren wollte.",
+          "Da sagte er zu seinem Herrn: „Wenn Ihr meinem Rat folgt, ist Euer Glück gemacht.“",
+          "„Ihr müsst nur an der Stelle, die ich Euch zeige, im Fluss baden und alles Weitere mir überlassen.“",
+          "Der Marquis von Carabas tat, was sein Kater ihm riet, ohne zu wissen, wozu es gut sein sollte."
+        ],
+        "es": [
+          "Un día, el gato supo que el rey iba a pasear por la orilla del río con su hija, la princesa más hermosa del mundo.",
+          "Entonces le dijo a su amo: —Si seguís mi consejo, vuestra fortuna está hecha.",
+          "—No tenéis más que bañaros en el río, en el sitio que yo os enseñe, y luego dejarme hacer a mí.",
+          "El marqués de Carabás hizo lo que su gato le aconsejaba, sin saber para qué serviría."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Während er badete, kam der König vorbei.",
+          "Da schrie der Kater aus Leibeskräften: „Hilfe, Hilfe! Der Herr Marquis von Carabas ertrinkt!“",
+          "Bei diesem Geschrei steckte der König den Kopf aus dem Kutschenfenster und erkannte den Kater, der ihm so oft Wild gebracht hatte.",
+          "Sofort befahl er seinen Wachen, dem Herrn Marquis von Carabas schnell zu Hilfe zu eilen."
+        ],
+        "es": [
+          "Mientras se bañaba, pasó por allí el rey.",
+          "Y el gato se puso a gritar con todas sus fuerzas: —¡Socorro, socorro, que se ahoga el señor marqués de Carabás!",
+          "Al oír los gritos, el rey asomó la cabeza por la ventanilla y reconoció al gato que tantas veces le había llevado caza.",
+          "Enseguida mandó a sus guardias que corrieran a socorrer al señor marqués de Carabás."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Während man den armen Marquis aus dem Fluss zog, trat der Kater an die Kutsche.",
+          "Er erzählte dem König, während sein Herr badete, seien Diebe gekommen und hätten seine Kleider mitgenommen, obwohl er aus Leibeskräften „Haltet den Dieb!“ gerufen habe.",
+          "Dabei hatte der Schelm die Kleider selbst unter einem großen Stein versteckt.",
+          "Sofort befahl der König den Dienern seiner Kleiderkammer, einen seiner schönsten Anzüge für den Herrn Marquis von Carabas zu holen."
+        ],
+        "es": [
+          "Mientras sacaban del río al pobre marqués, el gato se acercó a la carroza.",
+          "Le contó al rey que, mientras su amo se bañaba, habían venido unos ladrones y se habían llevado su ropa, aunque él había gritado «¡al ladrón!» con todas sus fuerzas.",
+          "Pero el muy pícaro la había escondido él mismo debajo de una piedra grande.",
+          "Al momento, el rey mandó a los oficiales de su guardarropa que fueran a buscar uno de sus trajes más hermosos para el señor marqués de Carabás."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Der König überhäufte ihn mit Freundlichkeiten.",
+          "Die schönen Kleider hoben sein gutes Aussehen hervor, denn er war schön und wohlgestaltet.",
+          "Darum fand die Königstochter großen Gefallen an ihm.",
+          "Kaum hatte er ihr zwei, drei sehr ehrerbietige und ein wenig zärtliche Blicke zugeworfen, da verliebte sie sich bis zur Narrheit in ihn.",
+          "Der König wollte, dass er in seine Kutsche stieg und die Spazierfahrt mitmachte."
+        ],
+        "es": [
+          "El rey le hizo mil atenciones.",
+          "Los hermosos trajes realzaban su buena planta, pues era guapo y bien parecido, y la hija del rey lo encontró muy de su gusto.",
+          "En cuanto él le echó dos o tres miradas muy respetuosas y un poco tiernas, ella se enamoró locamente de él.",
+          "El rey quiso que subiera a su carroza y que los acompañara en el paseo."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Der Kater freute sich, dass sein Plan zu gelingen begann, und lief voraus.",
+          "Er traf Bauern, die eine Wiese mähten, und sagte zu ihnen: „Ihr guten Leute, die ihr hier mäht!“",
+          "„Wenn ihr dem König nicht sagt, dass diese Wiese dem Herrn Marquis von Carabas gehört, dann werdet ihr alle so klein gehackt wie Pastetenfleisch!“",
+          "Der König fragte die Mäher natürlich, wem die Wiese gehöre.",
+          "„Dem Herrn Marquis von Carabas“, sagten sie alle zusammen, denn die Drohung des Katers hatte ihnen Angst gemacht."
+        ],
+        "es": [
+          "El gato, encantado de ver que su plan empezaba a salir bien, se adelantó.",
+          "Se encontró con unos campesinos que segaban un prado y les dijo: —¡Buena gente que segáis!",
+          "—Si no le decís al rey que este prado es del señor marqués de Carabás, ¡os harán picadillo, como carne de empanada!",
+          "El rey, claro está, preguntó a los segadores de quién era el prado.",
+          "—Es del señor marqués de Carabás —dijeron todos a una, porque la amenaza del gato les había dado miedo."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "„Da habt Ihr ein schönes Erbe“, sagte der König zum Marquis.",
+          "„Wie Ihr seht, Majestät“, antwortete dieser, „die Wiese bringt jedes Jahr reichen Ertrag.“",
+          "Der Kater, der immer vorauslief, traf Schnitter und sagte: „Ihr guten Leute, die ihr hier schneidet!“",
+          "„Wenn ihr nicht sagt, dass all dieses Korn dem Herrn Marquis von Carabas gehört, dann werdet ihr alle so klein gehackt wie Pastetenfleisch!“",
+          "Der König kam vorbei, fragte, wem das Korn gehöre, und freute sich wieder, als die Schnitter antworteten: „Dem Herrn Marquis von Carabas.“"
+        ],
+        "es": [
+          "—Tenéis aquí una hermosa heredad —dijo el rey al marqués.",
+          "—Ya lo veis, Majestad —respondió él—; este prado da buena cosecha todos los años.",
+          "El gato, que seguía delante, encontró a unos campesinos que cosechaban trigo y les dijo: —¡Buena gente que cosecháis!",
+          "—Si no decís que todo este trigo es del señor marqués de Carabás, ¡os harán a todos picadillo, como carne de empanada!",
+          "Pasó el rey, preguntó de quién era aquel trigo y volvió a alegrarse cuando le respondieron: —Del señor marqués de Carabás."
+        ]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "Der Kater sagte allen, denen er begegnete, immer dasselbe, und der König staunte über die großen Güter des Marquis.",
+          "Endlich kam der Kater zu einem schönen Schloss, das einem Oger gehörte, einem Menschenfresser.",
+          "Er war der reichste, den man je gesehen hatte, denn alles Land am Weg gehörte zu diesem Schloss.",
+          "Der Kater bat, ihn sprechen zu dürfen, denn er wolle nicht vorbeigehen, ohne ihm seine Aufwartung zu machen.",
+          "Der Oger empfing ihn so höflich, wie ein Oger es eben kann, und ließ ihn ausruhen."
+        ],
+        "es": [
+          "El gato decía lo mismo a todos, y el rey estaba asombrado de los grandes bienes del marqués.",
+          "Por fin, el gato llegó a un hermoso castillo cuyo dueño era un ogro.",
+          "Era el ogro más rico jamás visto, pues todas las tierras del camino eran de aquel castillo.",
+          "El gato pidió hablar con él, diciendo que no había querido pasar tan cerca sin presentarle sus respetos.",
+          "El ogro lo recibió con toda la cortesía de que es capaz un ogro, y lo invitó a descansar."
+        ]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "„Man hat mir versichert“, sagte der Kater, „Ihr könntet Euch in alle möglichen Tiere verwandeln, zum Beispiel in einen Löwen oder einen Elefanten.“",
+          "„Das ist wahr“, antwortete der Oger barsch, „und um es Euch zu beweisen, werdet Ihr mich jetzt zu einem Löwen werden sehen.“",
+          "Als der Kater einen Löwen vor sich sah, erschrak er so, dass er sofort hinauf in die Dachrinne flüchtete.",
+          "Das ging nicht ohne Mühe und Gefahr, denn mit seinen Stiefeln konnte er auf den Dachziegeln kaum laufen."
+        ],
+        "es": [
+          "—Me han asegurado —dijo el gato— que tenéis el don de convertiros en toda clase de animales, por ejemplo, en león o en elefante.",
+          "—Es verdad —respondió el ogro bruscamente—, y para demostrároslo, vais a verme convertido en león.",
+          "Al ver un león delante de él, el gato se asustó tanto que enseguida se subió a los canalones del tejado.",
+          "Y le costó mucho trabajo y peligro, por culpa de las botas, que no servían para andar por las tejas."
+        ]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "Bald darauf nahm der Oger wieder seine Gestalt an; da kam der Kater herunter und gestand, er habe große Angst gehabt.",
+          "„Man sagt auch“, sprach er, „Ihr könntet sogar zu den kleinsten Tieren werden, etwa zu einer Ratte oder einer Maus.“",
+          "„Ich gestehe, das halte ich für ganz unmöglich.“",
+          "„Unmöglich?“, rief der Oger. „Das werdet Ihr gleich sehen!“",
+          "Und schon wurde er zu einer Maus, die über den Fußboden lief.",
+          "Kaum hatte der Kater sie erblickt, da stürzte er sich auf sie und fraß sie auf."
+        ],
+        "es": [
+          "Al poco rato, el ogro recobró su forma; el gato bajó entonces y confesó que había pasado mucho miedo.",
+          "—También me han dicho, aunque no puedo creerlo, que podéis convertiros en los animales más pequeños, como una rata o un ratón.",
+          "—Os confieso que eso me parece del todo imposible.",
+          "—¿Imposible? —replicó el ogro—. ¡Ahora lo veréis!",
+          "Y al instante se convirtió en un ratón que echó a correr por el suelo.",
+          "En cuanto el gato lo vio, se lanzó sobre él y se lo comió."
+        ]
+      }
+    },
+    {
+      "image": "p16.svg",
+      "text": {
+        "de": [
+          "Inzwischen sah der König im Vorbeifahren das schöne Schloss des Ogers und wollte hineingehen.",
+          "Der Kater hörte die Kutsche über die Zugbrücke rollen, lief ihr entgegen und sagte: „Willkommen, Majestät, im Schloss des Herrn Marquis von Carabas!“",
+          "„Wie, Herr Marquis“, rief der König, „auch dieses Schloss gehört Euch?“",
+          "„Es gibt nichts Schöneres als diesen Hof und all die Gebäude ringsum.“",
+          "„Lasst uns bitte auch das Innere ansehen.“",
+          "Der Marquis reichte der jungen Prinzessin die Hand, und sie folgten dem König in einen großen Saal."
+        ],
+        "es": [
+          "Entretanto, el rey vio al pasar el hermoso castillo del ogro y quiso entrar.",
+          "El gato oyó la carroza sobre el puente levadizo, corrió a su encuentro y dijo: —¡Bienvenido sea Vuestra Majestad al castillo del señor marqués de Carabás!",
+          "—¿Cómo, señor marqués? —exclamó el rey—. ¿También este castillo es vuestro?",
+          "—No puede haber nada más bello que este patio y estos edificios.",
+          "—Veamos el interior, por favor.",
+          "El marqués dio la mano a la joven princesa, y siguieron al rey hasta un gran salón."
+        ]
+      }
+    },
+    {
+      "image": "p17.svg",
+      "text": {
+        "de": [
+          "Dort fanden sie ein prächtiges Mahl, das der Oger für seine Freunde hatte bereiten lassen.",
+          "Die Freunde hatten sich aber nicht hereingewagt, weil sie wussten, dass der König da war.",
+          "Der König war entzückt von den guten Eigenschaften des Herrn Marquis von Carabas, ebenso wie seine Tochter, die ganz närrisch in ihn verliebt war.",
+          "Als er die großen Güter sah und fünf- oder sechsmal getrunken hatte, sagte er: „Es liegt nur an Euch, Herr Marquis, ob Ihr mein Schwiegersohn werdet.“"
+        ],
+        "es": [
+          "Allí encontraron un magnífico banquete que el ogro había mandado preparar para unos amigos suyos.",
+          "Los amigos no se habían atrevido a entrar, porque sabían que el rey estaba allí.",
+          "El rey estaba encantado con las buenas cualidades del señor marqués de Carabás, igual que su hija, que estaba loca por él.",
+          "Viendo sus grandes bienes, y después de beber cinco o seis copas, le dijo: —Solo de vos depende, señor marqués, que seáis mi yerno."
+        ]
+      }
+    },
+    {
+      "image": "p18.svg",
+      "text": {
+        "de": [
+          "Der Marquis nahm unter tiefen Verbeugungen die Ehre an, die der König ihm erwies, und heiratete noch am selben Tag die Prinzessin.",
+          "Der Kater wurde ein großer Herr und jagte den Mäusen nur noch zum Vergnügen nach.",
+          "Die Moral: So groß der Vorteil eines reichen Erbes auch ist, jungen Leuten nützen Fleiß und Geschick meist mehr als ererbtes Gut.",
+          "Und eine zweite Moral: Gewinnt ein Müllerssohn so schnell das Herz einer Prinzessin, dann, weil Kleider, Aussehen und Jugend dabei nicht ganz gleichgültig sind."
+        ],
+        "es": [
+          "El marqués, con grandes reverencias, aceptó el honor del rey, y ese mismo día se casó con la princesa.",
+          "El gato se convirtió en un gran señor y ya solo cazaba ratones para divertirse.",
+          "Moraleja: por grande que sea la ventaja de heredar una fortuna, a los jóvenes les sirven más el ingenio y la maña que los bienes heredados.",
+          "Otra moraleja: si el hijo de un molinero conquista tan pronto a una princesa, es porque el traje, la buena planta y la juventud no son indiferentes."
+        ]
+      }
+    }
+  ]
+}

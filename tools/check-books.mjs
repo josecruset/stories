@@ -6,8 +6,12 @@ import { join } from 'node:path';
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const LANGS = ['de', 'es'];
-const listed = (readFileSync(join(ROOT, 'books.js'), 'utf8').match(/BOOKS\s*=\s*\[([^\]]*)\]/) || [, ''])[1]
+const booksJs = readFileSync(join(ROOT, 'books.js'), 'utf8');
+const listed = (booksJs.match(/BOOKS\s*=\s*\[([^\]]*)\]/) || [, ''])[1]
   .match(/'[^']+'/g)?.map((s) => s.slice(1, -1)) || [];
+// Originalfassungen: window.ORIGINALS = { kindgerecht-id: 'original-id', … }
+const originals = Object.fromEntries([...((booksJs.match(/ORIGINALS\s*=\s*\{([^}]*)\}/) || [, ''])[1]
+  .matchAll(/'?([a-z0-9-]+)'?\s*:\s*'([a-z0-9-]+)'/g))].map((m) => [m[1], m[2]]));
 const ids = process.argv.slice(2).length ? process.argv.slice(2)
   : readdirSync(join(ROOT, 'books'), { withFileTypes: true }).filter((d) => d.isDirectory()).map((d) => d.name);
 
@@ -92,11 +96,15 @@ for (const id of ids) {
         if (!Array.isArray(t) || !t.length || t.some((s) => typeof s !== 'string' || !s.trim())) bad.push(`Seite ${i + 1} ${l}: Text fehlt`);
         else {
           const words = t.join(' ').split(/\s+/).length;
-          if (words > 70) warn.push(`Seite ${i + 1} ${l}: ${words} Wörter`);
+          if (words > (book.version === 'original' ? 90 : 70)) warn.push(`Seite ${i + 1} ${l}: ${words} Wörter`);
         }
       }
     });
     if (book.interactive) checkInteractive(book, bad, warn);
+    if (book.version === 'original') {
+      if (!book.variantOf || !existsSync(join(ROOT, 'books', book.variantOf, 'book.json'))) bad.push(`variantOf „${book.variantOf}“ fehlt`);
+      for (const l of LANGS) if (!book.differences?.[l]?.length) bad.push(`differences.${l} fehlt`);
+    }
     for (const img of images) {
       const f = join(dir, 'img', img || '');
       if (!img || !existsSync(f)) { bad.push(`Bild fehlt: ${img}`); continue; }
@@ -125,7 +133,12 @@ for (const id of ids) {
       }
     }
   }
-  if (!listed.includes(id)) warn.push('nicht in books.js eingetragen');
+  if (book?.version === 'original') {
+    if (originals[book.variantOf] !== id) warn.push(`nicht in ORIGINALS (books.js) eingetragen`);
+  } else if (!listed.includes(id)) warn.push('nicht in books.js eingetragen');
+  for (const [kid, orig] of Object.entries(originals)) {
+    if (kid === id && !existsSync(join(ROOT, 'books', orig, 'book.json'))) bad.push(`Originalfassung „${orig}“ fehlt`);
+  }
   problems += bad.length;
   const status = bad.length ? '✗' : '✓';
   console.log(`${status} ${id}${book ? ' – ' + book.title.de : ''}`);

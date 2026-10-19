@@ -1,0 +1,158 @@
+{
+  "id": "stadtmusikanten-original",
+  "variantOf": "stadtmusikanten",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm, 1857", "es": "Hermanos Grimm, 1857" },
+  "accent": "#e8743b",
+  "age": 5,
+  "title": { "de": "Die Bremer Stadtmusikanten", "es": "Los músicos de Bremen" },
+  "blurb": {
+    "de": "Grimms Märchen im Wortlaut von 1857: Ein Esel, ein Hund, eine Katze und ein Hahn sollen sterben, weil sie alt sind, laufen davon und vertreiben unterwegs eine Räuberbande aus ihrem Haus.",
+    "es": "El cuento de los Grimm tal como se publicó en 1857: un burro, un perro, un gato y un gallo, condenados a morir por viejos, huyen juntos y echan a una banda de ladrones de su casa."
+  },
+  "differences": {
+    "de": [
+      "Im Original will der Herr den alten Esel „aus dem Futter schaffen“; in der kindgerechten Fassung will der Müller ihn nur nicht mehr behalten.",
+      "Im Original soll der Hund totgeschlagen, die Katze ersäuft und dem Hahn der Kopf abgeschnitten werden; in der kindgerechten Fassung sind Hund und Katze bloß alt, und der Hahn soll nur „in den Suppentopf“.",
+      "Der Esel sagt im Original „Etwas Besseres als den Tod findest du überall“; in der kindgerechten Fassung heißt es nur „etwas Besseres findest du überall“.",
+      "Im Original hält der Räuber ein Schwefelhölzchen an die Katzenaugen, die Katze springt ihm ins Gesicht, der Hund beißt ihn ins Bein und der Esel schlägt mit dem Hinterfuß; in der kindgerechten Fassung wird er gekratzt, gezwickt und bekommt einen Tritt.",
+      "Der Räuber berichtet im Original ausführlich von Hexe, Mann mit Messer, schwarzem Ungetüm mit Holzkeule und Richter, und das Märchen endet mit „Und der das zuletzt erzählt hat, dem ist der Mund noch warm“ statt mit „Und wenn sie nicht gestorben sind …“."
+    ],
+    "es": [
+      "En el original, el amo quiere deshacerse del burro viejo para no tener que darle de comer; en la versión infantil, el molinero simplemente ya no lo quiere.",
+      "En el original, al perro lo quieren matar a palos, al gato ahogarlo y al gallo cortarle la cabeza; en la versión infantil, el perro y el gato solo son viejos, y al gallo lo quieren «echar a la sopa».",
+      "En el original, el burro dice «algo mejor que la muerte encontrarás en cualquier parte»; en la versión infantil dice «algo mejor que la cazuela».",
+      "En el original, el ladrón acerca una cerilla a los ojos del gato, el gato le salta a la cara, el perro le muerde la pierna y el burro le da una coz; en la versión infantil solo le arañan, le mordisquean y le dan una coz.",
+      "En el original, el ladrón cuenta con detalle lo de la bruja, el hombre del cuchillo, el monstruo negro con la porra y el juez, y el cuento termina con «y el último que lo contó todavía tiene la boca caliente» en lugar de «colorín colorado»."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es hatte ein Mann einen Esel, der schon lange Jahre die Säcke unverdrossen zur Mühle getragen hatte.", "Nun aber gingen seine Kräfte zu Ende, sodass er zur Arbeit immer untauglicher ward.", "Da dachte der Herr daran, ihn aus dem Futter zu schaffen.", "Aber der Esel merkte, dass kein guter Wind wehte, lief fort und machte sich auf den Weg nach Bremen.", "Dort, meinte er, könnte er ja Stadtmusikant werden."],
+        "es": ["Un hombre tenía un burro que durante largos años había llevado sin descanso los sacos al molino.", "Pero ahora las fuerzas se le iban acabando, y cada vez servía menos para el trabajo.", "Entonces el amo pensó en quitárselo de encima para ahorrarse el pienso.", "Pero el burro se dio cuenta de que no soplaban buenos vientos, se escapó y se puso en camino hacia Bremen.", "Allí, pensaba, podría hacerse músico de la ciudad."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Als er ein Weilchen fortgegangen war, fand er einen Jagdhund auf dem Wege liegen, der japste wie einer, der sich müde gelaufen hat.", "„Nun, was japst du so, Packan?“, fragte der Esel.", "„Ach“, sagte der Hund, „weil ich alt bin und jeden Tag schwächer werde, auch auf der Jagd nicht mehr fort kann, hat mich mein Herr wollen totschlagen, da hab ich Reißaus genommen.“", "„Aber womit soll ich nun mein Brot verdienen?“"],
+        "es": ["Cuando llevaba un rato andando, encontró a un perro de caza tumbado en el camino, jadeando como quien se ha cansado de tanto correr.", "—¿Por qué jadeas así, Agarrador? —preguntó el burro.", "—Ay —dijo el perro—, como soy viejo, cada día estoy más débil y ya no sirvo para la caza, mi amo me quiso matar a palos, y yo me escapé.", "—Pero ¿con qué me voy a ganar ahora el pan?"]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["„Weißt du was“, sprach der Esel, „ich gehe nach Bremen und werde dort Stadtmusikant, geh mit und lass dich auch bei der Musik annehmen.“", "„Ich spiele die Laute, und du schlägst die Pauken.“", "Der Hund war's zufrieden, und sie gingen weiter.", "Es dauerte nicht lange, so saß da eine Katze an dem Weg und machte ein Gesicht wie drei Tage Regenwetter.", "„Nun, was ist dir in die Quere gekommen, alter Bartputzer?“, sprach der Esel."],
+        "es": ["—¿Sabes qué? —dijo el burro—. Yo voy a Bremen a hacerme músico de la ciudad; vente conmigo y que te admitan también en la música.", "—Yo tocaré el laúd, y tú, los timbales.", "Al perro le pareció bien, y siguieron adelante.", "Al poco rato vieron a un gato sentado junto al camino, con una cara como de tres días de lluvia.", "—¿Qué te ha salido mal, viejo limpiabigotes? —le preguntó el burro."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["„Wer kann da lustig sein, wenn's einem an den Kragen geht“, antwortete die Katze.", "„Weil ich nun zu Jahren komme, meine Zähne stumpf werden und ich lieber hinter dem Ofen sitze und spinne, als nach Mäusen herumzujagen, hat mich meine Frau ersäufen wollen.“", "„Ich habe mich zwar noch fortgemacht, aber nun ist guter Rat teuer: Wo soll ich hin?“", "„Geh mit uns nach Bremen, du verstehst dich doch auf die Nachtmusik, da kannst du ein Stadtmusikant werden.“"],
+        "es": ["—¿Quién puede estar alegre cuando le va el pellejo en ello? —contestó el gato.", "—Como me voy haciendo viejo, se me gastan los dientes y prefiero ronronear detrás de la estufa a andar cazando ratones, mi ama me quiso ahogar.", "—Es verdad que logré escaparme, pero ahora no sé qué hacer: ¿adónde voy?", "—Vente con nosotros a Bremen; tú que entiendes de música nocturna, allí podrás ser músico de la ciudad."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Die Katze hielt das für gut und ging mit.", "Darauf kamen die drei Landesflüchtigen an einem Hof vorbei, da saß auf dem Tor der Haushahn und schrie aus Leibeskräften.", "„Du schreist einem durch Mark und Bein“, sprach der Esel, „was hast du vor?“", "„Da hab ich gut Wetter prophezeit“, sprach der Hahn, „weil unserer lieben Frauen Tag ist, wo sie dem Christkindlein die Hemdchen gewaschen hat und sie trocknen will.“"],
+        "es": ["Al gato le pareció bien y se fue con ellos.", "Después, los tres fugitivos pasaron junto a una granja; allí, subido a la puerta, estaba el gallo de la casa cantando con todas sus fuerzas.", "—Tus gritos le atraviesan a uno hasta los huesos —dijo el burro—. ¿Qué te pasa?", "—He anunciado buen tiempo —dijo el gallo—, porque hoy es el día de Nuestra Señora, cuando lavó las camisitas del Niño Jesús y quiere tenderlas a secar."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["„Aber weil morgen zum Sonntag Gäste kommen, so hat die Hausfrau doch kein Erbarmen.“", "„Sie hat der Köchin gesagt, sie wollte mich morgen in der Suppe essen, und da soll ich mir heut Abend den Kopf abschneiden lassen.“", "„Nun schrei ich aus vollem Hals, solang ich noch kann.“", "„Ei was, du Rotkopf“, sagte der Esel, „zieh lieber mit uns fort, wir gehen nach Bremen; etwas Besseres als den Tod findest du überall.“"],
+        "es": ["—Pero como mañana, domingo, vienen invitados, la señora de la casa no tiene compasión.", "—Le ha dicho a la cocinera que mañana me quiere comer en la sopa, y esta noche me tienen que cortar la cabeza.", "—Así que grito a pleno pulmón mientras todavía pueda.", "—¡Bah, cresta roja! —dijo el burro—. Mejor vente con nosotros, que vamos a Bremen; algo mejor que la muerte encontrarás en cualquier parte."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["„Du hast eine gute Stimme, und wenn wir zusammen musizieren, so muss es eine Art haben.“", "Der Hahn ließ sich den Vorschlag gefallen, und sie gingen alle viere zusammen fort.", "Sie konnten aber die Stadt Bremen in einem Tag nicht erreichen und kamen abends in einen Wald, wo sie übernachten wollten."],
+        "es": ["—Tienes buena voz, y si hacemos música todos juntos, ha de sonar de maravilla.", "Al gallo le gustó la propuesta, y los cuatro se marcharon juntos.", "Pero no podían llegar a la ciudad de Bremen en un solo día, y al anochecer llegaron a un bosque donde quisieron pasar la noche."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Der Esel und der Hund legten sich unter einen großen Baum, die Katze und der Hahn machten sich in die Äste.", "Der Hahn aber flog bis an die Spitze, wo es am sichersten für ihn war.", "Ehe er einschlief, sah er sich noch einmal nach allen vier Winden um.", "Da deuchte ihn, er sähe in der Ferne ein Fünkchen brennen.", "Er rief seinen Gesellen zu, es müsste nicht gar weit ein Haus sein, denn es scheine ein Licht."],
+        "es": ["El burro y el perro se tumbaron bajo un árbol grande, y el gato y el gallo se subieron a las ramas.", "El gallo voló hasta la copa, que era donde estaba más seguro.", "Antes de dormirse, miró una vez más hacia los cuatro vientos.", "Entonces le pareció ver a lo lejos una chispita encendida.", "Gritó a sus compañeros que no muy lejos debía de haber una casa, porque se veía una luz."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Sprach der Esel: „So müssen wir uns aufmachen und noch hingehen, denn hier ist die Herberge schlecht.“", "Der Hund meinte, ein paar Knochen und etwas Fleisch dran täten ihm auch gut.", "Also machten sie sich auf den Weg nach der Gegend, wo das Licht war.", "Sie sahen es bald heller schimmern, und es ward immer größer, bis sie vor ein hell erleuchtetes Räuberhaus kamen."],
+        "es": ["Dijo el burro: —Entonces tenemos que ponernos en marcha e ir hasta allí, porque aquí la posada es mala.", "El perro opinó que unos cuantos huesos con algo de carne también le sentarían bien.", "Así que se encaminaron hacia el lugar donde estaba la luz.", "Pronto la vieron brillar con más fuerza, y se hacía cada vez más grande, hasta que llegaron ante una casa de ladrones muy iluminada."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Der Esel, als der größte, näherte sich dem Fenster und schaute hinein.", "„Was siehst du, Grauschimmel?“, fragte der Hahn.", "„Was ich sehe?“, antwortete der Esel, „einen gedeckten Tisch mit schönem Essen und Trinken, und Räuber sitzen daran und lassen's sich wohl sein.“", "„Das wäre was für uns“, sprach der Hahn.", "„Ja, ja, ach, wären wir da!“, sagte der Esel.", "Da ratschlagten die Tiere, wie sie es anfangen müssten, um die Räuber hinauszujagen, und fanden endlich ein Mittel."],
+        "es": ["El burro, como era el más alto, se acercó a la ventana y miró dentro.", "—¿Qué ves, Rucio? —preguntó el gallo.", "—¿Que qué veo? —respondió el burro—. Una mesa puesta con buena comida y bebida, y unos ladrones sentados a ella, dándose la gran vida.", "—Eso sí que sería algo para nosotros —dijo el gallo.", "—¡Sí, sí, ay, ojalá estuviéramos ahí! —dijo el burro.", "Entonces los animales deliberaron cómo podrían echar a los ladrones, y al fin dieron con un modo."]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": ["Der Esel musste sich mit den Vorderfüßen auf das Fenster stellen, der Hund auf des Esels Rücken springen, die Katze auf den Hund klettern.", "Und endlich flog der Hahn hinauf und setzte sich der Katze auf den Kopf.", "Wie das geschehen war, fingen sie auf ein Zeichen insgesamt an, ihre Musik zu machen.", "Der Esel schrie, der Hund bellte, die Katze miaute, und der Hahn krähte."],
+        "es": ["El burro tuvo que apoyar las patas delanteras en la ventana, el perro saltar sobre el lomo del burro y el gato trepar encima del perro.", "Por último, el gallo voló hacia arriba y se posó en la cabeza del gato.", "Hecho esto, a una señal, empezaron todos a la vez a hacer su música.", "El burro rebuznó, el perro ladró, el gato maulló y el gallo cantó."]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": ["Dann stürzten sie durch das Fenster in die Stube hinein, dass die Scheiben klirrten.", "Die Räuber fuhren bei dem entsetzlichen Geschrei in die Höhe.", "Sie meinten nicht anders, als ein Gespenst käme herein, und flohen in größter Furcht in den Wald hinaus.", "Nun setzten sich die vier Gesellen an den Tisch, nahmen mit dem vorlieb, was übrig geblieben war, und aßen, als wenn sie vier Wochen hungern sollten."],
+        "es": ["Luego se lanzaron por la ventana dentro de la sala, con gran estrépito de cristales.", "Al oír aquel griterío espantoso, los ladrones se levantaron de un salto.", "Creyeron que entraba un fantasma y huyeron al bosque muertos de miedo.", "Entonces los cuatro compañeros se sentaron a la mesa, se conformaron con lo que había sobrado y comieron como si tuvieran que pasar cuatro semanas de hambre."]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": ["Wie die vier Spielleute fertig waren, löschten sie das Licht aus und suchten sich eine Schlafstätte, jeder nach seiner Natur und Bequemlichkeit.", "Der Esel legte sich auf den Mist, der Hund hinter die Türe, die Katze auf den Herd bei der warmen Asche, und der Hahn setzte sich auf den Hahnenbalken.", "Und weil sie müde waren von ihrem langen Weg, schliefen sie auch bald ein."],
+        "es": ["Cuando los cuatro músicos terminaron, apagaron la luz y cada uno buscó un sitio para dormir, según su naturaleza y su comodidad.", "El burro se echó sobre el estiércol, el perro detrás de la puerta, el gato en el fogón junto a la ceniza caliente, y el gallo se subió a la viga del techo.", "Y como estaban cansados del largo camino, pronto se quedaron dormidos."]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": ["Als Mitternacht vorbei war und die Räuber von weitem sahen, dass kein Licht mehr im Haus brannte, auch alles ruhig schien, sprach der Hauptmann: „Wir hätten uns doch nicht sollen ins Bockshorn jagen lassen.“", "Und er hieß einen hingehen und das Haus untersuchen.", "Der Abgeschickte fand alles still und ging in die Küche, ein Licht anzuzünden."],
+        "es": ["Pasada la medianoche, cuando los ladrones vieron desde lejos que ya no había luz en la casa y que todo parecía tranquilo, el capitán dijo: —No debimos dejarnos asustar tan fácilmente.", "Y mandó a uno de ellos a registrar la casa.", "El enviado lo encontró todo en silencio y fue a la cocina a encender una luz."]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": ["Und weil er die glühenden, feurigen Augen der Katze für lebendige Kohlen ansah, hielt er ein Schwefelhölzchen daran, dass es Feuer fangen sollte.", "Aber die Katze verstand keinen Spaß, sprang ihm ins Gesicht, spie und kratzte.", "Da erschrak er gewaltig, lief und wollte zur Hintertüre hinaus.", "Aber der Hund, der da lag, sprang auf und biss ihn ins Bein."],
+        "es": ["Y como tomó los ojos ardientes y relucientes del gato por brasas vivas, les acercó una cerilla para que prendiera.", "Pero el gato no estaba para bromas: le saltó a la cara, bufando y arañando.", "El ladrón se asustó muchísimo y quiso salir corriendo por la puerta de atrás.", "Pero el perro, que estaba allí echado, se levantó de un salto y le mordió la pierna."]
+      }
+    },
+    {
+      "image": "p16.svg",
+      "text": {
+        "de": ["Und als er über den Hof an dem Miste vorbeirannte, gab ihm der Esel noch einen tüchtigen Schlag mit dem Hinterfuß.", "Der Hahn aber, der vom Lärmen aus dem Schlaf geweckt und munter geworden war, rief vom Balken herab: „Kikeriki!“", "Da lief der Räuber, was er konnte, zu seinem Hauptmann zurück."],
+        "es": ["Y cuando pasó corriendo por el patio junto al estiércol, el burro todavía le dio una buena coz con la pata de atrás.", "Y el gallo, al que el alboroto había despertado y espabilado, gritó desde la viga: «¡Quiquiriquí!».", "Entonces el ladrón corrió todo lo que pudo de vuelta adonde estaba su capitán."]
+      }
+    },
+    {
+      "image": "p17.svg",
+      "text": {
+        "de": ["„Ach“, sprach er, „in dem Haus sitzt eine gräuliche Hexe, die hat mich angehaucht und mit ihren langen Fingern mir das Gesicht zerkratzt.“", "„Und vor der Tür steht ein Mann mit einem Messer, der hat mich ins Bein gestochen.“", "„Und auf dem Hof liegt ein schwarzes Ungetüm, das hat mit einer Holzkeule auf mich losgeschlagen.“", "„Und oben auf dem Dache, da sitzt der Richter, der rief: ‚Bringt mir den Schelm her!‘“", "„Da machte ich, dass ich fortkam.“"],
+        "es": ["—¡Ay! —dijo—. En esa casa hay una bruja horrible que me echó el aliento y me arañó la cara con sus largos dedos.", "—Y delante de la puerta hay un hombre con un cuchillo que me lo clavó en la pierna.", "—Y en el patio hay un monstruo negro que me pegó con una porra de madera.", "—Y arriba, en el tejado, está sentado el juez, que gritó: «¡Traedme aquí a ese bribón!».", "—Así que me largué de allí como pude."]
+      }
+    },
+    {
+      "image": "p18.svg",
+      "text": {
+        "de": ["Von nun an getrauten sich die Räuber nicht weiter in das Haus.", "Den vier Bremer Musikanten gefiel's aber so wohl darin, dass sie nicht wieder heraus wollten.", "Und der das zuletzt erzählt hat, dem ist der Mund noch warm."],
+        "es": ["Desde entonces, los ladrones no se atrevieron a volver a la casa.", "Pero a los cuatro músicos de Bremen les gustó tanto que ya no quisieron salir de ella.", "Y el último que lo contó todavía tiene la boca caliente."]
+      }
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "id": "rapunzel-original",
+  "variantOf": "rapunzel",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": {
+    "de": "Brüder Grimm, 1857",
+    "es": "Hermanos Grimm, 1857"
+  },
+  "accent": "#d94f93",
+  "age": 6,
+  "title": {
+    "de": "Rapunzel",
+    "es": "Rapunzel"
+  },
+  "blurb": {
+    "de": "Das Märchen, wie es die Brüder Grimm 1857 aufgeschrieben haben: Eine Zauberin sperrt Rapunzel in einen Turm ohne Tür. Als sie die heimlichen Besuche des Königssohns entdeckt, verstößt sie Rapunzel, und der Königssohn stürzt in die Dornen und erblindet.",
+    "es": "El cuento tal como lo escribieron los hermanos Grimm en 1857: una hechicera encierra a Rapunzel en una torre sin puerta. Cuando descubre las visitas secretas del príncipe, echa a Rapunzel, y el príncipe cae entre las espinas y se queda ciego."
+  },
+  "differences": {
+    "de": [
+      "Im Original fragt der Königssohn Rapunzel, ob sie ihn heiraten will, und die beiden planen mit einer Leiter aus Seide ihre Flucht; das fehlt in der kindgerechten Fassung.",
+      "Im Original droht die Zauberin, die Katze werde dem Königssohn die Augen auskratzen; in der kindgerechten Fassung ruft sie nur „Das Vöglein ist ausgeflogen!“.",
+      "Im Original springt der Königssohn aus Verzweiflung vom Turm, die Dornen zerstechen ihm die Augen, und er irrt jahrelang blind umher; in der kindgerechten Fassung purzelt er vor Schreck in eine Hecke, wird nur gekratzt und kann vor Tränen kaum etwas sehen.",
+      "Im Original lebt Rapunzel in der Wüste in Jammer und Elend mit Zwillingen, die sie geboren hat; in der kindgerechten Fassung gibt es keine Kinder.",
+      "Im Original endet das Märchen ohne Hochzeitsfest mit „und sie lebten noch lange glücklich und vergnügt“; die kindgerechte Fassung fügt eine Hochzeit, nachgewachsenes Haar und den Schluss „Und wenn sie nicht gestorben sind …“ hinzu."
+    ],
+    "es": [
+      "En el original, el príncipe le pide a Rapunzel que se case con él y ambos planean la huida con una escalera de seda; en la versión infantil esto no aparece.",
+      "En el original, la hechicera amenaza con que el gato le sacará los ojos al príncipe; en la versión infantil solo exclama «¡El pajarito ha volado del nido!».",
+      "En el original, el príncipe salta desesperado de la torre, las espinas le pinchan los ojos y vaga ciego durante años; en la versión infantil cae del susto en un zarzal, solo se araña y apenas ve por las lágrimas.",
+      "En el original, Rapunzel vive en el desierto en la pena y la miseria con los mellizos que ha dado a luz; en la versión infantil no hay hijos.",
+      "En el original, el cuento termina sin boda con «y vivieron todavía mucho tiempo felices y contentos»; la versión infantil añade una boda, el pelo que vuelve a crecer y el final «colorín colorado»."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Es war einmal ein Mann und eine Frau, die wünschten sich schon lange vergeblich ein Kind.",
+          "Endlich machte sich die Frau Hoffnung, der liebe Gott werde ihren Wunsch erfüllen.",
+          "Die Leute hatten in ihrem Hinterhaus ein kleines Fenster, daraus konnte man in einen prächtigen Garten sehen, der voll der schönsten Blumen und Kräuter stand.",
+          "Er war aber von einer hohen Mauer umgeben, und niemand wagte hineinzugehen, weil er einer Zauberin gehörte, die große Macht hatte und von aller Welt gefürchtet ward."
+        ],
+        "es": [
+          "Érase una vez un hombre y una mujer que desde hacía mucho tiempo deseaban en vano tener un hijo.",
+          "Por fin, la mujer tuvo la esperanza de que Dios cumpliría su deseo.",
+          "En la parte de atrás de su casa tenían una ventanita desde la que se veía un jardín espléndido, lleno de las flores y hierbas más hermosas.",
+          "Pero lo rodeaba un muro alto, y nadie se atrevía a entrar, porque era de una hechicera muy poderosa a la que todo el mundo temía."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Eines Tags stand die Frau an diesem Fenster und sah in den Garten hinab.",
+          "Da erblickte sie ein Beet, das mit den schönsten Rapunzeln bepflanzt war, und sie sahen so frisch und grün aus, dass sie lüstern ward und das größte Verlangen empfand, von den Rapunzeln zu essen.",
+          "Das Verlangen nahm jeden Tag zu, und da sie wusste, dass sie keine davon bekommen konnte, so fiel sie ganz ab und sah blass und elend aus."
+        ],
+        "es": [
+          "Un día, la mujer estaba asomada a esa ventana y miraba el jardín.",
+          "Entonces vio un bancal plantado con los más hermosos rapunzel, tan frescos y verdes que se le antojaron y sintió unas ganas enormes de comerlos.",
+          "El antojo crecía cada día y, como sabía que no podría conseguir ninguno, fue perdiendo las fuerzas y se puso pálida y desmejorada."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Da erschrak der Mann und fragte: „Was fehlt dir, liebe Frau?“",
+          "„Ach“, antwortete sie, „wenn ich keine Rapunzeln aus dem Garten hinter unserm Hause zu essen kriege, so sterbe ich.“",
+          "Der Mann, der sie lieb hatte, dachte: „Eh du deine Frau sterben lässest, holst du ihr von den Rapunzeln, es mag kosten, was es will.“"
+        ],
+        "es": [
+          "Entonces el hombre se asustó y le preguntó: —¿Qué te pasa, querida esposa?",
+          "—Ay —contestó ella—, si no consigo comer rapunzel del jardín que hay detrás de nuestra casa, me moriré.",
+          "El hombre, que la quería mucho, pensó: «Antes que dejar morir a tu mujer, le traerás rapunzel, cueste lo que cueste»."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "In der Abenddämmerung stieg er also über die Mauer in den Garten der Zauberin, stach in aller Eile eine Handvoll Rapunzeln und brachte sie seiner Frau.",
+          "Sie machte sich sogleich Salat daraus und aß sie in voller Begierde auf.",
+          "Sie hatten ihr aber so gut, so gut geschmeckt, dass sie den andern Tag noch dreimal so viel Lust bekam.",
+          "Sollte sie Ruhe haben, so musste der Mann noch einmal in den Garten steigen."
+        ],
+        "es": [
+          "Así que, al anochecer, saltó el muro del jardín de la hechicera, arrancó a toda prisa un puñado de rapunzel y se lo llevó a su mujer.",
+          "Ella se preparó enseguida una ensalada y se la comió con verdadera ansia.",
+          "Pero le había gustado tanto, tantísimo, que al día siguiente tuvo tres veces más ganas.",
+          "Para que ella tuviera paz, el hombre tenía que volver a entrar en el jardín."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Er machte sich also in der Abenddämmerung wieder hinab.",
+          "Als er aber die Mauer herabgeklettert war, erschrak er gewaltig, denn er sah die Zauberin vor sich stehen.",
+          "„Wie kannst du es wagen“, sprach sie mit zornigem Blick, „in meinen Garten zu steigen und wie ein Dieb mir meine Rapunzeln zu stehlen?“",
+          "„Das soll dir schlecht bekommen.“"
+        ],
+        "es": [
+          "Así que, al anochecer, volvió a bajar al jardín.",
+          "Pero en cuanto bajó del muro se llevó un susto tremendo, porque vio a la hechicera plantada delante de él.",
+          "—¿Cómo te atreves —le dijo con mirada furiosa— a meterte en mi jardín y robarme mis rapunzel como un ladrón?",
+          "—Esto lo vas a pagar caro."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "„Ach“, antwortete er, „lasst Gnade für Recht ergehen, ich habe mich nur aus Not dazu entschlossen.“",
+          "„Meine Frau hat Eure Rapunzeln aus dem Fenster erblickt und empfindet ein so großes Gelüsten, dass sie sterben würde, wenn sie nicht davon zu essen bekäme.“",
+          "Da ließ die Zauberin in ihrem Zorne nach und sprach zu ihm: „Verhält es sich so, wie du sagst, so will ich dir gestatten, Rapunzeln mitzunehmen, so viel du willst.“"
+        ],
+        "es": [
+          "—Ay —respondió él—, tened piedad de mí; solo lo he hecho por necesidad.",
+          "—Mi mujer ha visto vuestros rapunzel desde la ventana y siente tal antojo que se moriría si no pudiera comerlos.",
+          "Entonces a la hechicera se le pasó el enfado y le dijo: —Si es como dices, te permitiré llevarte todo el rapunzel que quieras."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "„Allein ich mache eine Bedingung: Du musst mir das Kind geben, das deine Frau zur Welt bringen wird.“",
+          "„Es soll ihm gut gehen, und ich will für es sorgen wie eine Mutter.“",
+          "Der Mann sagte in der Angst alles zu.",
+          "Und als die Frau in Wochen kam, so erschien sogleich die Zauberin, gab dem Kinde den Namen Rapunzel und nahm es mit sich fort."
+        ],
+        "es": [
+          "—Pero pongo una condición: tienes que darme la criatura que traiga al mundo tu mujer.",
+          "—Le irá bien, y yo la cuidaré como una madre.",
+          "El hombre, muerto de miedo, se lo prometió todo.",
+          "Y cuando la mujer dio a luz, apareció en el acto la hechicera, le puso a la niña el nombre de Rapunzel y se la llevó consigo."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Rapunzel ward das schönste Kind unter der Sonne.",
+          "Als es zwölf Jahre alt war, schloss es die Zauberin in einen Turm, der in einem Walde lag und weder Treppe noch Türe hatte.",
+          "Nur ganz oben war ein kleines Fensterchen."
+        ],
+        "es": [
+          "Rapunzel llegó a ser la niña más hermosa que había bajo el sol.",
+          "Cuando cumplió doce años, la hechicera la encerró en una torre que estaba en un bosque y que no tenía ni escalera ni puerta.",
+          "Solo allá en lo alto había una ventanita."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Wenn die Zauberin hinein wollte, so stellte sie sich unten hin und rief: „Rapunzel, Rapunzel, lass mir dein Haar herunter.“",
+          "Rapunzel hatte lange prächtige Haare, fein wie gesponnen Gold.",
+          "Wenn sie nun die Stimme der Zauberin vernahm, so band sie ihre Zöpfe los und wickelte sie oben um einen Fensterhaken.",
+          "Dann fielen die Haare zwanzig Ellen tief herunter, und die Zauberin stieg daran hinauf."
+        ],
+        "es": [
+          "Cuando la hechicera quería entrar, se ponía abajo y gritaba: —¡Rapunzel, Rapunzel, suelta tu cabello!",
+          "Rapunzel tenía un cabello largo y magnífico, fino como oro hilado.",
+          "En cuanto oía la voz de la hechicera, se soltaba las trenzas y las enrollaba arriba, en un gancho de la ventana.",
+          "Entonces el cabello caía veinte varas hacia abajo, y la hechicera subía trepando por él."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Nach ein paar Jahren trug es sich zu, dass der Sohn des Königs durch den Wald ritt und an dem Turm vorüberkam.",
+          "Da hörte er einen Gesang, der war so lieblich, dass er still hielt und horchte.",
+          "Das war Rapunzel, die in ihrer Einsamkeit sich die Zeit damit vertrieb, ihre süße Stimme erschallen zu lassen.",
+          "Der Königssohn wollte zu ihr hinaufsteigen und suchte nach einer Türe des Turms, aber es war keine zu finden."
+        ],
+        "es": [
+          "Al cabo de unos años sucedió que el hijo del rey cabalgaba por el bosque y pasó junto a la torre.",
+          "Entonces oyó un canto tan dulce que se detuvo a escuchar.",
+          "Era Rapunzel, que en su soledad pasaba el tiempo dejando sonar su dulce voz.",
+          "El hijo del rey quiso subir hasta ella y buscó la puerta de la torre, pero no había ninguna."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Er ritt heim, doch der Gesang hatte ihm so sehr das Herz gerührt, dass er jeden Tag hinaus in den Wald ging und zuhörte.",
+          "Als er einmal so hinter einem Baum stand, sah er, dass eine Zauberin herankam, und hörte, wie sie hinaufrief: „Rapunzel, Rapunzel, lass mir dein Haar herunter.“",
+          "Da ließ Rapunzel die Haarflechten herab, und die Zauberin stieg zu ihr hinauf.",
+          "„Ist das die Leiter, auf welcher man hinaufkommt, so will ich auch einmal mein Glück versuchen.“"
+        ],
+        "es": [
+          "Volvió a su casa, pero el canto le había llegado tan hondo al corazón que todos los días iba al bosque a escucharlo.",
+          "Una vez que estaba detrás de un árbol, vio que se acercaba una hechicera y oyó cómo gritaba hacia arriba: —¡Rapunzel, Rapunzel, suelta tu cabello!",
+          "Rapunzel dejó caer sus trenzas, y la hechicera subió hasta ella.",
+          "«Si esa es la escalera por la que se sube, también yo probaré suerte»."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Und den folgenden Tag, als es anfing dunkel zu werden, ging er zu dem Turme und rief: „Rapunzel, Rapunzel, lass mir dein Haar herunter.“",
+          "Alsbald fielen die Haare herab, und der Königssohn stieg hinauf.",
+          "Anfangs erschrak Rapunzel gewaltig, als ein Mann zu ihr hereinkam, wie ihre Augen noch nie einen erblickt hatten."
+        ],
+        "es": [
+          "Y al día siguiente, cuando empezaba a oscurecer, fue a la torre y gritó: —¡Rapunzel, Rapunzel, suelta tu cabello!",
+          "Al instante cayó el cabello, y el hijo del rey subió.",
+          "Al principio Rapunzel se asustó muchísimo al ver entrar a un hombre, pues sus ojos nunca habían visto ninguno."
+        ]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "Doch der Königssohn fing an, ganz freundlich mit ihr zu reden, und erzählte ihr, dass von ihrem Gesang sein Herz so sehr sei bewegt worden, dass es ihm keine Ruhe gelassen und er sie selbst habe sehen müssen.",
+          "Da verlor Rapunzel ihre Angst.",
+          "Und als er sie fragte, ob sie ihn zum Manne nehmen wollte, und sie sah, dass er jung und schön war, so dachte sie: „Der wird mich lieber haben als die alte Frau Gothel.“"
+        ],
+        "es": [
+          "Pero el hijo del rey empezó a hablarle con mucha amabilidad y le contó que su canto le había conmovido tanto el corazón que no había tenido paz hasta verla con sus propios ojos.",
+          "Entonces Rapunzel perdió el miedo.",
+          "Y cuando él le preguntó si quería tomarlo por esposo, y ella vio que era joven y apuesto, pensó: «Este me querrá más que la vieja señora Gothel»."
+        ]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "Und sie sagte Ja und legte ihre Hand in seine Hand.",
+          "Sie sprach: „Ich will gerne mit dir gehen, aber ich weiß nicht, wie ich herabkommen kann.“",
+          "„Wenn du kommst, so bring jedes Mal einen Strang Seide mit, daraus will ich eine Leiter flechten, und wenn die fertig ist, so steige ich herunter, und du nimmst mich auf dein Pferd.“",
+          "Sie verabredeten, dass er bis dahin alle Abende zu ihr kommen sollte, denn bei Tag kam die Alte."
+        ],
+        "es": [
+          "Y le dijo que sí y puso su mano en la de él.",
+          "—Me iré contigo con mucho gusto —dijo—, pero no sé cómo bajar de aquí.",
+          "—Cada vez que vengas, tráeme una madeja de seda; con ella trenzaré una escalera, y cuando esté terminada, bajaré y tú me llevarás en tu caballo.",
+          "Acordaron que, hasta entonces, él vendría a verla todas las noches, porque de día venía la vieja."
+        ]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "Die Zauberin merkte auch nichts davon, bis einmal Rapunzel anfing und zu ihr sagte: „Sagen Sie mir doch, Frau Gothel, wie kommt es nur, sie wird mir viel schwerer heraufzuziehen als der junge Königssohn, der ist in einem Augenblick bei mir.“",
+          "„Ach du gottloses Kind“, rief die Zauberin, „was muss ich von dir hören!“",
+          "„Ich dachte, ich hätte dich von aller Welt geschieden, und du hast mich doch betrogen!“"
+        ],
+        "es": [
+          "La hechicera no notó nada, hasta que un día Rapunzel le dijo: —Dígame, señora Gothel, ¿cómo es que me cuesta mucho más subirla a usted que al joven hijo del rey, que está conmigo en un instante?",
+          "—¡Ay, niña impía! —gritó la hechicera—. ¡Qué es lo que tengo que oír!",
+          "—Creía que te había apartado de todo el mundo, y aun así me has engañado."
+        ]
+      }
+    },
+    {
+      "image": "p16.svg",
+      "text": {
+        "de": [
+          "In ihrem Zorne packte sie die schönen Haare der Rapunzel, schlug sie ein paarmal um ihre linke Hand und griff eine Schere mit der rechten.",
+          "Und ritsch, ratsch, waren sie abgeschnitten, und die schönen Flechten lagen auf der Erde.",
+          "Und sie war so unbarmherzig, dass sie die arme Rapunzel in eine Wüstenei brachte, wo sie in großem Jammer und Elend leben musste."
+        ],
+        "es": [
+          "En su furia, agarró los hermosos cabellos de Rapunzel, se los enrolló un par de veces en la mano izquierda y cogió unas tijeras con la derecha.",
+          "Y, tris, tras, quedaron cortados, y las hermosas trenzas cayeron al suelo.",
+          "Y fue tan despiadada que llevó a la pobre Rapunzel a un desierto, donde tuvo que vivir en medio de una gran pena y miseria."
+        ]
+      }
+    },
+    {
+      "image": "p17.svg",
+      "text": {
+        "de": [
+          "Denselben Tag aber, wo sie Rapunzel verstoßen hatte, machte abends die Zauberin die abgeschnittenen Flechten oben am Fensterhaken fest.",
+          "Und als der Königssohn kam und rief: „Rapunzel, Rapunzel, lass mir dein Haar herunter“, so ließ sie die Haare hinab.",
+          "Der Königssohn stieg hinauf, aber er fand oben nicht seine liebste Rapunzel, sondern die Zauberin, die ihn mit bösen und giftigen Blicken ansah."
+        ],
+        "es": [
+          "Pero ese mismo día en que había echado a Rapunzel, al anochecer, la hechicera ató las trenzas cortadas al gancho de la ventana.",
+          "Y cuando llegó el hijo del rey y gritó: «¡Rapunzel, Rapunzel, suelta tu cabello!», ella dejó caer el cabello.",
+          "El hijo del rey subió, pero arriba no encontró a su amada Rapunzel, sino a la hechicera, que lo miraba con ojos malvados y venenosos."
+        ]
+      }
+    },
+    {
+      "image": "p18.svg",
+      "text": {
+        "de": [
+          "„Aha“, rief sie höhnisch, „du willst die Frau Liebste holen, aber der schöne Vogel sitzt nicht mehr im Nest und singt nicht mehr.“",
+          "„Die Katze hat ihn geholt und wird dir auch noch die Augen auskratzen.“",
+          "„Für dich ist Rapunzel verloren, du wirst sie nie wieder erblicken.“",
+          "Der Königssohn geriet außer sich vor Schmerzen, und in der Verzweiflung sprang er den Turm herab.",
+          "Das Leben brachte er davon, aber die Dornen, in die er fiel, zerstachen ihm die Augen."
+        ],
+        "es": [
+          "—¡Ajá! —exclamó burlona—. Vienes a buscar a tu amada, pero el hermoso pájaro ya no está en el nido ni canta.",
+          "—Se lo ha llevado el gato, y a ti también te sacará los ojos.",
+          "—Para ti, Rapunzel está perdida; nunca volverás a verla.",
+          "El hijo del rey, fuera de sí de dolor, saltó desesperado desde la torre.",
+          "Salvó la vida, pero las espinas en las que cayó le pincharon los ojos."
+        ]
+      }
+    },
+    {
+      "image": "p19.svg",
+      "text": {
+        "de": [
+          "Da irrte er blind im Walde umher und aß nichts als Wurzeln und Beeren.",
+          "Er tat nichts als jammern und weinen über den Verlust seiner liebsten Frau.",
+          "So wanderte er einige Jahre im Elend umher.",
+          "Endlich geriet er in die Wüstenei, wo Rapunzel mit den Zwillingen, die sie geboren hatte, einem Knaben und Mädchen, kümmerlich lebte."
+        ],
+        "es": [
+          "Desde entonces anduvo ciego por el bosque, y no comía más que raíces y bayas.",
+          "No hacía otra cosa que lamentarse y llorar por la pérdida de su amada esposa.",
+          "Así vagó varios años en la miseria.",
+          "Por fin llegó al desierto donde Rapunzel vivía pobremente con los mellizos que había dado a luz, un niño y una niña."
+        ]
+      }
+    },
+    {
+      "image": "p20.svg",
+      "text": {
+        "de": [
+          "Er vernahm eine Stimme, und sie deuchte ihn so bekannt.",
+          "Da ging er darauf zu, und wie er herankam, erkannte ihn Rapunzel und fiel ihm um den Hals und weinte.",
+          "Zwei von ihren Tränen aber benetzten seine Augen, da wurden sie wieder klar, und er konnte damit sehen wie sonst.",
+          "Er führte sie in sein Reich, wo er mit Freude empfangen ward, und sie lebten noch lange glücklich und vergnügt."
+        ],
+        "es": [
+          "Oyó una voz que le pareció muy conocida.",
+          "Fue hacia ella y, cuando estuvo cerca, Rapunzel lo reconoció, se le echó al cuello y lloró.",
+          "Pero dos de sus lágrimas le mojaron los ojos, que se aclararon de nuevo, y pudo ver como antes.",
+          "Él la llevó a su reino, donde lo recibieron con alegría, y vivieron todavía mucho tiempo felices y contentos."
+        ]
+      }
+    }
+  ]
+}

@@ -28,6 +28,24 @@
       footer: 'Märchen und neue Geschichten – liebevoll gemalt und vorgelesen. Viel Spaß!',
       games: '🎮 Spiele für Kinder',
       madeBy: 'Gemacht von',
+      parentsLink: '👪 Für Eltern: Märchen-Fassungen',
+      originalBadge: '📜 Original',
+      originalTag: (o) => `📜 Originalfassung${o ? ' – ' + o : ''}`,
+      parentsTitle: 'Für Eltern',
+      parentsGate: 'Dieser Bereich ist für Eltern. Bitte rechne:',
+      parentsGateWrong: 'Das stimmt leider nicht – bitte noch einmal.',
+      parentsGo: 'Weiter',
+      parentsIntro: 'Die Märchen gibt es in zwei Fassungen. Die Originalfassung erzählt das Märchen so, wie es aufgeschrieben wurde (Brüder Grimm, Andersen, Perrault, spanische Überlieferung …) – mit allen harten Stellen: Gewalt, Strafen und Tod. Die kindgerechte Fassung erzählt dieselbe Geschichte nach, aber entschärft. Ohne Einstellung sehen Kinder die kindgerechte Fassung.',
+      parentsAll: 'Fassung für alle Märchen',
+      verKind: 'Kindgerecht',
+      verOrig: 'Original',
+      verDefault: 'Wie oben',
+      parentsEach: 'Einzelne Märchen',
+      parentsEachHint: 'Hier können Sie für jedes Märchen eine eigene Wahl treffen und nachlesen, was die kindgerechte Fassung ändert.',
+      whatDiffers: 'Was ist in der kindgerechten Fassung anders?',
+      sameAsOriginal: 'Ohne eigene Originalfassung, weil die Erzählung schon dem Original entspricht:',
+      saved: 'Gespeichert ✓',
+      backToLibrary: '← Zur Bücherei',
       read: 'Lesen',
       listen: 'Hören',
       age: (n) => `ab ${n} Jahren`,
@@ -77,6 +95,24 @@
       footer: 'Cuentos clásicos y nuevos, con dibujos y para escuchar. ¡Que los disfrutes!',
       games: '🎮 Juegos para niños',
       madeBy: 'Hecho por',
+      parentsLink: '👪 Para padres: versiones de los cuentos',
+      originalBadge: '📜 Original',
+      originalTag: (o) => `📜 Versión original${o ? ' – ' + o : ''}`,
+      parentsTitle: 'Para padres',
+      parentsGate: 'Esta zona es para madres y padres. Resuelve la cuenta:',
+      parentsGateWrong: 'No es correcto. Inténtalo de nuevo.',
+      parentsGo: 'Continuar',
+      parentsIntro: 'Los cuentos clásicos están en dos versiones. La versión original cuenta el cuento tal y como se escribió (hermanos Grimm, Andersen, Perrault, tradición popular española…), con todos sus momentos duros: violencia, castigos y muerte. La versión infantil cuenta la misma historia, pero suavizada. Si no se elige nada, los niños ven la versión infantil.',
+      parentsAll: 'Versión para todos los cuentos',
+      verKind: 'Infantil',
+      verOrig: 'Original',
+      verDefault: 'Como arriba',
+      parentsEach: 'Cada cuento',
+      parentsEachHint: 'Aquí puede elegir la versión de cada cuento por separado y leer qué cambia la versión infantil.',
+      whatDiffers: '¿Qué cambia en la versión infantil?',
+      sameAsOriginal: 'Sin versión original aparte, porque el cuento ya coincide con el original:',
+      saved: 'Guardado ✓',
+      backToLibrary: '← A la biblioteca',
       read: 'Leer',
       listen: 'Escuchar',
       age: (n) => `desde ${n} años`,
@@ -154,6 +190,22 @@
     return all[id];
   }
 
+  // Märchen-Fassung: Originalfassungen stehen in window.ORIGINALS (books.js) als { id: 'id-original' }.
+  // Ohne Einstellung gilt die kindgerechte Fassung; Eltern wählen auf eltern.html für alle oder einzeln.
+  const DEFAULT_VERSION = 'kindgerecht';
+  function settings(value) {
+    const s = store('stories.settings') || {};
+    if (value === undefined) return { version: s.version || DEFAULT_VERSION, perBook: s.perBook || {} };
+    store('stories.settings', value);
+    return value;
+  }
+  function versionFor(id) {
+    if (!(window.ORIGINALS || {})[id]) return null;
+    const s = settings();
+    return s.perBook[id] || s.version;
+  }
+  const variantId = (id) => (versionFor(id) === 'original' ? window.ORIGINALS[id] : id);
+
   const cache = {};
   function loadBook(id) {
     if (!/^[a-z0-9-]+$/.test(id)) return Promise.reject(new Error('bad id'));
@@ -199,7 +251,7 @@
 
   window.Stories = {
     get lang() { return lang; }, t, setLang, applyStatic, onLang: (fn) => listeners.push(fn),
-    progress, loadBook, minutes, store,
+    progress, loadBook, minutes, store, settings, versionFor, variantId,
   };
   applyStatic();
 })();

@@ -1,0 +1,400 @@
+{
+  "id": "haessliches-entlein-original",
+  "variantOf": "haessliches-entlein",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": {
+    "de": "Hans Christian Andersen, 1843",
+    "es": "Hans Christian Andersen, 1843"
+  },
+  "accent": "#2a9fd0",
+  "age": 6,
+  "title": {
+    "de": "Das hässliche Entlein",
+    "es": "El patito feo"
+  },
+  "blurb": {
+    "de": "Andersens Märchen von dem großen grauen Küken, das vom ganzen Entenhof gequält und verjagt wird, einen harten Winter übersteht und im Frühling erkennt, dass es ein Schwan ist.",
+    "es": "El cuento de Andersen sobre la cría grande y gris a la que todo el corral maltrata y echa, que sobrevive a un duro invierno y en primavera descubre que es un cisne."
+  },
+  "differences": {
+    "de": [
+      "Im Original wendet sich auch die eigene Mutter ab („Wärest du nur weit fort!“), die Geschwister wünschen, die Katze möge es fangen, und das Futtermädchen tritt nach ihm; in der kindgerechten Fassung nimmt die Mutter es liebevoll unter den Flügel.",
+      "Im Original gibt es eine Jagd im Moor, bei der zwei Gänseriche erschossen werden und das Wasser blutrot wird; in der kindgerechten Fassung bellt nur ein Hund im Schilf.",
+      "Im Original flüchtet das Entlein bei der Bauernfamilie in Milchnapf, Butterfass und Mehltonne, die Frau schlägt mit der Feuerzange nach ihm, und es muss wieder hinaus in den Schnee; in der kindgerechten Fassung wärmt es sich am Ofen und wird gestreichelt.",
+      "Im Original schwimmt das Entlein zu den Schwänen, weil es von ihnen getötet werden will („Tötet mich nur!“); in der kindgerechten Fassung fliegt es einfach zu ihnen.",
+      "Die Moral „Jeder ist auf seine Weise schön“ ist hinzugefügt; Andersen schließt mit dem Satz vom Schwanenei und dem Jubel des jungen Schwans."
+    ],
+    "es": [
+      "En el original también su propia madre lo rechaza («¡Ojalá estuvieras bien lejos!»), sus hermanos desean que lo atrape el gato y la muchacha de los animales le da patadas; en la versión infantil la madre lo arropa con cariño bajo su ala.",
+      "En el original hay una cacería en la ciénaga en la que matan a dos gansos y el agua se tiñe de rojo sangre; en la versión infantil solo ladra un perro entre los juncos.",
+      "En el original, en casa del campesino el patito se mete en el cuenco de la leche, la mantequera y el barril de la harina, la mujer le pega con las tenazas y tiene que volver a la nieve; en la versión infantil entra en calor junto al fuego y lo acarician.",
+      "En el original el patito nada hacia los cisnes porque quiere que lo maten («¡Matadme!»); en la versión infantil simplemente vuela hacia ellos.",
+      "La moraleja «cada uno es bonito a su manera» está añadida; Andersen termina con la frase del huevo de cisne y la alegría del joven cisne."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Es war so herrlich draußen auf dem Lande; es war Sommer!",
+          "Das Korn stand gelb, der Hafer grün, und auf den Wiesen ging der Storch auf seinen langen roten Beinen und plapperte Ägyptisch.",
+          "Rings um einen alten Gutshof lagen tiefe Kanäle, und dort wuchsen Klettenblätter, so hoch, dass kleine Kinder unter den größten aufrecht stehen konnten.",
+          "Darunter saß eine Ente auf ihrem Nest und brütete ihre Jungen aus.",
+          "Aber sie war es fast müde, denn es dauerte so lange, und sie bekam selten Besuch."
+        ],
+        "es": [
+          "¡Qué hermoso estaba el campo; era verano!",
+          "El trigo estaba amarillo, la avena verde, y por los prados se paseaba la cigüeña sobre sus largas patas rojas, parloteando en egipcio.",
+          "Alrededor de una vieja casa señorial había hondos canales, y allí crecían unas hojas de bardana tan altas que los niños pequeños podían estar de pie bajo las más grandes.",
+          "Debajo de ellas, una pata empollaba sus huevos en el nido.",
+          "Pero ya estaba casi cansada, porque tardaba mucho y casi nunca recibía visitas."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Endlich platzte ein Ei nach dem andern: „Piep! Piep!“ Alle Eidotter waren lebendig geworden.",
+          "„Seid ihr nun alle beisammen?“, fragte die Mutter und stand auf. „Nein, das größte Ei liegt noch da!“",
+          "Da kam eine alte Ente zu Besuch und besah sich das Ei, das nicht platzen wollte.",
+          "„Glaube mir, das ist ein Truthahnei!“, sagte sie. „Ich bin auch einmal so angeführt worden; lass es liegen und lehre lieber die anderen Kinder schwimmen!“",
+          "„Ich will doch noch ein bisschen darauf sitzen“, sagte die Entenmutter."
+        ],
+        "es": [
+          "Por fin, un huevo tras otro se fue rompiendo, ¡pío, pío!, y todas las yemas cobraron vida.",
+          "—¿Ya estáis todos? —preguntó la madre, y se levantó—. No, el huevo más grande sigue ahí.",
+          "Entonces vino de visita una pata vieja y miró el huevo que no quería romperse.",
+          "—Créeme, es un huevo de pava —dijo—. A mí también me engañaron así una vez; déjalo y enseña a nadar a los otros niños.",
+          "—Me quedaré sentada encima un poquito más —dijo la madre pata."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Endlich platzte das große Ei. „Piep! Piep!“, sagte das Junge und kroch heraus.",
+          "Es war sehr groß und hässlich, und die Ente betrachtete es: „Sollte das doch ein Truthahnküken sein? Ins Wasser muss es, und sollte ich es selbst hineinstoßen!“",
+          "Am nächsten Tag sprang sie in den Kanal, und ein Junges nach dem andern plumpste hinterher; auch das hässliche graue schwamm mit.",
+          "„Nein, das ist kein Truthahn“, sagte sie, „sieh, wie schön es die Beine gebraucht, wie gerade es sich hält. Es ist mein eigenes Kind!“"
+        ],
+        "es": [
+          "—¡Pío, pío! —dijo la cría al salir por fin del huevo grande.",
+          "Era muy grande y muy feo, y la pata lo miró: —¿Será de verdad un pavito? Al agua tiene que ir, aunque tenga que empujarlo yo misma.",
+          "Al día siguiente saltó al canal, y los patitos fueron cayendo detrás, uno tras otro; también el feo y gris nadaba con ellos.",
+          "—No, no es un pavo —dijo ella—. Mira qué bien mueve las patas y qué derecho se mantiene. ¡Es hijo mío!"
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "„Rapp, rapp! Kommt mit, ich will euch im Entenhof vorstellen“, sagte die Mutter.",
+          "Dort stritten zwei Familien um einen Aalkopf, und dann bekam ihn doch die Katze.",
+          "Die anderen Enten riefen laut: „Pfui, wie das eine Entlein aussieht! Das wollen wir nicht dulden!“",
+          "Und sogleich flog eine Ente hin und biss es in den Nacken.",
+          "„Lass es in Ruhe“, sagte die Mutter, „es tut ja niemandem etwas!“",
+          "„Ja, aber es ist zu groß und ungewöhnlich“, sagte die Ente, „und darum muss es gepufft werden!“"
+        ],
+        "es": [
+          "—¡Cuac, cuac! Venid conmigo, que os voy a presentar en el corral —dijo la madre.",
+          "Allí dos familias se peleaban por una cabeza de anguila, y al final se la llevó el gato.",
+          "Los otros patos gritaron: —¡Uf, qué pinta tiene ese patito! ¡No lo vamos a consentir!",
+          "Y enseguida un pato fue volando hacia él y le picó en el cuello.",
+          "—¡Dejadlo en paz! —dijo la madre—. No hace daño a nadie.",
+          "—Sí, pero es demasiado grande y raro —dijo el pato—, y por eso hay que darle empujones."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Das arme Entlein, das zuletzt aus dem Ei gekrochen war und so hässlich aussah, wurde gebissen, gestoßen und verspottet, von den Enten wie von den Hühnern.",
+          "„Es ist zu groß!“, sagten alle.",
+          "Der Truthahn, der mit Sporen zur Welt gekommen war und darum glaubte, er sei Kaiser, blies sich auf wie ein Schiff mit vollen Segeln, ging gerade auf es los, kollerte und wurde ganz rot am Kopf.",
+          "Das arme Entlein wusste nicht, wo es stehen oder gehen sollte, so betrübt war es."
+        ],
+        "es": [
+          "Al pobre patito, que había salido el último del huevo y era tan feo, lo picaban, lo empujaban y se burlaban de él, tanto los patos como las gallinas.",
+          "—¡Es demasiado grande! —decían todos.",
+          "Y el pavo, que había nacido con espolones y por eso se creía emperador, se infló como un barco a toda vela, se fue derecho hacia él, gorgoteó y se le puso la cabeza toda roja.",
+          "El pobre patito no sabía dónde meterse, de tan triste como estaba."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "So ging es den ersten Tag, und dann wurde es schlimmer und schlimmer.",
+          "Selbst seine Geschwister waren böse zu ihm und sagten immer: „Wenn dich nur die Katze fangen möchte, du hässliches Geschöpf!“",
+          "Und die Mutter sagte: „Wärest du nur weit fort!“",
+          "Die Enten bissen es, die Hühner schlugen es, und das Futtermädchen stieß mit dem Fuß nach ihm.",
+          "Da lief es davon und flog über den Zaun; die kleinen Vögel in den Büschen flogen erschrocken auf.",
+          "„Das geschieht, weil ich so hässlich bin!“, dachte das Entlein."
+        ],
+        "es": [
+          "Así pasó el primer día, y después todo fue de mal en peor.",
+          "Hasta sus hermanos eran malos con él y le decían siempre: —¡Ojalá te atrape el gato, bicho feo!",
+          "Y su madre decía: —¡Ojalá estuvieras bien lejos!",
+          "Los patos lo picaban, las gallinas le pegaban, y la muchacha que daba de comer a los animales le daba patadas.",
+          "Entonces echó a correr y voló por encima de la cerca, y los pajarillos de los matorrales salieron volando asustados.",
+          "«Es porque soy tan feo», pensó el patito."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "So kam es zu dem großen Moor, wo die Wildenten wohnten, und lag dort die ganze Nacht, müde und kummervoll.",
+          "Am Morgen sahen die Wildenten den neuen Kameraden an: „Du bist außerordentlich hässlich! Aber das kann uns gleich sein, wenn du nur nicht in unsere Familie hineinheiratest.“",
+          "Das Arme dachte wahrlich nicht ans Heiraten; es wollte nur im Schilf liegen und Moorwasser trinken.",
+          "Nach zwei Tagen kamen zwei wilde Gänseriche: „Höre, Kamerad, du bist so hässlich, dass wir dich gut leiden mögen! Willst du mitziehen und Zugvogel sein?“"
+        ],
+        "es": [
+          "Así llegó a la gran ciénaga de los patos salvajes y pasó allí la noche, cansado y triste.",
+          "Por la mañana, los patos salvajes miraron al recién llegado: —¡Eres feísimo! Pero nos da igual, con tal de que no te cases con nadie de nuestra familia.",
+          "El pobre no pensaba en casarse; solo quería estar entre los juncos y beber agua de la ciénaga.",
+          "A los dos días llegaron dos gansos salvajes: —Oye, compañero, eres tan feo que nos caes bien. ¿Quieres venir con nosotros y ser ave de paso?"
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "„Piff! Paff!“, knallte es da, und beide Gänseriche fielen tot ins Schilf, und das Wasser wurde blutrot.",
+          "„Piff! Paff!“, knallte es wieder, und ganze Scharen von Wildgänsen flogen aus dem Schilf auf.",
+          "Es war eine große Jagd; die Jäger lagen rings um das Moor, ja einige saßen sogar oben in den Baumzweigen.",
+          "Der blaue Pulverdampf zog wie Wolken zwischen die dunklen Bäume, und die Jagdhunde kamen platsch, platsch durch den Schlamm."
+        ],
+        "es": [
+          "De pronto sonó ¡pum, pum!, y los dos gansos cayeron muertos entre los juncos, y el agua se volvió roja como la sangre.",
+          "Otra vez sonó ¡pum, pum!, y bandadas enteras de gansos salvajes alzaron el vuelo.",
+          "Era una gran cacería: los cazadores rodeaban la ciénaga, y algunos hasta estaban subidos a las ramas de los árboles.",
+          "El humo azul de la pólvora flotaba como nubes entre los árboles oscuros, y los perros de caza llegaron por el barro, ¡chap, chap!"
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Das war ein Schreck für das arme Entlein!",
+          "Es wollte gerade den Kopf unter den Flügel stecken, da stand ein fürchterlich großer Hund dicht bei ihm.",
+          "Die Zunge hing ihm lang aus dem Maul, die Augen funkelten schrecklich, er streckte dem Entlein den Rachen entgegen und zeigte die scharfen Zähne – und platsch, platsch! ging er wieder, ohne es zu packen.",
+          "„Gott sei Dank!“, seufzte das Entlein. „Ich bin so hässlich, dass mich selbst der Hund nicht beißen mag!“"
+        ],
+        "es": [
+          "¡Qué susto se llevó el pobre patito!",
+          "Iba a esconder la cabeza bajo el ala cuando, de pronto, apareció junto a él un perro terriblemente grande.",
+          "Le colgaba la lengua, le brillaban los ojos de forma espantosa, le acercó las fauces y le enseñó los dientes afilados… y ¡chap, chap!, se marchó sin tocarlo.",
+          "—¡Gracias a Dios! —suspiró el patito—. Soy tan feo que ni siquiera el perro quiere morderme."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Erst spät am Tag wurde es still, und das Entlein eilte fort, über Feld und Wiese, so schnell es nur konnte.",
+          "Ein Sturm kam auf, und gegen Abend erreichte es eine arme Bauernhütte, die so baufällig war, dass sie selbst nicht wusste, nach welcher Seite sie fallen sollte.",
+          "Der Sturm sauste so heftig, dass das Entlein sich niedersetzen musste, um nicht fortgeweht zu werden.",
+          "Da sah es, dass die Tür aus der einen Angel gesprungen war, und durch den Spalt schlüpfte es hinein in die Stube."
+        ],
+        "es": [
+          "Hasta muy tarde no volvió la calma, y entonces el patito huyó tan deprisa como pudo, por campos y prados.",
+          "Se levantó una tormenta, y al anochecer llegó a una pobre cabaña de campesinos, tan ruinosa que ni ella misma sabía hacia qué lado caerse.",
+          "El viento soplaba con tanta fuerza que el patito tuvo que sentarse para que no se lo llevara.",
+          "Entonces vio que la puerta se había salido de un gozne, y por la rendija se coló dentro de la casa."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Hier wohnte eine alte Frau mit ihrem Kater, den sie Söhnchen nannte, und ihrer Henne, die Küchelchen-Kurzbein hieß und gute Eier legte.",
+          "Der Kater war Herr im Hause und die Henne die Frau.",
+          "Die alte Frau sah nicht gut und glaubte, das Entlein sei eine fette Ente, die sich verirrt hatte.",
+          "„Das ist ja ein seltener Fang!“, sagte sie. „Nun kann ich Enteneier bekommen, wenn es nur kein Enterich ist!“",
+          "So wurde das Entlein drei Wochen lang auf Probe angenommen, aber es kamen keine Eier."
+        ],
+        "es": [
+          "Allí vivía una anciana con su gato, al que llamaba Hijito, y con su gallina, Paticorta, que ponía muy buenos huevos.",
+          "El gato era el señor de la casa y la gallina, la señora.",
+          "La anciana veía mal y creyó que el patito era una pata gorda que se había perdido.",
+          "—¡Qué buena presa! —dijo—. Ahora tendré huevos de pata, con tal de que no sea un pato macho.",
+          "Así que el patito se quedó tres semanas a prueba, pero no puso ni un huevo."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "„Kannst du Eier legen?“, fragte die Henne. „Nein? Dann wirst du die Güte haben zu schweigen!“",
+          "„Kannst du einen krummen Buckel machen, spinnen und Funken sprühen?“, fragte der Kater. „Nein? Dann darfst du auch keine Meinung haben, wenn vernünftige Leute reden!“",
+          "Das Entlein aber bekam solche Lust, auf dem Wasser zu schwimmen, dass es nicht anders konnte, als es der Henne zu sagen.",
+          "„Du bist wohl verrückt geworden!“, sagte die Henne, und da sagte das Entlein: „Ich glaube, ich gehe hinaus in die weite Welt!“ – „Ja, tu das!“"
+        ],
+        "es": [
+          "—¿Sabes poner huevos? —preguntó la gallina—. ¿No? Pues entonces haz el favor de callarte.",
+          "—¿Sabes arquear el lomo, ronronear y echar chispas? —preguntó el gato—. ¿No? Entonces no puedes tener opinión cuando habla gente sensata.",
+          "Pero al patito le entraron tantas ganas de nadar en el agua que no pudo menos que contárselo a la gallina.",
+          "—¡Tú te has vuelto loco! —dijo la gallina. Y el patito dijo: —Creo que me iré por el ancho mundo. —¡Pues hazlo!"
+        ]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "Nun kam der Herbst; die Blätter wurden gelb und braun, und auf dem Zaun stand der Rabe und schrie vor Kälte: „Au! Au!“",
+          "Eines Abends, als die Sonne herrlich unterging, kam ein Schwarm großer, blendend weißer Vögel mit langen, geschmeidigen Hälsen aus dem Gebüsch: Es waren Schwäne.",
+          "Sie flogen fort in wärmere Länder, und das Entlein stieß einen so sonderbaren Schrei aus, dass es selbst darüber erschrak.",
+          "Es konnte die schönen Vögel nicht vergessen und liebte sie, wie es noch nie etwas geliebt hatte."
+        ],
+        "es": [
+          "Llegó el otoño; las hojas se volvieron amarillas y pardas, y el cuervo, posado en la cerca, gritaba de puro frío: «¡Au, au!».",
+          "Una tarde, mientras el sol se ponía espléndido, salió de los matorrales una bandada de grandes aves de un blanco deslumbrante, con cuellos largos y flexibles: eran cisnes.",
+          "Volaban hacia países más cálidos, y el patito lanzó un grito tan fuerte y extraño que se asustó de sí mismo.",
+          "No podía olvidar aquellas hermosas aves y las quería como nunca había querido a nada."
+        ]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "Und der Winter wurde so kalt, so kalt!",
+          "Das Entlein musste im Wasser umherschwimmen, damit es nicht ganz zufror, aber jede Nacht wurde das Loch, in dem es schwamm, enger und enger.",
+          "Zuletzt war es so matt, dass es ganz still lag und im Eis festfror.",
+          "Am frühen Morgen kam ein Bauer, schlug mit seinem Holzschuh das Eis in Stücke und trug das Entlein heim zu seiner Frau; dort kam es wieder zu sich."
+        ],
+        "es": [
+          "¡Y el invierno se puso tan frío, tan frío!",
+          "El patito tenía que nadar dando vueltas para que el agua no se helara del todo, pero cada noche el agujero en el que nadaba se hacía más y más pequeño.",
+          "Al final quedó tan agotado que se quedó quieto y se congeló, atrapado en el hielo.",
+          "A primera hora de la mañana pasó un campesino, rompió el hielo con su zueco y se llevó el patito a casa, donde volvió en sí."
+        ]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "Die Kinder wollten mit ihm spielen, aber das Entlein glaubte, sie wollten ihm etwas tun, und flog vor Angst mitten in den Milchnapf, dass die Milch in die Stube spritzte.",
+          "Die Frau schrie und schlug die Hände zusammen; da flog es in das Butterfass und dann in die Mehltonne und wieder heraus.",
+          "Die Frau schlug mit der Feuerzange nach ihm, und die Kinder rannten einander um, um es zu fangen.",
+          "Die Tür stand offen; das Entlein schlüpfte hinaus in den frisch gefallenen Schnee und lag dort wie betäubt."
+        ],
+        "es": [
+          "Los niños querían jugar con él, pero el patito, creyendo que querían hacerle daño, se metió del susto en el cuenco de la leche, que salpicó toda la habitación.",
+          "La mujer gritó y dio palmadas, y él voló a la mantequera, luego se metió en el barril de la harina y volvió a salir.",
+          "La mujer le pegaba con las tenazas del fuego, y los niños tropezaban unos con otros para atraparlo.",
+          "La puerta estaba abierta; el patito se escabulló a la nieve recién caída y quedó allí aturdido."
+        ]
+      }
+    },
+    {
+      "image": "p16.svg",
+      "text": {
+        "de": [
+          "All die Not und das Elend zu erzählen, die das Entlein in dem harten Winter erdulden musste, wäre zu traurig.",
+          "Als die Sonne wieder warm schien und die Lerchen sangen, war herrlicher Frühling.",
+          "Da hob das Entlein seine Flügel; sie brausten stärker als früher und trugen es fort in einen großen Garten, wo die Apfelbäume blühten und der Flieder duftete.",
+          "Aus dem Dickicht kamen drei prächtige weiße Schwäne und schwammen ganz leicht auf dem Wasser.",
+          "Das Entlein kannte die herrlichen Tiere, und eine seltsame Traurigkeit befiel es."
+        ],
+        "es": [
+          "Contar toda la miseria y las penas que el patito tuvo que pasar aquel duro invierno sería demasiado triste.",
+          "Cuando el sol volvió a calentar y cantaron las alondras, había llegado la hermosa primavera.",
+          "Entonces el patito alzó las alas; batían con más fuerza que antes y lo llevaron hasta un gran jardín donde florecían los manzanos y olían las lilas.",
+          "De la espesura salieron tres magníficos cisnes blancos que nadaban ligeros sobre el agua.",
+          "El patito reconoció a aquellas aves espléndidas y lo invadió una extraña tristeza."
+        ]
+      }
+    },
+    {
+      "image": "p17.svg",
+      "text": {
+        "de": [
+          "„Ich will zu ihnen fliegen, zu den königlichen Vögeln!“, dachte es.",
+          "„Sie werden mich totschlagen, weil ich so hässlich bin; aber das ist einerlei!“",
+          "„Besser von ihnen getötet, als von den Enten gezwackt, von den Hühnern geschlagen, von dem Mädchen gestoßen zu werden und im Winter Not zu leiden!“",
+          "Es flog hinaus aufs Wasser und schwamm den Schwänen entgegen, und die schossen mit brausenden Federn auf es zu.",
+          "„Tötet mich nur!“, sagte das arme Tier, neigte seinen Kopf zum Wasser hinab und erwartete den Tod."
+        ],
+        "es": [
+          "«Volaré hacia ellos, hacia esas aves reales», pensó.",
+          "«Me matarán por atreverme a acercarme, siendo tan feo; pero ¡qué más da!»",
+          "«Mejor que me maten ellos, a que me piquen los patos, me peguen las gallinas, me dé patadas la muchacha y pase penurias en invierno.»",
+          "Voló hasta el agua y nadó hacia los cisnes, y ellos, al verlo, se lanzaron hacia él ahuecando las plumas.",
+          "—¡Matadme! —dijo el pobre animal, e inclinó la cabeza hacia el agua, esperando la muerte."
+        ]
+      }
+    },
+    {
+      "image": "p18.svg",
+      "text": {
+        "de": [
+          "Aber was sah es in dem klaren Wasser?",
+          "Es sah sein eigenes Bild unter sich, und das war kein plumper, schwarzgrauer Vogel mehr, hässlich und garstig – es war selbst ein Schwan!",
+          "Es schadet nichts, in einem Entenhof geboren zu sein, wenn man nur in einem Schwanenei gelegen hat.",
+          "Nun freute es sich über all die Not und Drangsal, die es erduldet hatte, denn jetzt erst erkannte es sein Glück.",
+          "Und die großen Schwäne umschwammen es und streichelten es mit ihren Schnäbeln."
+        ],
+        "es": [
+          "Pero ¿qué vio en el agua clara?",
+          "Vio su propia imagen debajo de él, y ya no era un pájaro torpe, de un gris oscuro, feo y desgarbado: ¡era un cisne!",
+          "No importa haber nacido en un corral de patos, cuando se ha salido de un huevo de cisne.",
+          "Ahora se alegraba de todas las penas y miserias que había pasado, porque solo así comprendía su felicidad.",
+          "Y los grandes cisnes nadaban a su alrededor y lo acariciaban con el pico."
+        ]
+      }
+    },
+    {
+      "image": "p19.svg",
+      "text": {
+        "de": [
+          "In den Garten kamen kleine Kinder und warfen Brot und Korn ins Wasser, und das kleinste rief: „Da ist ein neuer!“",
+          "Die anderen Kinder jubelten: „Ja, es ist ein neuer angekommen!“, klatschten in die Hände und tanzten umher.",
+          "Alle sagten: „Der neue ist der schönste! So jung und so prächtig!“",
+          "Und die alten Schwäne neigten sich vor ihm.",
+          "Da fühlte er sich ganz beschämt und steckte den Kopf unter die Flügel."
+        ],
+        "es": [
+          "Al jardín llegaron unos niños pequeños que echaban pan y grano al agua, y el más pequeño gritó: —¡Hay uno nuevo!",
+          "Los demás niños gritaron de alegría: —¡Sí, ha llegado uno nuevo! —y aplaudieron y bailaron.",
+          "Todos decían: —¡El nuevo es el más bonito! ¡Tan joven y tan espléndido!",
+          "Y los cisnes viejos se inclinaron ante él.",
+          "Él se sintió avergonzado y escondió la cabeza bajo el ala."
+        ]
+      }
+    },
+    {
+      "image": "p20.svg",
+      "text": {
+        "de": [
+          "Er war allzu glücklich, aber durchaus nicht stolz, denn ein gutes Herz wird nie stolz.",
+          "Er dachte daran, wie er verfolgt und verhöhnt worden war, und hörte nun alle sagen, er sei der schönste aller Vögel.",
+          "Der Flieder beugte seine Zweige zu ihm ins Wasser hinab, und die Sonne schien so warm und so gut.",
+          "Da brausten seine Federn, der schlanke Hals hob sich, und aus vollem Herzen jubelte er: „So viel Glück habe ich mir nicht träumen lassen, als ich noch das hässliche Entlein war!“"
+        ],
+        "es": [
+          "Era muy feliz, pero no se volvió nada orgulloso, porque un buen corazón nunca se vuelve orgulloso.",
+          "Pensaba en cómo lo habían perseguido y despreciado, y ahora oía decir a todos que era el más hermoso de todas las aves.",
+          "Las lilas inclinaban sus ramas hasta el agua, hacia él, y el sol brillaba tan cálido y tan bueno.",
+          "Entonces ahuecó las plumas, irguió el esbelto cuello y, con todo su corazón, exclamó: —¡Nunca soñé con tanta felicidad cuando era el patito feo!"
+        ]
+      }
+    }
+  ]
+}

@@ -99,7 +99,9 @@
     const side = el('div', 'cover-side');
     const h = el('h2', 'cover-title');
     h.append(sentenceSpan(book.title[S.lang], 0));
-    side.append(h, el('p', 'cover-blurb', book.blurb[S.lang]));
+    side.append(h);
+    if (book.version === 'original') side.append(el('p', 'cover-tag', t('originalTag', book.origin && book.origin[S.lang])));
+    side.append(el('p', 'cover-blurb', book.blurb[S.lang]));
     const actions = el('div', 'cover-actions');
     const read = el('button', 'btn btn-read big');
     read.type = 'button';

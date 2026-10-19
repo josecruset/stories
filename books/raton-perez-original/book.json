@@ -1,0 +1,116 @@
+{
+  "id": "raton-perez-original",
+  "variantOf": "raton-perez",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": { "de": "Luis Coloma, 1894", "es": "Luis Coloma, 1894" },
+  "accent": "#e0483e",
+  "age": 6,
+  "title": { "de": "Ratoncito Pérez, die Zahnmaus", "es": "El Ratoncito Pérez" },
+  "blurb": {
+    "de": "Luis Colomas Erzählung, geschrieben für den kleinen König Alfons XIII.: Der achtjährige König Buby verliert seinen ersten Zahn, wird von Ratón Pérez in ein Mäuschen verwandelt und lernt in einer Nacht in Madrid die Armut kennen.",
+    "es": "El cuento que Luis Coloma escribió para el pequeño rey Alfonso XIII: al rey Buby, de ocho años, se le cae su primer diente, el Ratón Pérez lo convierte en ratón y en una sola noche por Madrid conoce la pobreza."
+  },
+  "differences": {
+    "de": [
+      "Im Original ist der König acht Jahre alt und heißt Buby; in der kindgerechten Fassung ist er sechs und heißt Bubi.",
+      "Im Original kriechen Buby und Pérez durch die Wasserrohre unter Madrid; in der kindgerechten Fassung huschen sie durch ein Loch hinter dem Vorhang und laufen über die Straße.",
+      "Im Original springt der Kater Don Gaspar die beiden an, und Pérez verliert dabei seine Schwanzspitze; in der kindgerechten Fassung schläft der Kater nur.",
+      "Die Goldmünze unter Bubis Kissen und der Besuch bei Gilito mit Decke und Münze, nach dem die beiden Freunde werden, gibt es im Original nicht.",
+      "Die Lehre des Originals lautet, dass ein König der Vater aller armen Kinder sein soll; die kindgerechte Fassung macht daraus, dass alle Kinder gleich wichtig sind."
+    ],
+    "es": [
+      "En el original, el rey tiene ocho años y se llama Buby; en la versión infantil tiene seis y se llama Bubi.",
+      "En el original, Buby y Pérez van por las cañerías por debajo de Madrid; en la versión infantil salen por un agujero detrás de la cortina y van por la calle.",
+      "En el original, el gato Don Gaspar se lanza sobre ellos y Pérez pierde la punta de la cola; en la versión infantil el gato solo duerme.",
+      "La moneda de oro debajo de la almohada de Bubi y la visita a Gilito con la manta y la moneda, tras la que se hacen amigos, no aparecen en el original.",
+      "La lección del original es que un rey debe ser el padre de todos los niños pobres; la versión infantil la convierte en que todos los niños valen lo mismo."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein König, der hieß Buby der Erste und war erst acht Jahre alt.", "Er wohnte in Madrid im großen Königspalast, und alle nannten ihn „Majestät“.", "Eines Tages begann ihm ein Zahn zu wackeln, der allererste.", "Bald darauf fiel er heraus, und Buby hielt ihn in der Hand."],
+        "es": ["Había una vez un rey que se llamaba Buby Primero y tenía solo ocho años.", "Vivía en Madrid, en el gran Palacio Real, y todos le llamaban «Majestad».", "Un día empezó a movérsele un diente, el primero de todos.", "Poco después se le cayó, y Buby lo tuvo en la mano."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["In Spanien weiß jedes Kind: Die ausgefallenen Zähne holt Ratón Pérez, eine kleine Maus.", "Am Abend schrieb Buby ihm einen Brief.", "Er legte den Brief mit dem Zahn unter sein Kopfkissen.", "Dann blieb er ganz still im Bett liegen, denn er wollte Ratón Pérez unbedingt selbst sehen."],
+        "es": ["En España todos los niños saben que los dientes que se caen se los lleva el Ratón Pérez.", "Aquella noche, Buby le escribió una carta.", "La puso, junto con el diente, debajo de la almohada.", "Luego se quedó muy quieto en la cama, porque quería ver al Ratón Pérez con sus propios ojos."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Mitten in der Nacht spürte Buby, wie etwas über sein Kissen huschte.", "Vor ihm stand ein ganz kleiner Mäuserich.", "Er trug einen Strohhut, eine goldene Brille und eine Tasche quer über dem Rücken.", "„Guten Abend, Majestät“, sagte er und zog höflich den Hut.", "„Ich bin Ratón Pérez, zu Euren Diensten.“"],
+        "es": ["A medianoche, Buby sintió que algo corría por encima de la almohada.", "Era un ratón muy pequeñito.", "Llevaba sombrero de paja, lentes de oro y una cartera terciada a la espalda.", "—Buenas noches, Majestad —dijo, quitándose cortésmente el sombrero.", "—Soy el Ratón Pérez, para serviros."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Buby wollte mit Ratón Pérez gehen und sehen, wo er wohnte, und Pérez war einverstanden.", "Da berührte er Buby mit der Schwanzspitze an der Nase.", "Buby spürte, wie er kleiner und kleiner wurde.", "Und auf einmal war der König selbst ein Mäuschen."],
+        "es": ["Buby quiso acompañar al Ratón Pérez y ver dónde vivía, y Pérez accedió.", "Entonces le tocó la nariz con la punta del rabo.", "Buby sintió que se iba encogiendo, encogiendo, cada vez más.", "Y de pronto, el Rey se había convertido también en un ratoncito."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Pérez lief voraus und schlüpfte in die Wasserrohre des Palastes.", "Darin war es dunkel, eng und feucht.", "Buby hatte ein wenig Angst, aber Pérez kannte jeden Weg.", "So zogen sie durch die Rohre unter den Straßen von Madrid hindurch."],
+        "es": ["Pérez echó a andar delante y se metió por las cañerías del palacio.", "Allí dentro todo estaba oscuro, estrecho y húmedo.", "Buby tenía un poco de miedo, pero Pérez conocía todos los caminos.", "Así fueron por debajo de las calles de Madrid."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Endlich kamen sie in der Calle del Arenal heraus.", "Dort gab es eine berühmte Konditorei, die Konditorei Prast.", "Zwischen ihren Vorräten stand eine große Blechdose für Kekse von Huntley and Palmers.", "Das war das Haus von Ratón Pérez."],
+        "es": ["Por fin salieron a la calle del Arenal.", "Allí había una confitería muy famosa, la confitería de Prast.", "Entre sus provisiones había una gran caja de lata de galletas Huntley and Palmers.", "Aquella era la casa del Ratón Pérez."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Drinnen war es gemütlich wie in einer richtigen Wohnung.", "Pérez stellte Buby seine Frau und seine Töchter vor.", "Die ganze Familie Pérez empfing den König sehr freundlich.", "Buby staunte, wie fein und ordentlich die Mäuse wohnten."],
+        "es": ["Por dentro era tan cómoda como una casa de verdad.", "Pérez le presentó a Buby a su mujer y a sus hijas.", "Toda la familia Pérez recibió al Rey con mucha cortesía.", "Buby se quedó admirado de lo bien que vivían los ratones."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Danach musste Pérez noch zu Gilito, einem armen Jungen, dem auch ein Zahn ausgefallen war.", "Buby ging mit ihm.", "Sie kletterten hinauf bis unters Dach eines alten Hauses.", "In einer elenden Dachkammer schlief Gilito auf einem Strohsack, unter einer dünnen, geflickten Decke."],
+        "es": ["Después, Pérez tenía que ir a casa de Gilito, un niño pobre al que también se le había caído un diente.", "Buby fue con él.", "Subieron hasta lo más alto de una casa vieja.", "En una buhardilla miserable dormía Gilito, sobre un jergón de paja y tapado con una manta fina y remendada."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Es war kalt in der Kammer, und es gab dort fast nichts.", "Da sah Buby zum ersten Mal, wie arme Kinder leben müssen: frierend und hungrig.", "Er wurde sehr traurig, denn er selbst schlief jede Nacht in einem warmen, prächtigen Bett.", "Und er begriff, dass das nicht gerecht war.", "Ratón Pérez nahm Gilitos Zahn und legte ihm ein Geschenk unter das Kissen."],
+        "es": ["En la buhardilla hacía frío y no había casi nada.", "Entonces vio Buby por primera vez cómo viven los niños pobres: con frío y con hambre.", "Se puso muy triste, porque él dormía cada noche en una cama caliente y lujosa.", "Y comprendió que aquello no era justo.", "El Ratón Pérez cogió el diente de Gilito y le dejó un regalo debajo de la almohada."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Auf dem Rückweg lauerte ihnen ein großer Kater auf, Don Gaspar.", "Mit einem Satz sprang er auf die beiden Mäuse los.", "Im letzten Augenblick konnten sie entwischen.", "Doch der Kater erwischte Pérez noch am Schwanz, und so verlor der arme Pérez seine Schwanzspitze."],
+        "es": ["De vuelta, un gato enorme los estaba acechando: Don Gaspar.", "De un salto se lanzó sobre los dos ratones.", "En el último momento consiguieron escapar.", "Pero el gato alcanzó a Pérez por el rabo, y el pobre Pérez perdió la punta de la cola."]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": ["Am Morgen wachte Buby in seinem großen Bett im Palast auf.", "Er war wieder ein Junge und wieder König.", "Aber er hatte nichts von dem vergessen, was er in dieser Nacht gesehen hatte.", "Immer wieder musste er an Gilito in seiner kalten Dachkammer denken."],
+        "es": ["A la mañana siguiente, Buby se despertó en su gran cama del palacio.", "Volvía a ser un niño, y volvía a ser rey.", "Pero no había olvidado nada de lo que había visto aquella noche.", "No dejaba de pensar en Gilito, en su buhardilla fría."]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": ["Da verstand Buby, was er in dieser Nacht gelernt hatte.", "In seinem Reich gab es viele Kinder wie Gilito, die froren und hungerten.", "Ein König darf nicht nur an sich selbst denken.", "Er soll der Vater aller armen Kinder sein."],
+        "es": ["Entonces comprendió Buby lo que había aprendido aquella noche.", "En su reino había muchos niños como Gilito, que pasaban frío y hambre.", "Un rey no puede pensar solo en sí mismo.", "Debe ser el padre de todos los niños pobres."]
+      }
+    }
+  ]
+}

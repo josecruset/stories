@@ -1,0 +1,241 @@
+{
+  "id": "garbancito-original",
+  "variantOf": "garbancito",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": {
+    "de": "Spanisches Volksmärchen",
+    "es": "Cuento popular español"
+  },
+  "accent": "#e2453c",
+  "age": 5,
+  "title": {
+    "de": "Garbancito, so klein wie eine Kichererbse",
+    "es": "Garbancito"
+  },
+  "blurb": {
+    "de": "Das spanische Volksmärchen vom winzigen Garbancito, der Safran kaufen geht, dem Vater das Essen aufs Feld bringt und von einem Ochsen verschluckt wird – in der überlieferten, derb-komischen Fassung.",
+    "es": "El cuento popular del diminuto Garbancito, que va a comprar azafrán, le lleva la comida a su padre y acaba en la tripa de un buey, tal como se ha contado siempre."
+  },
+  "differences": {
+    "de": [
+      "Im Original befreit sich Garbancito nicht selbst: Die Eltern füttern den Ochsen mit Gras, bis er einen gewaltigen Pups lässt, der Garbancito hinausbläst; in der kindgerechten Fassung kitzelt Garbancito den Ochsen, bis er niest.",
+      "Das Lied ist im Original ein schlichter Warnruf („Passt gut auf, was ihr tut … Tretet nicht auf Garbancito!“); die kindgerechte Fassung singt auf Deutsch eine gereimte Nachdichtung.",
+      "Im Original staunen die Leute über einen Esel, der allein läuft und spricht, und der Vater muss Garbancito im Eselsohr erst suchen; die kindgerechte Fassung lässt das weg.",
+      "Die kindgerechte Fassung endet mit einem gemeinsamen Eintopf-Essen und einem fröhlich muhenden Ochsen; das Original endet mit der Heimkehr und der spanischen Schlussformel."
+    ],
+    "es": [
+      "En el original, Garbancito no sale por sí mismo: sus padres le dan hierba al buey hasta que suelta un pedo enorme que lo saca disparado; en la versión infantil, Garbancito le hace cosquillas al buey y este estornuda.",
+      "En el original, la gente se asombra de ver un burro que va solo y que habla, y el padre tiene que buscar a Garbancito en la oreja del burro; la versión infantil lo omite.",
+      "La versión infantil termina con todos comiendo el cocido y el buey mugiendo contento; el original termina con la vuelta a casa y el «colorín colorado»."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Es waren einmal ein Bauer und eine Bäuerin, die wünschten sich sehnlichst ein Kind.",
+          "„Und wäre es auch nur so groß wie eine Kichererbse“, sagte die Frau immer.",
+          "Eines Tages bekamen sie einen Sohn, der war so klein, so klein, dass er nicht größer war als eine Kichererbse.",
+          "Darum nannten sie ihn Garbancito, das heißt „Kichererbschen“."
+        ],
+        "es": [
+          "Érase una vez un labrador y una labradora que deseaban muchísimo tener un hijo.",
+          "—Aunque sea tan pequeño como un garbanzo —decía siempre la mujer.",
+          "Y un día tuvieron un niño, pero tan pequeñito, tan pequeñito, que no era más grande que un garbanzo.",
+          "Por eso lo llamaron Garbancito."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Garbancito war sehr klein, aber sehr klug und sehr fleißig.",
+          "Eines Tages kochte die Mutter den Eintopf und merkte, dass ihr der Safran ausgegangen war.",
+          "„Mutter, ich gehe in den Laden und kaufe welchen“, sagte Garbancito.",
+          "„Aber du bist so klein, dass dich niemand sieht, und sie werden dich zertreten!“",
+          "„Keine Sorge, Mutter: Ich gehe singend, dann hören mich alle.“"
+        ],
+        "es": [
+          "Garbancito era muy pequeño, pero muy listo y muy trabajador.",
+          "Un día, su madre estaba haciendo el cocido y vio que no le quedaba azafrán.",
+          "—Madre, yo iré a la tienda a comprarlo —dijo Garbancito.",
+          "—¡Pero si eres tan pequeño que nadie te va a ver, y te van a pisar!",
+          "—No te preocupes, madre: iré cantando y así todos me oirán."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Die Mutter gab ihm eine kleine Münze, und Garbancito ging singend auf die Straße:",
+          "„Pachín, pachín, pachín! Passt gut auf, was ihr tut! Pachín, pachín, pachín! Tretet nicht auf Garbancito!“",
+          "Die Leute hörten das Lied, schauten in alle Richtungen und sahen niemanden.",
+          "„Wer singt denn da nur?“, fragten sie sich verwundert."
+        ],
+        "es": [
+          "Su madre le dio un céntimo, y Garbancito salió a la calle cantando:",
+          "«¡Pachín, pachín, pachín! ¡Mucho cuidado con lo que hacéis! ¡Pachín, pachín, pachín! ¡A Garbancito no piséis!»",
+          "La gente oía la canción, miraba a todas partes y no veía a nadie.",
+          "—¿Quién estará cantando? —se preguntaban todos, asombrados."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Im Laden rief Garbancito, so laut er konnte: „Ich möchte für eine Münze Safran!“",
+          "Der Kaufmann schaute nach rechts und nach links, aber er sah niemanden – nur eine Münze auf dem Ladentisch.",
+          "„Hier unten, hier unten, ich bin Garbancito!“, rief der Kleine.",
+          "Ganz verwundert gab ihm der Kaufmann den Safran.",
+          "Und Garbancito ging mit seinem Lied auf den Lippen wieder nach Hause."
+        ],
+        "es": [
+          "En la tienda, Garbancito gritó con todas sus fuerzas: —¡Quiero un céntimo de azafrán!",
+          "El tendero miró a un lado y a otro, pero no vio a nadie; solo vio una moneda en el mostrador.",
+          "—¡Aquí abajo, aquí abajo, que soy Garbancito! —gritó el pequeño.",
+          "El tendero, muy asombrado, le dio el azafrán.",
+          "Y Garbancito volvió a casa cantando su canción."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Am nächsten Tag arbeitete der Vater auf dem Feld, und die Mutter machte ihm das Essen fertig.",
+          "„Mutter, ich bringe es dem Vater“, sagte Garbancito.",
+          "„Du? Du bist doch so klein, dass du den Korb gar nicht tragen kannst!“",
+          "Aber Garbancito ließ den Korb dem Esel aufladen, setzte sich ihm ins Ohr und rief: „Hü, Esel, hü!“",
+          "Und der Esel trottete los, zum Feld hinaus."
+        ],
+        "es": [
+          "Al día siguiente, el padre estaba trabajando en el campo y la madre le preparó la comida.",
+          "—Madre, yo se la llevaré a padre —dijo Garbancito.",
+          "—¿Tú? ¡Si eres tan pequeño que no puedes con la cesta!",
+          "Pero Garbancito hizo cargar la cesta en el burro, se metió en su oreja y le gritó: —¡Arre, burro, arre!",
+          "Y el burro echó a andar camino del campo."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Die Leute, denen sie begegneten, blieben mit offenem Mund stehen.",
+          "„Seht nur, ein Esel, der ganz allein geht und auch noch spricht!“",
+          "Als sie auf dem Feld ankamen, hörte der Vater: „Vater, hier bringe ich Euch das Essen!“",
+          "Er suchte und suchte, und endlich fand er Garbancito im Ohr des Esels.",
+          "Der Vater freute sich sehr und aß das ganze Essen auf."
+        ],
+        "es": [
+          "La gente que se cruzaba con ellos se quedaba con la boca abierta.",
+          "—¡Mirad, un burro que va solo y que encima habla!",
+          "Cuando llegaron al campo, el padre oyó: —¡Padre, aquí le traigo la comida!",
+          "Buscó y buscó, y por fin encontró a Garbancito dentro de la oreja del burro.",
+          "El padre se puso muy contento y se comió toda la comida."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Danach lief Garbancito auf dem Feld herum und spielte.",
+          "Doch plötzlich verdunkelte sich der Himmel, und es fing an, in Strömen zu regnen.",
+          "Damit er nicht nass wurde, versteckte sich Garbancito unter einem Kohlblatt."
+        ],
+        "es": [
+          "Después, Garbancito se puso a corretear y a jugar por el campo.",
+          "Pero de pronto se nubló el cielo y empezó a llover a cántaros.",
+          "Para no mojarse, Garbancito se escondió debajo de una hoja de col."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Da kam ein riesiger Ochse vorbei.",
+          "Er sah den schönen Kohl und fraß ihn mit einem Bissen auf, mit Blatt und allem.",
+          "Und mit dem Blatt verschluckte er auch Garbancito, der geradewegs im Bauch des Ochsen landete."
+        ],
+        "es": [
+          "Entonces pasó por allí un buey enorme.",
+          "Vio la col tan hermosa y se la comió de un bocado, con hoja y todo.",
+          "Y con la hoja se tragó también a Garbancito, que fue a parar a la tripa del buey."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Als Garbancito nicht nach Hause kam, gingen Vater und Mutter ihn suchen.",
+          "Sie suchten auf dem ganzen Feld, zwischen den Kohlköpfen und unter den Bäumen, aber sie fanden ihn nicht.",
+          "Da riefen sie, so laut sie konnten: „Garbancito! Wo bist du?“"
+        ],
+        "es": [
+          "Como Garbancito no volvía a casa, su padre y su madre salieron a buscarlo.",
+          "Buscaron por todo el campo, entre las coles y debajo de los árboles, pero no lo encontraban.",
+          "Entonces lo llamaron a voces: —¡Garbancito! ¿Dónde estás?"
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Da antwortete ganz in der Nähe ein feines Stimmchen:",
+          "„Im Bauch vom Ochsen, wo es weder schneit noch regnet!“",
+          "Die Eltern schauten sich um, aber sie sahen niemanden.",
+          "Sie riefen noch einmal, und wieder kam das Stimmchen: „Im Bauch vom Ochsen, wo es weder schneit noch regnet!“",
+          "Da begriffen sie, dass der Ochse ihren Sohn verschluckt hatte."
+        ],
+        "es": [
+          "Y desde muy cerca les contestó una vocecita:",
+          "—¡En la tripa del buey, donde no nieva ni llueve!",
+          "Los padres miraron a todas partes, pero no veían a nadie.",
+          "Volvieron a llamarlo, y otra vez se oyó la vocecita: —¡En la tripa del buey, donde no nieva ni llueve!",
+          "Entonces comprendieron que el buey se había tragado a su hijo."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Um Garbancito da herauszuholen, gaben die Eltern dem Ochsen viel Gras zu fressen.",
+          "Sie gaben ihm Gras und Gras und noch mehr Gras, und der Ochse fraß und fraß.",
+          "Er fraß so viel, dass sein Bauch ganz dick und rund wurde wie ein Fass."
+        ],
+        "es": [
+          "Para sacar a Garbancito de allí, los padres le dieron al buey mucha hierba.",
+          "Le dieron hierba, hierba y más hierba, y el buey comió y comió.",
+          "Comió tanto que se le puso la tripa gorda y redonda como un tonel."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Auf einmal ließ der Ochse einen Pups, so gewaltig, dass es über das ganze Feld donnerte.",
+          "Und mit dem Pups flog Garbancito in hohem Bogen heraus, heil und gesund!",
+          "Die Eltern hoben ihn auf, drückten ihn ganz fest und nahmen ihn mit nach Hause.",
+          "Und damit ist das Märchen aus."
+        ],
+        "es": [
+          "De repente, el buey se tiró un pedo tan grande, tan grande, que retumbó en todo el campo.",
+          "¡Y con el pedo salió disparado Garbancito, sano y salvo!",
+          "Sus padres lo recogieron, lo abrazaron muy fuerte y se lo llevaron a casa.",
+          "Y colorín colorado, este cuento se ha acabado."
+        ]
+      }
+    }
+  ]
+}

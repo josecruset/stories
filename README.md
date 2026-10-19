@@ -7,8 +7,9 @@ das Gegenstück zu games.cruset.com. Reines HTML5, kein Build-Schritt.
 
 ```
 index.html              Bücherei (Startseite, Deutsch / Spanisch) mit Kategorien oben
+eltern.html             Für Eltern: Märchen-Fassung wählen (kindgerecht / Original), Unterschiede
 read.html               Leser und Hörbuch-Player: read.html?b=<id>[&mode=read|listen|start]
-books.js                Bücherregal – Reihenfolge der Bücher auf der Startseite
+books.js                Bücherregal – Reihenfolge der Bücher; ORIGINALS ordnet Märchen ihre Originalfassung zu
 assets/                 Styles, Skripte (common.js, library.js, reader.js), Icons
 books/<id>/book.json    Titel, Kurztext, Alter, Regal, Herkunft, Seiten mit Text (de/es, Satz für Satz)
 books/<id>/img/         cover.svg (3:4) und p01.svg … (3:2), eine Illustration pro Seite
@@ -40,9 +41,9 @@ Im Leser:
 
 Die Startseite zeigt zwei Regale (Feld `shelf` in `book.json`):
 
-- **Märchen** (`"shelf": "maerchen"`): 20 klassische Märchen, kindgerecht nacherzählt und entschärft
-  (niemand wird grausam bestraft oder gefressen), mit den bekannten Reimen in der jeweils
-  traditionellen Form der Sprache. Grimm: Rotkäppchen, Hänsel und Gretel, Schneewittchen,
+- **Märchen** (`"shelf": "maerchen"`): 20 klassische Märchen, jeweils in zwei Fassungen (siehe
+  „Märchen-Fassungen“): kindgerecht nacherzählt und entschärft, und – außer Goldlöckchen, dessen
+  Erzählung schon dem Original entspricht – als Originalfassung. Grimm: Rotkäppchen, Hänsel und Gretel, Schneewittchen,
   Aschenputtel, Dornröschen, Froschkönig, Bremer Stadtmusikanten, Wolf und sieben Geißlein,
   Rumpelstilzchen, Rapunzel, Frau Holle, Sterntaler. Außerdem: Die drei kleinen Schweinchen,
   Goldlöckchen (englisch), Der gestiefelte Kater (Perrault), Das hässliche Entlein (Andersen),
@@ -54,7 +55,25 @@ Die Startseite zeigt zwei Regale (Feld `shelf` in `book.json`):
   Detektivin Mila (ab 6–7, 23–26 Seiten, 3 Entscheidungen pro Weg, 5 Enden) – das Kind
   entscheidet an mehreren Stellen über große Knöpfe (Symbol, Farbe, Nummer, ein Wort), wie es weitergeht.
 
-`origin` nennt die Quelle (wird auf der Karte angezeigt). Jedes Märchen hat 10 Seiten.
+`origin` nennt die Quelle (wird auf der Karte angezeigt).
+
+## Märchen-Fassungen
+
+- **Kindgerecht** (`books/<id>/`, 10 Seiten): entschärft – niemand wird gefressen oder grausam
+  bestraft. **Standard**, solange Eltern nichts anderes einstellen.
+- **Original** (`books/<id>-original/`, 9–25 Seiten): so wie das Märchen aufgeschrieben wurde
+  (Grimm 1857 bzw. Deutsche Sagen 1816, Andersen 1843, Perrault 1697, Jacobs 1890, Coloma 1894,
+  spanische Überlieferung), mit allen harten Stellen; Bilder zeigen sie im Bilderbuch-Stil, nicht
+  blutrünstig. `book.json` hat zusätzlich `variantOf`, `"version": "original"` und `differences`
+  (je Sprache eine Liste für Eltern: was die kindgerechte Fassung ändert).
+- Zuordnung in `books.js`: `window.ORIGINALS = { '<id>': '<id>-original', … }`.
+- **Eltern-Seite** `eltern.html` (Link unten auf der Startseite): kleine Rechenaufgabe als Hürde,
+  dann Wahl für alle Märchen und für jedes einzeln, mit den Unterschieden zum Aufklappen.
+  Gespeichert auf dem Gerät unter `stories.settings` (`version`, `perBook`).
+- Bücherei und Leser zeigen bei Originalfassungen „📜 Original“; der Lesefortschritt wird je
+  Fassung getrennt gemerkt.
+- Die Originaltexte wurden aus Kenntnis der Quellen wiedergegeben, nicht gegen gedruckte Ausgaben
+  abgeglichen; einzelne Formulierungen können vom Druck abweichen.
 
 ## Interaktive Geschichten
 

@@ -1,0 +1,343 @@
+{
+  "id": "froschkoenig-original",
+  "variantOf": "froschkoenig",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": {
+    "de": "Brüder Grimm, 1857",
+    "es": "Hermanos Grimm, 1857"
+  },
+  "accent": "#3fa34d",
+  "age": 5,
+  "title": {
+    "de": "Der Froschkönig",
+    "es": "El príncipe rana"
+  },
+  "blurb": {
+    "de": "Grimms erstes Märchen in der Originalfassung: Die Königstochter verspricht dem Frosch alles und will es dann nicht halten, bis der König es befiehlt. Am Ende kommt der treue Heinrich.",
+    "es": "El primer cuento de los Grimm en su versión original: la princesa le promete todo a la rana y luego no quiere cumplirlo, hasta que el rey se lo manda. Al final llega el fiel Enrique."
+  },
+  "differences": {
+    "de": [
+      "Im Original wird der Frosch nicht durch einen Kuss erlöst: Die Königstochter wirft ihn voller Wut an die Wand, und erst dadurch wird er zum Königssohn.",
+      "Im Original verspricht sie alles nur zum Schein und denkt dabei, der „einfältige Frosch“ könne ohnehin nie eines Menschen Geselle sein; dieser Gedanke fehlt in der kindgerechten Fassung.",
+      "Im Original ekelt sie sich, weint, trägt den Frosch nur mit zwei Fingern in eine Ecke, der König wird zornig, und der Frosch droht, es dem Vater zu sagen; in der kindgerechten Fassung setzt sie ihn freiwillig und sanft auf ihr Kissen.",
+      "Im Original wird der Königssohn nach dem Willen des Vaters ihr Gemahl; in der kindgerechten Fassung ist von einer Heirat nicht die Rede.",
+      "Den treuen Heinrich mit den drei eisernen Bändern um sein Herz, die vor Freude zerspringen („Heinrich, der Wagen bricht“), gibt es nur im Original; in der kindgerechten Fassung fährt er nur die Kutsche."
+    ],
+    "es": [
+      "En el original la rana no se desencanta con un beso: la princesa la arroja furiosa contra la pared, y solo así se convierte en príncipe.",
+      "En el original ella promete todo solo de palabra, pensando que esa «rana boba» nunca podrá ser compañera de una persona; ese pensamiento no aparece en la versión infantil.",
+      "En el original le da asco, llora, lleva a la rana con dos dedos a un rincón, el rey se enfada y la rana amenaza con decírselo a su padre; en la versión infantil la deja de buena gana y con cuidado sobre su almohada.",
+      "En el original el príncipe se convierte en su esposo por voluntad del padre; en la versión infantil no se habla de boda.",
+      "El fiel Enrique con los tres aros de hierro alrededor del corazón, que saltan de alegría («Enrique, que se rompe el coche»), solo aparece en el original; en la versión infantil únicamente conduce la carroza."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "In den alten Zeiten, wo das Wünschen noch geholfen hat, lebte ein König, dessen Töchter waren alle schön.",
+          "Aber die jüngste war so schön, dass die Sonne selber, die doch so vieles gesehen hat, sich verwunderte, sooft sie ihr ins Gesicht schien.",
+          "Nahe bei dem Schlosse des Königs lag ein großer dunkler Wald, und in dem Walde unter einer alten Linde war ein Brunnen."
+        ],
+        "es": [
+          "En los viejos tiempos, cuando todavía servía de algo desear, vivía un rey cuyas hijas eran todas hermosas.",
+          "Pero la menor era tan hermosa que el mismo sol, que tantas cosas ha visto, se maravillaba cada vez que le alumbraba la cara.",
+          "Cerca del castillo del rey había un bosque grande y oscuro, y en el bosque, bajo un viejo tilo, había un pozo."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Wenn nun der Tag recht heiß war, so ging das Königskind hinaus in den Wald und setzte sich an den Rand des kühlen Brunnens.",
+          "Und wenn sie Langeweile hatte, so nahm sie eine goldene Kugel, warf sie in die Höhe und fing sie wieder.",
+          "Das war ihr liebstes Spielwerk.",
+          "Nun trug es sich einmal zu, dass die goldene Kugel der Königstochter nicht in ihr Händchen fiel, das sie in die Höhe gehalten hatte."
+        ],
+        "es": [
+          "Cuando el día era muy caluroso, la hija del rey salía al bosque y se sentaba al borde del pozo fresco.",
+          "Y cuando se aburría, cogía una pelota de oro, la lanzaba hacia arriba y la volvía a coger.",
+          "Era su juguete preferido.",
+          "Pero una vez sucedió que la pelota de oro no cayó en la manita que la princesa tenía levantada."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Sie schlug vorbei auf die Erde und rollte geradezu ins Wasser hinein.",
+          "Die Königstochter folgte ihr mit den Augen nach, aber die Kugel verschwand, und der Brunnen war tief, so tief, dass man keinen Grund sah.",
+          "Da fing sie an zu weinen und weinte immer lauter und konnte sich gar nicht trösten.",
+          "Und wie sie so klagte, rief ihr jemand zu: „Was hast du vor, Königstochter, du schreist ja, dass sich ein Stein erbarmen möchte.“"
+        ],
+        "es": [
+          "Botó en el suelo, a su lado, y rodó derecha al agua.",
+          "La princesa la siguió con la mirada, pero la pelota desapareció, y el pozo era profundo, tan profundo que no se le veía el fondo.",
+          "Entonces se echó a llorar, y lloraba cada vez más fuerte, y no había manera de consolarla.",
+          "Y mientras así se lamentaba, alguien le dijo: —¿Qué te pasa, hija del rey? Lloras de tal manera que hasta una piedra se compadecería."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Sie sah sich um, woher die Stimme käme.",
+          "Da erblickte sie einen Frosch, der seinen dicken, hässlichen Kopf aus dem Wasser streckte.",
+          "„Ach, du bist's, alter Wasserpatscher“, sagte sie, „ich weine über meine goldene Kugel, die mir in den Brunnen hinabgefallen ist.“",
+          "„Sei still und weine nicht“, antwortete der Frosch, „ich kann wohl Rat schaffen, aber was gibst du mir, wenn ich dein Spielwerk wieder heraufhole?“"
+        ],
+        "es": [
+          "Ella miró a su alrededor para ver de dónde venía la voz.",
+          "Entonces vio una rana que sacaba del agua su cabezota gorda y fea.",
+          "—Ah, eres tú, vieja chapoteadora —dijo ella—. Lloro por mi pelota de oro, que se me ha caído al pozo.",
+          "—Calla y no llores —contestó la rana—. Yo puedo ayudarte, pero ¿qué me darás si te devuelvo tu juguete?"
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "„Was du haben willst, lieber Frosch“, sagte sie.",
+          "„Meine Kleider, meine Perlen und Edelsteine, auch noch die goldene Krone, die ich trage.“",
+          "Der Frosch antwortete: „Deine Kleider, deine Perlen und Edelsteine und deine goldene Krone, die mag ich nicht.“"
+        ],
+        "es": [
+          "—Lo que tú quieras, querida rana —dijo ella.",
+          "—Mis vestidos, mis perlas y piedras preciosas, y hasta la corona de oro que llevo puesta.",
+          "La rana respondió: —Tus vestidos, tus perlas y piedras preciosas y tu corona de oro no los quiero."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "„Aber wenn du mich lieb haben willst und ich soll dein Geselle und Spielkamerad sein, an deinem Tischlein neben dir sitzen, von deinem goldenen Tellerlein essen, aus deinem Becherlein trinken, in deinem Bettlein schlafen:",
+          "wenn du mir das versprichst, so will ich hinuntersteigen und dir die goldene Kugel wieder heraufholen.“",
+          "„Ach ja“, sagte sie, „ich verspreche dir alles, was du willst, wenn du mir nur die Kugel wieder bringst.“"
+        ],
+        "es": [
+          "—Pero si me quieres y me dejas ser tu compañero y tu amigo de juegos, sentarme a tu mesita a tu lado, comer de tu platito de oro, beber de tu copita y dormir en tu camita:",
+          "si me prometes eso, bajaré al fondo y te subiré la pelota de oro.",
+          "—Ay, sí —dijo ella—, te prometo todo lo que quieras, con tal de que me devuelvas la pelota."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Sie dachte aber: „Was der einfältige Frosch schwätzt! Der sitzt im Wasser bei seinesgleichen und quakt und kann keines Menschen Geselle sein.“",
+          "Der Frosch, als er die Zusage erhalten hatte, tauchte seinen Kopf unter und sank hinab.",
+          "Über ein Weilchen kam er wieder heraufgerudert, hatte die Kugel im Maul und warf sie ins Gras.",
+          "Die Königstochter war voll Freude, als sie ihr schönes Spielwerk wieder erblickte, hob es auf und sprang damit fort."
+        ],
+        "es": [
+          "Pero pensaba: «¡Qué tonterías dice esta rana boba! Se pasa el día en el agua croando con las demás ranas y no puede ser compañera de ninguna persona».",
+          "La rana, en cuanto oyó la promesa, metió la cabeza en el agua y se hundió.",
+          "Al poco rato volvió a subir nadando, con la pelota en la boca, y la echó sobre la hierba.",
+          "La princesa se llenó de alegría al ver de nuevo su precioso juguete, lo cogió y se fue corriendo."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "„Warte, warte“, rief der Frosch, „nimm mich mit, ich kann nicht so laufen wie du.“",
+          "Aber was half ihm, dass er ihr sein Quak, Quak so laut nachschrie, als er konnte!",
+          "Sie hörte nicht darauf, eilte nach Haus und hatte bald den armen Frosch vergessen, der wieder in seinen Brunnen hinabsteigen musste."
+        ],
+        "es": [
+          "—¡Espera, espera! —gritó la rana—. ¡Llévame contigo, que yo no puedo correr como tú!",
+          "Pero de nada le sirvió croar detrás de ella lo más fuerte que pudo.",
+          "Ella no le hizo caso, se fue deprisa a casa y pronto se olvidó de la pobre rana, que tuvo que volver a meterse en su pozo."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Am andern Tage, als sie mit dem König und allen Hofleuten sich zur Tafel gesetzt hatte und von ihrem goldenen Tellerlein aß, da kam, plitsch platsch, plitsch platsch, etwas die Marmortreppe heraufgekrochen.",
+          "Als es oben angelangt war, klopfte es an der Tür und rief: „Königstochter, jüngste, mach mir auf.“",
+          "Sie lief und wollte sehen, wer draußen wäre; als sie aber aufmachte, so saß der Frosch davor."
+        ],
+        "es": [
+          "Al día siguiente, cuando estaba sentada a la mesa con el rey y todos los cortesanos y comía de su platito de oro, algo subió arrastrándose por la escalera de mármol: chof, chof, chof, chof.",
+          "Cuando llegó arriba, llamó a la puerta y dijo: —Hija menor del rey, ábreme.",
+          "Ella fue corriendo a ver quién estaba fuera, pero al abrir, vio que allí delante estaba la rana."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Da warf sie die Tür hastig zu, setzte sich wieder an den Tisch, und es war ihr ganz angst.",
+          "Der König sah wohl, dass ihr das Herz gewaltig klopfte, und sprach: „Mein Kind, was fürchtest du dich, steht etwa ein Riese vor der Tür und will dich holen?“",
+          "„Ach nein“, antwortete sie, „es ist kein Riese, sondern ein garstiger Frosch.“",
+          "„Was will der Frosch von dir?“, fragte der König."
+        ],
+        "es": [
+          "Entonces cerró la puerta de golpe, volvió a sentarse a la mesa y estaba muerta de miedo.",
+          "El rey vio que el corazón le latía con mucha fuerza y le dijo: —Hija mía, ¿de qué tienes miedo? ¿Hay acaso un gigante en la puerta que viene a llevarte?",
+          "—Ay, no —contestó ella—, no es un gigante, sino una rana asquerosa.",
+          "—¿Y qué quiere de ti la rana? —preguntó el rey."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "„Ach, lieber Vater, als ich gestern im Wald bei dem Brunnen saß und spielte, da fiel meine goldene Kugel ins Wasser.",
+          "Und weil ich so weinte, hat sie der Frosch wieder heraufgeholt, und weil er es durchaus forderte, so versprach ich ihm, er sollte mein Geselle werden.",
+          "Ich dachte aber nimmermehr, dass er aus seinem Wasser heraus könnte.",
+          "Nun ist er draußen und will zu mir herein.“"
+        ],
+        "es": [
+          "—Ay, padre querido, ayer, cuando estaba en el bosque sentada junto al pozo jugando, se me cayó la pelota de oro al agua.",
+          "Y como yo lloraba tanto, la rana me la sacó, y como se empeñó, le prometí que sería mi compañera.",
+          "Pero nunca pensé que pudiera salir de su agua.",
+          "Y ahora está ahí fuera y quiere entrar conmigo."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Indem klopfte es zum zweiten Mal und rief: „Königstochter, jüngste, mach mir auf, weißt du nicht, was gestern du zu mir gesagt bei dem kühlen Brunnenwasser? Königstochter, jüngste, mach mir auf.“",
+          "Da sagte der König: „Was du versprochen hast, das musst du auch halten; geh nur und mach ihm auf.“",
+          "Sie ging und öffnete die Türe, da hüpfte der Frosch herein, ihr immer auf dem Fuße nach, bis zu ihrem Stuhl."
+        ],
+        "es": [
+          "En esto llamaron por segunda vez, y se oyó: —Hija menor del rey, ábreme. ¿No sabes lo que ayer me dijiste junto al agua fresca del pozo? Hija menor del rey, ábreme.",
+          "Entonces dijo el rey: —Lo que has prometido, tienes que cumplirlo; anda, ve y ábrele.",
+          "Ella fue y abrió la puerta; la rana entró de un salto y la siguió paso a paso hasta su silla."
+        ]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "Da saß er und rief: „Heb mich herauf zu dir.“",
+          "Sie zauderte, bis es endlich der König befahl.",
+          "Als der Frosch erst auf dem Stuhl war, wollte er auf den Tisch, und als er da saß, sprach er: „Nun schieb mir dein goldenes Tellerlein näher, damit wir zusammen essen.“",
+          "Das tat sie zwar, aber man sah wohl, dass sie's nicht gerne tat.",
+          "Der Frosch ließ sich's gut schmecken, aber ihr blieb fast jedes Bisslein im Halse."
+        ],
+        "es": [
+          "Allí se quedó y gritó: —Súbeme contigo.",
+          "Ella no se decidía, hasta que por fin el rey se lo mandó.",
+          "En cuanto la rana estuvo en la silla, quiso subir a la mesa, y una vez allí, dijo: —Ahora acércame tu platito de oro, para que comamos juntos.",
+          "Ella lo hizo, pero se notaba que no lo hacía con gusto.",
+          "La rana comió muy a gusto, pero a ella casi se le atragantaba cada bocado."
+        ]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "Endlich sprach er: „Ich habe mich satt gegessen und bin müde, nun trag mich in dein Kämmerlein und mach dein seidenes Bettlein zurecht, da wollen wir uns schlafen legen.“",
+          "Die Königstochter fing an zu weinen und fürchtete sich vor dem kalten Frosch, den sie nicht anzurühren getraute und der nun in ihrem schönen, reinen Bettlein schlafen sollte.",
+          "Der König aber ward zornig und sprach: „Wer dir geholfen hat, als du in der Not warst, den sollst du hernach nicht verachten.“"
+        ],
+        "es": [
+          "Por fin dijo: —Ya he comido bastante y estoy cansada; llévame ahora a tu cuartito y prepara tu camita de seda, que nos vamos a dormir.",
+          "La princesa se echó a llorar; le daba miedo la rana fría, a la que no se atrevía ni a tocar y que ahora iba a dormir en su camita bonita y limpia.",
+          "Pero el rey se enfadó y dijo: —A quien te ayudó cuando estabas en apuros no debes despreciarlo después."
+        ]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "Da packte sie ihn mit zwei Fingern, trug ihn hinauf und setzte ihn in eine Ecke.",
+          "Als sie aber im Bette lag, kam er gekrochen und sprach: „Ich bin müde, ich will schlafen so gut wie du: heb mich herauf, oder ich sag's deinem Vater.“",
+          "Da ward sie erst bitterböse, holte ihn herauf und warf ihn aus allen Kräften wider die Wand.",
+          "„Nun wirst du Ruhe haben, du garstiger Frosch.“"
+        ],
+        "es": [
+          "Entonces la cogió con dos dedos, la subió a su cuarto y la dejó en un rincón.",
+          "Pero cuando ya estaba acostada, la rana se acercó arrastrándose y dijo: —Estoy cansada y quiero dormir tan bien como tú: súbeme a la cama, o se lo digo a tu padre.",
+          "Entonces sí que se puso furiosa, la cogió y la arrojó con todas sus fuerzas contra la pared.",
+          "—¡Ahora sí que descansarás, rana asquerosa!"
+        ]
+      }
+    },
+    {
+      "image": "p16.svg",
+      "text": {
+        "de": [
+          "Als er aber herabfiel, war er kein Frosch, sondern ein Königssohn mit schönen und freundlichen Augen.",
+          "Der war nun nach ihres Vaters Willen ihr lieber Geselle und Gemahl.",
+          "Da erzählte er ihr, er wäre von einer bösen Hexe verwünscht worden, und niemand hätte ihn aus dem Brunnen erlösen können als sie allein, und morgen wollten sie zusammen in sein Reich gehen.",
+          "Dann schliefen sie ein."
+        ],
+        "es": [
+          "Pero al caer al suelo ya no era una rana, sino un príncipe de ojos hermosos y amables.",
+          "Y él fue entonces, por voluntad del padre de ella, su querido compañero y esposo.",
+          "Le contó que una bruja malvada lo había hechizado, que nadie más que ella podía haberlo librado del pozo, y que al día siguiente se irían juntos a su reino.",
+          "Después se quedaron dormidos."
+        ]
+      }
+    },
+    {
+      "image": "p17.svg",
+      "text": {
+        "de": [
+          "Am andern Morgen, als die Sonne sie aufweckte, kam ein Wagen herangefahren, mit acht weißen Pferden bespannt, die hatten weiße Straußfedern auf dem Kopf und gingen in goldenen Ketten.",
+          "Hinten stand der Diener des jungen Königs, das war der treue Heinrich.",
+          "Der treue Heinrich hatte sich so betrübt, als sein Herr in einen Frosch verwandelt worden war, dass er drei eiserne Bande hatte um sein Herz legen lassen, damit es ihm nicht vor Weh und Traurigkeit zerspränge."
+        ],
+        "es": [
+          "A la mañana siguiente, cuando el sol los despertó, llegó un coche tirado por ocho caballos blancos, con plumas blancas de avestruz en la cabeza y arneses de cadenas de oro.",
+          "Detrás, de pie, iba el criado del joven rey: era el fiel Enrique.",
+          "El fiel Enrique se había entristecido tanto cuando su señor fue convertido en rana que se había hecho poner tres aros de hierro alrededor del corazón, para que no le estallara de pena y tristeza."
+        ]
+      }
+    },
+    {
+      "image": "p18.svg",
+      "text": {
+        "de": [
+          "Der Wagen aber sollte den jungen König in sein Reich abholen; der treue Heinrich hob beide hinein, stellte sich wieder hinten auf und war voller Freude über die Erlösung.",
+          "Und als sie ein Stück Wegs gefahren waren, hörte der Königssohn, dass es hinter ihm krachte, als wäre etwas zerbrochen.",
+          "Da drehte er sich um und rief: „Heinrich, der Wagen bricht.“"
+        ],
+        "es": [
+          "El coche venía a buscar al joven rey para llevarlo a su reino; el fiel Enrique subió a los dos, volvió a ponerse detrás y estaba lleno de alegría por el desencantamiento.",
+          "Y cuando ya habían recorrido un trecho del camino, el príncipe oyó detrás de él un crujido, como si algo se hubiera roto.",
+          "Se volvió y gritó: —¡Enrique, que se rompe el coche!"
+        ]
+      }
+    },
+    {
+      "image": "p19.svg",
+      "text": {
+        "de": [
+          "„Nein, Herr, der Wagen nicht, es ist ein Band von meinem Herzen, das da lag in großen Schmerzen, als Ihr in dem Brunnen saßt, als Ihr eine Fretsche wast.“",
+          "Noch einmal und noch einmal krachte es auf dem Wege, und der Königssohn meinte immer, der Wagen bräche.",
+          "Und es waren doch nur die Bande, die vom Herzen des treuen Heinrich absprangen, weil sein Herr erlöst und glücklich war."
+        ],
+        "es": [
+          "—No, señor, el coche no: es un aro de mi corazón, que sufría gran dolor mientras en el pozo estabais y en rana convertido os hallabais.",
+          "Otra vez, y otra vez más, se oyó un crujido por el camino, y el príncipe creía siempre que se rompía el coche.",
+          "Pero no eran más que los aros que saltaban del corazón del fiel Enrique, porque su señor estaba libre y era feliz."
+        ]
+      }
+    }
+  ]
+}

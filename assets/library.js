@@ -56,6 +56,7 @@
     img.alt = '';
     img.loading = 'lazy';
     cover.append(img, el('span', 'book-title', book.title[lang]));
+    if (book.version === 'original') cover.append(el('span', 'badge orig', t('originalBadge')));
     const nEnd = (book.endings || []).length;
     const found = (p.endings || []).filter((id) => (book.endings || []).some((e) => e.id === id)).length;
     if (book.interactive) {
@@ -139,7 +140,8 @@
   });
   window.addEventListener('hashchange', () => select(initialShelf()));
 
-  Promise.all((window.BOOKS || []).map((id) => window.Stories.loadBook(id).catch(() => null)))
+  // Märchen in der von den Eltern gewählten Fassung (kindgerecht oder Original)
+  Promise.all((window.BOOKS || []).map((id) => S.loadBook(S.variantId(id)).catch(() => S.loadBook(id)).catch(() => null)))
     .then((list) => { books = list.filter(Boolean); render(); });
 
   window.Stories.onLang(render);

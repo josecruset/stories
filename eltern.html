@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#17153a">
+  <meta name="robots" content="noindex">
+  <title>Für Eltern – Geschichten für Kinder</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Andika:wght@400;700&display=swap">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="library parents">
+  <header class="site-header">
+    <a class="brand" href="./">
+      <img class="brand-mark" src="assets/favicon.svg" alt="" width="34" height="34">
+      <span class="brand-name" data-i18n="siteTitle">Geschichten für Kinder</span>
+    </a>
+    <div class="lang-switch" role="group" aria-label="Sprache / Idioma">
+      <button type="button" data-lang="de" lang="de">DE</button>
+      <button type="button" data-lang="es" lang="es">ES</button>
+    </div>
+  </header>
+
+  <main>
+    <a class="back-link" href="./#maerchen" data-i18n="backToLibrary">← Zur Bücherei</a>
+    <h1 class="parents-title" data-i18n="parentsTitle">Für Eltern</h1>
+
+    <!-- Kleine Hürde, damit Kinder die Einstellung nicht aus Versehen ändern -->
+    <form class="gate" id="gate" hidden>
+      <label for="gateAnswer"><span data-i18n="parentsGate">Dieser Bereich ist für Eltern. Bitte rechne:</span> <strong id="gateTask"></strong></label>
+      <div class="gate-row">
+        <input id="gateAnswer" type="number" inputmode="numeric" autocomplete="off" required>
+        <button type="submit" class="btn btn-read" data-i18n="parentsGo">Weiter</button>
+      </div>
+      <p class="gate-error" id="gateError" hidden data-i18n="parentsGateWrong">Das stimmt leider nicht – bitte noch einmal.</p>
+    </form>
+
+    <div id="settings" hidden>
+      <p class="parents-intro" data-i18n="parentsIntro"></p>
+
+      <section class="panel">
+        <h2 data-i18n="parentsAll">Fassung für alle Märchen</h2>
+        <div class="seg" id="globalVersion" role="radiogroup"></div>
+      </section>
+
+      <section class="panel">
+        <h2 data-i18n="parentsEach">Einzelne Märchen</h2>
+        <p class="hint" data-i18n="parentsEachHint"></p>
+        <div class="tale-list" id="taleList"></div>
+        <p class="hint same" id="sameList"></p>
+      </section>
+    </div>
+    <p class="toast" id="toast" role="status" aria-live="polite"></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="author">
+      <span><span data-i18n="madeBy">Gemacht von</span> <strong>José Cruset</strong></span>
+    </div>
+  </footer>
+
+  <script src="books.js"></script>
+  <script src="assets/common.js"></script>
+  <script src="assets/eltern.js"></script>
+</body>
+</html>

@@ -1,0 +1,445 @@
+{
+  "id": "schneewittchen-original",
+  "variantOf": "schneewittchen",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": {
+    "de": "Brüder Grimm, 1857",
+    "es": "Hermanos Grimm, 1857"
+  },
+  "accent": "#e2364a",
+  "age": 7,
+  "title": {
+    "de": "Schneewittchen",
+    "es": "Blancanieves"
+  },
+  "blurb": {
+    "de": "Weiß wie Schnee, rot wie Blut, schwarz wie Ebenholz: das Märchen so, wie die Brüder Grimm es 1857 aufgeschrieben haben – mit allen drei Anschlägen der Königin und ihrem Ende auf der Hochzeit.",
+    "es": "Blanca como la nieve, roja como la sangre, negra como el ébano: el cuento tal como lo escribieron los hermanos Grimm en 1857, con los tres intentos de la reina y su final en la boda."
+  },
+  "differences": {
+    "de": [
+      "Im Original sticht sich die Mutter in den Finger, drei Blutstropfen fallen in den Schnee, und sie stirbt bei der Geburt; in der kindgerechten Fassung fällt Schnee auf Rosen, und vom Tod der Mutter ist keine Rede.",
+      "Im Original soll der Jäger Schneewittchen töten und Lunge und Leber mitbringen; er bringt die eines Frischlings, und die Königin isst sie – in der kindgerechten Fassung soll er es nur in den Wald bringen.",
+      "Im Original versucht die Königin dreimal, Schneewittchen umzubringen: mit einem Schnürriemen, einem giftigen Kamm und dem Apfel; in der kindgerechten Fassung gibt es nur den Apfel.",
+      "Im Original ist Schneewittchen tot, die Zwerge beweinen es drei Tage und legen es in einen gläsernen Sarg; in der kindgerechten Fassung fällt es nur in einen tiefen Schlaf.",
+      "Im Original muss die Königin auf der Hochzeit in rotglühenden eisernen Pantoffeln tanzen, bis sie tot umfällt; in der kindgerechten Fassung läuft sie wütend davon."
+    ],
+    "es": [
+      "En el original, la madre se pincha un dedo, caen tres gotas de sangre en la nieve y muere al nacer la niña; en la versión infantil la nieve cae sobre unas rosas y no se habla de su muerte.",
+      "En el original, el cazador debe matar a Blancanieves y traer sus pulmones y su hígado; lleva los de un jabato y la reina se los come; en la versión infantil solo debe llevarla al bosque.",
+      "En el original, la reina intenta matar a Blancanieves tres veces: con un cordón, con un peine envenenado y con la manzana; en la versión infantil solo aparece la manzana.",
+      "En el original, Blancanieves está muerta, los enanitos la lloran tres días y la ponen en un ataúd de cristal; en la versión infantil solo cae en un sueño profundo.",
+      "En el original, la reina tiene que bailar en la boda con zapatos de hierro al rojo vivo hasta caer muerta; en la versión infantil se marcha furiosa."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Es war einmal mitten im Winter, und die Schneeflocken fielen wie Federn vom Himmel herab.",
+          "Da saß eine Königin an einem Fenster mit einem Rahmen von schwarzem Ebenholz und nähte.",
+          "Als sie nach dem Schnee aufblickte, stach sie sich mit der Nadel in den Finger, und es fielen drei Tropfen Blut in den Schnee.",
+          "Weil das Rote im weißen Schnee so schön aussah, dachte sie: „Hätt ich ein Kind so weiß wie Schnee, so rot wie Blut und so schwarz wie das Holz an dem Rahmen!“"
+        ],
+        "es": [
+          "Érase una vez, en pleno invierno, cuando los copos de nieve caían del cielo como plumas, una reina que cosía junto a una ventana con marco de negro ébano.",
+          "Al levantar la vista hacia la nieve, se pinchó un dedo con la aguja, y cayeron tres gotas de sangre sobre la nieve.",
+          "Y como el rojo quedaba tan hermoso sobre la nieve blanca, pensó: «¡Ojalá tuviera una niña blanca como la nieve, roja como la sangre y negra como la madera de este marco!»"
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Bald darauf bekam sie ein Töchterlein, das war so weiß wie Schnee, so rot wie Blut und so schwarzhaarig wie Ebenholz und wurde darum Schneewittchen genannt.",
+          "Und wie das Kind geboren war, starb die Königin.",
+          "Über ein Jahr nahm sich der König eine andere Gemahlin.",
+          "Es war eine schöne Frau, aber sie war stolz und übermütig und konnte nicht leiden, dass sie an Schönheit von jemand sollte übertroffen werden."
+        ],
+        "es": [
+          "Poco después tuvo una hijita blanca como la nieve, roja como la sangre y de cabellos negros como el ébano, y por eso la llamaron Blancanieves.",
+          "Y en cuanto nació la niña, la reina murió.",
+          "Al cabo de un año, el rey tomó otra esposa.",
+          "Era una mujer hermosa, pero orgullosa y soberbia, y no soportaba que nadie la superase en belleza."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Sie hatte einen wunderbaren Spiegel; wenn sie vor den trat und sich darin beschaute, sprach sie: „Spieglein, Spieglein an der Wand, wer ist die Schönste im ganzen Land?“",
+          "So antwortete der Spiegel: „Frau Königin, Ihr seid die Schönste im Land.“",
+          "Da war sie zufrieden, denn sie wusste, dass der Spiegel die Wahrheit sagte.",
+          "Schneewittchen aber wuchs heran und wurde immer schöner, und als es sieben Jahre alt war, war es so schön wie der klare Tag und schöner als die Königin selbst."
+        ],
+        "es": [
+          "Tenía un espejo maravilloso, y cuando se ponía delante y se miraba en él, decía: —Espejito, espejito de la pared, ¿quién es la más hermosa de todo el reino?",
+          "Y el espejo respondía: —Señora reina, vos sois la más hermosa del reino.",
+          "Entonces ella quedaba contenta, porque sabía que el espejo decía la verdad.",
+          "Pero Blancanieves fue creciendo y cada vez era más hermosa, y a los siete años era tan bella como la luz del día, y más bella que la propia reina."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Als die Königin einmal ihren Spiegel fragte, antwortete er: „Frau Königin, Ihr seid die Schönste hier, aber Schneewittchen ist tausendmal schöner als Ihr.“",
+          "Da erschrak die Königin und wurde gelb und grün vor Neid.",
+          "Von Stund an, wenn sie Schneewittchen erblickte, kehrte sich ihr das Herz im Leibe herum, so hasste sie das Mädchen.",
+          "Und der Neid und Hochmut wuchsen wie ein Unkraut in ihrem Herzen immer höher, dass sie Tag und Nacht keine Ruhe mehr hatte."
+        ],
+        "es": [
+          "Un día que la reina preguntó a su espejo, este le respondió: —Señora reina, vos sois la más hermosa de aquí, pero Blancanieves es mil veces más hermosa que vos.",
+          "La reina se asustó y se puso amarilla y verde de envidia.",
+          "Desde entonces, cada vez que veía a Blancanieves, se le revolvía el corazón: tanto odiaba a la niña.",
+          "La envidia y el orgullo le crecían en el corazón como la mala hierba, y ya no tenía descanso ni de día ni de noche."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Da rief sie einen Jäger und sprach: „Bring das Kind hinaus in den Wald; du sollst es töten und mir Lunge und Leber zum Wahrzeichen mitbringen.“",
+          "Der Jäger gehorchte und führte es hinaus, und als er den Hirschfänger gezogen hatte, fing es an zu weinen.",
+          "„Ach, lieber Jäger, lass mir mein Leben“, sprach es, „ich will in den wilden Wald laufen und nimmermehr wieder heimkommen.“",
+          "Und weil es so schön war, hatte der Jäger Mitleid und sprach: „So lauf hin, du armes Kind.“"
+        ],
+        "es": [
+          "Entonces llamó a un cazador y le dijo: —Llévate a la niña al bosque; tienes que matarla y traerme sus pulmones y su hígado como prueba.",
+          "El cazador obedeció y se la llevó, y cuando sacó el cuchillo de monte, la niña se echó a llorar.",
+          "—Ay, querido cazador, déjame vivir —le dijo—; me iré corriendo al bosque salvaje y nunca más volveré a casa.",
+          "Y como era tan hermosa, el cazador sintió compasión y le dijo: —Pues corre, vete, pobre niña."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Die wilden Tiere werden dich bald gefressen haben, dachte er, und doch war's ihm, als wär ein Stein von seinem Herzen gewälzt, weil er es nicht zu töten brauchte.",
+          "Und als gerade ein junger Frischling dahergesprungen kam, stach er ihn ab, nahm Lunge und Leber heraus und brachte sie der Königin als Wahrzeichen mit.",
+          "Der Koch musste sie in Salz kochen, und das boshafte Weib aß sie auf und meinte, sie hätte Schneewittchens Lunge und Leber gegessen."
+        ],
+        "es": [
+          "«Las fieras pronto te habrán devorado», pensó; y aun así sintió como si le quitaran una piedra del corazón, porque no había tenido que matarla.",
+          "Y como en ese momento pasó saltando un jabato, lo mató, le sacó los pulmones y el hígado y se los llevó a la reina como prueba.",
+          "El cocinero tuvo que cocerlos con sal, y aquella mujer malvada se los comió, creyendo que eran los pulmones y el hígado de Blancanieves."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Nun war das arme Kind in dem großen Wald mutterseelenallein, und ihm war so angst, dass es nicht wusste, wie es sich helfen sollte.",
+          "Da fing es an zu laufen und lief über die spitzen Steine und durch die Dornen, und die wilden Tiere sprangen an ihm vorbei, aber sie taten ihm nichts.",
+          "Es lief, solange nur die Füße noch fortkonnten, bis es bald Abend werden wollte; da sah es ein kleines Häuschen und ging hinein, sich zu ruhen."
+        ],
+        "es": [
+          "La pobre niña se quedó completamente sola en el gran bosque, y tenía tanto miedo que no sabía qué hacer.",
+          "Echó a correr por encima de las piedras puntiagudas y entre las espinas, y las fieras saltaban a su lado, pero no le hacían nada.",
+          "Corrió mientras sus pies pudieron llevarla, hasta que empezó a anochecer; entonces vio una casita y entró a descansar."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "In dem Häuschen war alles klein, aber zierlich und reinlich.",
+          "Da stand ein weißgedecktes Tischlein mit sieben Tellerlein, sieben Löffelein, sieben Messerlein und Gäblein und sieben Becherlein, und an der Wand standen sieben Bettlein.",
+          "Schneewittchen aß von jedem Tellerlein ein wenig und trank aus jedem Becherlein einen Tropfen Wein, denn es wollte nicht einem allein alles wegnehmen.",
+          "Dann legte es sich in die Bettlein, aber keins passte, bis endlich das siebente recht war; darin befahl es sich Gott und schlief ein."
+        ],
+        "es": [
+          "En la casita todo era pequeño, pero primoroso y limpio.",
+          "Había una mesita con mantel blanco y siete platitos, siete cucharitas, siete cuchillitos y tenedorcitos y siete vasitos, y junto a la pared, siete camitas.",
+          "Blancanieves comió un poquito de cada platito y bebió una gota de vino de cada vasito, porque no quería quitárselo todo a uno solo.",
+          "Luego probó las camitas, pero ninguna le venía bien, hasta que por fin la séptima fue la justa; allí se encomendó a Dios y se durmió."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Als es ganz dunkel geworden war, kamen die Herren von dem Häuslein heim, die sieben Zwerge, die in den Bergen nach Erz hackten und gruben.",
+          "Sie zündeten ihre sieben Lichtlein an und sahen, dass jemand darin gewesen war.",
+          "Der erste sprach: „Wer hat auf meinem Stühlchen gesessen?“",
+          "Der zweite: „Wer hat von meinem Tellerchen gegessen?“",
+          "So fragte einer nach dem andern, bis der siebente in sein Bett sah und Schneewittchen erblickte, das lag darin und schlief."
+        ],
+        "es": [
+          "Cuando ya era noche cerrada, llegaron los dueños de la casita: eran los siete enanitos, que picaban y cavaban en las montañas buscando mineral.",
+          "Encendieron sus siete velitas y vieron que alguien había estado allí.",
+          "—¿Quién se ha sentado en mi sillita? —dijo el primero.",
+          "—¿Quién ha comido de mi platito? —dijo el segundo.",
+          "Y así fueron preguntando uno tras otro, hasta que el séptimo miró en su cama y vio a Blancanieves, que estaba allí dormida."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Er rief die andern, die kamen mit ihren Lichtlein herbeigelaufen und beleuchteten Schneewittchen.",
+          "„Ei, du mein Gott! Ei, du mein Gott!“, riefen sie, „was ist das Kind so schön!“",
+          "Und sie hatten so große Freude, dass sie es nicht aufweckten; der siebente Zwerg aber schlief bei seinen Gesellen, bei jedem eine Stunde, da war die Nacht herum.",
+          "Am Morgen erzählte ihnen Schneewittchen, dass seine Stiefmutter es hätte umbringen lassen wollen, der Jäger ihm aber das Leben geschenkt hätte."
+        ],
+        "es": [
+          "Llamó a los demás, que acudieron corriendo con sus velitas y alumbraron a Blancanieves.",
+          "—¡Ay, Dios mío! ¡Ay, Dios mío! —exclamaron—. ¡Qué niña tan hermosa!",
+          "Y se alegraron tanto que no la despertaron; el séptimo enanito durmió con sus compañeros, una hora con cada uno, y así pasó la noche.",
+          "Por la mañana, Blancanieves les contó que su madrastra había querido mandarla matar, pero que el cazador le había perdonado la vida."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Die Zwerge sprachen: „Willst du unsern Haushalt versehen, kochen, betten, waschen, nähen und stricken und alles ordentlich und reinlich halten, so kannst du bei uns bleiben, und es soll dir an nichts fehlen.“",
+          "„Ja“, sagte Schneewittchen, „von Herzen gern“, und blieb bei ihnen.",
+          "Morgens gingen die Zwerge in die Berge und suchten Erz und Gold, und abends kamen sie wieder.",
+          "Sie warnten es: „Hüte dich vor deiner Stiefmutter, die wird bald wissen, dass du hier bist; lass ja niemand herein.“"
+        ],
+        "es": [
+          "Los enanitos le dijeron: —Si quieres llevarnos la casa, cocinar, hacer las camas, lavar, coser y tejer, y tenerlo todo ordenado y limpio, puedes quedarte con nosotros y no te faltará de nada.",
+          "—Sí, de todo corazón —dijo Blancanieves, y se quedó con ellos.",
+          "Por la mañana los enanitos se iban a las montañas a buscar mineral y oro, y por la noche volvían.",
+          "Y le advirtieron: —Guárdate de tu madrastra, que pronto sabrá que estás aquí; no dejes entrar a nadie."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Die Königin aber glaubte, sie hätte Schneewittchens Lunge und Leber gegessen, trat vor ihren Spiegel und sprach: „Spieglein, Spieglein an der Wand, wer ist die Schönste im ganzen Land?“",
+          "Da antwortete der Spiegel: „Frau Königin, Ihr seid die Schönste hier, aber Schneewittchen über den Bergen bei den sieben Zwergen ist noch tausendmal schöner als Ihr.“",
+          "Da erschrak sie, denn sie merkte, dass der Jäger sie betrogen hatte.",
+          "Sie färbte sich das Gesicht und kleidete sich wie eine alte Krämerin und war ganz unkenntlich."
+        ],
+        "es": [
+          "La reina, creyendo haber comido los pulmones y el hígado de Blancanieves, preguntó a su espejo: —Espejito, espejito de la pared, ¿quién es la más hermosa de todo el reino?",
+          "Y el espejo respondió: —Señora reina, vos sois la más hermosa de aquí, pero Blancanieves, tras los montes, con los siete enanitos, es aún mil veces más hermosa que vos.",
+          "Ella se asustó, porque comprendió que el cazador la había engañado.",
+          "Se pintó la cara, se vistió como una vieja buhonera y quedó irreconocible."
+        ]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "So ging sie über die sieben Berge zu den sieben Zwergen, klopfte an die Türe und rief: „Schöne Ware feil! feil!“",
+          "Sie bot Schnürriemen von allen Farben an, und Schneewittchen dachte: „Die ehrliche Frau kann ich hereinlassen“, und kaufte sich einen.",
+          "„Kind“, sprach die Alte, „komm, ich will dich einmal ordentlich schnüren.“",
+          "Aber sie schnürte so geschwind und so fest, dass dem Schneewittchen der Atem verging und es für tot hinfiel.",
+          "„Nun bist du die Schönste gewesen“, sprach sie und eilte hinaus."
+        ],
+        "es": [
+          "Cruzó los siete montes hasta la casa de los siete enanitos, llamó a la puerta y gritó: —¡Vendo cosas bonitas!",
+          "Ofrecía cordones de todos los colores, y Blancanieves pensó: «A esta buena mujer sí puedo dejarla entrar», y le compró uno.",
+          "—Niña —dijo la vieja—, ven, que te voy a atar bien el corpiño.",
+          "Pero se lo ató tan deprisa y tan fuerte que Blancanieves se quedó sin aliento y cayó como muerta.",
+          "—Pues ya has sido la más hermosa —dijo, y salió corriendo."
+        ]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "Am Abend fanden die Zwerge ihr liebes Schneewittchen auf der Erde liegen; sie schnitten den Schnürriemen entzwei, und es wurde nach und nach wieder lebendig.",
+          "„Die alte Krämerfrau war niemand als die gottlose Königin“, sprachen sie, „lass keinen Menschen herein, wenn wir nicht bei dir sind.“",
+          "Daheim aber antwortete der Spiegel wie sonst: „Frau Königin, Ihr seid die Schönste hier, aber Schneewittchen über den Bergen bei den sieben Zwergen ist noch tausendmal schöner als Ihr.“",
+          "Da machte die Königin mit Hexenkünsten einen giftigen Kamm."
+        ],
+        "es": [
+          "Al anochecer, los enanitos encontraron a Blancanieves tendida en el suelo; cortaron el cordón y poco a poco revivió.",
+          "—La vieja buhonera no era otra que la malvada reina —dijeron—; no dejes entrar a nadie cuando no estemos contigo.",
+          "Pero en el castillo, el espejo respondió como siempre: —Señora reina, vos sois la más hermosa de aquí, pero Blancanieves, tras los montes, con los siete enanitos, es aún mil veces más hermosa que vos.",
+          "Entonces, con artes de bruja, la reina hizo un peine envenenado."
+        ]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "Als ein anderes altes Weib verkleidet, klopfte sie wieder bei den sieben Zwergen an.",
+          "„Das Ansehen wird dir doch erlaubt sein“, sprach die Alte und hielt den giftigen Kamm in die Höhe.",
+          "Er gefiel dem Kinde so gut, dass es die Türe öffnete; kaum aber steckte der Kamm in seinen Haaren, fiel es ohne Besinnung nieder.",
+          "„Du Ausbund von Schönheit“, sprach das boshafte Weib, „jetzt ist's um dich geschehen.“",
+          "Am Abend zogen die Zwerge den giftigen Kamm heraus, und Schneewittchen kam wieder zu sich."
+        ],
+        "es": [
+          "Disfrazada de otra vieja, volvió a llamar a la puerta de los siete enanitos.",
+          "—Por lo menos mirar sí te estará permitido —dijo la vieja, y levantó en alto el peine envenenado.",
+          "A la niña le gustó tanto que abrió la puerta; pero en cuanto tuvo el peine en el pelo, cayó sin sentido.",
+          "—Tú, dechado de belleza —dijo la malvada—, ahora sí que se acabó contigo.",
+          "Al anochecer, los enanitos le sacaron el peine envenenado, y Blancanieves volvió en sí."
+        ]
+      }
+    },
+    {
+      "image": "p16.svg",
+      "text": {
+        "de": [
+          "Die Königin stellte sich daheim vor den Spiegel, und er antwortete wie vorher: „Frau Königin, Ihr seid die Schönste hier, aber Schneewittchen über den Bergen bei den sieben Zwergen ist doch noch tausendmal schöner als Ihr.“",
+          "Da zitterte und bebte sie vor Zorn: „Schneewittchen soll sterben, und wenn es mein eigenes Leben kostet!“",
+          "In einer verborgenen, einsamen Kammer machte sie einen giftigen, giftigen Apfel.",
+          "Äußerlich sah er schön aus, weiß mit roten Backen, aber wer ein Stückchen davon aß, der musste sterben."
+        ],
+        "es": [
+          "La reina se puso en casa ante el espejo, y este respondió como antes: —Señora reina, vos sois la más hermosa de aquí, pero Blancanieves, tras los montes, con los siete enanitos, es todavía mil veces más hermosa que vos.",
+          "La reina tembló de rabia: —¡Blancanieves tiene que morir, aunque me cueste la vida!",
+          "En un cuarto escondido y solitario preparó una manzana envenenada, muy envenenada.",
+          "Por fuera era preciosa, blanca con mejillas rojas, pero quien comiera un trocito de ella tenía que morir."
+        ]
+      }
+    },
+    {
+      "image": "p17.svg",
+      "text": {
+        "de": [
+          "Als Bauersfrau verkleidet klopfte sie bei den Zwergen an, und Schneewittchen sprach zum Fenster heraus: „Ich darf keinen Menschen einlassen.“",
+          "„Fürchtest du dich vor Gift?“, sprach die Alte, „da schneide ich den Apfel in zwei Teile; den roten Backen iss du, den weißen will ich essen.“",
+          "Doch nur der rote Backen war vergiftet.",
+          "Als Schneewittchen sah, dass die Bäuerin davon aß, nahm es die giftige Hälfte, und kaum hatte es einen Bissen im Mund, so fiel es tot zur Erde nieder."
+        ],
+        "es": [
+          "Disfrazada de campesina, llamó a casa de los enanitos, y Blancanieves se asomó a la ventana: —No puedo dejar entrar a nadie.",
+          "—¿Tienes miedo de que esté envenenada? —dijo la vieja—. Mira, parto la manzana en dos: tú cómete la mitad roja, que yo me como la blanca.",
+          "Pero solo la mitad roja estaba envenenada.",
+          "Cuando Blancanieves vio que la campesina comía, tomó la mitad envenenada, y en cuanto tuvo un bocado en la boca, cayó muerta al suelo."
+        ]
+      }
+    },
+    {
+      "image": "p18.svg",
+      "text": {
+        "de": [
+          "Da betrachtete es die Königin mit grausigen Blicken, lachte überlaut und sprach: „Weiß wie Schnee, rot wie Blut, schwarz wie Ebenholz! Diesmal können dich die Zwerge nicht wieder erwecken.“",
+          "Und daheim antwortete der Spiegel endlich: „Frau Königin, Ihr seid die Schönste im Land.“",
+          "Da hatte ihr neidisches Herz Ruhe, so gut ein neidisches Herz Ruhe haben kann.",
+          "Die Zwerglein aber fanden Schneewittchen am Abend auf der Erde liegen; es ging kein Atem mehr aus seinem Mund, und es war tot."
+        ],
+        "es": [
+          "La reina la miró con ojos espantosos, se rio a carcajadas y dijo: —¡Blanca como la nieve, roja como la sangre, negra como el ébano! Esta vez los enanitos no podrán despertarte.",
+          "Y en casa, por fin, el espejo respondió: —Señora reina, vos sois la más hermosa del reino.",
+          "Entonces su corazón envidioso tuvo paz, toda la paz que puede tener un corazón envidioso.",
+          "Al anochecer, los enanitos encontraron a Blancanieves en el suelo; ya no le salía aliento de la boca: estaba muerta."
+        ]
+      }
+    },
+    {
+      "image": "p19.svg",
+      "text": {
+        "de": [
+          "Sie hoben es auf, suchten, ob sie was Giftiges fänden, schnürten es auf, kämmten ihm die Haare, wuschen es mit Wasser und Wein, aber es half alles nichts; das liebe Kind war tot und blieb tot.",
+          "Sie legten es auf eine Bahre, setzten sich alle siebene daran und beweinten es drei Tage lang.",
+          "Dann wollten sie es begraben, aber es sah noch so frisch aus wie ein lebender Mensch und hatte noch seine schönen roten Backen."
+        ],
+        "es": [
+          "La levantaron, buscaron si encontraban algo envenenado, le aflojaron el corpiño, la peinaron, la lavaron con agua y vino, pero nada sirvió: la querida niña estaba muerta y muerta se quedó.",
+          "La pusieron en unas andas, se sentaron los siete a su alrededor y la lloraron durante tres días.",
+          "Luego quisieron enterrarla, pero parecía tan fresca como una persona viva y aún tenía sus hermosas mejillas rojas."
+        ]
+      }
+    },
+    {
+      "image": "p20.svg",
+      "text": {
+        "de": [
+          "„Das können wir nicht in die schwarze Erde versenken“, sprachen sie und ließen einen durchsichtigen Sarg von Glas machen.",
+          "Mit goldenen Buchstaben schrieben sie seinen Namen darauf und dass es eine Königstochter wäre.",
+          "Dann setzten sie den Sarg auf den Berg, und einer von ihnen blieb immer dabei und bewachte ihn.",
+          "Auch die Tiere kamen und beweinten Schneewittchen, erst eine Eule, dann ein Rabe, zuletzt ein Täubchen.",
+          "So lag es lange, lange Zeit im Sarg, verweste nicht und sah aus, als wenn es schliefe."
+        ],
+        "es": [
+          "—No podemos meterla en la tierra negra —dijeron, y mandaron hacer un ataúd de cristal transparente.",
+          "Encima escribieron con letras de oro su nombre y que era hija de un rey.",
+          "Después llevaron el ataúd a lo alto del monte, y uno de ellos se quedaba siempre allí para velarlo.",
+          "Y también vinieron los animales a llorar a Blancanieves: primero una lechuza, luego un cuervo y por último una palomita.",
+          "Así estuvo mucho, mucho tiempo en el ataúd, sin corromperse, como si estuviera dormida."
+        ]
+      }
+    },
+    {
+      "image": "p21.svg",
+      "text": {
+        "de": [
+          "Da kam ein Königssohn in den Wald und sah auf dem Berg den Sarg und das schöne Schneewittchen darin.",
+          "Er sprach zu den Zwergen: „Lasst mir den Sarg, ich will euch geben, was ihr dafür haben wollt.“",
+          "Aber die Zwerge antworteten: „Wir geben ihn nicht um alles Gold in der Welt.“",
+          "Da sprach er: „So schenkt mir ihn, denn ich kann nicht leben, ohne Schneewittchen zu sehen.“",
+          "Da hatten die guten Zwerglein Mitleid mit ihm und gaben ihm den Sarg."
+        ],
+        "es": [
+          "Un día llegó al bosque un hijo de rey y vio en el monte el ataúd y, dentro, a la hermosa Blancanieves.",
+          "—Dadme el ataúd —dijo a los enanitos—, y os daré por él lo que queráis.",
+          "—No lo damos ni por todo el oro del mundo —respondieron ellos.",
+          "—Entonces regaládmelo —dijo él—, porque no puedo vivir sin ver a Blancanieves.",
+          "Los buenos enanitos sintieron compasión y le dieron el ataúd."
+        ]
+      }
+    },
+    {
+      "image": "p22.svg",
+      "text": {
+        "de": [
+          "Der Königssohn ließ den Sarg von seinen Dienern auf den Schultern forttragen.",
+          "Da geschah es, dass sie über einen Strauch stolperten, und von dem Schüttern fuhr der giftige Apfelgrütz, den Schneewittchen abgebissen hatte, aus dem Hals.",
+          "Bald öffnete es die Augen, hob den Deckel vom Sarg in die Höhe, richtete sich auf und rief: „Ach Gott, wo bin ich?“",
+          "Der Königssohn sagte voll Freude: „Du bist bei mir. Komm mit mir in meines Vaters Schloss, du sollst meine Gemahlin werden.“"
+        ],
+        "es": [
+          "El hijo del rey mandó a sus criados que se llevaran el ataúd a hombros.",
+          "Y sucedió que tropezaron con un arbusto, y con la sacudida, el trozo de manzana envenenada que Blancanieves había mordido le salió de la garganta.",
+          "Al poco abrió los ojos, levantó la tapa del ataúd, se incorporó y exclamó: —¡Ay, Dios mío! ¿Dónde estoy?",
+          "El hijo del rey, lleno de alegría, le dijo: —Estás conmigo. Ven al castillo de mi padre y serás mi esposa."
+        ]
+      }
+    },
+    {
+      "image": "p23.svg",
+      "text": {
+        "de": [
+          "Da war ihm Schneewittchen gut und ging mit ihm, und ihre Hochzeit wurde mit großer Pracht und Herrlichkeit angeordnet.",
+          "Zu dem Fest wurde aber auch die gottlose Stiefmutter eingeladen, und als sie vor den Spiegel trat, antwortete er: „Frau Königin, Ihr seid die Schönste hier, aber die junge Königin ist noch tausendmal schöner als Ihr.“",
+          "Da stieß das böse Weib einen Fluch aus, und doch ließ es ihr keine Ruhe: Sie musste fort und die junge Königin sehen."
+        ],
+        "es": [
+          "Blancanieves le tomó cariño y se fue con él, y su boda se preparó con gran pompa y esplendor.",
+          "A la fiesta invitaron también a la malvada madrastra, y cuando se puso ante el espejo, este respondió: —Señora reina, vos sois la más hermosa de aquí, pero la joven reina es mil veces más hermosa que vos.",
+          "La malvada soltó una maldición, pero no pudo quedarse tranquila: tenía que ir a ver a la joven reina."
+        ]
+      }
+    },
+    {
+      "image": "p24.svg",
+      "text": {
+        "de": [
+          "Und wie sie hineintrat, erkannte sie Schneewittchen, und vor Angst und Schrecken stand sie da und konnte sich nicht regen.",
+          "Aber es waren schon eiserne Pantoffeln über Kohlenfeuer gestellt und wurden mit Zangen hereingetragen und vor sie hingestellt.",
+          "Da musste sie in die rotglühenden Schuhe treten und so lange tanzen, bis sie tot zur Erde fiel."
+        ],
+        "es": [
+          "Y al entrar, reconoció a Blancanieves, y del miedo y el espanto se quedó allí plantada sin poder moverse.",
+          "Pero ya habían puesto unas zapatillas de hierro sobre las brasas, y las trajeron con tenazas y se las pusieron delante.",
+          "Y tuvo que meter los pies en los zapatos al rojo vivo y bailar hasta que cayó muerta al suelo."
+        ]
+      }
+    }
+  ]
+}

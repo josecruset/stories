@@ -1,0 +1,93 @@
+{
+  "id": "sterntaler-original",
+  "variantOf": "sterntaler",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm, 1857", "es": "Hermanos Grimm, 1857" },
+  "accent": "#e9a23b",
+  "age": 5,
+  "title": { "de": "Die Sterntaler", "es": "Las monedas de las estrellas" },
+  "blurb": {
+    "de": "Ein armes Waisenkind verschenkt sein Brot und alle seine Kleider, im dunklen Wald zuletzt sogar sein Hemd. Da fallen die Sterne als Taler vom Himmel.",
+    "es": "Una niña huérfana y pobre regala su pan y toda su ropa, y en el bosque oscuro hasta su camisa. Entonces las estrellas caen del cielo convertidas en monedas."
+  },
+  "differences": {
+    "de": [
+      "Im Original sind dem Mädchen Vater und Mutter gestorben und es ist „von aller Welt verlassen“; die kindgerechte Fassung sagt nur, dass es keine Eltern mehr hat.",
+      "Im Original gibt das Mädchen im Wald auch sein Hemd her und hat danach gar nichts mehr an; in der kindgerechten Fassung behält es ein dünnes Unterkleidchen.",
+      "Im Original ist das Mädchen „gut und fromm“ und wird „das fromme Mädchen“ genannt; die kindgerechte Fassung spricht nur von einem guten Mädchen mit freundlichem Herzen.",
+      "Das Original endet mit „und war reich für sein Lebtag“; die kindgerechte Fassung hängt einen tröstenden Schlusssatz an (auf Spanisch die Formel „colorín colorado“)."
+    ],
+    "es": [
+      "En el original a la niña se le han muerto el padre y la madre y está «abandonada por todo el mundo»; la versión infantil solo dice que ya no tiene padres.",
+      "En el original la niña da en el bosque también su camisa y se queda sin nada de ropa; en la versión infantil conserva una fina enagüita.",
+      "En el original la niña es «buena y piadosa» y se la llama «la piadosa niña»; la versión infantil solo habla de una niña buena con un corazón de oro.",
+      "El original termina con «y fue rica para toda la vida»; la versión infantil añade una frase de consuelo al final (en español, la fórmula «colorín colorado»)."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Es war einmal ein kleines Mädchen, dem war Vater und Mutter gestorben.", "Und es war so arm, dass es kein Kämmerchen mehr hatte, darin zu wohnen.", "Und es hatte kein Bettchen mehr, darin zu schlafen."],
+        "es": ["Érase una vez una niña pequeña a la que se le habían muerto el padre y la madre.", "Y era tan pobre que ya no tenía un cuartito donde vivir.", "Y tampoco tenía ya una camita donde dormir."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Endlich hatte es gar nichts mehr als die Kleider auf dem Leib und ein Stückchen Brot in der Hand, das ihm ein mitleidiges Herz geschenkt hatte.", "Es war aber gut und fromm.", "Und weil es so von aller Welt verlassen war, ging es im Vertrauen auf den lieben Gott hinaus ins Feld."],
+        "es": ["Al final ya no le quedaba nada más que la ropa que llevaba puesta y un pedacito de pan en la mano, que le había regalado un alma compasiva.", "Pero era buena y piadosa.", "Y como estaba tan abandonada por todo el mundo, salió al campo confiando en el buen Dios."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Da begegnete ihm ein armer Mann.", "Der sprach: „Ach, gib mir etwas zu essen, ich bin so hungrig.“", "Es reichte ihm das ganze Stückchen Brot und sagte: „Gott segne dir's“, und ging weiter."],
+        "es": ["Entonces se encontró con un hombre pobre, que le dijo: —¡Ay, dame algo de comer, que tengo mucha hambre!", "La niña le dio el pedacito de pan entero.", "—¡Que Dios te bendiga! —le dijo, y siguió su camino."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Da kam ein Kind, das jammerte und sprach: „Es friert mich so an meinem Kopfe.“", "„Schenk mir etwas, womit ich ihn bedecken kann.“", "Da tat es seine Mütze ab und gab sie ihm."],
+        "es": ["Luego llegó un niño que se lamentaba y decía: —¡Qué frío tengo en la cabeza!", "—Dame algo con que pueda taparla.", "Entonces la niña se quitó el gorro y se lo dio."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Und als es noch eine Weile gegangen war, kam wieder ein Kind.", "Das hatte kein Leibchen an und fror.", "Da gab es ihm seins."],
+        "es": ["Y cuando hubo andado otro rato, llegó otro niño.", "No llevaba corpiño y tiritaba de frío.", "Entonces la niña le dio el suyo."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Und noch weiter, da bat eins um ein Röcklein.", "Das gab es auch von sich hin.", "Endlich gelangte es in einen Wald, und es war schon dunkel geworden."],
+        "es": ["Y más adelante, otro le pidió una faldita.", "También se la dio.", "Por fin llegó a un bosque, y ya se había hecho de noche."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Da kam noch eins und bat um ein Hemdlein.", "Und das fromme Mädchen dachte: „Es ist dunkle Nacht, da sieht dich niemand, du kannst wohl dein Hemd weggeben.“", "Und es zog das Hemd ab und gab es auch noch hin."],
+        "es": ["Allí llegó otro más y le pidió una camisita.", "Y la piadosa niña pensó: «Es noche cerrada y nadie te ve; bien puedes dar tu camisa».", "Y se quitó la camisa y también la dio."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Und wie es so stand und gar nichts mehr hatte, fielen auf einmal die Sterne vom Himmel.", "Und sie waren lauter harte, blanke Taler.", "Und ob es gleich sein Hemdlein weggegeben hatte, so hatte es ein neues an."],
+        "es": ["Y estando allí de pie, sin nada de nada, de pronto cayeron las estrellas del cielo.", "Y eran todas monedas, duras y relucientes.", "Y aunque había dado su camisita, llevaba puesta una nueva."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Und das war vom allerfeinsten Linnen.", "Da sammelte es sich die Taler hinein.", "Und es war reich für sein Lebtag."],
+        "es": ["Y era del lino más fino.", "Entonces recogió en ella las monedas.", "Y fue rica para toda la vida."]
+      }
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+{
+  "id": "drei-schweinchen-original",
+  "variantOf": "drei-schweinchen",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": {
+    "de": "Joseph Jacobs, 1890 (England)",
+    "es": "Joseph Jacobs, 1890 (Inglaterra)"
+  },
+  "accent": "#e8618c",
+  "age": 6,
+  "title": {
+    "de": "Die drei kleinen Schweinchen",
+    "es": "Los tres cerditos"
+  },
+  "blurb": {
+    "de": "Eine alte Sau schickt ihre drei kleinen Schweinchen fort, ihr Glück zu suchen. Der Wolf pustet die Häuser aus Stroh und Ginster um – nur das Schweinchen im Ziegelhaus überlistet ihn.",
+    "es": "Una vieja cerda manda a sus tres cerditos a buscar fortuna. El lobo derriba de un soplido las casas de paja y de aulaga; solo el cerdito de la casa de ladrillo es más listo que él."
+  },
+  "differences": {
+    "de": [
+      "Im Original schickt die alte Sau die Schweinchen fort, weil sie sie nicht mehr ernähren kann; in der kindgerechten Fassung sind sie einfach groß genug für ein eigenes Haus.",
+      "Im Original frisst der Wolf das erste und das zweite Schweinchen; in der kindgerechten Fassung retten sie sich jeweils ins Haus ihres Bruders.",
+      "Im Original bitten die Schweinchen unterwegs Männer um Stroh, Ginster und Ziegel; dass zwei von ihnen faul sind und lieber musizieren, steht nicht im Original, und das zweite Haus ist aus Ginster statt aus Holz.",
+      "Im Original versucht der Wolf das dritte Schweinchen noch dreimal mit List herauszulocken (Rübenfeld, Apfelbaum, Jahrmarkt mit dem Butterfass); diese Episoden fehlen in der kindgerechten Fassung.",
+      "Im Original fällt der Wolf in den Kessel mit kochendem Wasser, und das Schweinchen kocht ihn und isst ihn zum Abendbrot; in der kindgerechten Fassung verbrüht er sich nur und rennt davon."
+    ],
+    "es": [
+      "En el original, la vieja cerda manda a los cerditos fuera porque no puede mantenerlos; en la versión infantil simplemente ya son mayores para tener su propia casa.",
+      "En el original, el lobo se come al primer y al segundo cerdito; en la versión infantil cada uno se salva corriendo a casa de su hermano.",
+      "En el original, los cerditos piden por el camino paja, aulaga y ladrillos a unos hombres; que dos de ellos sean perezosos y prefieran tocar música no está en el original, y la segunda casa es de aulaga y no de madera.",
+      "En el original, el lobo intenta engañar tres veces más al tercer cerdito (el campo de nabos, el manzano y la feria con la mantequera); estos episodios no aparecen en la versión infantil.",
+      "En el original, el lobo cae en la olla de agua hirviendo y el cerdito lo cuece y se lo come para cenar; en la versión infantil solo se escalda y sale huyendo."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Es war einmal, als die Schweine noch in Reimen sprachen und die Affen Tabak kauten, als die Hühner Schnupftabak nahmen, um zäh zu werden, und die Enten quak, quak, quak machten, oh!",
+          "Da war eine alte Sau, die hatte drei kleine Schweinchen.",
+          "Weil sie nicht genug hatte, um sie zu ernähren, schickte sie sie fort, damit sie ihr Glück suchten."
+        ],
+        "es": [
+          "Érase una vez, cuando los cerdos hablaban en verso y los monos mascaban tabaco, cuando las gallinas tomaban rapé para ponerse fuertes y los patos hacían cua, cua, cua, ¡oh!",
+          "Había una vieja cerda que tenía tres cerditos.",
+          "Como no tenía bastante para mantenerlos, los mandó por el mundo a buscar fortuna."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Das erste Schweinchen, das fortging, traf einen Mann mit einem Bündel Stroh.",
+          "Es sagte zu ihm: „Bitte, Mann, gib mir das Stroh, damit ich mir ein Haus baue.“",
+          "Das tat der Mann, und das kleine Schweinchen baute sich daraus ein Haus."
+        ],
+        "es": [
+          "El primero que se marchó se encontró con un hombre que llevaba un haz de paja.",
+          "Y le dijo: —Por favor, buen hombre, dame esa paja para hacerme una casa.",
+          "El hombre se la dio, y el cerdito se construyó con ella una casa."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Bald darauf kam ein Wolf daher, klopfte an die Tür und sagte: „Kleines Schweinchen, kleines Schweinchen, lass mich herein!“",
+          "Darauf antwortete das Schweinchen: „Nein, nein, bei den Borsten an meinem Kinn-Kinn-Kinn!“",
+          "Da antwortete der Wolf: „Dann werde ich husten und prusten und dein Haus zusammenpusten!“"
+        ],
+        "es": [
+          "Al poco rato llegó un lobo, llamó a la puerta y dijo: —Cerdito, cerdito, ¡déjame entrar!",
+          "Y el cerdito le contestó: —¡No, no, por los pelillos de mi barbilla!",
+          "Entonces el lobo respondió: —¡Pues soplaré y soplaré y tu casa derribaré!"
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Und er hustete, und er prustete.",
+          "Und er pustete das Haus zusammen.",
+          "Und er fraß das kleine Schweinchen auf."
+        ],
+        "es": [
+          "Y sopló y sopló.",
+          "Y la casa derribó.",
+          "Y se comió al cerdito."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Das zweite Schweinchen traf einen Mann mit einem Bündel Ginster.",
+          "Es sagte: „Bitte, Mann, gib mir den Ginster, damit ich mir ein Haus baue.“",
+          "Das tat der Mann, und das Schweinchen baute sein Haus."
+        ],
+        "es": [
+          "El segundo cerdito se encontró con un hombre que llevaba un haz de ramas de aulaga.",
+          "Y le dijo: —Por favor, buen hombre, dame esas ramas para hacerme una casa.",
+          "El hombre se las dio, y el cerdito se construyó su casa."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Da kam der Wolf daher und sagte: „Kleines Schweinchen, kleines Schweinchen, lass mich herein!“",
+          "„Nein, nein, bei den Borsten an meinem Kinn-Kinn-Kinn!“",
+          "„Dann werde ich prusten und husten und dein Haus zusammenpusten!“"
+        ],
+        "es": [
+          "Entonces llegó el lobo y dijo: —Cerdito, cerdito, ¡déjame entrar!",
+          "—¡No, no, por los pelillos de mi barbilla!",
+          "—¡Pues soplaré y soplaré y tu casa derribaré!"
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Und er hustete, und er prustete, und er prustete, und er hustete.",
+          "Und endlich pustete er das Haus um.",
+          "Und er fraß das kleine Schweinchen auf."
+        ],
+        "es": [
+          "Y sopló y sopló, y resopló y resopló.",
+          "Y por fin derribó la casa.",
+          "Y se comió al cerdito."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Das dritte Schweinchen traf einen Mann mit einer Fuhre Ziegelsteine.",
+          "Es sagte: „Bitte, Mann, gib mir die Ziegel, damit ich mir ein Haus daraus baue.“",
+          "Da gab ihm der Mann die Ziegel, und es baute sich ein Haus daraus."
+        ],
+        "es": [
+          "El tercer cerdito se encontró con un hombre que llevaba una carga de ladrillos.",
+          "Y le dijo: —Por favor, buen hombre, dame esos ladrillos para hacerme una casa.",
+          "El hombre le dio los ladrillos, y el cerdito se construyó con ellos su casa."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Da kam der Wolf, wie er zu den anderen kleinen Schweinchen gekommen war, und sagte: „Kleines Schweinchen, kleines Schweinchen, lass mich herein!“",
+          "„Nein, nein, bei den Borsten an meinem Kinn-Kinn-Kinn!“",
+          "„Dann werde ich husten und prusten und dein Haus zusammenpusten!“",
+          "Nun, er hustete, und er prustete, und er hustete, und er prustete, und er prustete, und er hustete – aber das Haus bekam er nicht herunter."
+        ],
+        "es": [
+          "Entonces vino el lobo, igual que había ido a casa de los otros cerditos, y dijo: —Cerdito, cerdito, ¡déjame entrar!",
+          "—¡No, no, por los pelillos de mi barbilla!",
+          "—¡Pues soplaré y soplaré y tu casa derribaré!",
+          "Y sopló y sopló, y resopló y resopló, y volvió a resoplar y a soplar; pero no pudo derribar la casa."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Als er merkte, dass er das Haus mit all seinem Husten und Prusten nicht umpusten konnte, sagte er: „Kleines Schweinchen, ich weiß, wo ein schönes Rübenfeld ist.“",
+          "„Wo?“, fragte das kleine Schweinchen.",
+          "„Oh, auf dem Acker bei Herrn Smiths Hof. Wenn du morgen früh bereit bist, hole ich dich ab, und wir holen uns zusammen welche zum Mittagessen.“",
+          "„Sehr gut“, sagte das kleine Schweinchen, „ich werde bereit sein. Um wie viel Uhr willst du gehen?“",
+          "„Oh, um sechs Uhr.“"
+        ],
+        "es": [
+          "Cuando vio que, con todos sus soplidos y resoplidos, no podía derribar la casa, dijo: —Cerdito, yo sé dónde hay un buen campo de nabos.",
+          "—¿Dónde? —preguntó el cerdito.",
+          "—Oh, en el campo que hay junto a la casa del señor Smith; si mañana por la mañana estás listo, pasaré a buscarte e iremos juntos a coger unos cuantos para la comida.",
+          "—Muy bien —dijo el cerdito—, estaré listo. ¿A qué hora piensas ir?",
+          "—Oh, a las seis."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Nun, das kleine Schweinchen stand um fünf Uhr auf und holte die Rüben, bevor der Wolf kam.",
+          "Der kam gegen sechs und sagte: „Kleines Schweinchen, bist du bereit?“",
+          "Das kleine Schweinchen sagte: „Bereit! Ich war schon dort und bin wieder zurück und habe einen schönen Topf voll zum Mittagessen.“",
+          "Darüber ärgerte sich der Wolf sehr, aber er dachte, er werde dem kleinen Schweinchen schon irgendwie beikommen."
+        ],
+        "es": [
+          "Pues bien, el cerdito se levantó a las cinco y cogió los nabos antes de que llegara el lobo.",
+          "El lobo llegó hacia las seis y dijo: —Cerdito, ¿estás listo?",
+          "Y el cerdito le contestó: —¡Listo! Ya he ido y he vuelto, y tengo una buena olla llena para la comida.",
+          "Al lobo le dio mucha rabia, pero pensó que, de un modo u otro, acabaría pillando al cerdito."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Darum sagte er: „Kleines Schweinchen, ich weiß, wo ein schöner Apfelbaum steht.“",
+          "„Wo?“, fragte das Schweinchen.",
+          "„Unten im Lustgarten“, antwortete der Wolf, „und wenn du mich nicht betrügst, hole ich dich morgen um fünf Uhr ab, und wir holen uns Äpfel.“",
+          "Nun, das kleine Schweinchen sprang am nächsten Morgen schon um vier Uhr auf und lief zu den Äpfeln, denn es hoffte, zurück zu sein, bevor der Wolf kam."
+        ],
+        "es": [
+          "Así que le dijo: —Cerdito, yo sé dónde hay un buen manzano.",
+          "—¿Dónde? —preguntó el cerdito.",
+          "—Allá abajo, en el Jardín Alegre —contestó el lobo—; si no me engañas, vendré a buscarte mañana a las cinco e iremos a por manzanas.",
+          "Pues bien, a la mañana siguiente el cerdito se levantó a toda prisa a las cuatro y se fue a por las manzanas, con la esperanza de volver antes de que llegara el lobo."
+        ]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "Aber es hatte einen weiteren Weg und musste auf den Baum klettern.",
+          "Gerade als es wieder herunterstieg, sah es den Wolf kommen, und darüber erschrak es, wie ihr euch denken könnt, sehr.",
+          "Als der Wolf herankam, sagte er: „Kleines Schweinchen, was? Du bist vor mir hier? Sind es schöne Äpfel?“",
+          "„Ja, sehr“, sagte das kleine Schweinchen, „ich werfe dir einen hinunter.“"
+        ],
+        "es": [
+          "Pero el camino era más largo y tuvo que trepar al árbol.",
+          "Justo cuando iba a bajar, vio venir al lobo y, como os podéis imaginar, se asustó muchísimo.",
+          "Cuando el lobo llegó, le dijo: —¡Vaya, cerdito! ¿Ya estás aquí antes que yo? ¿Son buenas las manzanas?",
+          "—Sí, muy buenas —dijo el cerdito—. Te tiraré una."
+        ]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "Und es warf ihn so weit, dass das kleine Schweinchen, während der Wolf hinlief, um ihn aufzuheben, vom Baum sprang und nach Hause rannte.",
+          "Am nächsten Tag kam der Wolf wieder und sagte zu dem kleinen Schweinchen: „Kleines Schweinchen, heute Nachmittag ist Jahrmarkt in Shanklin. Gehst du mit?“",
+          "„Oh ja“, sagte das Schweinchen, „ich gehe mit. Wann wirst du fertig sein?“",
+          "„Um drei“, sagte der Wolf."
+        ],
+        "es": [
+          "Y la tiró tan lejos que, mientras el lobo iba a recogerla, el cerdito saltó del árbol y corrió a su casa.",
+          "Al día siguiente volvió el lobo y le dijo: —Cerdito, esta tarde hay feria en Shanklin. ¿Quieres venir?",
+          "—Oh, sí —dijo el cerdito—, iré. ¿A qué hora estarás listo?",
+          "—A las tres —dijo el lobo."
+        ]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "Da ging das kleine Schweinchen wie gewöhnlich vor der Zeit los, kam auf den Jahrmarkt und kaufte ein Butterfass.",
+          "Damit war es auf dem Heimweg, als es den Wolf kommen sah.",
+          "Da wusste es nicht, was es tun sollte.",
+          "Es kroch in das Butterfass, um sich zu verstecken, und brachte es dabei ins Rollen, und das Fass rollte mit dem Schweinchen darin den Hügel hinunter.",
+          "Das erschreckte den Wolf so sehr, dass er nach Hause lief, ohne auf den Jahrmarkt zu gehen."
+        ],
+        "es": [
+          "Así que el cerdito salió antes de la hora, como de costumbre, llegó a la feria y compró una mantequera.",
+          "Volvía ya a casa con ella cuando vio venir al lobo.",
+          "Entonces no supo qué hacer.",
+          "Se metió en la mantequera para esconderse, y al hacerlo la volcó, y la mantequera echó a rodar cuesta abajo con el cerdito dentro.",
+          "Aquello asustó tanto al lobo que se volvió corriendo a su casa sin ir a la feria."
+        ]
+      }
+    },
+    {
+      "image": "p16.svg",
+      "text": {
+        "de": [
+          "Er ging zum Haus des kleinen Schweinchens.",
+          "Dort erzählte er ihm, wie sehr er sich vor einem großen runden Ding erschrocken hatte, das an ihm vorbei den Hügel hinuntergekommen war.",
+          "Da sagte das kleine Schweinchen: „Ha, dann habe ich dich erschreckt! Ich war auf dem Jahrmarkt und habe ein Butterfass gekauft, und als ich dich sah, bin ich hineingekrochen und den Hügel hinuntergerollt.“"
+        ],
+        "es": [
+          "Fue a casa del cerdito.",
+          "Allí le contó el susto tan grande que le había dado una cosa grande y redonda que había bajado rodando por la cuesta a su lado.",
+          "Entonces el cerdito dijo: —¡Ja, así que te asusté yo! Había ido a la feria y compré una mantequera, y cuando te vi, me metí dentro y bajé rodando por la cuesta."
+        ]
+      }
+    },
+    {
+      "image": "p17.svg",
+      "text": {
+        "de": [
+          "Da wurde der Wolf wirklich sehr böse und erklärte, er werde das kleine Schweinchen auffressen und durch den Schornstein zu ihm hinunterkommen.",
+          "Als das kleine Schweinchen sah, was er vorhatte, hängte es den Kessel voll Wasser auf und machte ein loderndes Feuer an.",
+          "Und gerade als der Wolf herunterkam, nahm es den Deckel ab, und hinein fiel der Wolf."
+        ],
+        "es": [
+          "Entonces el lobo se enfadó muchísimo y juró que se comería al cerdito y que bajaría por la chimenea a buscarlo.",
+          "Cuando el cerdito vio lo que tramaba, colgó la olla llena de agua y encendió una buena lumbre.",
+          "Y justo cuando el lobo bajaba, quitó la tapa, y el lobo cayó dentro."
+        ]
+      }
+    },
+    {
+      "image": "p18.svg",
+      "text": {
+        "de": [
+          "Da legte das kleine Schweinchen im Nu den Deckel wieder darauf und kochte den Wolf.",
+          "Dann aß es ihn zum Abendbrot.",
+          "Und es lebte glücklich bis ans Ende seiner Tage."
+        ],
+        "es": [
+          "Entonces el cerdito volvió a poner la tapa en un abrir y cerrar de ojos y coció al lobo.",
+          "Luego se lo comió para cenar.",
+          "Y vivió feliz para siempre."
+        ]
+      }
+    }
+  ]
+}

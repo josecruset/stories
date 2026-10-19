@@ -1,0 +1,388 @@
+{
+  "id": "rotkaeppchen-original",
+  "variantOf": "rotkaeppchen",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": {
+    "de": "Brüder Grimm, 1857",
+    "es": "Hermanos Grimm, 1857"
+  },
+  "accent": "#d62f3a",
+  "age": 6,
+  "title": {
+    "de": "Rotkäppchen",
+    "es": "Caperucita Roja"
+  },
+  "blurb": {
+    "de": "Das Märchen so, wie die Brüder Grimm es 1857 aufgeschrieben haben: Der Wolf frisst die Großmutter und Rotkäppchen, und der Jäger holt beide lebendig aus seinem Bauch. Mit Grimms Nachtrag vom zweiten Wolf.",
+    "es": "El cuento tal como lo escribieron los hermanos Grimm en 1857: el lobo se come a la abuela y a Caperucita, y el cazador las saca vivas de su barriga. Con el epílogo de los Grimm sobre el segundo lobo."
+  },
+  "differences": {
+    "de": [
+      "Im Original bringt Rotkäppchen Kuchen und Wein; in der kindgerechten Fassung Kuchen und Saft.",
+      "Im Original verschluckt der Wolf erst die Großmutter und dann Rotkäppchen; in der kindgerechten Fassung versteckt sich die Großmutter im Schrank, und der Wolf springt nur aus dem Bett.",
+      "Im Original schneidet der Jäger dem schlafenden Wolf mit der Schere den Bauch auf, Rotkäppchen füllt ihn mit Steinen, der Wolf fällt tot um, und der Jäger nimmt seinen Pelz mit; in der kindgerechten Fassung jagt der Jäger den Wolf nur durchs Fenster davon.",
+      "Das Original hat einen Nachtrag: Ein zweiter Wolf lauert auf dem Dach, rutscht in einen Trog mit Wurstwasser und ertrinkt; diesen Teil gibt es in der kindgerechten Fassung nicht.",
+      "Im Original denkt der Wolf ausdrücklich daran, beide zu fressen („ein fetter Bissen“), und die Geschichte endet ohne „Und wenn sie nicht gestorben sind …“."
+    ],
+    "es": [
+      "En el original, Caperucita lleva pastel y vino; en la versión infantil, pastel y zumo.",
+      "En el original, el lobo se traga primero a la abuela y luego a Caperucita; en la versión infantil, la abuela se esconde en el armario y el lobo solo salta de la cama.",
+      "En el original, el cazador abre con unas tijeras la barriga del lobo dormido, Caperucita la llena de piedras, el lobo cae muerto y el cazador se lleva su piel; en la versión infantil, el cazador solo echa al lobo por la ventana.",
+      "El original tiene un epílogo: un segundo lobo acecha en el tejado, resbala a una pila llena de agua de cocer salchichas y se ahoga; esta parte no aparece en la versión infantil.",
+      "En el original, el lobo piensa expresamente en comerse a las dos («un bocado bien sabroso»), y el cuento termina sin «colorín colorado»."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Es war einmal ein kleines süßes Mädchen, das hatte jedermann lieb, der es nur ansah, am allerliebsten aber seine Großmutter.",
+          "Die wusste gar nicht, was sie alles dem Kinde geben sollte.",
+          "Einmal schenkte sie ihm ein Käppchen von rotem Samt.",
+          "Und weil ihm das so wohl stand und es nichts anderes mehr tragen wollte, hieß es nur das Rotkäppchen."
+        ],
+        "es": [
+          "Había una vez una niña pequeña y dulce a la que quería todo el que la veía, pero quien más la quería era su abuela.",
+          "La abuela ya no sabía qué más regalarle a la niña.",
+          "Una vez le regaló una caperuza de terciopelo rojo.",
+          "Y como le sentaba tan bien y ya no quería ponerse otra cosa, todos la llamaban Caperucita Roja."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Eines Tages sprach seine Mutter zu ihm: „Komm, Rotkäppchen, da hast du ein Stück Kuchen und eine Flasche Wein, bring das der Großmutter hinaus.“",
+          "„Sie ist krank und schwach und wird sich daran laben.“",
+          "„Mach dich auf, bevor es heiß wird, und wenn du hinauskommst, so geh hübsch sittsam und lauf nicht vom Weg ab.“",
+          "„Sonst fällst du und zerbrichst das Glas, und die Großmutter hat nichts.“"
+        ],
+        "es": [
+          "Un día, su madre le dijo: —Ven, Caperucita, aquí tienes un trozo de pastel y una botella de vino; llévaselos a tu abuela.",
+          "—Está enferma y débil, y esto la reconfortará.",
+          "—Ponte en camino antes de que apriete el calor y, cuando estés fuera, ve con formalidad y no te salgas del camino.",
+          "—Si no, te caerás, romperás la botella y la abuela se quedará sin nada."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "„Und wenn du in ihre Stube kommst, so vergiss nicht, Guten Morgen zu sagen, und guck nicht erst in alle Ecken herum.“",
+          "„Ich will schon alles gut machen“, sagte Rotkäppchen zur Mutter und gab ihr die Hand darauf.",
+          "Die Großmutter aber wohnte draußen im Wald, eine halbe Stunde vom Dorf.",
+          "Wie nun Rotkäppchen in den Wald kam, begegnete ihm der Wolf.",
+          "Rotkäppchen aber wusste nicht, was das für ein böses Tier war, und fürchtete sich nicht vor ihm."
+        ],
+        "es": [
+          "—Y cuando entres en su cuarto, no olvides darle los buenos días, y no te pongas a curiosear por todos los rincones.",
+          "—Lo haré todo bien —dijo Caperucita a su madre, y le dio la mano en señal de promesa.",
+          "La abuela vivía en el bosque, a media hora del pueblo.",
+          "Cuando Caperucita entró en el bosque, se encontró con el lobo.",
+          "Pero Caperucita no sabía qué animal tan malo era, y no le tuvo miedo."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "„Guten Tag, Rotkäppchen“, sprach er.",
+          "„Schönen Dank, Wolf.“",
+          "„Wo hinaus so früh, Rotkäppchen?“",
+          "„Zur Großmutter.“",
+          "„Was trägst du unter der Schürze?“",
+          "„Kuchen und Wein: Gestern haben wir gebacken, da soll sich die kranke und schwache Großmutter etwas zugute tun und sich damit stärken.“"
+        ],
+        "es": [
+          "—Buenos días, Caperucita —dijo él.",
+          "—Muchas gracias, lobo.",
+          "—¿Adónde vas tan temprano, Caperucita?",
+          "—A casa de mi abuela.",
+          "—¿Qué llevas debajo del delantal?",
+          "—Pastel y vino: ayer hicimos pasteles, y así la abuela, que está enferma y débil, se dará un gusto y recobrará fuerzas."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "„Rotkäppchen, wo wohnt deine Großmutter?“",
+          "„Noch eine gute Viertelstunde weiter im Wald, unter den drei großen Eichbäumen, da steht ihr Haus, unten sind die Nusshecken, das wirst du ja wissen“, sagte Rotkäppchen.",
+          "Der Wolf dachte bei sich: „Das junge, zarte Ding, das ist ein fetter Bissen, der wird noch besser schmecken als die Alte.“",
+          "„Du musst es listig anfangen, damit du beide erschnappst.“"
+        ],
+        "es": [
+          "—Caperucita, ¿dónde vive tu abuela?",
+          "—Un buen cuarto de hora más adentro del bosque, bajo los tres grandes robles; allí está su casa, y debajo están los avellanos, ya lo sabrás tú —dijo Caperucita.",
+          "El lobo pensó para sí: «Esta cosita tierna y joven es un bocado bien sabroso; sabrá todavía mejor que la vieja».",
+          "«Tengo que hacerlo con astucia para atrapar a las dos»."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Da ging er ein Weilchen neben Rotkäppchen her, dann sprach er: „Rotkäppchen, sieh einmal die schönen Blumen, die ringsumher stehen, warum guckst du dich nicht um?“",
+          "„Ich glaube, du hörst gar nicht, wie die Vöglein so lieblich singen?“",
+          "„Du gehst ja für dich hin, als wenn du zur Schule gingst, und ist so lustig haußen in dem Wald.“"
+        ],
+        "es": [
+          "Caminó un ratito junto a Caperucita y luego le dijo: —Caperucita, mira qué flores tan bonitas hay por todas partes, ¿por qué no miras a tu alrededor?",
+          "—Me parece que ni siquiera oyes lo bien que cantan los pajarillos.",
+          "—Vas tan seria como si fueras a la escuela, ¡y es tan alegre estar aquí fuera, en el bosque!"
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Rotkäppchen schlug die Augen auf und sah, wie die Sonnenstrahlen durch die Bäume hin und her tanzten und alles voll schöner Blumen stand.",
+          "Da dachte es: „Wenn ich der Großmutter einen frischen Strauß mitbringe, der wird ihr auch Freude machen; es ist so früh am Tag, dass ich doch zu rechter Zeit ankomme.“",
+          "Und es lief vom Wege ab in den Wald hinein und suchte Blumen."
+        ],
+        "es": [
+          "Caperucita alzó los ojos y vio cómo los rayos del sol bailaban de acá para allá entre los árboles y cómo todo estaba lleno de flores preciosas.",
+          "Entonces pensó: «Si le llevo a la abuela un ramo de flores frescas, también se alegrará; es tan temprano que llegaré a tiempo de sobra».",
+          "Y se salió del camino y se metió en el bosque a buscar flores."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Und wenn es eine gebrochen hatte, meinte es, weiter hinaus stünde eine schönere, und lief danach und geriet immer tiefer in den Wald hinein.",
+          "Der Wolf aber ging geradeswegs nach dem Haus der Großmutter und klopfte an die Türe.",
+          "„Wer ist draußen?“",
+          "„Rotkäppchen, das bringt Kuchen und Wein, mach auf.“",
+          "„Drück nur auf die Klinke“, rief die Großmutter, „ich bin zu schwach und kann nicht aufstehen.“"
+        ],
+        "es": [
+          "Y cada vez que cogía una, le parecía que más allá había otra más bonita, y corría a por ella, y así se fue metiendo cada vez más en el bosque.",
+          "El lobo, en cambio, se fue derecho a casa de la abuela y llamó a la puerta.",
+          "—¿Quién es?",
+          "—Caperucita, que te trae pastel y vino; ábreme.",
+          "—Aprieta el picaporte —gritó la abuela—, que estoy muy débil y no me puedo levantar."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Der Wolf drückte auf die Klinke, die Türe sprang auf.",
+          "Und er ging, ohne ein Wort zu sprechen, gerade zum Bett der Großmutter und verschluckte sie.",
+          "Dann tat er ihre Kleider an, setzte ihre Haube auf, legte sich in ihr Bett und zog die Vorhänge vor.",
+          "Rotkäppchen aber war nach den Blumen herumgelaufen, und als es so viel zusammen hatte, dass es keine mehr tragen konnte, fiel ihm die Großmutter wieder ein."
+        ],
+        "es": [
+          "El lobo apretó el picaporte y la puerta se abrió de golpe.",
+          "Y sin decir una sola palabra, fue derecho a la cama de la abuela y se la tragó.",
+          "Después se puso su ropa y su cofia, se metió en su cama y corrió las cortinas.",
+          "Caperucita, mientras tanto, había seguido corriendo detrás de las flores, y cuando tuvo tantas que ya no podía llevar más, se acordó de su abuela."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Und es machte sich auf den Weg zu ihr.",
+          "Es wunderte sich, dass die Türe aufstand.",
+          "Und wie es in die Stube trat, so kam es ihm so seltsam darin vor, dass es dachte: „Ei, du mein Gott, wie ängstlich wird mir’s heute zumut, und bin sonst so gerne bei der Großmutter!“",
+          "Es rief: „Guten Morgen“, bekam aber keine Antwort."
+        ],
+        "es": [
+          "Y se puso en camino hacia su casa.",
+          "Le extrañó que la puerta estuviera abierta.",
+          "Y al entrar en el cuarto, todo le pareció tan raro que pensó: «¡Ay, Dios mío, qué miedo siento hoy, con lo que me gusta estar en casa de la abuela!».",
+          "—¡Buenos días! —saludó, pero nadie le contestó."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Darauf ging es zum Bett und zog die Vorhänge zurück.",
+          "Da lag die Großmutter und hatte die Haube tief ins Gesicht gesetzt und sah so wunderlich aus.",
+          "„Ei, Großmutter, was hast du für große Ohren!“",
+          "„Dass ich dich besser hören kann.“",
+          "„Ei, Großmutter, was hast du für große Augen!“",
+          "„Dass ich dich besser sehen kann.“"
+        ],
+        "es": [
+          "Entonces se acercó a la cama y descorrió las cortinas.",
+          "Allí estaba la abuela, con la cofia muy calada sobre la cara, y tenía un aspecto muy extraño.",
+          "—Abuelita, ¡qué orejas tan grandes tienes!",
+          "—Son para oírte mejor.",
+          "—Abuelita, ¡qué ojos tan grandes tienes!",
+          "—Son para verte mejor."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "„Ei, Großmutter, was hast du für große Hände!“",
+          "„Dass ich dich besser packen kann.“",
+          "„Aber, Großmutter, was hast du für ein entsetzlich großes Maul!“",
+          "„Dass ich dich besser fressen kann.“",
+          "Kaum hatte der Wolf das gesagt, so tat er einen Satz aus dem Bette und verschlang das arme Rotkäppchen."
+        ],
+        "es": [
+          "—Abuelita, ¡qué manos tan grandes tienes!",
+          "—Son para agarrarte mejor.",
+          "—Pero, abuelita, ¡qué boca tan grande tienes!",
+          "—¡Es para comerte mejor!",
+          "Y nada más decir esto, el lobo saltó de la cama de un brinco y se tragó a la pobre Caperucita."
+        ]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "Wie der Wolf sein Gelüsten gestillt hatte, legte er sich wieder ins Bett, schlief ein und fing an, überlaut zu schnarchen.",
+          "Der Jäger ging eben an dem Haus vorbei und dachte: „Wie die alte Frau schnarcht, du musst doch sehen, ob ihr etwas fehlt.“",
+          "Da trat er in die Stube, und wie er vor das Bette kam, so sah er, dass der Wolf darin lag.",
+          "„Finde ich dich hier, du alter Sünder“, sagte er, „ich habe dich lange gesucht.“"
+        ],
+        "es": [
+          "Cuando el lobo hubo saciado su apetito, volvió a meterse en la cama, se quedó dormido y empezó a roncar muy fuerte.",
+          "Un cazador pasaba en ese momento por delante de la casa y pensó: «Cómo ronca la anciana; voy a ver si le pasa algo».",
+          "Entró en el cuarto y, al llegar junto a la cama, vio que quien estaba acostado en ella era el lobo.",
+          "—¡Conque aquí te encuentro, viejo pecador! —dijo—, hace mucho que te ando buscando."
+        ]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "Nun wollte er seine Büchse anlegen, da fiel ihm ein, der Wolf könnte die Großmutter gefressen haben und sie wäre noch zu retten.",
+          "Er schoss nicht, sondern nahm eine Schere und fing an, dem schlafenden Wolf den Bauch aufzuschneiden.",
+          "Wie er ein paar Schnitte getan hatte, da sah er das rote Käppchen leuchten.",
+          "Und noch ein paar Schnitte, da sprang das Mädchen heraus und rief: „Ach, wie war ich erschrocken, wie war’s so dunkel in dem Wolf seinem Leib!“"
+        ],
+        "es": [
+          "Ya iba a apuntarle con la escopeta cuando pensó que el lobo podía haberse comido a la abuela y que quizá aún podía salvarla.",
+          "Así que no disparó, sino que cogió unas tijeras y empezó a abrirle la barriga al lobo dormido.",
+          "Tras unos cuantos cortes, vio brillar la caperuza roja.",
+          "Y tras unos cortes más, la niña saltó fuera y exclamó: —¡Ay, qué susto he pasado, qué oscuro estaba en la barriga del lobo!"
+        ]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "Und dann kam die alte Großmutter auch noch lebendig heraus und konnte kaum atmen.",
+          "Rotkäppchen aber holte geschwind große Steine, damit füllten sie dem Wolf den Leib.",
+          "Und wie er aufwachte, wollte er fortspringen, aber die Steine waren so schwer, dass er gleich niedersank und sich tot fiel."
+        ],
+        "es": [
+          "Y después salió también la anciana abuela, todavía viva, aunque apenas podía respirar.",
+          "Caperucita fue corriendo a buscar piedras grandes, y con ellas le llenaron la barriga al lobo.",
+          "Y cuando el lobo despertó, quiso salir corriendo, pero las piedras pesaban tanto que se desplomó enseguida y cayó muerto."
+        ]
+      }
+    },
+    {
+      "image": "p16.svg",
+      "text": {
+        "de": [
+          "Da waren alle drei vergnügt.",
+          "Der Jäger zog dem Wolf den Pelz ab und ging damit heim.",
+          "Die Großmutter aß den Kuchen und trank den Wein, den Rotkäppchen gebracht hatte, und erholte sich wieder.",
+          "Rotkäppchen aber dachte: „Du willst dein Lebtag nicht wieder allein vom Wege ab in den Wald laufen, wenn dir’s die Mutter verboten hat.“"
+        ],
+        "es": [
+          "Entonces los tres se pusieron muy contentos.",
+          "El cazador le quitó la piel al lobo y se la llevó a su casa.",
+          "La abuela se comió el pastel y se bebió el vino que le había traído Caperucita, y se recuperó.",
+          "Y Caperucita pensó: «Nunca más en mi vida me saldré sola del camino para meterme en el bosque, si mi madre me lo ha prohibido»."
+        ]
+      }
+    },
+    {
+      "image": "p17.svg",
+      "text": {
+        "de": [
+          "Es wird auch erzählt, dass einmal, als Rotkäppchen der alten Großmutter wieder Gebackenes brachte, ein anderer Wolf ihm zugesprochen und es vom Wege habe ableiten wollen.",
+          "Rotkäppchen aber hütete sich und ging gerade fort seines Wegs.",
+          "Und es sagte der Großmutter, dass es dem Wolf begegnet wäre, der ihm guten Tag gewünscht, aber so bös aus den Augen geguckt hätte.",
+          "„Wenn’s nicht auf offner Straße gewesen wäre, er hätte mich gefressen.“"
+        ],
+        "es": [
+          "También se cuenta que una vez, cuando Caperucita volvía a llevarle a su anciana abuela algo recién horneado, otro lobo le habló y quiso apartarla del camino.",
+          "Pero Caperucita se guardó muy bien y siguió derecha por su camino.",
+          "Y le contó a la abuela que se había encontrado con el lobo, que le había dado los buenos días, pero que la había mirado con muy malos ojos.",
+          "—Si no hubiera sido en pleno camino, me habría comido."
+        ]
+      }
+    },
+    {
+      "image": "p18.svg",
+      "text": {
+        "de": [
+          "„Komm“, sagte die Großmutter, „wir wollen die Türe verschließen, dass er nicht herein kann.“",
+          "Bald danach klopfte der Wolf an und rief: „Mach auf, Großmutter, ich bin das Rotkäppchen, ich bring dir Gebackenes.“",
+          "Sie schwiegen aber still und machten die Türe nicht auf.",
+          "Da schlich der Graukopf etliche Male um das Haus, sprang endlich aufs Dach und wollte warten, bis Rotkäppchen abends nach Haus ginge.",
+          "Dann wollte er ihm nachschleichen und wollt’s in der Dunkelheit fressen."
+        ],
+        "es": [
+          "—Ven —dijo la abuela—, vamos a cerrar la puerta para que no pueda entrar.",
+          "Poco después, el lobo llamó y gritó: —Ábreme, abuela, soy Caperucita y te traigo algo recién horneado.",
+          "Pero ellas se quedaron muy calladas y no abrieron la puerta.",
+          "Entonces el lobo gris dio varias vueltas a la casa y por fin saltó al tejado, para esperar a que Caperucita volviera a casa al anochecer.",
+          "Quería seguirla a escondidas y comérsela en la oscuridad."
+        ]
+      }
+    },
+    {
+      "image": "p19.svg",
+      "text": {
+        "de": [
+          "Aber die Großmutter merkte, was er im Sinn hatte.",
+          "Nun stand vor dem Haus ein großer Steintrog.",
+          "Da sprach sie zu dem Kind: „Nimm den Eimer, Rotkäppchen, gestern hab ich Würste gekocht, da trag das Wasser, worin sie gekocht sind, in den Trog.“",
+          "Rotkäppchen trug so lange, bis der große, große Trog ganz voll war."
+        ],
+        "es": [
+          "Pero la abuela se dio cuenta de lo que tramaba.",
+          "Delante de la casa había una gran pila de piedra.",
+          "Y le dijo a la niña: —Coge el cubo, Caperucita; ayer cocí salchichas, así que lleva a la pila el agua en que las cocí.",
+          "Caperucita estuvo acarreando agua hasta que la pila, grande, grandísima, quedó llena del todo."
+        ]
+      }
+    },
+    {
+      "image": "p20.svg",
+      "text": {
+        "de": [
+          "Da stieg der Geruch von den Würsten dem Wolf in die Nase, er schnupperte und guckte hinab.",
+          "Und er machte den Hals so lang, dass er sich nicht mehr halten konnte und anfing zu rutschen.",
+          "So rutschte er vom Dach herab, gerade in den großen Trog hinein, und ertrank.",
+          "Rotkäppchen aber ging fröhlich nach Haus, und tat ihm niemand etwas zuleide."
+        ],
+        "es": [
+          "Entonces el olor de las salchichas le llegó al lobo a la nariz; olfateó y se asomó hacia abajo.",
+          "Y estiró tanto el cuello que ya no pudo sujetarse y empezó a resbalar.",
+          "Así resbaló del tejado, cayó justo dentro de la gran pila y se ahogó.",
+          "Y Caperucita volvió contenta a su casa, y nadie le hizo ningún daño."
+        ]
+      }
+    }
+  ]
+}

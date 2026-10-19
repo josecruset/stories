@@ -1,0 +1,273 @@
+{
+  "id": "rattenfaenger-original",
+  "variantOf": "rattenfaenger",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": {
+    "de": "Brüder Grimm, Deutsche Sagen, 1816",
+    "es": "Hermanos Grimm, Leyendas alemanas, 1816"
+  },
+  "accent": "#e8432f",
+  "age": 6,
+  "title": {
+    "de": "Der Rattenfänger von Hameln",
+    "es": "El flautista de Hamelín"
+  },
+  "blurb": {
+    "de": "Die Sage „Die Kinder zu Hameln“, wie die Brüder Grimm sie 1816 aufschrieben. Ein bunter Rattenfänger befreit Hameln von den Ratten, wird um seinen Lohn gebracht und führt 130 Kinder in einen Berg, aus dem sie nicht zurückkehren.",
+    "es": "La leyenda «Los niños de Hamelín», tal como la escribieron los hermanos Grimm en 1816. Un cazador de ratas vestido de colores libra Hamelín de las ratas, le niegan su paga y se lleva a ciento treinta niños al interior de una montaña, de donde no vuelven."
+  },
+  "differences": {
+    "de": [
+      "Im Original kehren die Kinder nicht zurück: 130 Kinder bleiben im Berg verschwunden; in der kindgerechten Fassung holt der Pfeifer sie wieder heraus, als der Bürgermeister doch noch bezahlt.",
+      "Im Original ertrinken die Ratten in der Weser; in der kindgerechten Fassung schwimmen sie ans andere Ufer und laufen davon.",
+      "Im Original verweigern die Bürger den Lohn mit Ausflüchten, und der Mann kommt am Johannistag als Jäger mit erschrecklichem Angesicht zurück; in der kindgerechten Fassung ist es allein der geizige Bürgermeister, und der Pfeifer kommt gleich am nächsten Morgen.",
+      "Im Original verschwinden die Kinder einfach im Berg; in der kindgerechten Fassung tanzen sie in ein fröhliches, leuchtendes Land.",
+      "Das Original ist eine Sage mit Jahreszahl und Ortsangaben und erzählt auch von den zwei Kindern, die blind und stumm zurückkamen, und von der Straße ohne Musik; den Satz „Versprochen ist versprochen“ gibt es darin nicht."
+    ],
+    "es": [
+      "En el original los niños no vuelven: ciento treinta niños desaparecen para siempre en la montaña; en la versión infantil el flautista los devuelve cuando el alcalde por fin le paga.",
+      "En el original las ratas se ahogan en el Weser; en la versión infantil nadan hasta la otra orilla y se van corriendo.",
+      "En el original son los vecinos quienes niegan la paga con excusas, y el hombre vuelve el día de San Juan vestido de cazador y con un rostro espantoso; en la versión infantil es solo el alcalde tacaño, y el flautista vuelve a la mañana siguiente.",
+      "En el original los niños simplemente desaparecen dentro de la montaña; en la versión infantil entran bailando en un país alegre y luminoso.",
+      "El original es una leyenda con fecha y lugares concretos, y habla también de los dos niños que volvieron ciegos y mudos y de la calle sin música; la frase «las promesas se cumplen» no aparece."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Im Jahr 1284 ließ sich zu Hameln ein wunderlicher Mann sehen.",
+          "Er hatte einen Rock von vielfarbigem, buntem Tuch an.",
+          "Deshalb soll er Bundting geheißen haben."
+        ],
+        "es": [
+          "En el año 1284 se dejó ver en Hamelín un hombre muy extraño.",
+          "Llevaba un sayo de paño de muchos colores, muy vistoso.",
+          "Por eso dicen que lo llamaban Bundting, el de muchos colores."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Er gab sich für einen Rattenfänger aus.",
+          "Er versprach, gegen ein gewisses Geld die Stadt von allen Mäusen und Ratten zu befreien.",
+          "Die Bürger wurden mit ihm einig und versicherten ihm einen bestimmten Lohn."
+        ],
+        "es": [
+          "Se presentó como cazador de ratas.",
+          "Prometió librar la ciudad de todos los ratones y todas las ratas a cambio de cierta cantidad de dinero.",
+          "Los vecinos se pusieron de acuerdo con él y le aseguraron una paga fija."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Der Rattenfänger zog darauf ein Pfeifchen heraus und pfiff.",
+          "Da kamen alsbald die Ratten und Mäuse aus allen Häusern hervorgekrochen und sammelten sich um ihn herum.",
+          "Als er nun meinte, es sei keine mehr zurück, ging er hinaus, und der ganze Haufen folgte ihm."
+        ],
+        "es": [
+          "Entonces el cazador de ratas sacó una flautilla y se puso a tocar.",
+          "Al momento salieron arrastrándose de todas las casas las ratas y los ratones, y se reunieron a su alrededor.",
+          "Cuando le pareció que ya no quedaba ninguno, salió de la ciudad, y todo el montón fue detrás de él."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "So führte er sie an die Weser.",
+          "Dort schürzte er seine Kleider und trat in das Wasser.",
+          "Alle die Tiere folgten ihm, stürzten hinein und ertranken."
+        ],
+        "es": [
+          "Así los llevó hasta el río Weser.",
+          "Allí se recogió la ropa y se metió en el agua.",
+          "Todos los animales lo siguieron, se arrojaron al río y se ahogaron."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Nachdem die Bürger aber von ihrer Plage befreit waren, reute sie der versprochene Lohn.",
+          "Sie verweigerten ihn dem Mann unter allerlei Ausflüchten.",
+          "Da ging er zornig und erbittert weg."
+        ],
+        "es": [
+          "Pero, en cuanto los vecinos se vieron libres de la plaga, se arrepintieron de la paga prometida.",
+          "Se la negaron al hombre con toda clase de excusas.",
+          "Entonces él se marchó, furioso y lleno de rencor."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Am 26. Juni, auf Johannis- und Paulitag, morgens früh um sieben Uhr – nach andern zu Mittag –, erschien er wieder.",
+          "Diesmal kam er in Gestalt eines Jägers, mit erschrecklichem Angesicht und einem roten, wunderlichen Hut.",
+          "Und er ließ seine Pfeife in den Gassen hören."
+        ],
+        "es": [
+          "El 26 de junio, día de San Juan y San Pablo, a las siete de la mañana —según otros, a mediodía—, volvió a aparecer.",
+          "Esta vez venía con figura de cazador, con un rostro espantoso y un sombrero rojo muy extraño.",
+          "Y por las callejuelas se oyó el son de su flauta."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Alsbald kamen diesmal nicht Ratten und Mäuse, sondern Kinder gelaufen.",
+          "Knaben und Mägdlein vom vierten Jahr an kamen in großer Anzahl.",
+          "Darunter war auch die schon erwachsene Tochter des Bürgermeisters."
+        ],
+        "es": [
+          "Al momento acudieron corriendo, pero esta vez no eran ratas ni ratones, sino niños.",
+          "Llegaron muchísimos niños y niñas, desde los cuatro años en adelante.",
+          "Entre ellos iba también la hija del alcalde, que ya era mayor."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Der ganze Schwarm folgte ihm nach.",
+          "Er führte sie zur Stadt hinaus und in einen Berg hinein.",
+          "Dort ist er mit ihnen verschwunden."
+        ],
+        "es": [
+          "Toda aquella multitud lo siguió.",
+          "Él los sacó de la ciudad y los llevó al interior de una montaña.",
+          "Allí desapareció con todos ellos."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Das alles hatte ein Kindermädchen gesehen.",
+          "Es war mit einem Kind auf dem Arm von fern nachgezogen.",
+          "Danach kehrte es um und brachte die Nachricht in die Stadt."
+        ],
+        "es": [
+          "Todo esto lo había visto una niñera.",
+          "Iba de lejos detrás de ellos, con un niño en brazos.",
+          "Después dio media vuelta y llevó la noticia a la ciudad."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Die Eltern liefen haufenweise vor alle Tore und suchten mit betrübtem Herzen ihre Kinder.",
+          "Die Mütter erhoben ein jämmerliches Schreien und Weinen.",
+          "Von Stund an wurden Boten zu Wasser und zu Land an alle Orte geschickt.",
+          "Sie sollten erkunden, ob man die Kinder oder auch nur einige gesehen habe – aber alles war vergeblich.",
+          "Im Ganzen waren hundertunddreißig Kinder verloren."
+        ],
+        "es": [
+          "Los padres salieron en tropel por todas las puertas y buscaron a sus hijos con el corazón afligido.",
+          "Las madres lloraban y daban gritos lastimeros.",
+          "Desde aquel momento se enviaron mensajeros por agua y por tierra a todas partes.",
+          "Debían averiguar si alguien había visto a los niños, o aunque fuera a unos pocos, pero todo fue en vano.",
+          "En total se perdieron ciento treinta niños."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Zwei, so sagen einige, hatten sich verspätet und kamen zurück.",
+          "Das eine aber war blind, das andere stumm.",
+          "Das blinde konnte den Ort nicht zeigen, aber wohl erzählen, wie sie dem Spielmann gefolgt waren.",
+          "Das stumme aber zeigte den Ort, obgleich es nichts gehört hatte."
+        ],
+        "es": [
+          "Dicen algunos que dos de ellos se habían retrasado y volvieron.",
+          "Pero uno era ciego y el otro, mudo.",
+          "El ciego no pudo mostrar el lugar, pero sí contar cómo habían seguido al músico.",
+          "El mudo, en cambio, señaló el lugar, aunque no había oído nada."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Ein Knäblein war im Hemd mitgelaufen und kehrte um, um seinen Rock zu holen.",
+          "Dadurch ist es dem Unglück entgangen.",
+          "Denn als es wiederkam, waren die andern schon in der Grube eines Hügels verschwunden, die noch heute gezeigt wird."
+        ],
+        "es": [
+          "Un niño pequeño había ido corriendo detrás en camisa, y se volvió a buscar su chaqueta.",
+          "Gracias a eso se libró de la desgracia.",
+          "Porque, cuando regresó, los demás ya habían desaparecido en el hoyo de una colina, que todavía hoy se enseña."
+        ]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "Die Straße, durch die die Kinder zum Tor hinausgegangen waren, hieß noch in der Mitte des 18. Jahrhunderts die „Bunge-lose“.",
+          "Das heißt: die trommellose, stille Straße.",
+          "Denn kein Tanz durfte darin geschehen und kein Saitenspiel gerührt werden.",
+          "Ja, wenn eine Braut mit Musik zur Kirche gebracht wurde, mussten die Spielleute in dieser Gasse schweigen."
+        ],
+        "es": [
+          "La calle por la que los niños salieron hacia la puerta de la ciudad se llamaba todavía a mediados del siglo XVIII la «Bunge-lose».",
+          "Quiere decir: la calle sin tambores, la calle silenciosa.",
+          "Porque en ella no se podía bailar ni tocar ningún instrumento de cuerda.",
+          "Y cuando llevaban a una novia a la iglesia con música, los músicos tenían que callar al pasar por esa calle."
+        ]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "Der Berg bei Hameln, wo die Kinder verschwanden, heißt der Poppenberg.",
+          "Links und rechts sind dort zwei Steine in Kreuzform aufgerichtet worden.",
+          "Einige sagen, die Kinder seien in eine Höhle geführt worden und in Siebenbürgen wieder herausgekommen."
+        ],
+        "es": [
+          "La montaña junto a Hamelín donde desaparecieron los niños se llama el Poppenberg.",
+          "Allí, a izquierda y a derecha, se levantaron dos piedras en forma de cruz.",
+          "Algunos dicen que los niños fueron llevados a una cueva y que volvieron a salir en Transilvania."
+        ]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "Die Bürger von Hameln ließen die Begebenheit in ihr Stadtbuch einschreiben.",
+          "In ihren Schreiben pflegten sie nach diesem Verlust der Kinder Jahr und Tag zu zählen.",
+          "Auch am Rathaus und am neuen Tor hielten sie es in Inschriften fest.",
+          "Und im Jahr 1572 ließ der Bürgermeister die Geschichte in die Kirchenfenster malen."
+        ],
+        "es": [
+          "Los vecinos de Hamelín mandaron escribir lo sucedido en el libro de la ciudad.",
+          "En sus documentos solían contar los años y los días desde la pérdida de los niños.",
+          "También lo dejaron escrito en inscripciones en el ayuntamiento y en la puerta nueva.",
+          "Y en el año 1572 el alcalde mandó pintar la historia en las vidrieras de la iglesia."
+        ]
+      }
+    }
+  ]
+}

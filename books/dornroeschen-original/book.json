@@ -1,0 +1,172 @@
+{
+  "id": "dornroeschen-original",
+  "variantOf": "dornroeschen",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": { "de": "Brüder Grimm, 1857", "es": "Hermanos Grimm, 1857" },
+  "accent": "#e0457b",
+  "age": 6,
+  "title": { "de": "Dornröschen", "es": "La Bella Durmiente" },
+  "blurb": {
+    "de": "Die dreizehnte weise Frau verflucht die Königstochter zum Tod, die zwölfte mildert den Fluch zu einem hundertjährigen Schlaf. Viele Königssöhne sterben in der Dornenhecke, bis nach hundert Jahren einer hindurchkommt.",
+    "es": "La decimotercera hada condena a la princesa a muerte, y la duodécima suaviza la maldición en un sueño de cien años. Muchos príncipes mueren en el seto de espinos, hasta que, pasados cien años, uno logra atravesarlo."
+  },
+  "differences": {
+    "de": [
+      "Im Original lautet der Fluch der dreizehnten weisen Frau, die Königstochter solle sich an einer Spindel stechen und „tot hinfallen“; in der kindgerechten Fassung soll sie nur „nie wieder aufwachen“.",
+      "Im Original bleiben die Königssöhne in den Dornen hängen und „starben eines jämmerlichen Todes“; in der kindgerechten Fassung bleiben sie nur stecken.",
+      "Im Original will der Koch den Küchenjungen an den Haaren ziehen und gibt ihm nach dem Erwachen eine Ohrfeige, dass er schreit; in der kindgerechten Fassung will er nur schimpfen und jubelt am Ende mit.",
+      "Die kindgerechte Fassung lässt weg, dass die Eltern am fünfzehnten Geburtstag nicht zu Hause sind, dass ein alter Mann den Prinzen warnt und dass eine Magd vor dem schwarzen Huhn einschläft.",
+      "Das Original endet mit „und sie lebten vergnügt bis an ihr Ende“, die kindgerechte Fassung mit „Und wenn sie nicht gestorben sind, dann leben sie noch heute“."
+    ],
+    "es": [
+      "En el original, la maldición de la decimotercera hada dice que la princesa se pinchará con un huso y «caerá muerta»; en la versión infantil solo «no despertará jamás».",
+      "En el original, los príncipes se quedan enganchados en las espinas y mueren de manera lastimosa; en la versión infantil solo se quedan atrapados.",
+      "En el original, el cocinero quiere tirarle del pelo al pinche y, al despertar, le da una bofetada que lo hace gritar; en la versión infantil solo quiere regañarlo y al final lo celebra con todos.",
+      "La versión infantil omite que los padres no están en casa el día del decimoquinto cumpleaños, que un anciano advierte al príncipe y que una criada se duerme delante de una gallina negra.",
+      "El original termina con «y vivieron felices hasta el fin de sus días»; la versión infantil, con «colorín colorado, este cuento se ha acabado»."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Vor Zeiten war ein König und eine Königin, die sprachen jeden Tag: „Ach, wenn wir doch ein Kind hätten!“, und kriegten immer keins.", "Da trug sich zu, als die Königin einmal im Bade saß, dass ein Frosch aus dem Wasser ans Land kroch und zu ihr sprach:", "„Dein Wunsch wird erfüllt werden; ehe ein Jahr vergeht, wirst du eine Tochter zur Welt bringen.“"],
+        "es": ["Hace mucho tiempo vivían un rey y una reina que todos los días decían: —¡Ay, si tuviéramos un hijo!", "Pero el hijo no llegaba nunca.", "Un día, mientras la reina se bañaba, una rana salió del agua, se arrastró hasta la orilla y le dijo:", "—Tu deseo se cumplirá: antes de que pase un año, darás a luz una hija."]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Was der Frosch gesagt hatte, das geschah, und die Königin gebar ein Mädchen.", "Das war so schön, dass der König vor Freude sich nicht zu lassen wusste und ein großes Fest anstellte.", "Er lud nicht bloß seine Verwandten, Freunde und Bekannten, sondern auch die weisen Frauen dazu ein, damit sie dem Kind hold und gewogen wären.", "Es waren ihrer dreizehn in seinem Reiche."],
+        "es": ["Lo que la rana había dicho se cumplió, y la reina dio a luz una niña.", "Era tan hermosa que el rey no cabía en sí de alegría y mandó preparar una gran fiesta.", "No solo invitó a sus parientes, amigos y conocidos, sino también a las hadas, para que fueran buenas y favorables con la niña.", "En todo su reino había trece."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Weil er aber nur zwölf goldene Teller hatte, von welchen sie essen sollten, so musste eine von ihnen daheim bleiben.", "Das Fest wurde mit aller Pracht gefeiert.", "Als es zu Ende war, beschenkten die weisen Frauen das Kind mit ihren Wundergaben: die eine mit Tugend, die andere mit Schönheit, die dritte mit Reichtum, und so mit allem, was auf der Welt zu wünschen ist."],
+        "es": ["Pero como solo tenía doce platos de oro en los que debían comer, una de ellas tuvo que quedarse en casa.", "La fiesta se celebró con todo esplendor.", "Al terminar, las hadas obsequiaron a la niña con sus dones maravillosos: una con la virtud, otra con la belleza, la tercera con la riqueza, y así con todo lo que se puede desear en el mundo."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Als elf ihre Sprüche eben getan hatten, trat plötzlich die dreizehnte herein.", "Sie wollte sich dafür rächen, dass sie nicht eingeladen war.", "Ohne jemand zu grüßen oder nur anzusehen, rief sie mit lauter Stimme: „Die Königstochter soll sich in ihrem fünfzehnten Jahr an einer Spindel stechen und tot hinfallen.“", "Und ohne ein Wort weiter zu sprechen, kehrte sie sich um und verließ den Saal."],
+        "es": ["Cuando once de ellas acababan de pronunciar sus dones, entró de repente la decimotercera.", "Quería vengarse porque no la habían invitado.", "Sin saludar ni mirar a nadie, gritó con voz potente: —¡A los quince años, la princesa se pinchará con un huso y caerá muerta!", "Y sin decir una palabra más, se dio la vuelta y abandonó el salón."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["Alle waren erschrocken.", "Da trat die zwölfte hervor, die ihren Wunsch noch übrig hatte.", "Weil sie den bösen Spruch nicht aufheben, sondern ihn nur mildern konnte, so sagte sie:", "„Es soll aber kein Tod sein, sondern ein hundertjähriger tiefer Schlaf, in welchen die Königstochter fällt.“", "Der König, der sein liebes Kind vor dem Unglück gern bewahren wollte, ließ den Befehl ausgehen, dass alle Spindeln im ganzen Königreiche sollten verbrannt werden."],
+        "es": ["Todos se quedaron espantados.", "Entonces se adelantó la duodécima, que aún no había pronunciado su deseo.", "Como no podía deshacer el maleficio, sino solo suavizarlo, dijo:", "—No será la muerte, sino un profundo sueño de cien años, en el que caerá la princesa.", "El rey, que quería librar a su querida hija de aquella desgracia, mandó quemar todos los husos del reino."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["An dem Mädchen aber wurden die Gaben der weisen Frauen sämtlich erfüllt.", "Denn es war so schön, sittsam, freundlich und verständig, dass es jedermann, der es ansah, liebhaben musste.", "Es geschah, dass an dem Tage, wo es gerade fünfzehn Jahre alt wurde, der König und die Königin nicht zu Haus waren und das Mädchen ganz allein im Schloss zurückblieb."],
+        "es": ["En la muchacha se cumplieron todos los dones de las hadas.", "Era tan hermosa, modesta, amable y juiciosa que todo el que la miraba tenía que quererla.", "Sucedió que, justo el día en que cumplió quince años, el rey y la reina no estaban en casa, y la muchacha se quedó completamente sola en el castillo."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Da ging es allerorten herum, besah Stuben und Kammern, wie es Lust hatte, und kam endlich auch an einen alten Turm.", "Es stieg die enge Wendeltreppe hinauf und gelangte zu einer kleinen Türe.", "In dem Schloss steckte ein verrosteter Schlüssel, und als es umdrehte, sprang die Türe auf.", "Da saß in einem kleinen Stübchen eine alte Frau mit einer Spindel und spann emsig ihren Flachs."],
+        "es": ["Entonces recorrió el castillo por todas partes, curioseando salas y aposentos a su antojo, y por fin llegó a una vieja torre.", "Subió por la estrecha escalera de caracol y llegó a una puertecita.", "En la cerradura había una llave oxidada, y cuando la giró, la puerta se abrió de golpe.", "Allí, en un cuartito, estaba sentada una anciana con un huso, hilando su lino con afán."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["„Guten Tag, du altes Mütterchen“, sprach die Königstochter, „was machst du da?“", "„Ich spinne“, sagte die Alte und nickte mit dem Kopf.", "„Was ist das für ein Ding, das so lustig herumspringt?“, sprach das Mädchen, nahm die Spindel und wollte auch spinnen.", "Kaum hatte sie aber die Spindel angerührt, so ging der Zauberspruch in Erfüllung, und sie stach sich damit in den Finger."],
+        "es": ["—Buenos días, abuelita —dijo la princesa—, ¿qué haces ahí?", "—Estoy hilando —respondió la anciana, asintiendo con la cabeza.", "—¿Qué es esa cosa que salta tan alegremente? —dijo la muchacha, y cogió el huso, porque también quería hilar.", "Pero apenas lo había tocado, se cumplió el hechizo y se pinchó el dedo con él."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["In dem Augenblick aber, wo sie den Stich empfand, fiel sie auf das Bett nieder, das da stand, und lag in einem tiefen Schlaf.", "Und dieser Schlaf verbreitete sich über das ganze Schloss.", "Der König und die Königin, die eben heimgekommen und in den Saal getreten waren, fingen an einzuschlafen, und der ganze Hofstaat mit ihnen."],
+        "es": ["En el mismo instante en que sintió el pinchazo, cayó sobre la cama que allí había y quedó sumida en un sueño profundo.", "Y aquel sueño se extendió por todo el castillo.", "El rey y la reina, que acababan de volver a casa y habían entrado en el salón, empezaron a dormirse, y con ellos toda la corte."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Da schliefen auch die Pferde im Stall, die Hunde im Hofe, die Tauben auf dem Dache, die Fliegen an der Wand.", "Ja, das Feuer, das auf dem Herde flackerte, wurde still und schlief ein, und der Braten hörte auf zu brutzeln.", "Und der Koch, der den Küchenjungen, weil er etwas versehen hatte, in den Haaren ziehen wollte, ließ ihn los und schlief."],
+        "es": ["También se durmieron los caballos en el establo, los perros en el patio, las palomas en el tejado y las moscas en la pared.", "Hasta el fuego que ardía en el fogón se quedó quieto y se durmió, y el asado dejó de chisporrotear.", "Y el cocinero, que iba a tirarle del pelo al pinche porque había hecho algo mal, lo soltó y se quedó dormido."]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": ["Und der Wind legte sich, und auf den Bäumen vor dem Schloss regte sich kein Blättchen mehr.", "Rings um das Schloss aber begann eine Dornenhecke zu wachsen, die jedes Jahr höher wurde und endlich das ganze Schloss umzog.", "Sie wuchs darüber hinaus, dass gar nichts mehr davon zu sehen war, selbst nicht die Fahne auf dem Dach."],
+        "es": ["Y el viento se calmó, y en los árboles delante del castillo ya no se movía ni una hojita.", "Pero alrededor del castillo empezó a crecer un seto de espinos, cada año más alto, hasta que rodeó todo el castillo.", "Y siguió creciendo por encima de él, de modo que ya no se veía nada, ni siquiera la bandera del tejado."]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": ["Es ging aber die Sage in dem Land von dem schönen schlafenden Dornröschen, denn so wurde die Königstochter genannt.", "Also kamen von Zeit zu Zeit Königssöhne und wollten durch die Hecke in das Schloss dringen.", "Es war ihnen aber nicht möglich, denn die Dornen, als hätten sie Hände, hielten fest zusammen.", "Und die Jünglinge blieben darin hängen, konnten sich nicht wieder losmachen und starben eines jämmerlichen Todes."],
+        "es": ["Por el país corría la leyenda de la bella princesa dormida, a la que llamaban la Bella Durmiente.", "Por eso, de vez en cuando, llegaban príncipes que querían atravesar el seto para entrar en el castillo.", "Pero no lo conseguían, porque las espinas, como si tuvieran manos, se agarraban con fuerza unas a otras.", "Los jóvenes se quedaban enganchados en ellas, no podían soltarse y morían de manera lastimosa."]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": ["Nach langen, langen Jahren kam wieder einmal ein Königssohn in das Land und hörte, wie ein alter Mann von der Dornhecke erzählte.", "Es sollte ein Schloss dahinter stehen, in welchem eine wunderschöne Königstochter, Dornröschen genannt, schon seit hundert Jahren schliefe.", "Und mit ihr schliefe der König und die Königin und der ganze Hofstaat."],
+        "es": ["Después de muchos, muchos años, llegó otra vez un príncipe a aquel país y oyó a un anciano hablar del seto de espinos.", "Contaba que detrás había un castillo en el que una princesa bellísima, llamada la Bella Durmiente, dormía desde hacía cien años.", "Y con ella dormían el rey, la reina y toda la corte."]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": ["Er wusste auch von seinem Großvater, dass schon viele Königssöhne gekommen wären und versucht hätten, durch die Dornenhecke zu dringen.", "Sie wären aber darin hängen geblieben und eines traurigen Todes gestorben.", "Da sprach der Jüngling: „Ich fürchte mich nicht, ich will hinaus und das schöne Dornröschen sehen.“", "Der gute Alte mochte ihm abraten, wie er wollte, er hörte nicht auf seine Worte."],
+        "es": ["Sabía también por su abuelo que ya habían venido muchos príncipes y habían intentado atravesar el seto de espinos.", "Pero se habían quedado enganchados en él y habían muerto tristemente.", "Entonces dijo el joven: —No tengo miedo; quiero ir a ver a la hermosa Bella Durmiente.", "Por mucho que el buen anciano intentó quitárselo de la cabeza, él no hizo caso de sus palabras."]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": ["Nun waren aber gerade die hundert Jahre verflossen, und der Tag war gekommen, wo Dornröschen wieder erwachen sollte.", "Als der Königssohn sich der Dornenhecke näherte, waren es lauter große schöne Blumen.", "Die taten sich von selbst auseinander und ließen ihn unbeschädigt hindurch, und hinter ihm taten sie sich wieder als eine Hecke zusammen."],
+        "es": ["Pero justo entonces se habían cumplido los cien años, y había llegado el día en que la Bella Durmiente debía despertar.", "Cuando el príncipe se acercó al seto de espinos, solo había grandes y hermosas flores.", "Se apartaron solas y lo dejaron pasar sin hacerle ningún daño, y detrás de él volvieron a cerrarse formando un seto."]
+      }
+    },
+    {
+      "image": "p16.svg",
+      "text": {
+        "de": ["Im Schlosshof sah er die Pferde und scheckigen Jagdhunde liegen und schlafen, auf dem Dache saßen die Tauben und hatten das Köpfchen unter den Flügel gesteckt.", "Und als er ins Haus kam, schliefen die Fliegen an der Wand.", "Der Koch in der Küche hielt noch die Hand, als wollte er den Jungen anpacken, und die Magd saß vor dem schwarzen Huhn, das sollte gerupft werden."],
+        "es": ["En el patio del castillo vio dormidos a los caballos y a los perros de caza manchados, y en el tejado, a las palomas con la cabecita bajo el ala.", "Y cuando entró en la casa, las moscas dormían en la pared.", "En la cocina, el cocinero aún tenía la mano alzada como para agarrar al pinche, y la criada seguía sentada ante la gallina negra que iba a desplumar."]
+      }
+    },
+    {
+      "image": "p17.svg",
+      "text": {
+        "de": ["Da ging er weiter und sah im Saale den ganzen Hofstaat liegen und schlafen, und oben bei dem Throne lag der König und die Königin.", "Da ging er noch weiter, und alles war so still, dass einer seinen Atem hören konnte.", "Endlich kam er zu dem Turm und öffnete die Türe zu der kleinen Stube, in welcher Dornröschen schlief."],
+        "es": ["Siguió adelante y vio en el salón a toda la corte tendida y dormida, y arriba, junto al trono, yacían el rey y la reina.", "Siguió aún más allá, y todo estaba tan silencioso que uno podía oír su propia respiración.", "Por fin llegó a la torre y abrió la puerta del cuartito donde dormía la Bella Durmiente."]
+      }
+    },
+    {
+      "image": "p18.svg",
+      "text": {
+        "de": ["Da lag es und war so schön, dass er die Augen nicht abwenden konnte, und er bückte sich und gab ihm einen Kuss.", "Wie er es mit dem Kuss berührt hatte, schlug Dornröschen die Augen auf, erwachte und blickte ihn ganz freundlich an.", "Da gingen sie zusammen herab, und der König erwachte und die Königin und der ganze Hofstaat und sahen einander mit großen Augen an."],
+        "es": ["Allí estaba, tan hermosa que él no podía apartar los ojos de ella, y se inclinó y le dio un beso.", "En cuanto la rozó con el beso, la Bella Durmiente abrió los ojos, despertó y lo miró con mucha dulzura.", "Entonces bajaron juntos, y despertaron el rey, la reina y toda la corte, y se miraron unos a otros con los ojos muy abiertos."]
+      }
+    },
+    {
+      "image": "p19.svg",
+      "text": {
+        "de": ["Und die Pferde im Hof standen auf und rüttelten sich, die Jagdhunde sprangen und wedelten.", "Die Tauben auf dem Dache zogen das Köpfchen unterm Flügel hervor, sahen umher und flogen ins Feld.", "Die Fliegen an den Wänden krochen weiter, das Feuer in der Küche erhob sich, flackerte und kochte das Essen, und der Braten fing wieder an zu brutzeln."],
+        "es": ["Los caballos del patio se levantaron y se sacudieron, y los perros de caza saltaron y menearon la cola.", "Las palomas del tejado sacaron la cabecita de debajo del ala, miraron a su alrededor y se fueron volando al campo.", "Las moscas de las paredes siguieron su camino, el fuego de la cocina se levantó, llameó y coció la comida, y el asado volvió a chisporrotear."]
+      }
+    },
+    {
+      "image": "p20.svg",
+      "text": {
+        "de": ["Und der Koch gab dem Jungen eine Ohrfeige, dass er schrie, und die Magd rupfte das Huhn fertig.", "Und da wurde die Hochzeit des Königssohns mit dem Dornröschen in aller Pracht gefeiert.", "Und sie lebten vergnügt bis an ihr Ende."],
+        "es": ["Y el cocinero le dio al pinche tal bofetada que lo hizo gritar, y la criada terminó de desplumar la gallina.", "Entonces se celebró con todo esplendor la boda del príncipe con la Bella Durmiente.", "Y vivieron felices hasta el fin de sus días."]
+      }
+    }
+  ]
+}

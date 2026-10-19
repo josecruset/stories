@@ -1,0 +1,443 @@
+{
+  "id": "aschenputtel-original",
+  "variantOf": "aschenputtel",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": {
+    "de": "Brüder Grimm, 1857",
+    "es": "Hermanos Grimm, 1857"
+  },
+  "accent": "#e6a01e",
+  "age": 7,
+  "title": {
+    "de": "Aschenputtel",
+    "es": "La Cenicienta"
+  },
+  "blurb": {
+    "de": "Das Märchen, wie es die Brüder Grimm 1857 aufgeschrieben haben: Ein Haselbaum auf dem Grab der Mutter und weiße Tauben helfen Aschenputtel. Die Stiefschwestern verstümmeln sich die Füße, um in den goldenen Schuh zu passen, und werden am Ende mit Blindheit bestraft.",
+    "es": "El cuento tal como lo escribieron los hermanos Grimm en 1857: un avellano sobre la tumba de la madre y unas palomas blancas ayudan a Cenicienta. Las hermanastras se cortan los pies para que les quepa el zapato de oro y al final son castigadas con la ceguera."
+  },
+  "differences": {
+    "de": [
+      "Im Original bringt der Vater das Haselreis von der Messe mit, und die Mutter gibt der Tochter vor ihrem Tod „bleib fromm und gut“ mit auf den Weg; in der kindgerechten Fassung pflanzt das Mädchen einfach einen Zweig.",
+      "Im Original muss Aschenputtel zweimal Linsen aus der Asche lesen und darf trotzdem nicht mit; in der kindgerechten Fassung gibt es nur eine Probe.",
+      "Im Original flieht Aschenputtel ins Taubenhaus und auf einen Birnbaum, und der Vater hackt beides mit der Axt um; das fehlt in der kindgerechten Fassung.",
+      "Im Original hackt sich die ältere Schwester auf Rat der Mutter die Zehe ab, die jüngere ein Stück der Ferse, und die Tauben verraten das Blut im Schuh; in der kindgerechten Fassung ist der Schuh den Schwestern nur zu klein.",
+      "Im Original picken die Tauben den Schwestern bei der Hochzeit die Augen aus, sodass sie ihr Leben lang blind sind; die kindgerechte Fassung endet mit einer fröhlichen Hochzeit und „Und wenn sie nicht gestorben sind …“."
+    ],
+    "es": [
+      "En el original, el padre trae la ramita de avellano de la feria, y la madre, antes de morir, le pide a su hija que sea «piadosa y buena»; en la versión infantil la niña simplemente planta una ramita.",
+      "En el original, Cenicienta tiene que recoger lentejas de la ceniza dos veces y aun así no la dejan ir; en la versión infantil solo hay una prueba.",
+      "En el original, Cenicienta se esconde en el palomar y en un peral, y el padre los derriba a hachazos; esto no aparece en la versión infantil.",
+      "En el original, por consejo de la madre, la hermana mayor se corta el dedo del pie y la menor un trozo del talón, y las palomas delatan la sangre en el zapato; en la versión infantil el zapato simplemente les queda pequeño.",
+      "En el original, en la boda las palomas les sacan los ojos a las hermanastras, que quedan ciegas para toda la vida; la versión infantil termina con una boda feliz y «colorín colorado»."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Einem reichen Mann wurde seine Frau krank, und als sie fühlte, dass ihr Ende herankam, rief sie ihr einziges Töchterlein zu sich ans Bett.",
+          "„Liebes Kind“, sprach sie, „bleib fromm und gut, so wird dir der liebe Gott immer beistehen, und ich will vom Himmel auf dich herabblicken und will um dich sein.“",
+          "Darauf tat sie die Augen zu und verschied.",
+          "Das Mädchen ging jeden Tag hinaus zu dem Grab der Mutter und weinte und blieb fromm und gut."
+        ],
+        "es": [
+          "A un hombre rico se le puso enferma su mujer y, cuando ella sintió que se acercaba su fin, llamó a su única hijita junto a la cama.",
+          "—Querida niña —le dijo—, sé siempre piadosa y buena, y Dios te ayudará siempre; yo te miraré desde el cielo y estaré a tu lado.",
+          "Después cerró los ojos y murió.",
+          "La niña iba todos los días a la tumba de su madre, lloraba y seguía siendo piadosa y buena."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Als der Winter kam, deckte der Schnee ein weißes Tüchlein auf das Grab, und als die Sonne es im Frühjahr wieder herabgezogen hatte, nahm sich der Mann eine andere Frau.",
+          "Die brachte zwei Töchter mit ins Haus, die schön und weiß von Angesicht waren, aber garstig und schwarz von Herzen.",
+          "„Soll die dumme Gans bei uns in der Stube sitzen?“, sprachen sie.",
+          "„Wer Brot essen will, muss es verdienen: Hinaus mit der Küchenmagd!“"
+        ],
+        "es": [
+          "Cuando llegó el invierno, la nieve cubrió la tumba con un pañito blanco, y cuando el sol de la primavera lo hubo retirado, el hombre se casó con otra mujer.",
+          "Ella trajo a casa a dos hijas que eran hermosas y blancas de cara, pero feas y negras de corazón.",
+          "—¿Y esta boba va a sentarse con nosotras en la sala? —decían.",
+          "—Quien quiera comer pan, que se lo gane: ¡fuera, a la cocina con la fregona!"
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Sie nahmen ihm seine schönen Kleider weg, zogen ihm einen grauen alten Kittel an und gaben ihm hölzerne Schuhe.",
+          "„Seht einmal die stolze Prinzessin, wie sie geputzt ist!“, riefen sie lachend und führten es in die Küche.",
+          "Da musste es von Morgen bis Abend schwere Arbeit tun, und die Schwestern schütteten die Erbsen und Linsen in die Asche, die es wieder auslesen musste.",
+          "Abends kam es in kein Bett, sondern musste sich neben den Herd in die Asche legen, und darum nannten sie es Aschenputtel."
+        ],
+        "es": [
+          "Le quitaron sus hermosos vestidos, le pusieron un viejo blusón gris y le dieron unos zuecos de madera.",
+          "—¡Mirad qué orgullosa princesa, qué bien arreglada va! —gritaban riéndose, y la llevaron a la cocina.",
+          "Allí tenía que trabajar duro de la mañana a la noche, y las hermanas le echaban los guisantes y las lentejas en la ceniza para que tuviera que recogerlos otra vez.",
+          "Por la noche no tenía cama: debía acostarse junto al fogón, entre la ceniza, y por eso la llamaron Cenicienta."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Einmal wollte der Vater auf die Messe ziehen und fragte die beiden Stieftöchter, was er ihnen mitbringen sollte.",
+          "„Schöne Kleider“, sagte die eine, „Perlen und Edelsteine“, die zweite.",
+          "Aschenputtel aber bat: „Vater, das erste Reis, das Euch auf Eurem Heimweg an den Hut stößt, das brecht für mich ab.“",
+          "Auf dem Rückweg, als er durch einen grünen Busch ritt, streifte ihn ein Haselreis und stieß ihm den Hut ab; da brach er das Reis ab und nahm es mit."
+        ],
+        "es": [
+          "Una vez el padre quiso ir a la feria y preguntó a sus dos hijastras qué querían que les trajera.",
+          "—Vestidos bonitos —dijo una. —Perlas y piedras preciosas —dijo la otra.",
+          "Pero Cenicienta le pidió: —Padre, la primera ramita que os roce el sombrero en el camino de vuelta, cortadla para mí.",
+          "Al volver, cuando cabalgaba entre unos arbustos, una rama de avellano le rozó y le tiró el sombrero; entonces cortó la ramita y se la llevó."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Daheim gab er den Stieftöchtern, was sie sich gewünscht hatten, und dem Aschenputtel das Reis von dem Haselbusch.",
+          "Aschenputtel dankte ihm, ging zu seiner Mutter Grab und pflanzte das Reis darauf, und weinte so sehr, dass die Tränen darauf niederfielen und es begossen.",
+          "Es wuchs aber und wurde ein schöner Baum.",
+          "Aschenputtel ging alle Tage dreimal darunter, weinte und betete, und allemal kam ein weißes Vöglein auf den Baum und warf ihm herab, was es sich wünschte."
+        ],
+        "es": [
+          "En casa dio a sus hijastras lo que habían pedido, y a Cenicienta la ramita de avellano.",
+          "Cenicienta le dio las gracias, fue a la tumba de su madre, plantó allí la ramita y lloró tanto que sus lágrimas cayeron sobre ella y la regaron.",
+          "La ramita creció y se convirtió en un hermoso árbol.",
+          "Cenicienta iba tres veces al día a sentarse debajo, lloraba y rezaba, y siempre venía un pajarito blanco al árbol y le echaba lo que ella deseaba."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Es begab sich aber, dass der König ein Fest anstellte, das drei Tage dauern sollte, und alle schönen Jungfrauen im Land einlud, damit sich sein Sohn eine Braut aussuchen möchte.",
+          "Die Stiefschwestern riefen Aschenputtel: „Kämm uns die Haare, bürste uns die Schuhe und mach uns die Schnallen fest, wir gehen zur Hochzeit auf des Königs Schloss.“",
+          "Aschenputtel gehorchte, weinte aber, weil es auch gern zum Tanz mitgegangen wäre."
+        ],
+        "es": [
+          "Sucedió que el rey dio una fiesta que había de durar tres días, e invitó a todas las doncellas hermosas del reino para que su hijo eligiera novia.",
+          "Las hermanastras llamaron a Cenicienta: —Péinanos, cepíllanos los zapatos y abróchanos las hebillas, que vamos a la boda del palacio del rey.",
+          "Cenicienta obedeció, pero lloraba, porque también ella habría querido ir al baile."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Es bat die Stiefmutter, sie möchte es ihm erlauben, aber die sprach: „Du Aschenputtel bist voll Staub und Schmutz und willst zur Hochzeit?“",
+          "„Du hast keine Kleider und Schuhe und willst tanzen!“",
+          "Als es aber mit Bitten anhielt, sprach sie endlich: „Da habe ich dir eine Schüssel Linsen in die Asche geschüttet; wenn du die Linsen in zwei Stunden wieder ausgelesen hast, so sollst du mitgehen.“"
+        ],
+        "es": [
+          "Le pidió permiso a la madrastra, pero ella dijo: —¿Tú, Cenicienta, llena de polvo y de mugre, quieres ir a la boda?",
+          "—¡No tienes vestidos ni zapatos y quieres bailar!",
+          "Pero como la niña seguía suplicando, al fin le dijo: —Te he echado una fuente de lentejas en la ceniza; si en dos horas las has recogido todas, podrás venir."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Das Mädchen ging durch die Hintertür in den Garten und rief: „Ihr zahmen Täubchen, ihr Turteltäubchen, all ihr Vöglein unter dem Himmel, kommt und helft mir lesen, die guten ins Töpfchen, die schlechten ins Kröpfchen!“",
+          "Da kamen zum Küchenfenster zwei weiße Täubchen herein, danach die Turteltäubchen, und endlich schwirrten alle Vöglein unter dem Himmel herein.",
+          "Die Täubchen nickten mit den Köpfchen und fingen an: pick, pick, pick, pick, und die übrigen auch, und lasen alle guten Körnlein in die Schüssel."
+        ],
+        "es": [
+          "La muchacha salió por la puerta de atrás al jardín y llamó: —Palomitas mansas, tortolitas, pajaritos todos del cielo, venid a ayudarme a escoger: ¡las buenas, al pucherito; las malas, al buchecito!",
+          "Entonces entraron por la ventana de la cocina dos palomitas blancas, luego las tórtolas y, por fin, todos los pajaritos del cielo.",
+          "Las palomitas movían la cabecita y empezaron: pic, pic, pic, pic, y los demás también, y echaron todos los granos buenos en la fuente."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Kaum war eine Stunde herum, so waren sie schon fertig und flogen alle wieder hinaus.",
+          "Das Mädchen brachte die Schüssel der Stiefmutter und glaubte, nun dürfte es mit auf die Hochzeit gehen.",
+          "Aber sie sprach: „Nein, Aschenputtel, du hast keine Kleider und kannst nicht tanzen: Du wirst nur ausgelacht.“",
+          "Als es nun weinte, schüttete sie ihm zwei Schüsseln Linsen in die Asche, die sollte es in einer Stunde auslesen, und dachte: „Das kann es ja nimmermehr.“"
+        ],
+        "es": [
+          "Apenas había pasado una hora, ya habían terminado y salieron todos volando.",
+          "La muchacha llevó la fuente a la madrastra, creyendo que ahora podría ir a la boda.",
+          "Pero ella le dijo: —No, Cenicienta, no tienes vestidos y no sabes bailar: solo harías que se rieran de ti.",
+          "Y como la niña lloraba, le echó dos fuentes de lentejas en la ceniza para que las recogiera en una hora, pensando: «Eso no lo conseguirá nunca»."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Aber das Mädchen rief wieder die Vöglein, und ehe eine halbe Stunde herum war, waren beide Schüsseln voll.",
+          "Doch die Stiefmutter sprach: „Es hilft dir alles nichts: Du kommst nicht mit, denn du hast keine Kleider und kannst nicht tanzen; wir müssten uns deiner schämen.“",
+          "Darauf kehrte sie ihm den Rücken zu und eilte mit ihren zwei stolzen Töchtern fort.",
+          "Als nun niemand mehr daheim war, ging Aschenputtel zu seiner Mutter Grab unter den Haselbaum."
+        ],
+        "es": [
+          "Pero la muchacha volvió a llamar a los pajaritos, y antes de media hora las dos fuentes estaban llenas.",
+          "Sin embargo, la madrastra dijo: —No te servirá de nada: no vienes, porque no tienes vestidos y no sabes bailar; tendríamos que avergonzarnos de ti.",
+          "Luego le dio la espalda y se marchó deprisa con sus dos orgullosas hijas.",
+          "Cuando ya no quedaba nadie en casa, Cenicienta fue a la tumba de su madre, bajo el avellano."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Dort rief es: „Bäumchen, rüttel dich und schüttel dich, wirf Gold und Silber über mich.“",
+          "Da warf ihm der Vogel ein golden und silbern Kleid herunter und mit Seide und Silber ausgestickte Pantoffeln.",
+          "In aller Eile zog es das Kleid an und ging zur Hochzeit.",
+          "Seine Schwestern und die Stiefmutter kannten es nicht und meinten, es müsste eine fremde Königstochter sein, so schön sah es in dem goldenen Kleid aus."
+        ],
+        "es": [
+          "Allí dijo: —Arbolito, arbolito, sacúdete y menéate, ¡oro y plata échame!",
+          "Entonces el pájaro le echó un vestido de oro y plata, y unas zapatillas bordadas de seda y plata.",
+          "A toda prisa se puso el vestido y se fue a la boda.",
+          "Sus hermanastras y la madrastra no la reconocieron y pensaron que sería la hija de un rey extranjero, tan hermosa estaba con su vestido de oro."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "An Aschenputtel dachten sie gar nicht und glaubten, es säße daheim im Schmutz und suchte die Linsen aus der Asche.",
+          "Der Königssohn kam ihm entgegen, nahm es bei der Hand und tanzte mit ihm.",
+          "Er wollte mit niemand sonst tanzen, und wenn ein anderer kam, es aufzufordern, sprach er: „Das ist meine Tänzerin.“",
+          "Am Abend wollte es nach Haus gehen, und der Königssohn wollte mitgehen, denn er wollte sehen, wem das schöne Mädchen angehörte."
+        ],
+        "es": [
+          "En Cenicienta ni pensaban: creían que estaba en casa, sucia, sacando lentejas de la ceniza.",
+          "El hijo del rey salió a su encuentro, la tomó de la mano y bailó con ella.",
+          "No quería bailar con nadie más, y si otro venía a sacarla, él decía: —Esta es mi pareja de baile.",
+          "Al anochecer quiso volver a casa, y el hijo del rey quiso acompañarla, porque quería saber de quién era aquella hermosa muchacha."
+        ]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "Es entwischte ihm aber und sprang in das Taubenhaus.",
+          "Als der Vater kam, dachte er: „Sollte es Aschenputtel sein?“, und ließ sich Axt und Hacken bringen und schlug das Taubenhaus entzwei; aber es war niemand darin.",
+          "Und als sie ins Haus kamen, lag Aschenputtel in seinen schmutzigen Kleidern in der Asche, und ein trübes Öllämpchen brannte im Schornstein."
+        ],
+        "es": [
+          "Pero ella se le escapó y se metió de un salto en el palomar.",
+          "Cuando llegó el padre, pensó: «¿Será Cenicienta?», y mandó traer un hacha y un pico y partió el palomar en dos; pero dentro no había nadie.",
+          "Y cuando entraron en casa, Cenicienta estaba echada en la ceniza con su ropa sucia, y un candil turbio ardía en la chimenea."
+        ]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "Es war nämlich hinten aus dem Taubenhaus gesprungen, hatte die schönen Kleider auf das Grab gelegt, und der Vogel hatte sie wieder weggenommen.",
+          "Am andern Tag ging Aschenputtel wieder zu dem Haselbaum und sprach: „Bäumchen, rüttel dich und schüttel dich, wirf Gold und Silber über mich.“",
+          "Da warf der Vogel ein noch viel stolzeres Kleid herab, und auf der Hochzeit erstaunte jedermann über seine Schönheit.",
+          "Der Königssohn tanzte nur allein mit ihm und sprach: „Das ist meine Tänzerin.“"
+        ],
+        "es": [
+          "Es que había saltado del palomar por detrás, había dejado los hermosos vestidos sobre la tumba y el pájaro se los había llevado.",
+          "Al día siguiente, Cenicienta volvió al avellano y dijo: —Arbolito, arbolito, sacúdete y menéate, ¡oro y plata échame!",
+          "El pájaro le echó un vestido aún mucho más espléndido, y en la boda todos se asombraron de su belleza.",
+          "El hijo del rey bailó solo con ella y decía: —Esta es mi pareja de baile."
+        ]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "Am Abend sprang es ihm fort in den Garten hinter dem Haus, wo ein schöner großer Baum stand, an dem die herrlichsten Birnen hingen.",
+          "Es kletterte so behände wie ein Eichhörnchen zwischen die Äste, und der Königssohn wusste nicht, wo es hingekommen war.",
+          "Der Vater dachte: „Sollte es Aschenputtel sein?“, ließ sich die Axt holen und hieb den Baum um, aber es war niemand darauf.",
+          "Und als sie in die Küche kamen, lag Aschenputtel da in der Asche wie sonst auch."
+        ],
+        "es": [
+          "Al anochecer se le escapó al jardín de detrás de la casa, donde había un árbol grande y hermoso del que colgaban unas peras magníficas.",
+          "Trepó entre las ramas, ágil como una ardilla, y el hijo del rey no supo adónde había ido.",
+          "El padre pensó: «¿Será Cenicienta?», mandó traer el hacha y derribó el árbol, pero arriba no había nadie.",
+          "Y cuando entraron en la cocina, allí estaba Cenicienta en la ceniza, como siempre."
+        ]
+      }
+    },
+    {
+      "image": "p16.svg",
+      "text": {
+        "de": [
+          "Es war auf der andern Seite vom Baum gesprungen und hatte dem Vogel die schönen Kleider wiedergebracht.",
+          "Am dritten Tag sprach es wieder zu dem Bäumchen: „Bäumchen, rüttel dich und schüttel dich, wirf Gold und Silber über mich.“",
+          "Nun warf ihm der Vogel ein Kleid herab, das war so prächtig und glänzend, wie es noch keins gehabt hatte, und die Pantoffeln waren ganz golden.",
+          "Auf der Hochzeit wussten sie alle nicht, was sie vor Verwunderung sagen sollten."
+        ],
+        "es": [
+          "Había saltado del árbol por el otro lado y le había devuelto al pájaro los hermosos vestidos.",
+          "Al tercer día volvió a decirle al arbolito: —Arbolito, arbolito, sacúdete y menéate, ¡oro y plata échame!",
+          "Entonces el pájaro le echó un vestido tan espléndido y reluciente como no había tenido ninguno, y las zapatillas eran de oro puro.",
+          "En la boda nadie sabía qué decir de puro asombro."
+        ]
+      }
+    },
+    {
+      "image": "p17.svg",
+      "text": {
+        "de": [
+          "Der Königssohn tanzte ganz allein mit ihm, und als es Abend war, entsprang es ihm so geschwind, dass er nicht folgen konnte.",
+          "Er hatte aber eine List gebraucht und die ganze Treppe mit Pech bestreichen lassen.",
+          "Da war, als es hinabsprang, der linke Pantoffel des Mädchens hängen geblieben.",
+          "Der Königssohn hob ihn auf, und er war klein und zierlich und ganz golden."
+        ],
+        "es": [
+          "El hijo del rey bailó solo con ella, y al anochecer ella se le escapó tan deprisa que no pudo seguirla.",
+          "Pero él había usado una astucia: había mandado untar toda la escalera con brea pegajosa.",
+          "Y cuando ella bajó corriendo, la zapatilla izquierda se le quedó pegada.",
+          "El hijo del rey la recogió: era pequeña, delicada y toda de oro."
+        ]
+      }
+    },
+    {
+      "image": "p18.svg",
+      "text": {
+        "de": [
+          "Am nächsten Morgen ging er damit zu dem Mann und sagte: „Keine andere soll meine Gemahlin werden als die, an deren Fuß dieser goldene Schuh passt.“",
+          "Die älteste Schwester ging mit dem Schuh in die Kammer, und die Mutter stand dabei, aber sie konnte mit der großen Zehe nicht hineinkommen.",
+          "Da reichte ihr die Mutter ein Messer und sprach: „Hau die Zehe ab: Wenn du Königin bist, so brauchst du nicht mehr zu Fuß zu gehen.“"
+        ],
+        "es": [
+          "A la mañana siguiente fue con ella a ver al padre y le dijo: —Ninguna otra será mi esposa sino aquella a cuyo pie se ajuste este zapato de oro.",
+          "La hermana mayor se llevó el zapato a su cuarto, con su madre al lado, pero no le cabía el dedo gordo.",
+          "Entonces la madre le dio un cuchillo y le dijo: —Córtate el dedo: cuando seas reina, ya no tendrás que ir a pie."
+        ]
+      }
+    },
+    {
+      "image": "p19.svg",
+      "text": {
+        "de": [
+          "Das Mädchen hieb die Zehe ab, zwängte den Fuß in den Schuh, verbiss den Schmerz und ging hinaus zum Königssohn, und der ritt mit ihr als seiner Braut fort.",
+          "Als sie an dem Grab vorbeikamen, saßen die zwei Täubchen auf dem Haselbäumchen und riefen: „Rucke di guck, rucke di guck, Blut ist im Schuck: Der Schuck ist zu klein, die rechte Braut sitzt noch daheim.“",
+          "Da blickte er auf ihren Fuß und sah, wie das Blut herausquoll, und brachte die falsche Braut wieder nach Haus."
+        ],
+        "es": [
+          "La muchacha se cortó el dedo, metió el pie a la fuerza en el zapato, se tragó el dolor y salió, y el hijo del rey se la llevó a caballo como su novia.",
+          "Al pasar junto a la tumba, las dos palomitas del avellano cantaron: —Currucucú, currucucú, sangre en el zapato hay: el zapato no le va, la novia de verdad en casa está.",
+          "Él le miró el pie, vio que salía sangre y llevó a la falsa novia de vuelta a casa."
+        ]
+      }
+    },
+    {
+      "image": "p20.svg",
+      "text": {
+        "de": [
+          "Nun ging die andere Schwester in die Kammer und kam mit den Zehen glücklich in den Schuh, aber die Ferse war zu groß.",
+          "Da reichte ihr die Mutter ein Messer und sprach: „Hau ein Stück von der Ferse ab: Wenn du Königin bist, brauchst du nicht mehr zu Fuß zu gehen.“",
+          "Das Mädchen hieb ein Stück von der Ferse ab, zwängte den Fuß in den Schuh, verbiss den Schmerz und ging hinaus zum Königssohn."
+        ],
+        "es": [
+          "Entonces la otra hermana entró en el cuarto y logró meter los dedos en el zapato, pero el talón era demasiado grande.",
+          "La madre le dio un cuchillo y le dijo: —Córtate un trozo del talón: cuando seas reina, ya no tendrás que ir a pie.",
+          "La muchacha se cortó un trozo del talón, metió el pie a la fuerza en el zapato, se tragó el dolor y salió a ver al hijo del rey."
+        ]
+      }
+    },
+    {
+      "image": "p21.svg",
+      "text": {
+        "de": [
+          "Er ritt mit ihr als seiner Braut fort, und als sie an dem Haselbäumchen vorbeikamen, riefen die zwei Täubchen: „Rucke di guck, rucke di guck, Blut ist im Schuck: Der Schuck ist zu klein, die rechte Braut sitzt noch daheim.“",
+          "Er blickte nieder auf ihren Fuß und sah, wie das Blut aus dem Schuh quoll und an den weißen Strümpfen ganz rot heraufgestiegen war.",
+          "Da wendete er sein Pferd und brachte die falsche Braut wieder nach Haus."
+        ],
+        "es": [
+          "Él se marchó a caballo con ella como su novia y, al pasar junto al avellano, las dos palomitas cantaron: —Currucucú, currucucú, sangre en el zapato hay: el zapato no le va, la novia de verdad en casa está.",
+          "Él le miró el pie y vio que la sangre salía del zapato y había teñido de rojo las medias blancas.",
+          "Entonces dio la vuelta a su caballo y llevó a la falsa novia de vuelta a casa."
+        ]
+      }
+    },
+    {
+      "image": "p22.svg",
+      "text": {
+        "de": [
+          "„Das ist auch nicht die rechte“, sprach er, „habt ihr keine andere Tochter?“",
+          "„Nein“, sagte der Mann, „nur von meiner verstorbenen Frau ist noch ein kleines verbuttetes Aschenputtel da: Das kann unmöglich die Braut sein.“",
+          "Die Stiefmutter rief: „Ach nein, das ist viel zu schmutzig, das darf sich nicht sehen lassen.“",
+          "Er wollte es aber durchaus haben, und da wusch sich Aschenputtel erst Hände und Angesicht rein."
+        ],
+        "es": [
+          "—Tampoco es esta la verdadera —dijo él—. ¿No tenéis otra hija?",
+          "—No —dijo el hombre—, solo queda una Cenicienta pequeña y desmedrada de mi difunta mujer: esa no puede ser la novia.",
+          "La madrastra exclamó: —¡Ay, no, esa está demasiado sucia, no puede dejarse ver!",
+          "Pero él quiso verla a toda costa, y Cenicienta se lavó primero las manos y la cara."
+        ]
+      }
+    },
+    {
+      "image": "p23.svg",
+      "text": {
+        "de": [
+          "Dann neigte es sich vor dem Königssohn, setzte sich auf einen Schemel, zog den Fuß aus dem schweren Holzschuh und steckte ihn in den goldenen Pantoffel, der war wie angegossen.",
+          "Und als es sich aufrichtete und er ihm ins Gesicht sah, erkannte er das schöne Mädchen, das mit ihm getanzt hatte, und rief: „Das ist die rechte Braut!“",
+          "Die Stiefmutter und die beiden Schwestern erschraken und wurden bleich vor Ärger."
+        ],
+        "es": [
+          "Luego hizo una reverencia ante el hijo del rey, se sentó en un taburete, sacó el pie del pesado zueco y lo metió en la zapatilla de oro, que le quedaba como un guante.",
+          "Y cuando se levantó y él le miró a la cara, reconoció a la hermosa muchacha que había bailado con él y exclamó: —¡Esta es la novia verdadera!",
+          "La madrastra y las dos hermanas se asustaron y se pusieron pálidas de rabia."
+        ]
+      }
+    },
+    {
+      "image": "p24.svg",
+      "text": {
+        "de": [
+          "Er aber nahm Aschenputtel aufs Pferd und ritt mit ihm fort.",
+          "Als sie an dem Haselbäumchen vorbeikamen, riefen die zwei weißen Täubchen: „Rucke di guck, rucke di guck, kein Blut im Schuck: Der Schuck ist nicht zu klein, die rechte Braut, die führt er heim.“",
+          "Dann kamen sie beide herabgeflogen und setzten sich dem Aschenputtel auf die Schultern, eine rechts, die andere links, und blieben da sitzen."
+        ],
+        "es": [
+          "Él subió a Cenicienta a su caballo y se marchó con ella.",
+          "Al pasar junto al avellano, las dos palomitas blancas cantaron: —Currucucú, currucucú, sangre en el zapato no hay: el zapato bien le va, la novia de verdad con él se va.",
+          "Luego bajaron volando las dos y se posaron en los hombros de Cenicienta, una a la derecha y otra a la izquierda, y allí se quedaron."
+        ]
+      }
+    },
+    {
+      "image": "p25.svg",
+      "text": {
+        "de": [
+          "Als die Hochzeit gehalten werden sollte, kamen die falschen Schwestern, wollten sich einschmeicheln und teil an seinem Glück nehmen.",
+          "Als die Brautleute zur Kirche gingen, war die älteste zur rechten, die jüngste zur linken Seite: Da pickten die Tauben einer jeden das eine Auge aus.",
+          "Als sie herausgingen, war die älteste zur linken und die jüngste zur rechten: Da pickten die Tauben einer jeden das andere Auge aus.",
+          "So waren sie für ihre Bosheit und Falschheit mit Blindheit auf ihr Lebtag gestraft."
+        ],
+        "es": [
+          "Cuando iba a celebrarse la boda, llegaron las falsas hermanas para congraciarse y tener parte en su dicha.",
+          "Camino de la iglesia, la mayor iba a la derecha y la menor a la izquierda, y las palomas sacaron a cada una un ojo.",
+          "A la salida, la mayor iba a la izquierda y la menor a la derecha, y las palomas sacaron a cada una el otro ojo.",
+          "Y así, por su maldad y su falsedad, quedaron castigadas con la ceguera para toda la vida."
+        ]
+      }
+    }
+  ]
+}

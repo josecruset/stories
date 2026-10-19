@@ -1,0 +1,318 @@
+{
+  "id": "rumpelstilzchen-original",
+  "variantOf": "rumpelstilzchen",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": {
+    "de": "Brüder Grimm, 1857",
+    "es": "Hermanos Grimm, 1857"
+  },
+  "accent": "#e09a1a",
+  "age": 6,
+  "title": {
+    "de": "Rumpelstilzchen",
+    "es": "Rumpelstiltskin"
+  },
+  "blurb": {
+    "de": "Die Müllerstochter soll Stroh zu Gold spinnen, sonst muss sie sterben; ein kleines Männchen hilft ihr und verlangt dafür ihr erstes Kind. Das Märchen in der Fassung der Brüder Grimm von 1857.",
+    "es": "La hija del molinero tiene que hilar la paja en oro o morirá; un hombrecillo la ayuda y a cambio le exige su primer hijo. El cuento en la versión de los hermanos Grimm de 1857."
+  },
+  "differences": {
+    "de": [
+      "Im Original droht der König der Müllerstochter mit dem Tod, wenn das Stroh am Morgen nicht zu Gold versponnen ist; in der kindgerechten Fassung verlangt er nur, dass bis morgen alles Gold ist.",
+      "Im Original bietet die Königin dem Männchen alle Reichtümer des Königreichs an, doch es will lieber „etwas Lebendes“ als alle Schätze der Welt; die kindgerechte Fassung lässt das weg.",
+      "Im Original ruft das Männchen „Das hat dir der Teufel gesagt!“; in der kindgerechten Fassung ist es „eine Hexe“.",
+      "Im Original stößt sich das Männchen vor Zorn bis an den Leib in die Erde und reißt sich selbst mitten entzwei; in der kindgerechten Fassung zappelt es sich heraus, hüpft davon und kommt nie wieder.",
+      "Das Original endet mit dem Tod des Männchens ohne Schlussformel; die kindgerechte Fassung schließt mit „Und wenn sie nicht gestorben sind, dann leben sie noch heute.“"
+    ],
+    "es": [
+      "En el original, el rey amenaza con la muerte a la hija del molinero si por la mañana la paja no está hilada en oro; en la versión infantil solo le exige que mañana todo sea oro.",
+      "En el original, la reina ofrece al hombrecillo todas las riquezas del reino, pero él prefiere «algo vivo» a todos los tesoros del mundo; la versión infantil lo omite.",
+      "En el original, el hombrecillo grita «¡Eso te lo ha dicho el diablo!»; en la versión infantil es «una bruja».",
+      "En el original, el hombrecillo, de rabia, se hunde en la tierra hasta la cintura y se parte a sí mismo por la mitad; en la versión infantil sale como puede, se va dando saltos y nunca vuelve.",
+      "El original termina con la muerte del hombrecillo, sin fórmula final; la versión infantil acaba con «colorín colorado, este cuento se ha acabado»."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Es war einmal ein Müller, der war arm, aber er hatte eine schöne Tochter.",
+          "Nun traf es sich, dass er mit dem König zu sprechen kam.",
+          "Und um sich ein Ansehen zu geben, sagte er zu ihm: „Ich habe eine Tochter, die kann Stroh zu Gold spinnen.“"
+        ],
+        "es": [
+          "Érase una vez un molinero que era pobre, pero tenía una hija muy hermosa.",
+          "Un día se dio el caso de que tuvo que hablar con el rey.",
+          "Y, para darse importancia, le dijo: —Tengo una hija que sabe hilar la paja y convertirla en oro."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Der König sprach zum Müller: „Das ist eine Kunst, die mir wohl gefällt.“",
+          "„Wenn deine Tochter so geschickt ist, wie du sagst, so bring sie morgen in mein Schloss, da will ich sie auf die Probe stellen.“",
+          "Als nun das Mädchen zu ihm gebracht wurde, führte er es in eine Kammer, die ganz voll Stroh lag."
+        ],
+        "es": [
+          "El rey le dijo al molinero: —Ese es un arte que me agrada mucho.",
+          "—Si tu hija es tan hábil como dices, tráela mañana a mi castillo, que quiero ponerla a prueba.",
+          "Cuando le llevaron a la muchacha, el rey la condujo a un cuarto que estaba lleno de paja."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Er gab ihr Rad und Haspel und sprach: „Jetzt mache dich an die Arbeit, und wenn du diese Nacht durch bis morgen früh dieses Stroh nicht zu Gold versponnen hast, so musst du sterben.“",
+          "Darauf schloss er die Kammer selbst zu, und sie blieb allein darin.",
+          "Da saß nun die arme Müllerstochter und wusste um ihr Leben keinen Rat."
+        ],
+        "es": [
+          "Le dio un torno de hilar y una devanadera y le dijo: —Ahora ponte a trabajar, y si de aquí a mañana temprano no has hilado toda esta paja en oro, tendrás que morir.",
+          "Después cerró él mismo el cuarto con llave, y ella se quedó allí sola.",
+          "Allí estaba la pobre hija del molinero, sin saber qué hacer para salvar su vida."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Sie verstand gar nichts davon, wie man Stroh zu Gold spinnen konnte, und ihre Angst wurde immer größer, dass sie endlich zu weinen anfing.",
+          "Da ging auf einmal die Türe auf, und trat ein kleines Männchen herein und sprach: „Guten Abend, Jungfer Müllerin, warum weint Sie so sehr?“",
+          "„Ach“, antwortete das Mädchen, „ich soll Stroh zu Gold spinnen und verstehe das nicht.“"
+        ],
+        "es": [
+          "No entendía nada de cómo se podía hilar la paja en oro, y su miedo era cada vez mayor, hasta que por fin se echó a llorar.",
+          "De pronto se abrió la puerta, entró un hombrecillo y dijo: —Buenas noches, señorita molinera, ¿por qué llora usted tanto?",
+          "—¡Ay! —contestó la muchacha—. Tengo que hilar la paja en oro y no sé cómo se hace."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Sprach das Männchen: „Was gibst du mir, wenn ich dir's spinne?“",
+          "„Mein Halsband“, sagte das Mädchen.",
+          "Das Männchen nahm das Halsband, setzte sich vor das Rädchen, und schnurr, schnurr, schnurr, dreimal gezogen, war die Spule voll.",
+          "Dann steckte es eine andere auf, und schnurr, schnurr, schnurr, dreimal gezogen, war auch die zweite voll."
+        ],
+        "es": [
+          "—¿Qué me das si te la hilo? —preguntó el hombrecillo.",
+          "—Mi collar —dijo la muchacha.",
+          "El hombrecillo tomó el collar, se sentó delante de la rueca y, ¡zum, zum, zum!, tres vueltas, y el carrete estaba lleno.",
+          "Luego puso otro, y ¡zum, zum, zum!, tres vueltas, y también el segundo estaba lleno."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Und so ging's fort bis zum Morgen, da war alles Stroh versponnen, und alle Spulen waren voll Gold.",
+          "Bei Sonnenaufgang kam schon der König, und als er das Gold erblickte, erstaunte er und freute sich, aber sein Herz wurde nur noch geldgieriger.",
+          "Er ließ die Müllerstochter in eine andere Kammer voll Stroh bringen, die noch viel größer war."
+        ],
+        "es": [
+          "Y así siguió hasta la mañana; entonces toda la paja estaba hilada y todos los carretes estaban llenos de oro.",
+          "Al salir el sol ya llegó el rey, y cuando vio el oro se asombró y se alegró, pero su corazón se volvió todavía más codicioso.",
+          "Mandó llevar a la hija del molinero a otro cuarto lleno de paja, que era mucho más grande."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Er befahl ihr, das auch in einer Nacht zu spinnen, wenn ihr das Leben lieb wäre.",
+          "Das Mädchen wusste sich nicht zu helfen und weinte.",
+          "Da ging abermals die Türe auf, und das kleine Männchen erschien und sprach: „Was gibst du mir, wenn ich dir das Stroh zu Gold spinne?“",
+          "„Meinen Ring von dem Finger“, antwortete das Mädchen."
+        ],
+        "es": [
+          "Le ordenó que también aquello lo hilara en una sola noche, si le tenía apego a la vida.",
+          "La muchacha no sabía qué hacer y se puso a llorar.",
+          "Entonces se abrió otra vez la puerta, apareció el hombrecillo y dijo: —¿Qué me das si te hilo la paja en oro?",
+          "—El anillo de mi dedo —contestó la muchacha."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Das Männchen nahm den Ring, fing wieder an zu schnurren mit dem Rade und hatte bis zum Morgen alles Stroh zu glänzendem Gold gesponnen.",
+          "Der König freute sich über die Maßen bei dem Anblick, war aber noch immer nicht Goldes satt.",
+          "Er ließ die Müllerstochter in eine noch größere Kammer voll Stroh bringen."
+        ],
+        "es": [
+          "El hombrecillo tomó el anillo, volvió a hacer zumbar la rueca y, para cuando amaneció, había hilado toda la paja en oro reluciente.",
+          "El rey se alegró sin medida al verlo, pero todavía no estaba harto de oro.",
+          "Mandó llevar a la hija del molinero a un cuarto lleno de paja aún más grande."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Dann sprach er: „Die musst du noch in dieser Nacht verspinnen; gelingt dir's aber, so sollst du meine Gemahlin werden.“",
+          "„Wenn's auch eine Müllerstochter ist“, dachte er, „eine reichere Frau finde ich in der ganzen Welt nicht.“",
+          "Als das Mädchen allein war, kam das Männlein zum dritten Mal wieder und sprach: „Was gibst du mir, wenn ich dir noch diesmal das Stroh spinne?“"
+        ],
+        "es": [
+          "Y le dijo: —Esta paja tienes que hilarla también esta noche; pero si lo consigues, serás mi esposa.",
+          "«Aunque sea la hija de un molinero —pensó—, una mujer más rica no la encuentro en todo el mundo».",
+          "Cuando la muchacha se quedó sola, volvió el hombrecillo por tercera vez y dijo: —¿Qué me das si te hilo la paja también esta vez?"
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "„Ich habe nichts mehr, das ich geben könnte“, antwortete das Mädchen.",
+          "„So versprich mir, wenn du Königin wirst, dein erstes Kind.“",
+          "„Wer weiß, wie das noch geht“, dachte die Müllerstochter und wusste sich auch in der Not nicht anders zu helfen.",
+          "Sie versprach also dem Männchen, was es verlangte, und das Männchen spann dafür noch einmal das Stroh zu Gold."
+        ],
+        "es": [
+          "—Ya no tengo nada que pueda darte —contestó la muchacha.",
+          "—Entonces prométeme que, si llegas a ser reina, me darás tu primer hijo.",
+          "«Quién sabe lo que pasará», pensó la hija del molinero, y como en su apuro no sabía qué otra cosa hacer, se lo prometió.",
+          "Y el hombrecillo, a cambio, hiló una vez más la paja en oro."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Und als am Morgen der König kam und alles fand, wie er gewünscht hatte, so hielt er Hochzeit mit ihr.",
+          "Und die schöne Müllerstochter wurde eine Königin.",
+          "Über ein Jahr brachte sie ein schönes Kind zur Welt und dachte gar nicht mehr an das Männchen."
+        ],
+        "es": [
+          "Y cuando por la mañana llegó el rey y lo encontró todo como él había deseado, se casó con ella.",
+          "Y así la hermosa hija del molinero se convirtió en reina.",
+          "Al cabo de un año trajo al mundo un niño precioso, y ya ni se acordaba del hombrecillo."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Da trat das Männchen plötzlich in ihre Kammer und sprach: „Nun gib mir, was du versprochen hast.“",
+          "Die Königin erschrak und bot dem Männchen alle Reichtümer des Königreichs an, wenn es ihr das Kind lassen wollte.",
+          "Aber das Männchen sprach: „Nein, etwas Lebendes ist mir lieber als alle Schätze der Welt.“",
+          "Da fing die Königin so an zu jammern und zu weinen, dass das Männchen Mitleiden mit ihr hatte."
+        ],
+        "es": [
+          "Pero, de repente, el hombrecillo entró en su habitación y dijo: —Ahora dame lo que me prometiste.",
+          "La reina se asustó y le ofreció todas las riquezas del reino si le dejaba quedarse con el niño.",
+          "Pero el hombrecillo dijo: —No, prefiero algo vivo a todos los tesoros del mundo.",
+          "Entonces la reina empezó a lamentarse y a llorar de tal manera que el hombrecillo sintió lástima de ella."
+        ]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "„Drei Tage will ich dir Zeit lassen“, sprach er, „wenn du bis dahin meinen Namen weißt, so sollst du dein Kind behalten.“",
+          "Nun besann sich die Königin die ganze Nacht über auf alle Namen, die sie jemals gehört hatte.",
+          "Und sie schickte einen Boten über Land, der sollte sich erkundigen weit und breit, was es sonst noch für Namen gäbe."
+        ],
+        "es": [
+          "—Te doy tres días de plazo —dijo—. Si para entonces sabes mi nombre, podrás quedarte con tu hijo.",
+          "La reina pasó toda la noche pensando en todos los nombres que había oído en su vida.",
+          "Y envió a un mensajero por todo el país para que averiguara, a lo largo y a lo ancho, qué otros nombres había."
+        ]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "Als am andern Tag das Männchen kam, fing sie an mit Kaspar, Melchior, Balzer und sagte alle Namen, die sie wusste, nach der Reihe her.",
+          "Aber bei jedem sprach das Männlein: „So heiß ich nicht.“",
+          "Den zweiten Tag ließ sie in der Nachbarschaft herumfragen, wie die Leute da genannt würden.",
+          "Und sie sagte dem Männlein die ungewöhnlichsten und seltsamsten Namen vor: „Heißt du vielleicht Rippenbiest oder Hammelswade oder Schnürbein?“"
+        ],
+        "es": [
+          "Al día siguiente, cuando llegó el hombrecillo, ella empezó por Gaspar, Melchor, Baltasar, y le fue diciendo todos los nombres que sabía.",
+          "Pero a cada uno él contestaba: —Así no me llamo.",
+          "El segundo día mandó preguntar en la vecindad cómo se llamaba la gente.",
+          "Y le dijo los nombres más raros y extraños: —¿Te llamas quizá Costilla de Bestia, o Pata de Carnero, o Pierna de Cordón?"
+        ]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "Aber es antwortete immer: „So heiß ich nicht.“",
+          "Den dritten Tag kam der Bote wieder zurück und erzählte: „Neue Namen habe ich keinen einzigen finden können.“",
+          "„Aber wie ich an einen hohen Berg um die Waldecke kam, wo Fuchs und Has sich gute Nacht sagen, so sah ich da ein kleines Haus.“"
+        ],
+        "es": [
+          "Pero él contestaba siempre: —Así no me llamo.",
+          "El tercer día volvió el mensajero y contó: —No he podido encontrar ni un solo nombre nuevo.",
+          "—Pero cuando llegué a una montaña muy alta, a la vuelta del bosque, allí donde el zorro y la liebre se dan las buenas noches, vi una casita."
+        ]
+      }
+    },
+    {
+      "image": "p16.svg",
+      "text": {
+        "de": [
+          "„Vor dem Haus brannte ein Feuer, und um das Feuer sprang ein gar zu lächerliches Männchen, hüpfte auf einem Bein und schrie:",
+          "‚Heute back ich, morgen brau ich, übermorgen hol ich der Königin ihr Kind; ach, wie gut ist, dass niemand weiß, dass ich Rumpelstilzchen heiß!‘“",
+          "Da könnt ihr denken, wie die Königin froh war, als sie den Namen hörte."
+        ],
+        "es": [
+          "—Delante de la casa ardía una hoguera, y alrededor del fuego saltaba un hombrecillo de lo más ridículo, brincaba a la pata coja y gritaba:",
+          "«Hoy horneo pan, mañana hago cerveza, pasado me llevo al niño de la reina; ¡ay, qué bien que nadie sepa que me llamo Rumpelstiltskin!».",
+          "Ya os podéis imaginar lo contenta que se puso la reina cuando oyó el nombre."
+        ]
+      }
+    },
+    {
+      "image": "p17.svg",
+      "text": {
+        "de": [
+          "Und als bald hernach das Männlein hereintrat und fragte: „Nun, Frau Königin, wie heiß ich?“, fragte sie erst: „Heißest du Kunz?“ – „Nein.“",
+          "„Heißest du Heinz?“ – „Nein.“",
+          "„Heißt du etwa Rumpelstilzchen?“"
+        ],
+        "es": [
+          "Y cuando poco después entró el hombrecillo y preguntó: «Bueno, señora reina, ¿cómo me llamo?», ella preguntó primero: —¿Te llamas Conrado? —No.",
+          "—¿Te llamas Enrique? —No.",
+          "—¿Te llamas acaso Rumpelstiltskin?"
+        ]
+      }
+    },
+    {
+      "image": "p18.svg",
+      "text": {
+        "de": [
+          "„Das hat dir der Teufel gesagt, das hat dir der Teufel gesagt!“, schrie das Männlein.",
+          "Und es stieß mit dem rechten Fuß vor Zorn so tief in die Erde, dass es bis an den Leib hineinfuhr.",
+          "Dann packte es in seiner Wut den linken Fuß mit beiden Händen und riss sich selbst mitten entzwei."
+        ],
+        "es": [
+          "—¡Eso te lo ha dicho el diablo, eso te lo ha dicho el diablo! —gritó el hombrecillo.",
+          "Y de rabia dio con el pie derecho un pisotón tan fuerte en el suelo que se hundió hasta la cintura.",
+          "Luego, furioso, se agarró el pie izquierdo con las dos manos y se partió a sí mismo por la mitad."
+        ]
+      }
+    }
+  ]
+}

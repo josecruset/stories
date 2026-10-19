@@ -38,6 +38,7 @@ body {
   padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
+[hidden] { display: none !important; }
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 
 button { font: inherit; }
@@ -178,6 +179,9 @@ button { font: inherit; }
 }
 .badge.done { background: var(--listen); color: var(--listen-text); }
 .badge.decide { background: var(--read); color: var(--read-text); }
+.badge.orig { right: auto; left: 22px; background: #f3e3c3; color: #5a3d12; }
+.cover-tag { display: inline-block; margin: 0 0 12px; padding: 5px 12px; border-radius: 999px; background: #f3e3c3; color: #5a3d12; font: 600 14px var(--display); }
+.footer-links { display: inline-flex; flex-wrap: wrap; gap: 8px 20px; }
 
 .book-body { display: flex; flex-direction: column; gap: 8px; padding: 14px 16px 16px; flex: 1; }
 .book-origin { margin: 0; color: var(--accent); font: 600 13px var(--display); letter-spacing: .3px; text-transform: uppercase; }
@@ -487,3 +491,40 @@ button { font: inherit; }
 .ending.now { box-shadow: inset 0 0 0 3px var(--accent); }
 .ending-chip-icon { font-size: 20px; }
 @media (prefers-reduced-motion: reduce) { .choice.nudge, .ending-icon { animation: none; } }
+
+/* ---------- Eltern-Seite ---------- */
+.parents main { max-width: 860px; }
+.back-link { display: inline-block; margin: 18px 0 4px; color: var(--muted); text-decoration: none; font-weight: 600; }
+.back-link:hover { color: var(--text); }
+.parents-title { font: 700 clamp(30px, 6vw, 44px)/1.1 var(--display); margin: 6px 0 18px; }
+.parents-intro { color: var(--text); font-size: 17px; max-width: 64ch; margin: 0 0 22px; text-wrap: pretty; }
+.gate { background: var(--bg-2); border-radius: var(--radius); padding: 20px; max-width: 460px; display: grid; gap: 12px; }
+.gate label { font-size: 17px; }
+.gate strong { font: 700 22px var(--display); white-space: nowrap; }
+.gate-row { display: flex; gap: 10px; }
+.gate input { flex: 1; min-width: 0; font: 600 22px var(--display); padding: 10px 14px; border-radius: 14px; border: 2px solid var(--surface-2); background: var(--surface); color: var(--text); }
+.gate-error { margin: 0; color: #ff9b9b; }
+.panel { background: var(--bg-2); border-radius: var(--radius); padding: 18px; margin-bottom: 18px; border: 1px solid rgba(255, 255, 255, .06); }
+.panel h2 { font: 600 21px var(--display); margin: 0 0 12px; }
+.panel .hint { color: var(--muted); margin: -4px 0 14px; }
+.seg { display: inline-flex; flex-wrap: wrap; gap: 4px; padding: 4px; border-radius: 16px; background: var(--surface); }
+.seg-btn { border: 0; cursor: pointer; padding: 10px 16px; border-radius: 12px; background: transparent; color: var(--muted); font: 600 17px var(--display); }
+.seg-btn.on { background: var(--read); color: var(--read-text); box-shadow: 0 2px 0 rgba(0, 0, 0, .25); }
+.seg.small .seg-btn { padding: 7px 11px; font-size: 14px; }
+.tale-list { display: grid; gap: 12px; }
+.tale { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 14px; align-items: start; padding: 12px; border-radius: 16px; background: var(--surface); }
+.tale-cover { width: 64px; aspect-ratio: 3 / 4; object-fit: cover; border-radius: 4px 9px 9px 4px; }
+.tale-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 14px; }
+.tale h3 { margin: 0; font: 600 19px var(--display); }
+.tale-origin { margin: 0; color: var(--muted); font-size: 13px; }
+.tale .seg { background: var(--bg-2); }
+.tale-diff { margin-top: 8px; }
+.tale-diff summary { cursor: pointer; color: var(--read); font-weight: 600; }
+.tale-diff ul { margin: 8px 0 0; padding-left: 20px; display: grid; gap: 6px; }
+.panel .same { margin: 14px 0 0; }
+.toast { position: fixed; left: 50%; bottom: 24px; transform: translate(-50%, 20px); opacity: 0; margin: 0; padding: 10px 18px; border-radius: 999px; background: var(--listen); color: var(--listen-text); font-weight: 700; transition: opacity .25s ease, transform .25s ease; pointer-events: none; }
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+@media (max-width: 480px) {
+  .tale { grid-template-columns: 48px minmax(0, 1fr); gap: 10px; }
+  .tale-cover { width: 48px; }
+}

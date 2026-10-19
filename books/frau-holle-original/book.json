@@ -1,0 +1,296 @@
+{
+  "id": "frau-holle-original",
+  "variantOf": "frau-holle",
+  "version": "original",
+  "shelf": "maerchen",
+  "origin": {
+    "de": "Brüder Grimm, 1857",
+    "es": "Hermanos Grimm, 1857"
+  },
+  "accent": "#5b7fe0",
+  "age": 5,
+  "title": {
+    "de": "Frau Holle",
+    "es": "Doña Holle"
+  },
+  "blurb": {
+    "de": "Die fleißige Stieftochter springt in den Brunnen, dient bei Frau Holle und kehrt mit Gold bedeckt heim; ihre faule Schwester kommt voller Pech zurück. Das Märchen in der Fassung der Brüder Grimm von 1857.",
+    "es": "La hijastra trabajadora salta al pozo, sirve a Doña Holle y vuelve a casa cubierta de oro; su hermana perezosa regresa cubierta de brea. El cuento en la versión de los hermanos Grimm de 1857."
+  },
+  "differences": {
+    "de": [
+      "Im Original muss das Mädchen spinnen, bis ihm das Blut aus den Fingern springt, und die Spule fällt beim Abwaschen des Blutes in den Brunnen; in der kindgerechten Fassung tun ihm nur die Finger weh.",
+      "Im Original heißt es offen, dass die Mutter ihre hässliche, faule eigene Tochter viel lieber hat und die Stieftochter der „Aschenputtel im Hause“ ist.",
+      "Im Original sticht sich die Faule absichtlich in die Finger und stößt die Hand in die Dornhecke, damit ihre Spule blutig wird; in der kindgerechten Fassung wirft sie die Spule einfach hinein.",
+      "Im Original ist die Faule am ersten Tag noch fleißig, weil sie an das Gold denkt, und antwortet Brot und Apfelbaum schnippisch; die kindgerechte Fassung kürzt das.",
+      "Im Original bleibt das Pech an der Faulen hängen, solange sie lebt; in der kindgerechten Fassung geht es irgendwann ab, und sie wird danach fleißig."
+    ],
+    "es": [
+      "En el original, la muchacha tiene que hilar hasta que la sangre le salta de los dedos, y el huso cae al pozo cuando intenta lavar la sangre; en la versión infantil solo le duelen los dedos.",
+      "En el original se dice abiertamente que la madre quiere mucho más a su propia hija, fea y perezosa, y que la hijastra es «la cenicienta de la casa».",
+      "En el original, la perezosa se pincha los dedos a propósito y mete la mano en un seto de espinos para manchar de sangre su huso; en la versión infantil simplemente lo tira al pozo.",
+      "En el original, la perezosa trabaja el primer día pensando en el oro y contesta con desdén al pan y al manzano; la versión infantil lo resume.",
+      "En el original, la brea no se le quita en toda su vida; en la versión infantil acaba saliendo y ella se vuelve trabajadora."
+    ]
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Eine Witwe hatte zwei Töchter, davon war die eine schön und fleißig, die andere hässlich und faul.",
+          "Sie hatte aber die hässliche und faule, weil sie ihre rechte Tochter war, viel lieber.",
+          "Die andere musste alle Arbeit tun und der Aschenputtel im Hause sein."
+        ],
+        "es": [
+          "Una viuda tenía dos hijas: una era guapa y trabajadora, y la otra, fea y perezosa.",
+          "Pero ella quería mucho más a la fea y perezosa, porque era su verdadera hija.",
+          "La otra tenía que hacer todo el trabajo y ser la cenicienta de la casa."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Das arme Mädchen musste sich täglich auf die große Straße bei einem Brunnen setzen und so viel spinnen, dass ihm das Blut aus den Fingern sprang.",
+          "Nun trug es sich zu, dass die Spule einmal ganz blutig war.",
+          "Da bückte es sich damit in den Brunnen und wollte sie abwaschen.",
+          "Sie sprang ihm aber aus der Hand und fiel hinab."
+        ],
+        "es": [
+          "La pobre muchacha tenía que sentarse cada día junto a un pozo, al lado del camino real, y hilar tanto que la sangre le saltaba de los dedos.",
+          "Un día sucedió que el huso quedó todo manchado de sangre.",
+          "Entonces ella se inclinó sobre el pozo para lavarlo.",
+          "Pero el huso se le escapó de la mano y cayó al fondo."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Es weinte, lief zur Stiefmutter und erzählte ihr das Unglück.",
+          "Sie schalt es aber so heftig und war so unbarmherzig, dass sie sprach: „Hast du die Spule hinunterfallen lassen, so hol sie auch wieder herauf.“",
+          "Da ging das Mädchen zu dem Brunnen zurück und wusste nicht, was es anfangen sollte."
+        ],
+        "es": [
+          "La muchacha, llorando, corrió a contarle la desgracia a su madrastra.",
+          "Pero esta la regañó con tanta dureza y fue tan despiadada que le dijo: —Si has dejado caer el huso, ve tú a sacarlo.",
+          "Entonces la muchacha volvió al pozo y no sabía qué hacer."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "In seiner Herzensangst sprang es in den Brunnen hinein, um die Spule zu holen.",
+          "Es verlor die Besinnung.",
+          "Und als es erwachte und wieder zu sich selber kam, war es auf einer schönen Wiese, wo die Sonne schien und vieltausend Blumen standen."
+        ],
+        "es": [
+          "Y, con el corazón lleno de angustia, saltó dentro del pozo para recoger el huso.",
+          "Allí perdió el sentido.",
+          "Y cuando despertó y volvió en sí, estaba en un hermoso prado donde brillaba el sol y había miles y miles de flores."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Auf dieser Wiese ging es fort und kam zu einem Backofen, der war voller Brot.",
+          "Das Brot aber rief: „Ach, zieh mich raus, zieh mich raus, sonst verbrenn ich, ich bin schon längst ausgebacken.“",
+          "Da trat es herzu und holte mit dem Brotschieber alles nacheinander heraus."
+        ],
+        "es": [
+          "Echó a andar por el prado y llegó a un horno lleno de pan.",
+          "Y el pan gritaba: —¡Ay, sácame, sácame, que me quemo, que ya hace rato que estoy cocido!",
+          "Ella se acercó y, con la pala del horno, fue sacando todos los panes, uno tras otro."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Danach ging es weiter und kam zu einem Baum, der hing voll Äpfel.",
+          "Der Baum rief ihm zu: „Ach, schüttel mich, schüttel mich, wir Äpfel sind alle miteinander reif.“",
+          "Da schüttelte es den Baum, dass die Äpfel fielen, als regneten sie, und schüttelte, bis keiner mehr oben war.",
+          "Und als es alle auf einen Haufen zusammengelegt hatte, ging es wieder weiter."
+        ],
+        "es": [
+          "Después siguió caminando y llegó a un árbol cargado de manzanas.",
+          "El árbol le gritó: —¡Ay, sacúdeme, sacúdeme, que mis manzanas ya están todas maduras!",
+          "Ella sacudió el árbol, y las manzanas caían como si lloviera, y siguió sacudiendo hasta que no quedó ni una arriba.",
+          "Y cuando las hubo juntado todas en un montón, siguió su camino."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Endlich kam es zu einem kleinen Haus, daraus guckte eine alte Frau.",
+          "Weil sie aber so große Zähne hatte, wurde ihm angst, und es wollte fortlaufen.",
+          "Die alte Frau aber rief ihm nach: „Was fürchtest du dich, liebes Kind?“",
+          "„Bleib bei mir; wenn du alle Arbeit im Hause ordentlich tun willst, so soll dir's gut gehen.“"
+        ],
+        "es": [
+          "Por fin llegó a una casita, y desde ella asomaba la cabeza una anciana.",
+          "Pero como tenía unos dientes tan grandes, la muchacha se asustó y quiso salir corriendo.",
+          "La anciana le gritó: —¿De qué tienes miedo, niña querida?",
+          "—Quédate conmigo; si haces bien todas las tareas de la casa, te irá muy bien."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "„Du musst nur Acht geben, dass du mein Bett gut machst und es fleißig aufschüttelst, dass die Federn fliegen, dann schneit es in der Welt; ich bin die Frau Holle.“",
+          "Weil die Alte ihm so gut zusprach, fasste sich das Mädchen ein Herz und begab sich in ihren Dienst.",
+          "Es schüttelte ihr das Bett immer gewaltig, dass die Federn wie Schneeflocken umherflogen.",
+          "Dafür hatte es auch ein gut Leben bei ihr, kein böses Wort und alle Tage Gesottenes und Gebratenes."
+        ],
+        "es": [
+          "—Solo tienes que hacerme bien la cama y sacudirla con fuerza, para que vuelen las plumas, porque entonces nieva allá abajo, en la tierra. Yo soy Doña Holle.",
+          "Como la anciana le hablaba con tanta bondad, la muchacha se armó de valor y se quedó a servirla.",
+          "Sacudía siempre la cama con tanta fuerza que las plumas volaban como copos de nieve.",
+          "A cambio vivía muy bien con ella: nunca una mala palabra, y todos los días cocido y asado."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Nun war es eine Zeitlang bei der Frau Holle, da wurde es traurig und wusste anfangs selbst nicht, was ihm fehlte.",
+          "Endlich merkte es, dass es Heimweh war, obwohl es ihm hier vieltausendmal besser ging als zu Haus.",
+          "Da sagte es zu ihr: „Ich habe den Jammer nach Haus gekriegt, und wenn es mir auch noch so gut hier unten geht, so kann ich doch nicht länger bleiben; ich muss wieder hinauf zu den Meinigen.“"
+        ],
+        "es": [
+          "Llevaba ya un tiempo en casa de Doña Holle cuando se puso triste, y al principio ni ella misma sabía qué le pasaba.",
+          "Por fin comprendió que echaba de menos su casa, aunque allí estaba mil veces mejor.",
+          "Entonces le dijo: —Añoro mi casa, y aunque aquí abajo me vaya tan bien, no puedo quedarme más; tengo que volver arriba, con los míos."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Die Frau Holle sagte: „Es gefällt mir, dass du wieder nach Haus verlangst, und weil du mir so treu gedient hast, so will ich dich selbst wieder hinaufbringen.“",
+          "Sie nahm es bei der Hand und führte es vor ein großes Tor.",
+          "Das Tor wurde aufgetan, und wie das Mädchen gerade darunter stand, fiel ein gewaltiger Goldregen, und alles Gold blieb an ihm hängen, sodass es über und über davon bedeckt war."
+        ],
+        "es": [
+          "Doña Holle le dijo: —Me gusta que quieras volver a tu casa, y como me has servido con tanta fidelidad, yo misma te llevaré arriba.",
+          "La tomó de la mano y la llevó ante un gran portón.",
+          "El portón se abrió y, justo cuando la muchacha estaba debajo, cayó una tremenda lluvia de oro; todo el oro se le quedó pegado y quedó cubierta de oro de arriba abajo."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "„Das sollst du haben, weil du so fleißig gewesen bist“, sprach die Frau Holle und gab ihm auch die Spule wieder, die ihm in den Brunnen gefallen war.",
+          "Darauf wurde das Tor verschlossen, und das Mädchen befand sich oben auf der Welt, nicht weit von seiner Mutter Haus.",
+          "Als es in den Hof kam, saß der Hahn auf dem Brunnen und rief: „Kikeriki, unsere goldene Jungfrau ist wieder hie.“"
+        ],
+        "es": [
+          "—Esto es para ti, por lo trabajadora que has sido —dijo Doña Holle, y le devolvió también el huso que se le había caído al pozo.",
+          "Luego se cerró el portón, y la muchacha se encontró arriba, en el mundo, no lejos de la casa de su madre.",
+          "Al entrar en el patio, el gallo, subido al pozo, cantó: —¡Quiquiriquí, nuestra doncella de oro ya está aquí!"
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Weil es so mit Gold bedeckt ankam, wurde es von der Mutter und der Schwester gut aufgenommen.",
+          "Als die Mutter hörte, wie es zu dem großen Reichtum gekommen war, wollte sie der hässlichen und faulen Tochter gerne dasselbe Glück verschaffen.",
+          "Die musste sich an den Brunnen setzen und spinnen; und damit ihre Spule blutig wurde, stach sie sich in die Finger und stieß sich die Hand in die Dornhecke.",
+          "Dann warf sie die Spule in den Brunnen und sprang selber hinein."
+        ],
+        "es": [
+          "Como llegaba tan cubierta de oro, su madre y su hermana la recibieron muy bien.",
+          "Cuando la madre oyó cómo había conseguido tanta riqueza, quiso la misma suerte para su otra hija, la fea y perezosa.",
+          "Esta tuvo que sentarse a hilar junto al pozo; y, para que su huso quedara manchado de sangre, se pinchó los dedos y metió la mano en el seto de espinos.",
+          "Luego tiró el huso al pozo y saltó ella detrás."
+        ]
+      }
+    },
+    {
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "Sie kam wie die andere auf die schöne Wiese.",
+          "Als sie zu dem Backofen gelangte, schrie das Brot wieder: „Ach, zieh mich raus, zieh mich raus, sonst verbrenn ich, ich bin schon längst ausgebacken.“",
+          "Die Faule aber antwortete: „Da hätt ich Lust, mich schmutzig zu machen“, und ging fort.",
+          "Bald kam sie zu dem Apfelbaum, der rief: „Ach, schüttel mich, schüttel mich, wir Äpfel sind alle miteinander reif.“",
+          "Sie antwortete aber: „Du kommst mir recht, es könnte mir einer auf den Kopf fallen“, und ging damit weiter."
+        ],
+        "es": [
+          "Llegó, igual que la otra, al hermoso prado.",
+          "Al llegar al horno, el pan volvió a gritar: —¡Ay, sácame, sácame, que me quemo, que ya hace rato que estoy cocido!",
+          "Pero la perezosa respondió: —¡Pues sí que tengo yo ganas de ensuciarme! —y se fue.",
+          "Pronto llegó al manzano, que gritó: —¡Ay, sacúdeme, sacúdeme, que mis manzanas ya están todas maduras!",
+          "Pero ella respondió: —¡Lo que faltaba, que me caiga una en la cabeza! —y siguió adelante."
+        ]
+      }
+    },
+    {
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "Als sie vor der Frau Holle Haus kam, fürchtete sie sich nicht, weil sie von ihren großen Zähnen schon gehört hatte, und verdingte sich gleich zu ihr.",
+          "Am ersten Tag tat sie sich Gewalt an, war fleißig und folgte der Frau Holle, denn sie dachte an das viele Gold, das sie ihr schenken würde.",
+          "Am zweiten Tag aber fing sie schon an zu faulenzen, am dritten noch mehr, da wollte sie morgens gar nicht aufstehen."
+        ],
+        "es": [
+          "Cuando llegó a la casa de Doña Holle, no tuvo miedo, porque ya había oído hablar de sus grandes dientes, y enseguida entró a servirla.",
+          "El primer día se esforzó, fue trabajadora y obedeció a Doña Holle, porque pensaba en todo el oro que le iba a regalar.",
+          "Pero el segundo día ya empezó a holgazanear, el tercero todavía más, y por las mañanas no quería ni levantarse."
+        ]
+      }
+    },
+    {
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "Sie machte auch der Frau Holle das Bett nicht, wie sich's gebührte, und schüttelte es nicht, dass die Federn aufflogen.",
+          "Das wurde die Frau Holle bald müde und sagte ihr den Dienst auf.",
+          "Die Faule war das wohl zufrieden und meinte, nun würde der Goldregen kommen.",
+          "Die Frau Holle führte sie auch zu dem Tor; als sie aber darunter stand, wurde statt des Goldes ein großer Kessel voll Pech ausgeschüttet.",
+          "„Das ist zur Belohnung deiner Dienste“, sagte die Frau Holle und schloss das Tor zu."
+        ],
+        "es": [
+          "Tampoco le hacía la cama a Doña Holle como es debido, ni la sacudía para que volaran las plumas.",
+          "Doña Holle pronto se cansó y la despidió.",
+          "La perezosa se puso muy contenta, pensando que ahora vendría la lluvia de oro.",
+          "Doña Holle la llevó también al portón, pero cuando estuvo debajo, en lugar de oro le cayó encima un gran caldero lleno de brea.",
+          "—Esto es en pago de tus servicios —dijo Doña Holle, y cerró el portón."
+        ]
+      }
+    },
+    {
+      "image": "p16.svg",
+      "text": {
+        "de": [
+          "Da kam die Faule heim, aber sie war ganz mit Pech bedeckt.",
+          "Und der Hahn auf dem Brunnen, als er sie sah, rief: „Kikeriki, unsere schmutzige Jungfrau ist wieder hie.“",
+          "Das Pech aber blieb fest an ihr hängen und wollte, so lange sie lebte, nicht abgehen."
+        ],
+        "es": [
+          "Así volvió la perezosa a casa, toda cubierta de brea.",
+          "Y el gallo, subido al pozo, al verla cantó: —¡Quiquiriquí, nuestra doncella sucia ya está aquí!",
+          "Y la brea se le quedó bien pegada y, mientras vivió, no hubo manera de quitársela."
+        ]
+      }
+    }
+  ]
+}

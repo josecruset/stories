@@ -64,14 +64,22 @@ function apiKey() {
 }
 const KEY = apiKey();
 
-async function api(path, init, tries = 4) {
+async function api(path, init, tries = 6) {
   for (let i = 1; ; i++) {
-    const res = await fetch('https://api.openai.com/v1/' + path, {
-      ...init, headers: { Authorization: `Bearer ${KEY}`, ...(init.headers || {}) },
-    });
+    let res;
+    try {
+      res = await fetch('https://api.openai.com/v1/' + path, {
+        ...init, headers: { Authorization: `Bearer ${KEY}`, ...(init.headers || {}) },
+      });
+    } catch (e) {
+      // Netzwerkfehler (Timeout, Verbindung abgebrochen): kurz warten und erneut versuchen
+      if (i >= tries) throw e;
+      await new Promise((r) => setTimeout(r, 3000 * i));
+      continue;
+    }
     if (res.ok) return res;
     const body = await res.text();
-    if (i >= tries || ![408, 429, 500, 502, 503, 504].includes(res.status)) {
+    if (/insufficient_quota|credit_balance/.test(body) || i >= tries || ![408, 429, 500, 502, 503, 504].includes(res.status)) {
       const err = new Error(`${path}: HTTP ${res.status} ${body.slice(0, 300)}`);
       err.status = res.status;
       err.body = body;
