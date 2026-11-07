@@ -1,0 +1,738 @@
+{
+  "id": "spuernasen-hund",
+  "accent": "#2f7fd8",
+  "age": 7,
+  "shelf": "interaktiv",
+  "interactive": true,
+  "title": {
+    "de": "Die Spürnasen und der verschwundene Preishund",
+    "es": "Los Sabuesos y el perro campeón desaparecido"
+  },
+  "blurb": {
+    "de": "Kurz vor der großen Hundeausstellung ist Pudel Prinz verschwunden! Ermittle mit Ben, Leo, Marie und Hund Fips, folge den Spuren und entscheide selbst, wie die Spürnasen den Fall lösen.",
+    "es": "¡Justo antes del gran concurso canino, el caniche Príncipe ha desaparecido! Investiga con Ben, Leo, Marie y el perro Fips, sigue las pistas y decide tú cómo resuelven el caso los Sabuesos."
+  },
+  "endings": [
+    {
+      "id": "freundin",
+      "icon": "🐕",
+      "title": {
+        "de": "Prinz und Flocke",
+        "es": "Príncipe y Copito"
+      }
+    },
+    {
+      "id": "pokal",
+      "icon": "🏆",
+      "title": {
+        "de": "Pokal für zwei Spürnasen",
+        "es": "Una copa para dos sabuesos"
+      }
+    },
+    {
+      "id": "gauner",
+      "icon": "🚓",
+      "title": {
+        "de": "Der tollpatschige Gauner",
+        "es": "El ladrón patoso"
+      }
+    },
+    {
+      "id": "tim",
+      "icon": "🦆",
+      "title": {
+        "de": "Der Schokoladenpudel",
+        "es": "El caniche de chocolate"
+      }
+    },
+    {
+      "id": "salon",
+      "icon": "✂️",
+      "title": {
+        "de": "Die Bommelfrisur",
+        "es": "El peinado de pompones"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "start",
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Hoch oben in der alten Eiche hat die Bande der Spürnasen ihr Hauptquartier: ein Baumhaus mit Strickleiter.",
+          "Ben ist neun und der Anführer, seine rote Kappe trägt er immer verkehrt herum.",
+          "Leo hat eine Brille und einen grünen Rucksack voller Werkzeug.",
+          "Bens Schwester Marie ist sieben und hat heute ihre schönste rote Schleife im Zopf.",
+          "Und Fips, der kleine Terrier, hat die beste Nase von allen."
+        ],
+        "es": [
+          "En lo alto del viejo roble está el cuartel general de los Sabuesos: una casita del árbol.",
+          "Ben tiene nueve años y es el jefe; siempre lleva su gorra roja del revés.",
+          "Leo lleva gafas y una mochila verde llena de herramientas.",
+          "Marie, la hermana de Ben, tiene siete años y hoy lleva su lazo rojo más bonito.",
+          "Y Fips, el pequeño terrier, tiene el mejor olfato de todos."
+        ]
+      },
+      "next": "anruf"
+    },
+    {
+      "id": "anruf",
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Plötzlich ruft unten jemand: „Hilfe, Kinder, bitte helft mir!“",
+          "Es ist Frau von Hagen aus der Villa am Park, mit Hut und Perlenkette, aber ganz verweint.",
+          "„Mein Pudel Prinz ist verschwunden, und morgen ist doch die große Hundeausstellung!“",
+          "Marie klettert sofort hinunter und nimmt ihre Hand.",
+          "Ben setzt seine Kappe zurecht: „Keine Sorge, die Spürnasen finden ihn!“"
+        ],
+        "es": [
+          "De pronto, alguien grita desde abajo: —¡Socorro, niños, ayudadme, por favor!",
+          "Es la señora Von Hagen, la de la mansión del parque, con sombrero y collar de perlas, pero llorando a lágrima viva.",
+          "—¡Mi caniche Príncipe ha desaparecido, y mañana es el gran concurso canino!",
+          "Marie baja enseguida y le coge la mano.",
+          "Ben se coloca bien la gorra: —Tranquila, ¡los Sabuesos lo encontrarán!"
+        ]
+      },
+      "next": "garten"
+    },
+    {
+      "id": "garten",
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Im Garten der Villa steht Prinzens Körbchen leer, und das Gartentor ist offen.",
+          "Leo entdeckt kleine Pfotenabdrücke im Blumenbeet.",
+          "Am Zaun lehnt Tim, der Zeitungsjunge, und schaut schnell weg.",
+          "Und Frau von Hagen erinnert sich an einen blauen Lieferwagen, der heute früh langsam vorbeigefahren ist.",
+          "Welcher Spur sollen die Spürnasen zuerst folgen?"
+        ],
+        "es": [
+          "En el jardín de la mansión, la cestita de Príncipe está vacía y la verja, abierta.",
+          "Leo descubre unas huellas pequeñas en el parterre de flores.",
+          "Junto a la valla está Tim, el chico de los periódicos, que aparta la mirada muy rápido.",
+          "Y la señora Von Hagen recuerda una furgoneta azul que pasó despacito esta mañana.",
+          "¿Qué pista deben seguir primero los Sabuesos?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "🐾",
+          "color": "#4cc38a",
+          "label": {
+            "de": "Pfoten",
+            "es": "Huellas"
+          },
+          "to": "pfoten"
+        },
+        {
+          "icon": "📰",
+          "color": "#4aa3ff",
+          "label": {
+            "de": "Zeuge",
+            "es": "Testigo"
+          },
+          "to": "zeuge"
+        },
+        {
+          "icon": "🚐",
+          "color": "#ff9f43",
+          "label": {
+            "de": "Wagen",
+            "es": "Furgoneta"
+          },
+          "to": "wagen"
+        }
+      ]
+    },
+    {
+      "id": "pfoten",
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Fips drückt die Nase auf den Boden und schnüffelt los.",
+          "Leo hält seine Lupe über die Abdrücke: „Ganz klar, das sind Pudelpfoten!“",
+          "Die Spur führt durch den Park, an der Bäckerei vorbei, bis zu einem engen Tor.",
+          "Dahinter liegt ein dunkler Hinterhof voller Kisten und Mülltonnen.",
+          "Aus der Dunkelheit hört man ein leises Winseln."
+        ],
+        "es": [
+          "Fips pega el hocico al suelo y empieza a olfatear.",
+          "Leo pone la lupa sobre las huellas: —¡Está clarísimo, son patas de caniche!",
+          "El rastro cruza el parque, pasa por delante de la panadería y llega hasta un portón estrecho.",
+          "Detrás hay un patio oscuro lleno de cajas y cubos de basura.",
+          "Desde la oscuridad se oye un gemido suave."
+        ]
+      },
+      "next": "hinterhof"
+    },
+    {
+      "id": "hinterhof",
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Marie bleibt stehen und hält sich an Leos Ärmel fest.",
+          "„Da drin ist es so dunkel“, flüstert sie, „ich hab ein bisschen Angst.“",
+          "Ben holt tief Luft und knipst seine Taschenlampe an: „Ich gehe vor.“",
+          "Leo schlägt vor, lieber Bens und Maries Papa zu holen, denn der ist Polizist und stark wie ein Bär.",
+          "Soll Ben mutig allein hineingehen oder holen sie Papa?"
+        ],
+        "es": [
+          "Marie se detiene y se agarra a la manga de Leo.",
+          "—Ahí dentro está muy oscuro —susurra—. Me da un poquito de miedo.",
+          "Ben respira hondo y enciende su linterna: —Yo voy delante.",
+          "Leo propone ir a buscar al papá de Ben y Marie, que es policía y fuerte como un oso.",
+          "¿Debe Ben entrar solo y con valentía, o llaman a papá?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "💪",
+          "color": "#ff6b6b",
+          "label": {
+            "de": "Ben geht",
+            "es": "Ben entra"
+          },
+          "to": "hof-ben"
+        },
+        {
+          "icon": "👮",
+          "color": "#a77bf3",
+          "label": {
+            "de": "Papa holen",
+            "es": "Papá"
+          },
+          "to": "hof-papa"
+        }
+      ]
+    },
+    {
+      "id": "hof-ben",
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Ben schleicht zwischen den Kisten hindurch, das Herz klopft ihm bis zum Hals.",
+          "Unter der Treppe sitzt Prinz, weiß und flauschig, und neben ihm kuschelt sich eine kleine graue Straßenhündin.",
+          "„Die ist ganz dünn und einsam“, sagt Marie leise, „Prinz wollte sie bestimmt trösten.“",
+          "Doch Prinz will nicht von seiner neuen Freundin weg.",
+          "Wie locken sie ihn heraus?"
+        ],
+        "es": [
+          "Ben avanza a hurtadillas entre las cajas, con el corazón a mil.",
+          "Debajo de la escalera está Príncipe, blanco y esponjoso, y a su lado se acurruca una perrita callejera gris.",
+          "—Está muy flaca y sola —dice Marie bajito—. Seguro que Príncipe quería hacerle compañía.",
+          "Pero Príncipe no quiere separarse de su nueva amiga.",
+          "¿Cómo consiguen que salga?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "🌭",
+          "color": "#ffb547",
+          "label": {
+            "de": "Wurst",
+            "es": "Salchicha"
+          },
+          "to": "ende-flocke"
+        },
+        {
+          "icon": "🐶",
+          "color": "#4cc38a",
+          "label": {
+            "de": "Fips",
+            "es": "Fips"
+          },
+          "to": "festwiese"
+        }
+      ]
+    },
+    {
+      "id": "ende-flocke",
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Leo zieht ein Würstchen aus dem Rucksack, und beide Hunde kommen schwanzwedelnd heraus.",
+          "Marie streichelt die kleine Graue und nennt sie Flocke.",
+          "Frau von Hagen weint vor Freude und sagt: „Flocke zieht bei uns ein, dann ist Prinz nie mehr allein!“",
+          "Am nächsten Tag tragen beide Hunde bei der Ausstellung eine rote Schleife, genau wie Marie."
+        ],
+        "es": [
+          "Leo saca una salchicha de la mochila, y los dos perros salen meneando la cola.",
+          "Marie acaricia a la perrita gris y la llama Copito.",
+          "La señora Von Hagen llora de alegría: —¡Copito se viene a vivir con nosotros, así Príncipe nunca estará solo!",
+          "Al día siguiente, en el concurso, los dos perros llevan un lazo rojo, igualito que el de Marie."
+        ]
+      },
+      "end": "freundin"
+    },
+    {
+      "id": "festwiese",
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Fips bellt fröhlich, und schon flitzt Prinz hinter ihm her, quer durch die Stadt bis zur Festwiese.",
+          "Dort steht schon das große bunte Zelt für die Hundeausstellung.",
+          "Die Spürnasen rennen keuchend hinterher und schauen hinein.",
+          "Mitten auf dem Siegertreppchen sitzt Prinz, als hätte er auf seinen Preis gewartet!",
+          "„Der weiß genau, wo er hingehört“, lacht Ben."
+        ],
+        "es": [
+          "Fips ladra contento y Príncipe sale disparado tras él, cruzando la ciudad hasta el recinto de la feria.",
+          "Allí ya está montada la gran carpa de colores para el concurso canino.",
+          "Los Sabuesos llegan corriendo y sin aliento, y se asoman.",
+          "¡En lo alto del podio está Príncipe, como si esperara su premio!",
+          "—Este sabe muy bien dónde tiene que estar —se ríe Ben."
+        ]
+      },
+      "next": "ende-pokal"
+    },
+    {
+      "id": "ende-pokal",
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Am nächsten Tag gewinnt Prinz den goldenen Pokal für den schönsten Pudel.",
+          "Frau von Hagen strahlt, und Marie hat ihr extra eine Blume an den Hut gesteckt.",
+          "Dann ruft der Richter: „Einen Sonderpreis gibt es für den besten Spürhund der Stadt!“",
+          "Fips bekommt eine Medaille, und die ganze Bande jubelt so laut, dass sogar Prinz mitbellt."
+        ],
+        "es": [
+          "Al día siguiente, Príncipe gana la copa dorada al caniche más bonito.",
+          "La señora Von Hagen está radiante, y Marie le ha puesto una flor en el sombrero.",
+          "Entonces el juez anuncia: —¡Hay un premio especial para el mejor sabueso de la ciudad!",
+          "A Fips le dan una medalla, y la pandilla lo celebra tan fuerte que hasta Príncipe se pone a ladrar."
+        ]
+      },
+      "end": "pokal"
+    },
+    {
+      "id": "hof-papa",
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Papa kommt sofort, groß und stark, mit einer riesigen Taschenlampe.",
+          "Im Hinterhof steht der blaue Lieferwagen, und ein langer, dünner Mann trägt gerade einen Korb in eine alte Garage.",
+          "Aus dem Korb schaut ein weißer Pudelkopf heraus!",
+          "„Das ist Prinz“, flüstert Marie, „und er hat Angst.“",
+          "Wie sollen sie den Gauner schnappen?"
+        ],
+        "es": [
+          "Papá llega enseguida, alto y fuerte, con una linterna enorme.",
+          "En el patio está la furgoneta azul, y un hombre larguirucho mete una cesta en un garaje viejo.",
+          "¡De la cesta asoma una cabeza blanca de caniche!",
+          "—Es Príncipe —susurra Marie—, y está asustado.",
+          "¿Cómo van a atrapar al ladrón?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "🪤",
+          "color": "#4aa3ff",
+          "label": {
+            "de": "Falle",
+            "es": "Trampa"
+          },
+          "to": "falle"
+        },
+        {
+          "icon": "✋",
+          "color": "#ff9f43",
+          "label": {
+            "de": "Zugreifen",
+            "es": "¡A por él!"
+          },
+          "to": "zugriff"
+        }
+      ]
+    },
+    {
+      "id": "falle",
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Leo kramt in seinem Rucksack und streut eine Handvoll Hundekekse vor das Garagentor.",
+          "Dann bellt Fips laut, und der Gauner stolpert neugierig heraus.",
+          "Er rutscht auf den Keksen aus, wirbelt mit den Armen und landet mit dem Hosenboden in einer Pfütze.",
+          "Da steht schon Papa vor ihm und sagt freundlich: „Guten Abend, Herr Krummbein.“"
+        ],
+        "es": [
+          "Leo rebusca en su mochila y esparce un puñado de galletas para perros delante del garaje.",
+          "Fips ladra fuerte, y el ladrón sale a mirar, muy curioso.",
+          "Resbala con las galletas, agita los brazos como un molino y cae de culo en un charco.",
+          "Y allí está ya papá, que le dice muy amable: —Buenas noches, señor Zancudo."
+        ]
+      },
+      "next": "ende-gauner"
+    },
+    {
+      "id": "zugriff",
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Papa schleicht leise wie eine Katze zur Garage, Ben dicht hinter ihm.",
+          "Der Gauner will mit dem Korb davonrennen, doch er stolpert über seinen eigenen Schnürsenkel.",
+          "Mit einem Griff hält Papa ihn fest, so sanft und sicher wie einen Sack Kartoffeln.",
+          "Ben fängt den Korb auf, bevor er umkippt, und Prinz leckt ihm vor Dankbarkeit die Nase."
+        ],
+        "es": [
+          "Papá se acerca al garaje sigiloso como un gato, con Ben pegado a él.",
+          "El ladrón intenta escapar con la cesta, pero tropieza con su propio cordón.",
+          "Papá lo sujeta de un solo gesto, con firmeza y sin hacerle daño, como quien carga un saco de patatas.",
+          "Ben atrapa la cesta antes de que vuelque, y Príncipe le lame la nariz para darle las gracias."
+        ]
+      },
+      "next": "ende-gauner"
+    },
+    {
+      "id": "ende-gauner",
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "Herr Krummbein gibt kleinlaut zu, dass er Prinz verkaufen wollte, weil er so ein schöner Pudel ist.",
+          "Papa bringt ihn zur Wache, und dort muss er erst einmal alles erklären.",
+          "Am Abend backt Mama, die hübscheste Mama der Welt, einen großen Kuchen für die Spürnasen.",
+          "Und am nächsten Tag gewinnt Prinz den ersten Preis bei der Ausstellung."
+        ],
+        "es": [
+          "El señor Zancudo confiesa, muy avergonzado, que quería vender a Príncipe porque es un caniche precioso.",
+          "Papá se lo lleva a la comisaría, donde tendrá que dar muchas explicaciones.",
+          "Por la noche, mamá, la mamá más guapa del mundo, prepara una tarta enorme para los Sabuesos.",
+          "Y al día siguiente, Príncipe gana el primer premio del concurso."
+        ]
+      },
+      "end": "gauner"
+    },
+    {
+      "id": "zeuge",
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "Tim, der Zeitungsjunge, steht mit seinem Fahrrad am Zaun und knetet nervös seine Mütze.",
+          "Ben fragt: „Hast du heute früh etwas gesehen?“",
+          "Tim schüttelt den Kopf, aber seine Ohren werden ganz rot.",
+          "Marie merkt sofort, dass er nicht böse ist, sondern traurig und ein bisschen schuldbewusst.",
+          "Sollen sie ihn trösten oder ihn auf seiner Zeitungsrunde begleiten?"
+        ],
+        "es": [
+          "Tim, el chico de los periódicos, está junto a la valla con su bici y estruja nervioso su gorra.",
+          "Ben le pregunta: —¿Has visto algo esta mañana?",
+          "Tim niega con la cabeza, pero se le ponen las orejas coloradas.",
+          "Marie nota enseguida que no es malo, sino que está triste y se siente un poco culpable.",
+          "¿Deben consolarlo o acompañarlo en su reparto?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "🤗",
+          "color": "#a77bf3",
+          "label": {
+            "de": "Trösten",
+            "es": "Consolar"
+          },
+          "to": "beichte"
+        },
+        {
+          "icon": "🚲",
+          "color": "#4cc38a",
+          "label": {
+            "de": "Mitfahren",
+            "es": "Acompañar"
+          },
+          "to": "runde"
+        }
+      ]
+    },
+    {
+      "id": "beichte",
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "Marie setzt sich neben Tim und sagt sanft: „Du siehst so traurig aus.“",
+          "Da sprudelt alles aus ihm heraus.",
+          "„Ich habe Prinz heute früh heimlich mitgenommen, weil er so gern spazieren geht.“",
+          "„Aber am Park hat er sich losgerissen, und dann war er weg!“",
+          "Wo sollen sie zuerst suchen?"
+        ],
+        "es": [
+          "Marie se sienta al lado de Tim y le dice con dulzura: —Pareces muy triste.",
+          "Entonces él lo cuenta todo de golpe.",
+          "—Esta mañana me llevé a Príncipe a escondidas, porque le encanta pasear.",
+          "—Pero en el parque se soltó de la correa, ¡y desapareció!",
+          "¿Dónde deben buscar primero?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "🦆",
+          "color": "#ffb547",
+          "label": {
+            "de": "Teich",
+            "es": "Estanque"
+          },
+          "to": "teich"
+        },
+        {
+          "icon": "🎪",
+          "color": "#ff6b6b",
+          "label": {
+            "de": "Festwiese",
+            "es": "Feria"
+          },
+          "to": "festwiese"
+        }
+      ]
+    },
+    {
+      "id": "runde",
+      "image": "p16.svg",
+      "text": {
+        "de": [
+          "Die Spürnasen schwingen sich auf ihre Räder und fahren mit Tim die Zeitungsrunde.",
+          "Ben fährt voraus, Marie hält ihren Zopf fest, und Fips sitzt in Leos Fahrradkorb.",
+          "Am Park hält Tim plötzlich an und murmelt: „Hier hat Prinz sich heute früh losgerissen.“",
+          "Von weitem hört man Bellen, vom Ententeich und von der Festwiese.",
+          "Wohin sollen sie fahren?"
+        ],
+        "es": [
+          "Los Sabuesos se suben a sus bicis y hacen el reparto con Tim.",
+          "Ben va delante, Marie se sujeta la trenza y Fips viaja en la cesta de la bici de Leo.",
+          "Junto al parque, Tim frena de golpe y murmura: —Aquí se me escapó Príncipe esta mañana.",
+          "A lo lejos se oyen ladridos, desde el estanque y desde la feria.",
+          "¿Hacia dónde deben ir?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "🦆",
+          "color": "#ffb547",
+          "label": {
+            "de": "Teich",
+            "es": "Estanque"
+          },
+          "to": "teich"
+        },
+        {
+          "icon": "🎪",
+          "color": "#ff6b6b",
+          "label": {
+            "de": "Festwiese",
+            "es": "Feria"
+          },
+          "to": "festwiese"
+        }
+      ]
+    },
+    {
+      "id": "teich",
+      "image": "p17.svg",
+      "text": {
+        "de": [
+          "Am Ententeich steht Prinz bis zum Bauch im Schlamm und bellt eine Ente an.",
+          "Von seinem schicken weißen Fell ist nichts mehr zu sehen, er ist braun wie ein Schokoladenpudel!",
+          "Ben watet mutig hinein und hebt ihn heraus.",
+          "Marie hält sich die Nase zu und kichert: „So kann er morgen aber nicht zur Ausstellung.“"
+        ],
+        "es": [
+          "En el estanque de los patos, Príncipe está metido en el barro hasta la barriga, ladrándole a un pato.",
+          "De su elegante pelo blanco no queda nada: ¡parece un caniche de chocolate!",
+          "Ben se mete en el agua con valentía y lo saca en brazos.",
+          "Marie se tapa la nariz y se ríe: —Así no puede ir mañana al concurso."
+        ]
+      },
+      "next": "ende-tim"
+    },
+    {
+      "id": "ende-tim",
+      "image": "p18.svg",
+      "text": {
+        "de": [
+          "Gemeinsam baden sie Prinz in Frau von Hagens Garten, bis er wieder strahlend weiß ist.",
+          "Tim entschuldigt sich, und Marie bindet Prinz ihre eigene rote Schleife ins Fell.",
+          "Frau von Hagen lächelt: „Tim, ab jetzt darfst du Prinz jeden Morgen ausführen, aber mit Leine!“",
+          "Und bei der Ausstellung ist Prinz der fröhlichste Pudel von allen."
+        ],
+        "es": [
+          "Entre todos bañan a Príncipe en el jardín de la señora Von Hagen hasta que vuelve a estar blanquísimo.",
+          "Tim pide perdón, y Marie le pone a Príncipe su propio lazo rojo.",
+          "La señora Von Hagen sonríe: —Tim, desde ahora podrás sacarlo a pasear cada mañana, ¡pero con correa!",
+          "Y en el concurso, Príncipe es el caniche más feliz de todos."
+        ]
+      },
+      "end": "tim"
+    },
+    {
+      "id": "wagen",
+      "image": "p19.svg",
+      "text": {
+        "de": [
+          "Leo zeichnet den blauen Lieferwagen in sein Notizbuch.",
+          "Da biegt genau so ein Wagen um die Ecke und fährt langsam die Straße hinunter!",
+          "„Den müssen wir beschatten“, flüstert Ben, „aber so, dass der Fahrer uns nicht bemerkt.“",
+          "Marie zupft ihr Kleid zurecht, als ginge es zu einem echten Einsatz.",
+          "Sollen sie mit den Fahrrädern hinterherfahren oder sich verstecken?"
+        ],
+        "es": [
+          "Leo dibuja la furgoneta azul en su libreta.",
+          "¡Justo entonces, una furgoneta igualita dobla la esquina y baja despacio por la calle!",
+          "—Tenemos que seguirla —susurra Ben—, pero sin que el conductor nos vea.",
+          "Marie se alisa el vestido, como si fuera a una misión de verdad.",
+          "¿Deben seguirla en bici o esconderse para vigilar?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "🚲",
+          "color": "#4aa3ff",
+          "label": {
+            "de": "Fahrrad",
+            "es": "Bici"
+          },
+          "to": "garage"
+        },
+        {
+          "icon": "🌳",
+          "color": "#a77bf3",
+          "label": {
+            "de": "Verstecken",
+            "es": "Esconderse"
+          },
+          "to": "versteck"
+        }
+      ]
+    },
+    {
+      "id": "garage",
+      "image": "p20.svg",
+      "text": {
+        "de": [
+          "Die Spürnasen radeln mit Abstand hinter dem Wagen her, bis er in einem Hinterhof vor einer alten Garage hält.",
+          "Ein langer, dünner Mann steigt aus und trägt einen Korb hinein, aus dem ein weißer Pudelkopf schaut.",
+          "Leo funkt sofort Papa an, und der ist im Nu da.",
+          "Wie sollen sie den Gauner schnappen?"
+        ],
+        "es": [
+          "Los Sabuesos pedalean a distancia tras la furgoneta, hasta que esta para en un patio delante de un garaje viejo.",
+          "Baja un hombre larguirucho y mete dentro una cesta de la que asoma una cabeza blanca de caniche.",
+          "Leo avisa enseguida a papá por el walkie, y papá llega en un periquete.",
+          "¿Cómo van a atrapar al ladrón?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "🪤",
+          "color": "#4cc38a",
+          "label": {
+            "de": "Falle",
+            "es": "Trampa"
+          },
+          "to": "falle"
+        },
+        {
+          "icon": "✋",
+          "color": "#ff9f43",
+          "label": {
+            "de": "Zugreifen",
+            "es": "¡A por él!"
+          },
+          "to": "zugriff"
+        }
+      ]
+    },
+    {
+      "id": "versteck",
+      "image": "p21.svg",
+      "text": {
+        "de": [
+          "Die Bande versteckt sich hinter einer Hecke, und Leo baut aus Spiegeln und Pappe ein Fernrohr.",
+          "Der Wagen hält vor einem Hundesalon mit pinker Tür, und eine Frau mit lila Locken steigt summend aus.",
+          "Marie schaut genau hin: „Die ist fröhlich, nicht schuldbewusst, die weiß gar nichts von einem verschwundenen Hund.“",
+          "Wie finden sie heraus, was drinnen los ist?"
+        ],
+        "es": [
+          "La pandilla se esconde tras un seto, y Leo fabrica un periscopio con espejos y cartón.",
+          "La furgoneta para delante de una peluquería canina con la puerta rosa, y baja tarareando una señora de rizos lilas.",
+          "Marie la observa bien: —Está contenta, no parece culpable; no sabe nada de ningún perro perdido.",
+          "¿Cómo averiguan qué pasa dentro?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "🪟",
+          "color": "#ffb547",
+          "label": {
+            "de": "Fenster",
+            "es": "Ventana"
+          },
+          "to": "fenster"
+        },
+        {
+          "icon": "🔔",
+          "color": "#ff6b6b",
+          "label": {
+            "de": "Klingeln",
+            "es": "Timbre"
+          },
+          "to": "klingeln"
+        }
+      ]
+    },
+    {
+      "id": "fenster",
+      "image": "p22.svg",
+      "text": {
+        "de": [
+          "Ben klettert auf eine Kiste und schaut durchs Fenster.",
+          "Drinnen steht Prinz auf einem Tisch und bekommt gerade eine prächtige Frisur mit Bommeln!",
+          "Die Frau mit den lila Locken kämmt ihn liebevoll und sagt: „So, lieber Fluffi, gleich bist du fertig.“",
+          "„Fluffi?“, flüstert Leo. „Das ist doch gar nicht Fluffi!“"
+        ],
+        "es": [
+          "Ben se sube a una caja y mira por la ventana.",
+          "Dentro, Príncipe está sobre una mesa, ¡y le están haciendo un peinado espectacular con pompones!",
+          "La señora de rizos lilas lo peina con cariño: —Ya casi estás, querido Pelusa.",
+          "—¿Pelusa? —susurra Leo—. ¡Pero si ese no es Pelusa!"
+        ]
+      },
+      "next": "ende-salon"
+    },
+    {
+      "id": "klingeln",
+      "image": "p23.svg",
+      "text": {
+        "de": [
+          "Ben drückt mutig auf die Klingel, und die Tür öffnet sich mit einem fröhlichen Bimmeln.",
+          "„Willkommen im Salon Schnippschnapp!“, ruft die Frau mit den lila Locken.",
+          "Auf dem Tisch hinter ihr sitzt Prinz mit Lockenwicklern auf dem Kopf.",
+          "Marie ruft: „Oh, wie hübsch er aussieht, aber das ist Prinz von Frau von Hagen!“"
+        ],
+        "es": [
+          "Ben toca el timbre con valentía, y la puerta se abre con un tintineo alegre.",
+          "—¡Bienvenidos a la peluquería Tijeritas! —exclama la señora de rizos lilas.",
+          "En la mesa, detrás de ella, está Príncipe con rulos en la cabeza.",
+          "Marie exclama: —¡Qué guapo está, pero es Príncipe, el perro de la señora Von Hagen!"
+        ]
+      },
+      "next": "ende-salon"
+    },
+    {
+      "id": "ende-salon",
+      "image": "p24.svg",
+      "text": {
+        "de": [
+          "Frau Schnipp wird knallrot: Sie sollte heute früh den Pudel Fluffi von nebenan abholen und hat aus Versehen Prinz eingeladen.",
+          "Alle lachen, und Frau von Hagen kommt sofort angelaufen.",
+          "Prinz sieht mit seiner neuen Frisur so prächtig aus, dass er am nächsten Tag die Ausstellung gewinnt.",
+          "Und Marie bekommt eine glitzernde Haarspange geschenkt."
+        ],
+        "es": [
+          "La señora Tijeritas se pone como un tomate: esta mañana tenía que recoger a Pelusa, el caniche de al lado, y se llevó a Príncipe por error.",
+          "Todos se ríen, y la señora Von Hagen llega corriendo.",
+          "Con su peinado nuevo, Príncipe está tan elegante que al día siguiente gana el concurso.",
+          "Y a Marie le regalan un pasador de pelo con purpurina."
+        ]
+      },
+      "end": "salon"
+    }
+  ]
+}

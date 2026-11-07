@@ -1,0 +1,235 @@
+{
+  "id": "zelten-am-see",
+  "accent": "#1f9e8f",
+  "age": 7,
+  "title": {
+    "de": "Familie Weber zeltet am Bergsee",
+    "es": "La familia Weber acampa en el lago"
+  },
+  "blurb": {
+    "de": "Zelt aufbauen, Kanu fahren, angeln und Sterne zählen: Familie Weber macht Ferien am Bergsee. Doch nachts kommt ein Gewitter – und am Morgen wartet eine zarte Überraschung im Farn.",
+    "es": "Montar la tienda, ir en canoa, pescar y contar estrellas: la familia Weber pasa las vacaciones en un lago de montaña. Pero por la noche llega una tormenta… y por la mañana, una sorpresa entre los helechos."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Der alte Kombi der Familie Weber schnauft die letzte Kurve hinauf.",
+          "Dann liegt er vor ihnen: ein Bergsee, so blau wie ein Edelstein, mit Tannen ringsum und Gipfeln, auf denen noch Schnee glitzert.",
+          "Papa Michael schultert den riesigen Rucksack, als wäre er mit Federn gefüllt.",
+          "„Hier schlafen wir eine ganze Woche lang im Zelt!“, ruft Tim und rennt schon los."
+        ],
+        "es": [
+          "El viejo coche familiar de los Weber resopla en la última curva de la montaña.",
+          "Y allí está: un lago tan azul como una piedra preciosa, rodeado de abetos y de cumbres donde aún brilla la nieve.",
+          "Papá Michael se echa a la espalda la enorme mochila como si estuviera llena de plumas.",
+          "—¡Vamos a dormir una semana entera en la tienda! —grita Tim, y sale corriendo."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Papa breitet das Zelt auf der Wiese aus und schlägt die Heringe mit kräftigen Schlägen in den Boden.",
+          "Tim will unbedingt die Stangen allein zusammenstecken.",
+          "Er steckt und biegt und schnauft, bis das Zelt plötzlich aussieht wie ein schiefer Hut.",
+          "Papa lacht in seinen Bart: „Fast, Kapitän!“",
+          "Gemeinsam richten sie es auf, und Tim strahlt, denn die vordere Stange hat er ganz allein geschafft."
+        ],
+        "es": [
+          "Papá extiende la tienda sobre la hierba y clava las piquetas con golpes firmes.",
+          "Tim se empeña en montar las varillas él solito.",
+          "Mete, dobla y resopla, hasta que la tienda parece un sombrero torcido.",
+          "—¡Casi, capitán! —se ríe papá entre la barba.",
+          "Entre los dos la levantan, y Tim está orgullosísimo, porque la varilla de delante la ha puesto él sin ayuda."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Sophie trägt ihr gelbes Sommerkleid und ihr schönstes Sonnenhütchen mit dem roten Band.",
+          "Vorsichtig hüpft sie um jede Pfütze herum, damit kein einziger Schlammspritzer ihr Kleid erwischt.",
+          "Am Ufer pflückt sie Glockenblumen und Margeriten für einen Strauß.",
+          "Mama Julia steht am Gaskocher, ihr langes braunes Haar weht im Wind, und bald duftet es nach Nudeln mit Tomatensoße."
+        ],
+        "es": [
+          "Sophie lleva su vestido amarillo de verano y su sombrerito más bonito, el de la cinta roja.",
+          "Va saltando con cuidado alrededor de cada charco para que ni una gota de barro le manche el vestido.",
+          "En la orilla recoge campanillas y margaritas para hacer un ramo.",
+          "Mamá Julia está junto al hornillo, con su larga melena castaña al viento, y pronto huele a macarrones con tomate."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Am Nachmittag paddeln sie mit dem roten Kanu auf den See hinaus.",
+          "Papa rudert mit langen, ruhigen Zügen, und das Wasser gluckert unter dem Boot.",
+          "Tim lehnt sich weit hinaus und entdeckt einen Schwarm silberner Fische.",
+          "Sophie hält ihr Hütchen mit beiden Händen fest, aber dann lässt sie eine Hand ins kühle Wasser gleiten und kichert, weil es so kitzelt."
+        ],
+        "es": [
+          "Por la tarde salen al lago en la canoa roja.",
+          "Papá rema con paladas largas y tranquilas, y el agua hace glu-glu bajo la barca.",
+          "Tim se asoma muchísimo y descubre un banco de peces plateados.",
+          "Sophie sujeta el sombrerito con las dos manos, pero luego deja que una mano se deslice por el agua fresca y se ríe, porque le hace cosquillas."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Am Abend sitzt Tim mit seiner Angel auf dem Steg.",
+          "Lange passiert gar nichts, und er gähnt schon.",
+          "Plötzlich ruckt die Schnur so heftig, dass Tim fast ins Wasser purzelt!",
+          "Er zieht und kurbelt, bis eine glänzende Forelle zappelt.",
+          "„Ich hab sie ganz allein gefangen!“, jubelt er, und Sophie klatscht so begeistert, dass ihr das Hütchen in den Nacken rutscht."
+        ],
+        "es": [
+          "Al atardecer, Tim se sienta en el embarcadero con su caña de pescar.",
+          "Durante un rato no pasa nada y Tim bosteza.",
+          "¡De repente el sedal da un tirón tan fuerte que Tim casi se cae al agua!",
+          "Tira y recoge hilo hasta que asoma una trucha reluciente.",
+          "—¡La he pescado yo solo! —grita feliz, y Sophie aplaude con tantas ganas que el sombrerito se le cae hacia la nuca."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Als es dunkel wird, macht Papa ein knisterndes Lagerfeuer.",
+          "Sie rösten Stockbrot, und über ihnen gehen tausend Sterne an, so viele, wie Sophie noch nie gesehen hat.",
+          "Papa zeigt ihnen den Großen Wagen.",
+          "Doch hinter den Bäumen ist es sehr schwarz, und Sophie rückt ganz nah an Mama heran.",
+          "Mama legt ihr eine warme Decke um die Schultern."
+        ],
+        "es": [
+          "Cuando oscurece, papá enciende una hoguera que chisporrotea.",
+          "Asan pan en palitos y, sobre sus cabezas, se encienden miles de estrellas, más de las que Sophie ha visto en toda su vida.",
+          "Papá les enseña la Osa Mayor.",
+          "Pero detrás de los árboles todo está muy negro, y Sophie se acurruca pegadita a mamá.",
+          "Mamá le pone una manta calentita sobre los hombros."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Mitten in der Nacht wird Sophie von einem Rumpeln geweckt.",
+          "Der Wind rüttelt am Zelt, und der Regen prasselt wie tausend kleine Trommeln.",
+          "Dann blitzt es hell, und gleich danach kracht der Donner über den See.",
+          "Sophie zieht sich den Schlafsack bis über die Nase.",
+          "„Mama“, flüstert sie, „das Zelt fliegt gleich weg!“"
+        ],
+        "es": [
+          "En plena noche, un estruendo despierta a Sophie.",
+          "El viento sacude la tienda, y la lluvia repiquetea como mil tamborcitos.",
+          "Luego cae un relámpago brillante y enseguida retumba el trueno sobre el lago.",
+          "Sophie se tapa con el saco de dormir hasta la nariz.",
+          "—Mamá —susurra—, ¡la tienda va a salir volando!"
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Papa zieht schon die Regenjacke an.",
+          "„Keine Sorge, ich mache die Leinen fest“, sagt er ruhig.",
+          "Tim springt auf: „Ich komme mit und leuchte dir!“",
+          "Draußen hält Tim die Taschenlampe ganz ruhig, obwohl ihm der Regen ins Gesicht spritzt.",
+          "Papa schlägt die Heringe tiefer ein und spannt jede Leine, bis das Zelt wieder fest wie ein Haus steht."
+        ],
+        "es": [
+          "Papá ya se está poniendo el chubasquero.",
+          "—Tranquilos, voy a tensar los vientos —dice con calma.",
+          "Tim se levanta de un salto: —¡Voy contigo y te alumbro!",
+          "Fuera, Tim sujeta la linterna muy quieto, aunque la lluvia le salpica la cara.",
+          "Papá clava más hondo las piquetas y tensa cada cuerda, hasta que la tienda vuelve a estar firme como una casa."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Drinnen kuschelt sich Sophie in Mamas Arm.",
+          "Mama streicht ihr über das Haar und summt ein leises Lied.",
+          "„Weißt du, das Gewitter ist wie ein Riese, der nur laut schnarcht“, flüstert sie.",
+          "Als Papa und Tim tropfnass zurückkommen, nimmt Papa Sophie auf den Schoß: „Ich passe auf euch auf.“",
+          "Da wird der Donner leiser, und Sophie schläft ein."
+        ],
+        "es": [
+          "Dentro, Sophie se acurruca en los brazos de mamá.",
+          "Mamá le acaricia el pelo y tararea una canción muy bajito.",
+          "—¿Sabes? La tormenta es como un gigante que solo ronca muy fuerte —le susurra.",
+          "Cuando papá y Tim vuelven empapados, papá sienta a Sophie en sus rodillas: —Yo os cuido.",
+          "Entonces los truenos se alejan, y Sophie se queda dormida."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Am Morgen ist alles nass und glitzert in der Sonne.",
+          "Sophie geht Blumen suchen und hört plötzlich ein dünnes Fiepen im Farn.",
+          "Da liegt ein kleines Rehkitz mit weißen Tupfen und zittert.",
+          "Tim will sofort hinlaufen, aber Sophie hält ihn am Ärmel fest.",
+          "„Pst, es hat Angst, genau wie ich heute Nacht“, flüstert sie."
+        ],
+        "es": [
+          "Por la mañana todo está mojado y brilla al sol.",
+          "Sophie va a buscar flores y, de pronto, oye un gemidito entre los helechos.",
+          "Allí hay un cervatillo con manchas blancas que tiembla.",
+          "Tim quiere ir corriendo, pero Sophie lo agarra de la manga.",
+          "—Chis, tiene miedo, igual que yo esta noche —susurra ella."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Sophie kniet sich ins nasse Gras, und diesmal ist ihr das Kleid ganz egal.",
+          "Sie summt das leise Lied von Mama, damit das Kitz ruhig bleibt.",
+          "„Wir fassen es nicht an“, sagt Papa leise, „seine Mama sucht es bestimmt.“",
+          "Die ganze Familie wartet still hinter einem Busch.",
+          "Und wirklich: Zwischen den Bäumen tritt eine Rehmutter hervor und leckt ihrem Kitz zärtlich über die Nase."
+        ],
+        "es": [
+          "Sophie se arrodilla en la hierba mojada, y esta vez el vestido le da completamente igual.",
+          "Tararea la canción de mamá para que el cervatillo se quede tranquilo.",
+          "—No lo tocamos —dice papá en voz baja—, seguro que su mamá lo está buscando.",
+          "Todos esperan callados tras un arbusto.",
+          "Y de verdad: entre los árboles aparece una cierva que le da un lametón cariñoso en el hocico a su cría."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Die beiden Rehe springen in den Wald, und über dem See leuchtet ein riesiger Regenbogen.",
+          "„Du warst heute die Mutigste von allen“, sagt Tim, und Sophie wird ganz rot.",
+          "Mama steckt ihr eine Glockenblume ans Hütchen, und Papa nimmt alle in seine starken Arme.",
+          "So stehen die Webers am Ufer und wissen: Das waren die schönsten Ferien überhaupt."
+        ],
+        "es": [
+          "La cierva y su cría se van saltando al bosque, y sobre el lago brilla un arcoíris enorme.",
+          "—Hoy has sido la más valiente de todos —dice Tim, y Sophie se pone colorada.",
+          "Mamá le pone una campanilla en el sombrerito, y papá los abraza a todos con sus brazos fuertes.",
+          "Así se quedan los Weber en la orilla, sabiendo que han sido las mejores vacaciones del mundo."
+        ]
+      }
+    }
+  ]
+}

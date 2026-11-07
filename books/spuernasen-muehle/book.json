@@ -1,0 +1,243 @@
+{
+  "id": "spuernasen-muehle",
+  "accent": "#2f8f6b",
+  "age": 7,
+  "title": {
+    "de": "Die Spürnasen und das Geheimnis der alten Mühle",
+    "es": "Los Sabuesos y el misterio del viejo molino"
+  },
+  "blurb": {
+    "de": "Nachts flackert Licht in der verlassenen Mühle am Bach. Ben, Leo, Marie und Hund Fips finden Stiefelspuren, einen alten Schlüssel – und ein Geheimnis, das gar nicht gruselig ist.",
+    "es": "De noche parpadea una luz en el molino abandonado junto al arroyo. Ben, Leo, Marie y el perro Fips encuentran huellas de botas, una llave antigua… y un misterio que no da nada de miedo."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Hoch oben in der alten Eiche steht das Baumhaus der Spürnasen.",
+          "Ben ist neun und der Anführer, ohne seine rote Baseballkappe geht er nirgendwohin.",
+          "Sein bester Freund Leo ist acht und hat immer einen Rucksack voller Werkzeug dabei.",
+          "Bens Schwester Marie ist sieben und trägt eine rote Schleife im Zopf.",
+          "Und Hund Fips wedelt so sehr, dass das ganze Baumhaus wackelt."
+        ],
+        "es": [
+          "En lo alto del viejo roble está la cabaña de los Sabuesos.",
+          "Ben tiene nueve años y es el jefe; nunca sale sin su gorra roja.",
+          "Su mejor amigo, Leo, tiene ocho y siempre lleva una mochila llena de herramientas.",
+          "Marie, la hermana de Ben, tiene siete y un lazo rojo en la trenza.",
+          "Y el perro Fips menea tanto la cola que toda la cabaña se tambalea."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Eines Abends schaut Ben durch sein Fernrohr hinunter zum Bach.",
+          "Dort steht die alte Mühle, in der seit vielen Jahren niemand mehr wohnt.",
+          "Doch plötzlich flackert hinter einem Fenster ein kleines, gelbes Licht!",
+          "„Da ist jemand drin“, flüstert Ben, und Marie zieht ihre Decke bis zur Nase.",
+          "Leo kritzelt sofort in sein Notizbuch: „Fall Nummer eins.“"
+        ],
+        "es": [
+          "Una tarde, Ben mira con su catalejo hacia el arroyo.",
+          "Allí está el viejo molino, donde no vive nadie desde hace muchísimos años.",
+          "¡Pero de repente parpadea una lucecita amarilla detrás de una ventana!",
+          "—Ahí dentro hay alguien —susurra Ben, y Marie se tapa con la manta hasta la nariz.",
+          "Leo apunta enseguida en su libreta: «Caso número uno»."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Am nächsten Morgen schleichen die Spürnasen zur Mühle.",
+          "Ben geht voran, Fips schnüffelt mit der Nase am Boden.",
+          "Im weichen Schlamm am Ufer entdecken sie große Stiefelabdrücke.",
+          "Leo misst sie mit seinem Zollstock: „Riesenfüße, Größe fünfundvierzig!“",
+          "Marie hebt vorsichtig ihr gelbes Kleid hoch, damit es nicht schmutzig wird, und hüpft von Stein zu Stein."
+        ],
+        "es": [
+          "A la mañana siguiente, los Sabuesos se acercan al molino de puntillas.",
+          "Ben va delante y Fips olfatea el suelo con el hocico pegado a la tierra.",
+          "En el barro blando de la orilla descubren unas huellas de bota enormes.",
+          "Leo las mide con su metro plegable: —¡Pies gigantes, un cuarenta y cinco!",
+          "Marie se levanta un poco el vestido amarillo para no mancharlo y salta de piedra en piedra."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Plötzlich bellt Fips und scharrt im Gras.",
+          "Zwischen den Gänseblümchen glitzert etwas: ein großer, alter Schlüssel aus Eisen!",
+          "Leo dreht ihn hin und her und betrachtet ihn durch seine Lupe.",
+          "„Der ist rostig, aber jemand hat ihn frisch geölt“, stellt er fest.",
+          "Ben steckt den Schlüssel in seine Tasche und sagt: „Wer ihn verloren hat, kommt bestimmt zurück.“"
+        ],
+        "es": [
+          "De pronto, Fips ladra y se pone a escarbar en la hierba.",
+          "Entre las margaritas brilla algo: ¡una llave grande y antigua de hierro!",
+          "Leo le da vueltas y la examina con su lupa.",
+          "—Está oxidada, pero alguien la ha engrasado hace poco —dice.",
+          "Ben se guarda la llave en el bolsillo: —Quien la haya perdido volverá a buscarla, seguro."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Da hören sie aus der Mühle ein lautes Geräusch: Klong, klong, quieeetsch!",
+          "Marie zuckt zusammen und greift nach Bens Hand.",
+          "„Vielleicht ist das ein Mühlengeist“, flüstert sie.",
+          "„Geister brauchen keine Stiefel“, sagt Ben und rückt mutig seine Kappe zurecht.",
+          "Leo holt seine Taschenlampe aus dem Rucksack, und Fips stellt die Ohren ganz steil auf."
+        ],
+        "es": [
+          "Entonces oyen dentro del molino un ruido tremendo: ¡clonc, clonc, iiiiic!",
+          "Marie da un respingo y se agarra a la mano de Ben.",
+          "—A lo mejor es un fantasma del molino —susurra.",
+          "—Los fantasmas no llevan botas —dice Ben, y se coloca la gorra con valentía.",
+          "Leo saca la linterna de la mochila, y Fips levanta las orejas bien tiesas."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Am Abend legen sich die Spürnasen hinter einem Holunderbusch auf die Lauer.",
+          "Es wird dunkel, und die Grillen zirpen.",
+          "Marie mag die Dunkelheit gar nicht und kuschelt sich ganz dicht an Fips.",
+          "Da quietscht die Mühlentür, und ein großer Schatten mit einer Laterne tritt heraus!",
+          "Ben hält den Atem an, und Leo drückt auf seiner Taschenlampe beinahe den Knopf."
+        ],
+        "es": [
+          "Por la noche, los Sabuesos se esconden detrás de un saúco para vigilar.",
+          "Oscurece y los grillos empiezan a cantar.",
+          "A Marie no le gusta nada la oscuridad, así que se acurruca pegadita a Fips.",
+          "¡Entonces la puerta del molino chirría y sale una sombra grande con un farol!",
+          "Ben contiene la respiración, y a Leo casi se le escapa el botón de la linterna."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Die Gestalt geht langsam zum großen Mühlrad und leuchtet die zerbrochenen Schaufeln an.",
+          "Es ist ein alter Mann mit weißem Bart und einer geflickten Weste.",
+          "Er streicht über das Holz, und dann seufzt er so tief, dass es bis zum Busch zu hören ist.",
+          "Marie sieht ihn lange an.",
+          "„Das ist kein Geist“, sagt sie leise, „der ist nur traurig und ganz allein.“"
+        ],
+        "es": [
+          "La figura se acerca despacio a la gran rueda y alumbra las paletas rotas.",
+          "Es un anciano de barba blanca con un chaleco lleno de remiendos.",
+          "Acaricia la madera y suspira tan hondo que lo oyen desde el arbusto.",
+          "Marie se le queda mirando un buen rato.",
+          "—No es un fantasma —dice bajito—. Está triste y muy solo."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Bevor Ben sie aufhalten kann, steht Marie schon auf.",
+          "Ihre Knie zittern ein bisschen, aber sie geht mit Fips zu dem alten Mann.",
+          "„Guten Abend“, sagt sie freundlich, „wir haben Ihren Schlüssel gefunden.“",
+          "Der Mann erschrickt, dann lächelt er unter seinem dicken Bart.",
+          "„Ich bin Müller Anton“, brummt er, „und ihr seid wohl die Leute mit dem Fernrohr.“"
+        ],
+        "es": [
+          "Antes de que Ben pueda detenerla, Marie ya se ha puesto de pie.",
+          "Le tiemblan un poco las rodillas, pero va con Fips hacia el anciano.",
+          "—Buenas noches —dice con amabilidad—. Hemos encontrado su llave.",
+          "El hombre se sobresalta, pero enseguida sonríe bajo su espesa barba.",
+          "—Soy Antón, el molinero —gruñe con cariño—. Y vosotros debéis de ser los del catalejo."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Müller Anton erzählt, dass er früher hier Mehl für das ganze Dorf gemahlen hat.",
+          "Seit das Mühlrad kaputt ist, steht alles still, und er kommt sich überflüssig vor.",
+          "Darum repariert er jede Nacht heimlich ein Stück, damit niemand ihn auslacht.",
+          "Doch die schweren Balken schafft er allein nicht mehr.",
+          "Ben sagt sofort: „Mein Papa ist Zimmermann, der hilft Ihnen bestimmt!“"
+        ],
+        "es": [
+          "Antón cuenta que antes molía aquí la harina para todo el pueblo.",
+          "Desde que la rueda se rompió, todo está parado y él se siente un estorbo.",
+          "Por eso la arregla a escondidas cada noche, un poquito cada vez, para que nadie se ría de él.",
+          "Pero las vigas pesadas ya no puede moverlas solo.",
+          "Ben dice al instante: —¡Mi padre es carpintero, seguro que le ayuda!"
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Am Samstag kommt Papa mit seinem Werkzeugkasten und der großen Säge.",
+          "Er stemmt den schweren Balken ganz allein auf die Schulter, und Müller Anton staunt.",
+          "Leo reicht die Schrauben an und ölt jedes Zahnrad, bis es glänzt.",
+          "Ben klettert mutig aufs Gerüst und hält die neuen Schaufeln fest.",
+          "Marie bringt allen Wasser und malt mit Anton ein Schild für die Mühle."
+        ],
+        "es": [
+          "El sábado llega papá con su caja de herramientas y la sierra grande.",
+          "Se carga solo la viga más pesada al hombro, y Antón se queda boquiabierto.",
+          "Leo le pasa los tornillos y engrasa cada engranaje hasta que reluce.",
+          "Ben se sube con valor al andamio y sujeta las paletas nuevas.",
+          "Marie reparte agua a todos y pinta con Antón un letrero para el molino."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Am Nachmittag ziehen Papa und Ben gemeinsam am Hebel.",
+          "Das Wasser rauscht, das Holz knarrt, und dann dreht sich das Mühlrad, langsam und dann immer schneller!",
+          "Drinnen beginnen die Mühlsteine zu mahlen, und feines Mehl rieselt in den Sack.",
+          "Müller Anton wischt sich eine Träne aus dem Bart.",
+          "Fips bellt vor Freude und springt um alle herum."
+        ],
+        "es": [
+          "Por la tarde, papá y Ben tiran juntos de la palanca.",
+          "El agua ruge, la madera cruje y la rueda empieza a girar, ¡primero despacio y luego cada vez más rápido!",
+          "Dentro, las piedras se ponen a moler y la harina fina cae en el saco.",
+          "Antón se seca una lágrima que se le ha quedado en la barba.",
+          "Fips ladra de alegría y da saltos alrededor de todos."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Am Sonntag feiert das ganze Dorf ein Fest an der Mühle.",
+          "Mama kommt im schönsten Sommerkleid und bringt einen Kuchen, gebacken mit Antons frischem Mehl.",
+          "Marie trägt ihr Lieblingskleid und eine neue Schleife, und sie tanzt mit dem alten Müller.",
+          "Anton schenkt den Spürnasen den eisernen Schlüssel: „Ihr seid jetzt meine Ehrengehilfen!“",
+          "Und Leo schreibt in sein Notizbuch: „Fall Nummer eins: gelöst.“"
+        ],
+        "es": [
+          "El domingo, todo el pueblo celebra una fiesta junto al molino.",
+          "Mamá llega con su vestido de verano más bonito y un bizcocho hecho con la harina recién molida de Antón.",
+          "Marie estrena lazo, lleva su vestido favorito y baila con el viejo molinero.",
+          "Antón regala a los Sabuesos la llave de hierro: —¡Desde hoy sois mis ayudantes de honor!",
+          "Y Leo escribe en su libreta: «Caso número uno: resuelto»."
+        ]
+      }
+    }
+  ]
+}

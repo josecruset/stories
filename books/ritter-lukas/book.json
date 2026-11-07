@@ -1,0 +1,651 @@
+{
+  "id": "ritter-lukas",
+  "accent": "#2f6fd6",
+  "age": 7,
+  "shelf": "interaktiv",
+  "interactive": true,
+  "title": {
+    "de": "Ritter Lukas und die verzauberte Krone",
+    "es": "El caballero Lucas y la corona encantada"
+  },
+  "blurb": {
+    "de": "Ein grummeliger Zauberer hat die Krone von König Leopold in einen Stein verwandelt! Zieh mit Ritter Lukas und seiner Schwester Rosalie los, finde Goldfeder und Silberwasser und entscheide selbst, wie das Abenteuer ausgeht.",
+    "es": "¡Un mago gruñón ha convertido la corona del rey Leopoldo en una piedra! Sal de aventura con el caballero Lucas y su hermana Rosalía, encuentra la pluma dorada y el agua de plata y decide tú cómo termina la historia."
+  },
+  "endings": [
+    {
+      "id": "fest",
+      "icon": "🎉",
+      "title": {
+        "de": "Das große Schlossfest",
+        "es": "La gran fiesta del castillo"
+      }
+    },
+    {
+      "id": "hofzauberer",
+      "icon": "🌼",
+      "title": {
+        "de": "Der neue Hofzauberer",
+        "es": "El nuevo mago de la corte"
+      }
+    },
+    {
+      "id": "garten",
+      "icon": "🎁",
+      "title": {
+        "de": "Das erste Geschenk",
+        "es": "El primer regalo"
+      }
+    },
+    {
+      "id": "konzert",
+      "icon": "🎵",
+      "title": {
+        "de": "Das Trollkonzert",
+        "es": "El concierto del trol"
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "start",
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Auf einem Hügel voller Blumen steht das Schloss von König Leopold und Königin Isabella.",
+          "Ihr Sohn Lukas ist neun Jahre alt und der jüngste Ritter am ganzen Hof.",
+          "Auf seiner silbernen Rüstung prangt ein blauer Löwe, und er hat vor nichts Angst.",
+          "Seine Schwester Rosalie ist sieben und liebt ihr rosa Kleid und ihr glitzerndes Diadem.",
+          "Heute ist ein Festtag, und alle sind fröhlich."
+        ],
+        "es": [
+          "Sobre una colina llena de flores se alza el castillo del rey Leopoldo y la reina Isabel.",
+          "Su hijo Lucas tiene nueve años y es el caballero más joven de la corte.",
+          "En su armadura plateada luce un león azul, y no le teme a nada.",
+          "Su hermana Rosalía tiene siete años y adora su vestido rosa y su diadema brillante.",
+          "Hoy es día de fiesta y todos están contentos."
+        ]
+      },
+      "next": "fluch"
+    },
+    {
+      "id": "fluch",
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Mitten im Fest zieht eine graue Wolke durch den Thronsaal.",
+          "Ein Zauberer mit langem Bart erscheint, schnippt mit den Fingern, und puff: Die goldene Krone des Königs ist ein grauer Stein!",
+          "„Pah, Feste!“, brummt er und verschwindet in einer Rauchwolke.",
+          "König Leopold steht auf und sagt mit fester Stimme: „Diesen Zauber lösen wir!“"
+        ],
+        "es": [
+          "En plena fiesta, una nube gris cruza el salón del trono.",
+          "Aparece un mago de barba larga, chasquea los dedos y, ¡puf!, la corona de oro del rey se convierte en una piedra gris.",
+          "—¡Bah, fiestas! —refunfuña, y desaparece en una nube de humo.",
+          "El rey Leopoldo se pone en pie y dice con voz firme: —Este hechizo lo vamos a romper."
+        ]
+      },
+      "next": "buch"
+    },
+    {
+      "id": "buch",
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Königin Isabella blättert in einem dicken, alten Zauberbuch.",
+          "„Hier steht es“, sagt sie sanft. „Wir brauchen eine Feder vom Goldvogel, Wasser aus der Silberquelle und ein freundliches Wort an den Zauberer.“",
+          "Der König muss das Schloss beschützen.",
+          "Da tritt Lukas vor: „Ich gehe, Vater!“",
+          "„Und ich komme mit“, sagt Rosalie leise."
+        ],
+        "es": [
+          "La reina Isabel hojea un libro de magia gordísimo y muy viejo.",
+          "—Aquí está —dice con dulzura—. Necesitamos una pluma del Pájaro Dorado, agua del Manantial de Plata y una palabra amable para el mago.",
+          "El rey tiene que proteger el castillo.",
+          "Entonces Lucas da un paso al frente: —¡Iré yo, padre!",
+          "—Y yo te acompaño —dice Rosalía en voz bajita."
+        ]
+      },
+      "next": "aufbruch"
+    },
+    {
+      "id": "aufbruch",
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Der König gibt Lukas eine kleine Laterne, und die Königin steckt Rosalie ein Honigbrot ein.",
+          "Hinter dem Schlosstor teilt sich der Weg dreimal.",
+          "Links liegt der dunkle Wald, geradeaus schaukelt eine Brücke über der Schlucht, und rechts gähnt eine Höhle im Berg.",
+          "Welchen Weg sollen Lukas und Rosalie nehmen?"
+        ],
+        "es": [
+          "El rey le da a Lucas un farolillo, y la reina le guarda a Rosalía un pan con miel.",
+          "Al otro lado de la puerta del castillo, el camino se divide en tres.",
+          "A la izquierda está el bosque oscuro, de frente se balancea un puente sobre el barranco y a la derecha se abre una cueva en la montaña.",
+          "¿Qué camino deben tomar Lucas y Rosalía?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "🌲",
+          "color": "#4cc38a",
+          "label": {
+            "de": "Wald",
+            "es": "Bosque"
+          },
+          "to": "wald"
+        },
+        {
+          "icon": "🌉",
+          "color": "#4aa3ff",
+          "label": {
+            "de": "Brücke",
+            "es": "Puente"
+          },
+          "to": "bruecke"
+        },
+        {
+          "icon": "⛰️",
+          "color": "#ff9f43",
+          "label": {
+            "de": "Höhle",
+            "es": "Cueva"
+          },
+          "to": "hoehle"
+        }
+      ]
+    },
+    {
+      "id": "wald",
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Im Wald ist es so dunkel, dass Rosalie nach der Hand ihres Bruders greift.",
+          "„Hier knackt es überall“, flüstert sie, und ihr Diadem zittert.",
+          "Lukas hält die Laterne hoch und geht voran.",
+          "„Das sind nur Äste, und ich bin bei dir“, sagt er.",
+          "Da leuchtet zwischen den Bäumen etwas golden auf."
+        ],
+        "es": [
+          "En el bosque está tan oscuro que Rosalía busca la mano de su hermano.",
+          "—Aquí cruje todo —susurra, y le tiembla la diadema.",
+          "Lucas levanta el farol y va delante.",
+          "—Solo son ramas, y yo estoy contigo —le dice.",
+          "De pronto, algo dorado brilla entre los árboles."
+        ]
+      },
+      "next": "wald-vogel"
+    },
+    {
+      "id": "wald-vogel",
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Es ist der Goldvogel, und er hat sich mit einem Flügel in einer Dornenranke verfangen.",
+          "Rosalie vergisst ihre Angst und streichelt ihn sanft: „Keine Sorge, wir helfen dir.“",
+          "Vorsichtig biegt Lukas die Dornen zur Seite.",
+          "Zum Dank schenkt der Vogel ihnen eine glänzende Feder und zeigt ihnen den Weg zur Silberquelle."
+        ],
+        "es": [
+          "Es el Pájaro Dorado, que se ha quedado enganchado de un ala en una zarza.",
+          "Rosalía se olvida del miedo y lo acaricia con cariño: —Tranquilo, vamos a ayudarte.",
+          "Con mucho cuidado, Lucas aparta las espinas.",
+          "En agradecimiento, el pájaro les regala una pluma reluciente y les enseña el camino hacia el Manantial de Plata."
+        ]
+      },
+      "next": "troll"
+    },
+    {
+      "id": "bruecke",
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Die Brücke über der Schlucht schaukelt bei jedem Schritt.",
+          "Rosalie hält ihr Kleid fest und schaut lieber nicht nach unten.",
+          "Lukas prüft jedes Brett mit dem Fuß, bevor er weitergeht.",
+          "„Tritt genau dahin, wo ich hintrete“, sagt er.",
+          "Plötzlich saust über ihnen etwas Goldenes durch den Wind."
+        ],
+        "es": [
+          "El puente sobre el barranco se balancea a cada paso.",
+          "Rosalía se sujeta la falda y prefiere no mirar hacia abajo.",
+          "Lucas prueba cada tabla con el pie antes de avanzar.",
+          "—Pisa justo donde piso yo —le dice.",
+          "De repente, algo dorado pasa volando sobre ellos con el viento."
+        ]
+      },
+      "next": "bruecke-vogel"
+    },
+    {
+      "id": "bruecke-vogel",
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Es ist der Goldvogel, und der Wind hat ihm eine Feder davongeweht.",
+          "Sie trudelt genau auf die Brücke zu.",
+          "Lukas streckt sich weit, noch weiter, und fängt sie mit seinem Handschuh!",
+          "„Behaltet sie“, zwitschert der Vogel, „und folgt dem Bach zur Silberquelle.“",
+          "Rosalie steckt die Feder vorsichtig in ihr Haarband."
+        ],
+        "es": [
+          "Es el Pájaro Dorado, y el viento le ha arrancado una pluma.",
+          "La pluma baja dando vueltas justo hacia el puente.",
+          "Lucas se estira, se estira un poco más… ¡y la atrapa con el guante!",
+          "—Quedáosla —pía el pájaro—, y seguid el arroyo hasta el Manantial de Plata.",
+          "Rosalía guarda la pluma con mucho cuidado en su lazo del pelo."
+        ]
+      },
+      "next": "troll"
+    },
+    {
+      "id": "hoehle",
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "In der Höhle tropft es, und jedes Plopp hallt laut von den Wänden.",
+          "Rosalie zuckt bei jedem Geräusch zusammen.",
+          "Lukas leuchtet mit der Laterne, und plötzlich glitzern überall bunte Kristalle.",
+          "„Oh, wie wunderschön!“, staunt Rosalie und vergisst ganz, sich zu fürchten.",
+          "Ganz hinten piepst etwas leise."
+        ],
+        "es": [
+          "En la cueva gotea el agua, y cada plic resuena en las paredes.",
+          "Rosalía da un respingo con cada ruido.",
+          "Lucas alumbra con el farol y, de repente, brillan por todas partes cristales de colores.",
+          "—¡Oh, qué preciosidad! —exclama Rosalía, y se le olvida tener miedo.",
+          "Al fondo, algo pía muy bajito."
+        ]
+      },
+      "next": "hoehle-vogel"
+    },
+    {
+      "id": "hoehle-vogel",
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Dort sitzt ein kleiner Goldvogel, der aus seinem Nest gefallen ist.",
+          "Lukas klettert den Felsen hinauf, und Rosalie reicht ihm das Vögelchen ganz behutsam.",
+          "Kaum ist es im Nest, kommt die Vogelmutter durch einen Felsspalt geflogen.",
+          "Zum Dank schenkt sie ihnen eine goldene Feder und zeigt ihnen den Ausgang zur Silberquelle."
+        ],
+        "es": [
+          "Allí hay un pajarito dorado que se ha caído del nido.",
+          "Lucas trepa por la roca y Rosalía le pasa el pajarito con muchísimo cuidado.",
+          "En cuanto está en el nido, la mamá pájaro entra volando por una grieta.",
+          "En agradecimiento, les regala una pluma dorada y les enseña la salida hacia el Manantial de Plata."
+        ]
+      },
+      "next": "troll"
+    },
+    {
+      "id": "troll",
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Vor der Silberquelle sitzt ein riesiger Troll mit Moos auf dem Kopf.",
+          "„Niemand kommt an Knorz vorbei!“, brummt er so laut, dass die Blätter wackeln.",
+          "Rosalie versteckt sich schnell hinter Lukas.",
+          "Soll Lukas den Troll mutig zu einem Kräftemessen herausfordern oder ihn mit einem Rätsel überlisten?"
+        ],
+        "es": [
+          "Delante del Manantial de Plata está sentado un trol enorme con musgo en la cabeza.",
+          "—¡Nadie pasa por delante de Pedrusco! —gruñe tan fuerte que tiemblan las hojas.",
+          "Rosalía se esconde enseguida detrás de Lucas.",
+          "¿Debe Lucas desafiar al trol a una prueba de fuerza o engañarlo con un acertijo?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "💪",
+          "color": "#a77bf3",
+          "label": {
+            "de": "Kräfte",
+            "es": "Fuerza"
+          },
+          "to": "kraft"
+        },
+        {
+          "icon": "🧩",
+          "color": "#ffb547",
+          "label": {
+            "de": "Rätsel",
+            "es": "Acertijo"
+          },
+          "to": "raetsel"
+        }
+      ]
+    },
+    {
+      "id": "kraft",
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "„Ich fordere dich heraus!“, ruft Lukas. „Wer diesen Felsen hochhebt, hat gewonnen.“",
+          "Der Troll hebt ihn mit einer Hand und grinst.",
+          "Lukas schiebt einen langen Ast unter den Felsen, stemmt sich mit aller Kraft darauf, und der Fels hebt sich!",
+          "Knorz lacht dröhnend: „Klein, aber stark und schlau! Du gefällst mir.“"
+        ],
+        "es": [
+          "—¡Te desafío! —grita Lucas—. Gana quien consiga levantar esta roca.",
+          "El trol la levanta con una sola mano y sonríe.",
+          "Lucas mete una rama larga debajo de la roca, empuja con todas sus fuerzas… ¡y la roca se levanta!",
+          "Pedrusco suelta una carcajada: —Pequeño, pero fuerte y listo. ¡Me caes bien!"
+        ]
+      },
+      "next": "quelle-troll"
+    },
+    {
+      "id": "quelle-troll",
+      "image": "p13.svg",
+      "text": {
+        "de": [
+          "Knorz füllt ihnen selbst die Flasche mit funkelndem Silberwasser.",
+          "„Zum Turm des Zauberers kenne ich eine Abkürzung“, sagt er.",
+          "Er setzt Rosalie auf seine Schulter, und dort oben rückt sie ihr Diadem zurecht.",
+          "Lukas marschiert stolz nebenher.",
+          "Bald sehen sie einen schiefen Turm mit einer einzigen Kerze im Fenster."
+        ],
+        "es": [
+          "Pedrusco en persona les llena la cantimplora de agua plateada y reluciente.",
+          "—Conozco un atajo hasta la torre del mago —dice.",
+          "Se sube a Rosalía al hombro, y allí arriba ella se coloca bien la diadema.",
+          "Lucas marcha a su lado, muy orgulloso.",
+          "Pronto ven una torre torcida con una sola vela en la ventana."
+        ]
+      },
+      "next": "turm-troll"
+    },
+    {
+      "id": "turm-troll",
+      "image": "p14.svg",
+      "text": {
+        "de": [
+          "Unten im Turm sitzt der Zauberer ganz allein vor einer Tasse kaltem Tee.",
+          "„Was wollt ihr?“, knurrt er.",
+          "Lukas hält Feder und Silberwasser bereit, und Knorz zupft verlegen an seinem Moos.",
+          "Rosalie schaut sich um: kein Bild, kein Freund, nur Staub.",
+          "Wie sollen sie den Zauberer begrüßen?"
+        ],
+        "es": [
+          "En la planta baja de la torre, el mago está sentado completamente solo ante una taza de té frío.",
+          "—¿Qué queréis? —gruñe.",
+          "Lucas tiene preparadas la pluma y el agua de plata, y Pedrusco se rasca el musgo, cortado.",
+          "Rosalía mira a su alrededor: ni un cuadro, ni un amigo, solo polvo.",
+          "¿Cómo deben saludar al mago?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "💬",
+          "color": "#4cc38a",
+          "label": {
+            "de": "Freundlich",
+            "es": "Amable"
+          },
+          "to": "freundlich"
+        },
+        {
+          "icon": "🎁",
+          "color": "#ff6b6b",
+          "label": {
+            "de": "Geschenk",
+            "es": "Regalo"
+          },
+          "to": "geschenk"
+        },
+        {
+          "icon": "🎵",
+          "color": "#4aa3ff",
+          "label": {
+            "de": "Trolllied",
+            "es": "Canción"
+          },
+          "to": "lied"
+        }
+      ]
+    },
+    {
+      "id": "raetsel",
+      "image": "p15.svg",
+      "text": {
+        "de": [
+          "„Ich habe ein Rätsel für dich“, sagt Lukas. „Was wird nasser, je mehr es trocknet?“",
+          "Knorz grübelt so lange, dass ihm das Moos vom Kopf rutscht.",
+          "„Ein Handtuch!“, ruft Lukas.",
+          "Der Troll lacht so sehr, dass er umkippt.",
+          "„Das merke ich mir! Geht nur, ihr klugen Kinder.“"
+        ],
+        "es": [
+          "—Tengo un acertijo para ti —dice Lucas—: ¿qué cosa se moja más cuanto más seca?",
+          "Pedrusco piensa y piensa, hasta que se le resbala el musgo de la cabeza.",
+          "—¡Una toalla! —exclama Lucas.",
+          "El trol se ríe tanto que se cae de espaldas.",
+          "—¡Esa me la apunto! Pasad, niños listos."
+        ]
+      },
+      "next": "quelle"
+    },
+    {
+      "id": "quelle",
+      "image": "p16.svg",
+      "text": {
+        "de": [
+          "Die Silberquelle sprudelt und glitzert wie tausend kleine Sterne.",
+          "Rosalie sieht ihr Spiegelbild und lächelt, weil ihr Kleid im Silberlicht so schön schimmert.",
+          "Lukas füllt die Flasche bis zum Rand.",
+          "Dann wandern sie über die Wiese zu einem schiefen Turm, in dem nur eine einzige Kerze brennt."
+        ],
+        "es": [
+          "El Manantial de Plata burbujea y centellea como mil estrellitas.",
+          "Rosalía ve su reflejo y sonríe, porque su vestido brilla precioso con la luz plateada.",
+          "Lucas llena la cantimplora hasta arriba.",
+          "Luego cruzan el prado verde hasta una torre torcida en la que solo arde una vela."
+        ]
+      },
+      "next": "turm"
+    },
+    {
+      "id": "turm",
+      "image": "p17.svg",
+      "text": {
+        "de": [
+          "Im Turm sitzt der Zauberer ganz allein vor einer Tasse kaltem Tee.",
+          "„Was wollt ihr?“, knurrt er und zieht die Augenbrauen zusammen.",
+          "Lukas hält die Feder und das Silberwasser bereit.",
+          "Rosalie schaut sich um: kein Bild an der Wand, kein Freund, nur Staub.",
+          "Wie sollen sie den Zauberer begrüßen?"
+        ],
+        "es": [
+          "En la torre, el mago está sentado completamente solo ante una taza de té frío.",
+          "—¿Qué queréis? —gruñe, frunciendo las cejas.",
+          "Lucas tiene preparadas la pluma y el agua de plata.",
+          "Rosalía mira a su alrededor: ni un cuadro en la pared, ni un amigo, solo polvo.",
+          "¿Cómo deben saludar al mago?"
+        ]
+      },
+      "choices": [
+        {
+          "icon": "💬",
+          "color": "#4cc38a",
+          "label": {
+            "de": "Freundlich",
+            "es": "Amable"
+          },
+          "to": "freundlich"
+        },
+        {
+          "icon": "🛡️",
+          "color": "#a77bf3",
+          "label": {
+            "de": "Mutig",
+            "es": "Valiente"
+          },
+          "to": "mutig"
+        },
+        {
+          "icon": "🎁",
+          "color": "#ff6b6b",
+          "label": {
+            "de": "Geschenk",
+            "es": "Regalo"
+          },
+          "to": "geschenk"
+        }
+      ]
+    },
+    {
+      "id": "freundlich",
+      "image": "p18.svg",
+      "text": {
+        "de": [
+          "Rosalie geht einen Schritt auf den Zauberer zu.",
+          "„Du siehst traurig aus“, sagt sie sanft. „Bist du vielleicht einsam?“",
+          "Der Zauberer schluckt, und eine Träne kullert in seinen Bart.",
+          "„Seit hundert Jahren hat mich niemand eingeladen“, flüstert er.",
+          "Lukas nimmt seinen Helm ab: „Dann laden wir dich jetzt ein.“"
+        ],
+        "es": [
+          "Rosalía da un paso hacia el mago.",
+          "—Pareces triste —le dice con dulzura—. ¿Te sientes solo?",
+          "El mago traga saliva y una lágrima le rueda hasta la barba.",
+          "—Hace cien años que nadie me invita a nada —susurra.",
+          "Lucas se quita el casco: —Pues ahora te invitamos nosotros."
+        ]
+      },
+      "next": "fest"
+    },
+    {
+      "id": "fest",
+      "image": "p19.svg",
+      "text": {
+        "de": [
+          "Im Schloss taucht der Zauberer die Feder ins Silberwasser und streicht damit über den Stein.",
+          "Pling, die Krone glänzt wieder golden!",
+          "Am Abend feiert das ganze Schloss, und der Zauberer zaubert bunte Funken in den Himmel.",
+          "König Leopold schüttelt ihm kräftig die Hand, und Königin Isabella schenkt ihm das größte Stück Torte."
+        ],
+        "es": [
+          "En el castillo, el mago moja la pluma en el agua de plata y la pasa por la piedra.",
+          "¡Pling! La corona vuelve a relucir como el oro.",
+          "Esa noche todo el castillo celebra una fiesta, y el mago llena el cielo de chispas de colores.",
+          "El rey Leopoldo le estrecha la mano con fuerza, y la reina Isabel le sirve el trozo de tarta más grande."
+        ]
+      },
+      "end": "fest"
+    },
+    {
+      "id": "mutig",
+      "image": "p20.svg",
+      "text": {
+        "de": [
+          "Lukas tritt mutig vor: „Ich bin Ritter Lukas, und ich verlange die Krone meines Vaters zurück!“",
+          "Der Zauberer schnippt beleidigt, und schwupps, sein Helm ist ein Blumentopf voller Gänseblümchen.",
+          "Lukas muss lachen, und der Zauberer kichert ein bisschen mit.",
+          "Da merkt Rosalie, wie einsam er ist, und sagt: „Du bist lustig. Willst du unser Freund sein?“"
+        ],
+        "es": [
+          "Lucas da un paso al frente: —¡Soy el caballero Lucas y exijo que me devuelvas la corona de mi padre!",
+          "El mago chasquea los dedos, ofendido, y ¡zas!, su casco se convierte en una maceta llena de margaritas.",
+          "Lucas se echa a reír, y el mago también suelta una risita.",
+          "Entonces Rosalía se da cuenta de lo solo que está y le dice: —Eres gracioso. ¿Quieres ser nuestro amigo?"
+        ]
+      },
+      "next": "hofzauberer"
+    },
+    {
+      "id": "hofzauberer",
+      "image": "p21.svg",
+      "text": {
+        "de": [
+          "Der Zauberer wird rot vor Freude.",
+          "Mit der Feder, dem Silberwasser und Rosalies freundlichem Wort wird der Stein im Schloss wieder zur goldenen Krone.",
+          "König Leopold ernennt ihn zum Hofzauberer.",
+          "Seitdem zaubert er jeden Morgen Blumen auf die Helme der Ritter, und Lukas findet seinen am schönsten."
+        ],
+        "es": [
+          "El mago se pone colorado de alegría.",
+          "Con la pluma, el agua de plata y la palabra amable de Rosalía, la piedra del castillo vuelve a ser la corona de oro.",
+          "El rey Leopoldo lo nombra mago de la corte.",
+          "Desde entonces, cada mañana hace brotar flores en los cascos de los caballeros, y a Lucas el suyo le parece el más bonito."
+        ]
+      },
+      "end": "hofzauberer"
+    },
+    {
+      "id": "geschenk",
+      "image": "p22.svg",
+      "text": {
+        "de": [
+          "„Wir haben dir etwas mitgebracht“, sagt Lukas und hält dem Zauberer die goldene Feder hin.",
+          "Der Zauberer starrt sie an: „Ein Geschenk für mich?“",
+          "Rosalie nickt: „Du siehst aus, als hättest du lange keins mehr bekommen.“",
+          "Da lächelt der Zauberer zum ersten Mal seit hundert Jahren und sagt leise danke."
+        ],
+        "es": [
+          "—Te hemos traído una cosa —dice Lucas, y le ofrece al mago la pluma dorada.",
+          "El mago se la queda mirando: —¿Un regalo para mí?",
+          "Rosalía asiente: —Parece que hace mucho que nadie te regala nada.",
+          "Y el mago sonríe por primera vez en cien años y da las gracias en voz bajita."
+        ]
+      },
+      "next": "garten"
+    },
+    {
+      "id": "garten",
+      "image": "p23.svg",
+      "text": {
+        "de": [
+          "Der Zauberer taucht die Feder ins Silberwasser und malt einen Kreis in die Luft.",
+          "Im Schloss wird der Stein wieder zur goldenen Krone, und rund um den Turm sprießen bunte Blumen.",
+          "Jeden Sonntag kommt der Zauberer nun zum Kuchen ins Schloss.",
+          "Rosalie flicht ihm Blüten in den Bart, und er sieht sehr feierlich aus."
+        ],
+        "es": [
+          "El mago moja la pluma en el agua de plata y dibuja un círculo en el aire.",
+          "En el castillo, la piedra vuelve a ser la corona de oro, y alrededor de la torre brotan flores de colores.",
+          "Ahora el mago va cada domingo al castillo a merendar.",
+          "Rosalía le trenza flores en la barba, y él está de lo más elegante."
+        ]
+      },
+      "end": "garten"
+    },
+    {
+      "id": "lied",
+      "image": "p24.svg",
+      "text": {
+        "de": [
+          "Knorz holt tief Luft und singt ein brummiges Trolllied.",
+          "Es klingt so schief, dass Lukas und Rosalie lachen müssen, und auch der Zauberer zuckt mit dem Mundwinkel.",
+          "Rosalie nimmt seine Hand: „Sing doch mit, zusammen klingt es schöner.“",
+          "Erst leise, dann immer lauter singt der Zauberer mit."
+        ],
+        "es": [
+          "Pedrusco toma aire y canta una canción de trol muy gruñona.",
+          "Desafina tanto que Lucas y Rosalía se echan a reír, y al mago también se le escapa media sonrisa.",
+          "Rosalía le coge la mano: —Canta con nosotros, juntos suena mejor.",
+          "Primero bajito y luego cada vez más fuerte, el mago se pone a cantar."
+        ]
+      },
+      "next": "konzert"
+    },
+    {
+      "id": "konzert",
+      "image": "p25.svg",
+      "text": {
+        "de": [
+          "Mit Feder, Silberwasser und Rosalies freundlichem Wort ist der Zauber gelöst, und die Krone glänzt wieder golden.",
+          "Seitdem geben der Zauberer und Knorz jeden Freitag ein Konzert im Schlosshof.",
+          "Lukas trommelt auf seinem Schild, und Rosalie tanzt in ihrem schönsten Kleid.",
+          "Und Königin Isabella klatscht am allerlautesten."
+        ],
+        "es": [
+          "Con la pluma, el agua de plata y la palabra amable de Rosalía, el hechizo se rompe y la corona vuelve a brillar como el oro.",
+          "Desde entonces, el mago y Pedrusco dan un concierto cada viernes en el patio del castillo.",
+          "Lucas toca el tambor con su escudo y Rosalía baila con su vestido más bonito.",
+          "Y la reina Isabel es la que aplaude más fuerte."
+        ]
+      },
+      "end": "konzert"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "id": "sofias-festkleid",
+  "accent": "#e04f8a",
+  "age": 7,
+  "title": { "de": "Sofia und das Kleid für das Sommerfest", "es": "Sofía y el vestido de la fiesta de verano" },
+  "blurb": {
+    "de": "Sofia näht mit Mama ein Kleid mit Rüschen für das Sommerfest im Dorf. Doch das neue Mädchen Lucía hat gar kein Festkleid – bis Sofia eine Idee hat.",
+    "es": "Sofía cose con mamá un vestido de volantes para la fiesta del pueblo. Pero Lucía, la niña nueva, no tiene vestido de fiesta… hasta que a Sofía se le ocurre algo."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": ["Sofia Navarro wohnt in einem weißen Dorf in Andalusien, wo die Häuser blaue Fensterläden und rote Blumentöpfe haben.", "Sie ist sieben Jahre alt und liebt schöne Kleider, Rüschen und Haarspangen mit Blüten.", "Ihr Bruder Pablo ist neun und kickt seinen Fußball am liebsten gegen jede Hauswand.", "In einer Woche ist das große Sommerfest auf dem Dorfplatz!"],
+        "es": ["Sofía Navarro vive en un pueblo blanco de Andalucía, de casas con postigos azules y macetas rojas en las ventanas.", "Tiene siete años y le encantan los vestidos bonitos, los volantes y las horquillas con flores.", "Su hermano Pablo tiene nueve y chuta el balón contra todas las paredes del pueblo.", "¡Dentro de una semana es la gran fiesta de verano en la plaza!"]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": ["Mama Carmen holt ihre Nähmaschine und einen Ballen türkisfarbenen Stoff aus dem Schrank.", "Sie hat lange schwarze Haare und trägt immer eine rote Blume darin.", "Sofia darf die Stecknadeln reichen und aussuchen, wie viele Rüschen das Kleid bekommt.", "„Drei Reihen!“, sagt Sofia und dreht sich schon jetzt im Kreis.", "Mama lacht und lässt die Maschine surren."],
+        "es": ["Mamá Carmen saca del armario su máquina de coser y una tela de color turquesa.", "Tiene el pelo largo y negro, y siempre lleva una flor roja prendida en él.", "Sofía le pasa los alfileres y decide cuántos volantes tendrá el vestido.", "—¡Tres filas! —dice Sofía, y ya está dando vueltas como una peonza.", "Mamá se ríe y la máquina empieza a zumbar."]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": ["Papa Antonio ist Schreiner, und dieses Jahr baut er die Bühne für das Fest.", "Er trägt die schweren Balken auf der Schulter, als wären sie aus Pappe.", "Pablo hilft beim Hämmern, bis ihm ein Nagel davonhüpft und in den Brunnen plumpst.", "„Der wollte wohl baden“, brummt Papa und zwinkert ihm zu."],
+        "es": ["Papá Antonio es carpintero, y este año le toca construir el escenario de la fiesta.", "Carga las vigas pesadas al hombro como si fueran de cartón.", "Pablo le ayuda a clavar, hasta que un clavo sale disparado y cae en la fuente.", "—Ese tenía ganas de darse un baño —gruñe papá, y le guiña un ojo."]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": ["Am Brunnen sitzt ein Mädchen, das Sofia noch nie gesehen hat.", "Es hat zwei lange Zöpfe und schaut den anderen Kindern beim Spielen nur zu.", "„Das ist Lucía, sie ist gerade hergezogen“, flüstert Pablo.", "Sofia merkt sofort, dass Lucía ganz traurige Augen hat.", "Sie geht hin und setzt sich einfach neben sie auf den Brunnenrand."],
+        "es": ["Junto a la fuente hay una niña a la que Sofía no ha visto nunca.", "Tiene dos trenzas largas y mira jugar a los demás niños sin acercarse.", "—Es Lucía, acaba de mudarse al pueblo —susurra Pablo.", "Sofía se da cuenta enseguida de que Lucía tiene la mirada triste.", "Se acerca y se sienta a su lado en el borde de la fuente."]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": ["„Kommst du auch zum Sommerfest?“, fragt Sofia freundlich.", "Lucía zupft an ihrem alten, ausgewaschenen Rock.", "„Ich habe kein Festkleid“, sagt sie leise, „unsere Sachen sind noch in Kisten, und Mama muss so viel arbeiten.“", "Sofia denkt an ihr türkisfarbenes Kleid mit den drei Reihen Rüschen.", "Plötzlich fühlt sich die Freude darüber ein bisschen schwer an."],
+        "es": ["—¿Vas a venir a la fiesta de verano? —pregunta Sofía con una sonrisa.", "Lucía tira de su falda vieja y desteñida.", "—No tengo vestido de fiesta —dice bajito—. Nuestras cosas siguen en cajas y mi madre trabaja muchísimo.", "Sofía piensa en su vestido turquesa con tres filas de volantes.", "De pronto, esa alegría le pesa un poquito."]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": ["Zu Hause öffnet Sofia Mamas große Flickenkiste.", "Darin liegen Stoffreste in Gelb, Rosa und Weiß, dazu Spitzen und glänzende Bänder.", "„Mama, können wir daraus noch ein Kleid nähen?“, fragt Sofia.", "„Für Lucía, damit sie auch zum Fest kommt.“", "Mama nimmt sie fest in den Arm und sagt: „Das schaffen wir zusammen.“"],
+        "es": ["En casa, Sofía abre el gran baúl de retales de mamá.", "Dentro hay trozos de tela amarilla, rosa y blanca, puntillas y cintas que brillan.", "—Mamá, ¿podemos coser otro vestido con todo esto? —pregunta Sofía.", "—Es para Lucía, así también podrá venir a la fiesta.", "Mamá la abraza fuerte y le dice: —Entre las dos lo conseguimos."]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": ["Am nächsten Morgen klopft Sofia mit der Kiste unter dem Arm an Lucías Tür.", "Lucía macht große Augen, als sie die bunten Stoffe sieht.", "Sie streicht über den sonnengelben Stoff, dann über das rosa Band und lächelt zum ersten Mal.", "„Gelb wie die Sonnenblumen draußen am Feld“, sagt sie.", "Sofia klatscht in die Hände."],
+        "es": ["A la mañana siguiente, Sofía llama a la puerta de Lucía con el baúl bajo el brazo.", "Lucía abre mucho los ojos al ver tantas telas de colores.", "Acaricia la tela amarilla, luego la cinta rosa, y sonríe por primera vez.", "—Amarilla como los girasoles del campo —dice.", "Sofía da palmas de alegría."]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": ["Drei Nachmittage lang sitzen die Mädchen bei Mama in der Küche.", "Mama schneidet und näht, Sofia steckt die Rüschen fest, und Lucía flicht Bänder um einen alten Strohhut.", "Pablo schnappt sich heimlich Kekse und behauptet, er sei der Vorkoster.", "Lucía lacht so laut, dass sie sich die Hand vor den Mund halten muss."],
+        "es": ["Durante tres tardes, las niñas se sientan con mamá en la cocina.", "Mamá corta y cose, Sofía sujeta los volantes con alfileres y Lucía trenza cintas alrededor de un viejo sombrero de paja.", "Pablo roba galletas a escondidas y dice que él es el catador oficial.", "Lucía se ríe tanto que tiene que taparse la boca."]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": ["Endlich ist der Abend des Sommerfests da.", "Über dem Dorfplatz leuchten bunte Laternen, und Papas Bühne ist mit Girlanden geschmückt.", "Sofia trägt ihr türkisfarbenes Kleid, Lucía ihr gelbes mit rosa Band und den Strohhut.", "„Ihr seht aus wie zwei Blumen“, sagt Papa stolz.", "Die Mädchen drehen sich, dass die Rüschen fliegen."],
+        "es": ["Por fin llega la noche de la fiesta de verano.", "Sobre la plaza brillan farolillos de colores, y el escenario de papá está adornado con guirnaldas.", "Sofía lleva su vestido turquesa, y Lucía, el amarillo con cinta rosa y el sombrero de paja.", "—Parecéis dos flores —dice papá, muy orgulloso.", "Las niñas giran y los volantes vuelan."]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": ["Da fegt ein Windstoß über den Platz.", "Er reißt Lucía den Strohhut vom Kopf und wirbelt ihn hoch hinauf in den großen Olivenbaum.", "Lucía schlägt die Hände vors Gesicht, und auch Sofia wird ganz bange.", "„Der hängt viel zu hoch!“, ruft sie ängstlich.", "Doch Pablo spuckt in die Hände und klettert schon los."],
+        "es": ["De repente, una ráfaga de viento barre la plaza.", "Le arranca a Lucía el sombrero y lo lanza a lo alto del gran olivo.", "Lucía se tapa la cara con las manos, y a Sofía también le entra miedo.", "—¡Está altísimo! —grita asustada.", "Pero Pablo se frota las manos y empieza a trepar."]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": ["Ast für Ast klettert Pablo nach oben, mutig wie ein Eichhörnchen.", "Er streckt sich, schnappt den Hut und schwenkt ihn wie einen Pokal.", "Da knackt der dünne Ast, und Pablo rutscht ab!", "Doch unten steht schon Papa mit ausgebreiteten Armen und fängt ihn sicher auf.", "„Tor!“, ruft Pablo, und der ganze Platz jubelt."],
+        "es": ["Rama a rama, Pablo sube valiente como una ardilla.", "Se estira, atrapa el sombrero y lo agita como si fuera una copa.", "Entonces la rama fina hace crac, ¡y Pablo resbala!", "Pero abajo ya está papá con los brazos abiertos, y lo atrapa sin problema.", "—¡Gol! —grita Pablo, y toda la plaza aplaude."]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": ["Lucía setzt ihren Hut wieder auf und bedankt sich bei Pablo mit einem Knicks.", "Dann spielt die Musik, und Sofia und Lucía tanzen Hand in Hand auf Papas Bühne.", "Mama sieht ihnen zu und sagt leise: „Heute strahlen die zwei schöner als alle Laternen.“", "Und Sofia weiß ganz genau, dass es nicht nur an den Rüschen liegt."],
+        "es": ["Lucía vuelve a ponerse el sombrero y le da las gracias a Pablo con una reverencia.", "Luego suena la música, y Sofía y Lucía bailan de la mano en el escenario de papá.", "Mamá las mira y dice bajito: —Esta noche brillan más que todos los farolillos.", "Y Sofía sabe muy bien que no es solo por los volantes."]
+      }
+    }
+  ]
+}

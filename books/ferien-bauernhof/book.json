@@ -1,0 +1,230 @@
+{
+  "id": "ferien-bauernhof",
+  "accent": "#3f9a3a",
+  "age": 7,
+  "shelf": "interaktiv",
+  "interactive": true,
+  "title": { "de": "Ferien auf Opas Bauernhof", "es": "Vacaciones en la granja del abuelo" },
+  "blurb": {
+    "de": "Felix und Mia verbringen die Ferien bei Opa Hans und Oma Gerda auf dem Bauernhof. Ein ausgebüxtes Kalb, ein Unwetter und ein Geräusch in der Nacht – entscheide selbst, was die beiden erleben!",
+    "es": "Felix y Mia pasan las vacaciones con el abuelo Hans y la abuela Gerda en la granja. Un ternero que se escapa, una tormenta y un ruido en plena noche: ¡decide tú qué aventuras viven!"
+  },
+  "endings": [
+    { "id": "heu", "icon": "🌾", "title": { "de": "Das Heu ist gerettet", "es": "El heno, a salvo" } },
+    { "id": "lamm", "icon": "🐑", "title": { "de": "Mias kleines Lamm", "es": "El corderito de Mia" } },
+    { "id": "kalb", "icon": "🐄", "title": { "de": "Ein Kälbchen in der Nacht", "es": "Un ternerito en la noche" } },
+    { "id": "fest", "icon": "🎉", "title": { "de": "Das große Erntefest", "es": "La gran fiesta de la cosecha" } }
+  ],
+  "pages": [
+    {
+      "id": "start",
+      "image": "p01.svg",
+      "text": {
+        "de": ["Endlich Ferien!", "Familie Schneider fährt mit dem Auto aufs Land, zu Opa Hans und Oma Gerda auf den Bauernhof.", "Papa Markus lenkt, und Mama Lisa singt fröhlich mit dem Radio.", "Felix ist acht und will unbedingt Traktor fahren und auf dem Heuboden toben.", "Seine Schwester Mia ist sieben und hat ihre roten Gummistiefel mit den weißen Punkten an, dazu zwei Zöpfe mit Schleifen."],
+        "es": ["¡Por fin vacaciones!", "La familia Schneider va en coche al campo, a la granja del abuelo Hans y la abuela Gerda.", "Papá Markus conduce y mamá Lisa canta contenta con la radio.", "Felix tiene ocho años y se muere de ganas de conducir el tractor y saltar en el pajar.", "Su hermana Mia tiene siete y lleva sus botas de agua rojas con lunares blancos y dos trenzas con lazos."]
+      },
+      "next": "ankunft"
+    },
+    {
+      "id": "ankunft",
+      "image": "p02.svg",
+      "text": {
+        "de": ["Auf dem Hof gackern die Hühner, und der Hund Bello bellt zur Begrüßung.", "Opa Hans hebt Felix und Mia gleichzeitig hoch, so stark ist er.", "Oma Gerda trägt ihr geblümtes Kopftuch und duftet nach frischem Apfelkuchen.", "„Nach dem Kuchen dürft ihr helfen“, sagt Opa.", "Wohin sollen die Kinder zuerst gehen, in den Stall oder aufs Feld?"],
+        "es": ["En el patio cacarean las gallinas y el perro Bello ladra para darles la bienvenida.", "El abuelo Hans levanta a Felix y a Mia a la vez, ¡qué fuerte es!", "La abuela Gerda lleva su pañuelo de flores en la cabeza y huele a tarta de manzana recién hecha.", "—Después de la merienda podéis ayudar —dice el abuelo.", "¿Adónde van primero los niños, al establo o al campo?"]
+      },
+      "choices": [
+        { "icon": "🐄", "color": "#ff9f43", "label": { "de": "Stall", "es": "Establo" }, "to": "stall" },
+        { "icon": "🚜", "color": "#4cc38a", "label": { "de": "Feld", "es": "Campo" }, "to": "feld" }
+      ]
+    },
+    {
+      "id": "stall",
+      "image": "p03.svg",
+      "text": {
+        "de": ["Im Stall ist es warm und riecht nach Heu.", "Die Kuh Liese schaut die Kinder mit großen, sanften Augen an.", "Doch hinten am Gatter schnaubt Brummer, der riesige Bulle, und scharrt mit dem Huf.", "Mia versteckt sich schnell hinter Papas breitem Rücken.", "Felix aber geht mutig näher und sagt: „Hallo, Brummer, wir sind die Neuen!“"],
+        "es": ["En el establo hace calorcito y huele a heno.", "La vaca Lola mira a los niños con unos ojos enormes y dulces.", "Pero al fondo, junto a la valla, resopla Trueno, el toro gigante, y rasca el suelo con la pezuña.", "Mia se esconde enseguida detrás de la ancha espalda de papá.", "Felix, en cambio, se acerca valiente y dice: —¡Hola, Trueno, somos los nuevos!"]
+      },
+      "next": "heuboden"
+    },
+    {
+      "id": "heuboden",
+      "image": "p04.svg",
+      "text": {
+        "de": ["Über dem Stall liegt der Heuboden.", "Felix klettert die Leiter hinauf und springt mit einem Jubelschrei in das weiche Heu.", "Mia klettert vorsichtig hinterher und lacht, als ihr Halme in den Zöpfen hängen.", "„Jetzt siehst du aus wie eine Vogelscheuche!“, kichert Felix.", "Mia zupft die Halme heraus und bindet ihre Schleifen ganz ordentlich neu."],
+        "es": ["Encima del establo está el pajar.", "Felix sube por la escalera y se tira al heno blandito con un grito de alegría.", "Mia sube detrás con cuidado y se ríe cuando se le quedan briznas en las trenzas.", "—¡Pareces un espantapájaros! —se ríe Felix.", "Mia se quita las briznas y vuelve a atarse los lazos muy bien puestos."]
+      },
+      "next": "lamm"
+    },
+    {
+      "id": "feld",
+      "image": "p05.svg",
+      "text": {
+        "de": ["Auf dem Feld wartet Opas großer roter Traktor.", "Opa setzt Felix auf seinen Schoß, und Felix darf das riesige Lenkrad halten.", "„Schön geradeaus!“, brummt Opa.", "Papa wirft dabei die schweren Heuballen so leicht auf den Anhänger, als wären sie Kissen.", "Felix strahlt über das ganze Gesicht: Das ist der beste Tag seines Lebens!"],
+        "es": ["En el campo espera el gran tractor rojo del abuelo.", "El abuelo sienta a Felix en sus rodillas, y Felix puede sujetar el enorme volante.", "—¡Bien recto! —gruñe el abuelo.", "Mientras tanto, papá sube las pesadas balas de heno al remolque como si fueran cojines.", "Felix sonríe de oreja a oreja: ¡es el mejor día de su vida!"]
+      },
+      "next": "wiese"
+    },
+    {
+      "id": "wiese",
+      "image": "p06.svg",
+      "text": {
+        "de": ["Am Feldrand pflücken Mama und Mia Kornblumen und Mohnblumen.", "Mama flicht Mia einen Blumenkranz, und Mia dreht sich darin wie eine Prinzessin.", "Dann stapft sie mit ihren Punktestiefeln mitten durch eine Pfütze.", "„Die Stiefel sind nicht nur schön, die sind auch praktisch!“, ruft sie stolz.", "Oma bringt Saft und Butterbrote, und alle machen Picknick im Gras."],
+        "es": ["Al borde del campo, mamá y Mia recogen acianos y amapolas.", "Mamá le hace a Mia una corona de flores, y Mia gira con ella como una princesa.", "Luego atraviesa un charco con sus botas de lunares.", "—¡Mis botas no solo son bonitas, también son prácticas! —grita orgullosa.", "La abuela trae zumo y bocadillos, y todos meriendan en la hierba."]
+      },
+      "next": "lamm"
+    },
+    {
+      "id": "lamm",
+      "image": "p07.svg",
+      "text": {
+        "de": ["Hinter der Scheune hört Mia ein ganz leises Mäh.", "Im Stroh liegt ein winziges Lamm, das kaum stehen kann.", "„Seine Mama hat nicht genug Milch“, sagt Oma Gerda und holt eine Flasche.", "Mia setzt sich ins Stroh, hält das Lamm im Arm und gibt ihm geduldig zu trinken.", "„Ich nenne dich Flöckchen“, flüstert sie, „und ich passe auf dich auf.“"],
+        "es": ["Detrás del granero, Mia oye un balido muy flojito.", "En la paja hay un corderito diminuto que casi no se tiene en pie.", "—Su mamá no tiene suficiente leche —dice la abuela Gerda, y va a buscar un biberón.", "Mia se sienta en la paja, coge al corderito en brazos y le da de beber con paciencia.", "—Te llamaré Copito —le susurra—, y yo te voy a cuidar."]
+      },
+      "next": "kalbweg"
+    },
+    {
+      "id": "kalbweg",
+      "image": "p08.svg",
+      "text": {
+        "de": ["Plötzlich klappert das Gatter, und etwas Braunes saust über den Hof.", "Es ist Tupfi, das junge Kalb, und es ist ausgebüxt!", "Es rennt quer durch Omas Gemüsebeet, direkt auf die Weide von Brummer zu.", "„Ich fange es!“, ruft Felix und krempelt schon die Ärmel hoch.", "Soll Felix das Kalb selbst einfangen oder schnell Opa holen?"],
+        "es": ["De repente la valla hace clac y algo marrón cruza el patio a toda velocidad.", "Es Pecas, el ternero joven, ¡y se ha escapado!", "Corre por el huerto de la abuela, derecho hacia el prado de Trueno.", "—¡Yo lo atrapo! —grita Felix, y ya se está remangando.", "¿Debe Felix atrapar él solo al ternero o ir corriendo a buscar al abuelo?"]
+      },
+      "choices": [
+        { "icon": "🏃", "color": "#ff6b6b", "label": { "de": "Einfangen", "es": "Atraparlo" }, "to": "fangen" },
+        { "icon": "👴", "color": "#4aa3ff", "label": { "de": "Opa holen", "es": "Al abuelo" }, "to": "opa" }
+      ]
+    },
+    {
+      "id": "fangen",
+      "image": "p09.svg",
+      "text": {
+        "de": ["Felix rennt los, so schnell er kann.", "Tupfi schlägt einen Haken nach links, Felix nach rechts, und platsch, landet er in einer Matschpfütze!", "Die Hühner flattern gackernd davon.", "Felix wischt sich den Schlamm aus dem Gesicht und rappelt sich sofort wieder auf.", "„Aufgeben gibt es nicht“, knurrt er und läuft weiter."],
+        "es": ["Felix echa a correr todo lo rápido que puede.", "Pecas da un quiebro a la izquierda, Felix a la derecha y, ¡chof!, aterriza en un charco de barro.", "Las gallinas salen volando y cacareando.", "Felix se limpia el barro de la cara y se levanta enseguida.", "—Rendirse, nunca —gruñe, y sigue corriendo."]
+      },
+      "next": "singen"
+    },
+    {
+      "id": "singen",
+      "image": "p10.svg",
+      "text": {
+        "de": ["Mia merkt, dass Tupfi gar nicht frech ist, sondern Angst hat.", "Sie hockt sich hin und summt ganz leise ein Schlaflied.", "Tupfi bleibt stehen, spitzt die Ohren und kommt langsam näher.", "Da schleicht Felix von hinten heran und legt dem Kalb blitzschnell das Halfter um.", "„Wir sind ein gutes Team“, sagt er und klatscht seine matschige Hand gegen Mias Hand."],
+        "es": ["Mia se da cuenta de que Pecas no es travieso, sino que tiene miedo.", "Se agacha y tararea muy bajito una nana.", "Pecas se para, levanta las orejas y se acerca despacito.", "Entonces Felix llega por detrás sin hacer ruido y le pone el cabestro en un abrir y cerrar de ojos.", "—Somos un buen equipo —dice, y choca su mano llena de barro con la de Mia."]
+      },
+      "next": "gewitter"
+    },
+    {
+      "id": "gewitter",
+      "image": "p11.svg",
+      "text": {
+        "de": ["Kaum ist Tupfi im Stall, wird der Himmel dunkelgrau.", "In der Ferne grollt der Donner, und der Wind zerrt an Mias Schleifen.", "Draußen auf dem Feld liegt noch das ganze Heu, und auf der Weide stehen die Schafe und Flöckchen.", "„Wir schaffen nicht beides!“, ruft Opa.", "Sollen sie zuerst das Heu retten oder die Tiere in den Stall bringen?"],
+        "es": ["En cuanto Pecas está en el establo, el cielo se pone gris oscuro.", "A lo lejos retumba el trueno y el viento le tira a Mia de los lazos.", "En el campo todavía está todo el heno, y en el prado están las ovejas con Copito.", "—¡No nos da tiempo a todo! —grita el abuelo.", "¿Salvan primero el heno o llevan a los animales al establo?"]
+      },
+      "choices": [
+        { "icon": "🌾", "color": "#ffb547", "label": { "de": "Heu", "es": "Heno" }, "to": "heu" },
+        { "icon": "🐑", "color": "#a77bf3", "label": { "de": "Tiere", "es": "Animales" }, "to": "tiere" }
+      ]
+    },
+    {
+      "id": "heu",
+      "image": "p12.svg",
+      "text": {
+        "de": ["Opa springt auf den Traktor, und diesmal darf Felix ganz allein lenken, im Schneckentempo.", "Papa und Opa werfen Ballen um Ballen auf den Anhänger.", "Mama und Oma rechen die letzten Halme zusammen, und Mia sammelt die heruntergefallenen Büschel ein.", "Der Wind heult, die ersten dicken Tropfen fallen.", "„Noch drei Ballen!“, ruft Papa."],
+        "es": ["El abuelo salta al tractor y esta vez Felix puede conducir él solito, a paso de tortuga.", "Papá y el abuelo lanzan bala tras bala al remolque.", "Mamá y la abuela rastrillan las últimas briznas, y Mia recoge los puñados que se han caído.", "El viento aúlla y caen las primeras gotas gordas.", "—¡Quedan tres balas! —grita papá."]
+      },
+      "next": "heu-ende"
+    },
+    {
+      "id": "heu-ende",
+      "image": "p13.svg",
+      "text": {
+        "de": ["Gerade als Felix den Traktor in die Scheune lenkt, prasselt der Regen los.", "Alle stehen tropfnass im Scheunentor und lachen.", "„Ohne euch hätten wir das nie geschafft“, sagt Opa und klopft Felix stolz auf die Schulter.", "Oma verteilt warmen Kakao, und Mia kuschelt sich an Mama.", "Draußen leuchtet bald ein riesiger Regenbogen über dem trockenen Heu."],
+        "es": ["Justo cuando Felix mete el tractor en el granero, empieza a diluviar.", "Todos se quedan en la puerta, empapados y muertos de risa.", "—Sin vosotros no lo habríamos conseguido —dice el abuelo, y le da a Felix una palmada orgullosa en el hombro.", "La abuela reparte chocolate caliente y Mia se acurruca junto a mamá.", "Al rato, un arcoíris enorme brilla sobre el heno bien seco."]
+      },
+      "end": "heu"
+    },
+    {
+      "id": "tiere",
+      "image": "p14.svg",
+      "text": {
+        "de": ["Papa und Felix treiben die Schafe zum Stall, und Bello hilft bellend mit.", "Mia nimmt Flöckchen unter ihre Jacke, damit es nicht nass wird.", "Am Tor steht Brummer und rührt sich nicht, und Mias Herz klopft laut.", "Doch Opa nimmt den Bullen ruhig am Ring und führt ihn hinein.", "Als der Regen losprasselt, sind alle Tiere im Trockenen."],
+        "es": ["Papá y Felix llevan las ovejas al establo, y Bello ayuda ladrando.", "Mia mete a Copito debajo de su chaqueta para que no se moje.", "En la puerta está Trueno, que no se mueve, y a Mia le late fuerte el corazón.", "Pero el abuelo coge al toro con calma por la argolla y lo mete dentro.", "Cuando empieza a llover a cántaros, todos los animales están a cubierto."]
+      },
+      "next": "lamm-ende"
+    },
+    {
+      "id": "lamm-ende",
+      "image": "p15.svg",
+      "text": {
+        "de": ["Von diesem Tag an gibt Mia Flöckchen jeden Morgen und jeden Abend die Flasche.", "Das Lamm wird jeden Tag ein bisschen dicker und kräftiger.", "Am Ende der Ferien hüpft Flöckchen überall hinter Mia her, sogar bis zum Auto.", "Oma bindet ihm zum Abschied eine kleine rote Schleife um den Hals, passend zu Mias Zöpfen.", "„Nächste Ferien komme ich wieder“, verspricht Mia."],
+        "es": ["Desde ese día, Mia le da el biberón a Copito cada mañana y cada noche.", "El corderito está cada día un poco más gordito y más fuerte.", "Al final de las vacaciones, Copito va dando saltos detrás de Mia a todas partes, hasta el coche.", "Para despedirse, la abuela le ata un lacito rojo al cuello, a juego con las trenzas de Mia.", "—Las próximas vacaciones volveré —le promete Mia."]
+      },
+      "end": "lamm"
+    },
+    {
+      "id": "opa",
+      "image": "p16.svg",
+      "text": {
+        "de": ["Felix rast zum Traktor und holt Opa und Papa.", "Opa schwingt ein Seil wie ein Cowboy, und Papa versperrt dem Kalb mit ausgebreiteten Armen den Weg.", "Kurz vor Brummers Zaun ist Tupfi gefangen.", "Mia aber schaut zur Kuh Liese, die unruhig hin und her läuft und leise muht.", "„Ich glaube, sie hat Bauchweh“, sagt Mia, und Oma lächelt: „Bald bekommt sie ein Kälbchen.“"],
+        "es": ["Felix corre hasta el tractor y avisa al abuelo y a papá.", "El abuelo hace girar una cuerda como un vaquero y papá le corta el paso al ternero.", "Justo antes de la valla de Trueno, atrapan a Pecas.", "Mia, en cambio, mira a la vaca Lola, que da vueltas inquieta y muge bajito.", "—Creo que le duele la barriga —dice Mia, y la abuela sonríe—: Pronto tendrá un ternerito."]
+      },
+      "next": "abend"
+    },
+    {
+      "id": "abend",
+      "image": "p17.svg",
+      "text": {
+        "de": ["Am Abend schlafen Felix und Mia in der Kammer unter dem Dach.", "Mama löst Mias Zöpfe und legt die Schleifen ordentlich auf den Stuhl.", "Papa erzählt noch eine Geschichte, bis allen die Augen zufallen.", "Doch mitten in der Nacht wacht Felix auf.", "Aus der Scheune kommt ein Rumpeln, ein Klappern und ein langes, tiefes Muuuh."],
+        "es": ["Por la noche, Felix y Mia duermen en el cuartito bajo el tejado.", "Mamá le deshace las trenzas a Mia y deja los lazos bien colocados en la silla.", "Papá les cuenta un cuento hasta que a todos se les cierran los ojos.", "Pero en mitad de la noche, Felix se despierta.", "Del granero llega un golpe, un traqueteo y un mugido largo y profundo."]
+      },
+      "next": "nacht"
+    },
+    {
+      "id": "nacht",
+      "image": "p18.svg",
+      "text": {
+        "de": ["Felix rüttelt Mia wach.", "„Hörst du das?“, flüstert er und greift schon nach der Taschenlampe.", "Mia zieht die Decke bis zur Nase, denn im Dunkeln ist alles so unheimlich.", "„Ich gehe nachsehen“, sagt Felix tapfer.", "Sollen die beiden selbst in die Scheune schleichen oder lieber Papa wecken?"],
+        "es": ["Felix sacude a Mia para despertarla.", "—¿Lo oyes? —susurra, y ya está cogiendo la linterna.", "Mia se tapa con la manta hasta la nariz, porque en la oscuridad todo da un poco de miedo.", "—Voy a ver qué es —dice Felix, muy valiente.", "¿Van los dos solos al granero o despiertan a papá?"]
+      },
+      "choices": [
+        { "icon": "🔦", "color": "#ffb547", "label": { "de": "Nachsehen", "es": "Ir a ver" }, "to": "scheune" },
+        { "icon": "👨", "color": "#4aa3ff", "label": { "de": "Papa", "es": "Papá" }, "to": "papa" }
+      ]
+    },
+    {
+      "id": "scheune",
+      "image": "p19.svg",
+      "text": {
+        "de": ["Felix geht mit der Taschenlampe voran, Mia hält sich an seinem Schlafanzug fest.", "Im Lichtkegel liegt Liese im Stroh und atmet schwer.", "Mia hat keine Angst mehr, sie streichelt Liese und flüstert: „Du schaffst das.“", "„Das Kälbchen kommt!“, sagt sie.", "Felix rennt so schnell wie noch nie, um Opa zu holen."],
+        "es": ["Felix va delante con la linterna y Mia se agarra a su pijama.", "En el haz de luz, Lola está tumbada en la paja y respira con fuerza.", "Mia ya no tiene miedo: acaricia a Lola y le susurra: —Tú puedes.", "—¡Ya viene el ternerito! —dice.", "Felix corre más rápido que nunca para despertar al abuelo."]
+      },
+      "next": "kalb-ende"
+    },
+    {
+      "id": "kalb-ende",
+      "image": "p20.svg",
+      "text": {
+        "de": ["Opa kommt mit der Laterne, und bald darauf liegt ein nasses, wackeliges Kälbchen im Stroh.", "Liese leckt es liebevoll trocken.", "Es hat einen weißen Fleck auf der Stirn, genau wie ein Stern.", "„Weil Mia gemerkt hat, wie es Liese geht, und Felix so schnell war, dürft ihr es taufen“, sagt Opa.", "Die Kinder rufen wie aus einem Mund: „Sternchen!“"],
+        "es": ["El abuelo llega con el farol y, al poco rato, hay un ternerito mojado y tembloroso en la paja.", "Lola lo lame con cariño hasta secarlo.", "Tiene una mancha blanca en la frente, igual que una estrella.", "—Como Mia se dio cuenta de cómo estaba Lola y Felix fue tan rápido, vosotros le ponéis nombre —dice el abuelo.", "Los niños gritan a la vez: —¡Estrellita!"]
+      },
+      "end": "kalb"
+    },
+    {
+      "id": "papa",
+      "image": "p21.svg",
+      "text": {
+        "de": ["Papa ist sofort hellwach, nimmt die Taschenlampe und geht beschützend voran.", "Die Kinder tapsen dicht hinter ihm her.", "In der Scheune hängen Girlanden und Laternen für das Erntefest morgen.", "Und mittendrin steht Zottel, die Ziege, und knabbert genüsslich an einer Girlande!", "Mia muss so lachen, dass ihre ganze Angst verschwindet."],
+        "es": ["Papá se despierta al momento, coge la linterna y va delante para protegerlos.", "Los niños lo siguen de puntillas, muy pegaditos.", "En el granero cuelgan guirnaldas y farolillos para la fiesta de la cosecha de mañana.", "¡Y en medio está Barbitas, la cabra, mordisqueando tan a gusto una guirnalda!", "Mia se ríe tanto que se le pasa todo el miedo."]
+      },
+      "next": "fest-ende"
+    },
+    {
+      "id": "fest-ende",
+      "image": "p22.svg",
+      "text": {
+        "de": ["Am nächsten Tag ist Erntefest.", "Mia trägt ihr gelbes Sommerkleid, neue Schleifen und natürlich die Punktestiefel.", "Felix sitzt neben Opa auf dem geschmückten Traktor und winkt allen zu.", "Mama und Oma haben einen Berg Kuchen gebacken, und Papa gewinnt das Strohballen-Wettrennen.", "Und Zottel trägt die angeknabberte Girlande stolz um den Hals."],
+        "es": ["Al día siguiente es la fiesta de la cosecha.", "Mia lleva su vestido amarillo de verano, lazos nuevos y, por supuesto, sus botas de lunares.", "Felix va sentado junto al abuelo en el tractor adornado y saluda a todo el mundo.", "Mamá y la abuela han hecho una montaña de tartas, y papá gana la carrera de balas de paja.", "Y Barbitas lleva muy orgullosa la guirnalda mordisqueada al cuello."]
+      },
+      "end": "fest"
+    }
+  ]
+}

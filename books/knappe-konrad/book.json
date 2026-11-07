@@ -1,0 +1,243 @@
+{
+  "id": "knappe-konrad",
+  "accent": "#2f6fd6",
+  "age": 7,
+  "title": {
+    "de": "Knappe Konrad und der Drache vom Felsenberg",
+    "es": "El escudero Conrado y el dragón de la Peña"
+  },
+  "blurb": {
+    "de": "Auf Burg Falkenstein heißt es, ein Drache stehle die Schafe. Knappe Konrad zieht mit seinem Vater los – und am Felsenberg wartet eine große Überraschung.",
+    "es": "En el castillo de Halconera dicen que un dragón roba las ovejas. El escudero Conrado sale con su padre… y en la Peña les espera una gran sorpresa."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Hoch über dem Tal steht die Burg Falkenstein mit ihren roten Fahnen.",
+          "Dort lebt Konrad, acht Jahre alt und Knappe seines Vaters, des starken Ritters Gerold.",
+          "Jeden Morgen putzt Konrad das Schwert, striegelt das Pferd und übt mit dem Holzschild.",
+          "„Eines Tages werde ich ein echter Ritter“, sagt er und streckt die Brust heraus.",
+          "Das Pferd schnaubt, als wolle es lachen."
+        ],
+        "es": [
+          "En lo alto del valle se alza el castillo de Halconera, con sus banderas rojas.",
+          "Allí vive Conrado, que tiene ocho años y es el escudero de su padre, el fuerte caballero Gerardo.",
+          "Cada mañana Conrado saca brillo a la espada, cepilla al caballo y practica con el escudo de madera.",
+          "—Algún día seré un caballero de verdad —dice, sacando pecho.",
+          "El caballo resopla, como si se riera."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Konrads Schwester Adelheid ist sieben und hat ein himmelblaues Lieblingskleid.",
+          "Am liebsten flicht sie Blumenkränze aus Gänseblümchen und Kornblumen.",
+          "Ihre Mutter, die Burgherrin Mechthild, hat lange goldene Zöpfe und die freundlichsten Augen im ganzen Land.",
+          "„Der Kranz steht dir wunderbar“, sagt sie und küsst Adelheid auf die Stirn.",
+          "Adelheid dreht sich, bis ihr Kleid wie eine Glocke schwingt."
+        ],
+        "es": [
+          "Adelaida, la hermana de Conrado, tiene siete años y un vestido favorito azul cielo.",
+          "Le encanta trenzar coronas de margaritas y acianos.",
+          "Su madre, doña Matilde, señora del castillo, tiene largas trenzas doradas y la mirada más dulce del reino.",
+          "—Esa corona te queda preciosa —le dice, y le da un beso en la frente.",
+          "Adelaida gira hasta que el vestido se abre como una campana."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Eines Morgens stürmt der Schäfer Utz atemlos in den Burghof.",
+          "„Herr Ritter, schon wieder fehlt ein Schaf!“, ruft er und rauft sich den Bart.",
+          "„Und oben am Felsenberg steigt Rauch auf, und nachts brüllt es fürchterlich.“",
+          "Alle Mägde und Knechte flüstern dasselbe Wort: Drache.",
+          "Adelheid drückt ihren Blumenkranz ganz fest an sich."
+        ],
+        "es": [
+          "Una mañana, el pastor Tobías entra corriendo en el patio del castillo, sin aliento.",
+          "—¡Señor caballero, ha vuelto a desaparecer una oveja! —grita, tirándose de la barba.",
+          "—Y en lo alto de la Peña sale humo, y por las noches se oye un rugido espantoso.",
+          "Criadas y mozos cuchichean la misma palabra: dragón.",
+          "Adelaida aprieta su corona de flores contra el pecho."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Ritter Gerold legt seine Rüstung an und nimmt den großen Schild.",
+          "„Ich reite zum Felsenberg und sehe nach, was dort los ist“, sagt er ruhig.",
+          "Konrad schluckt, doch dann tritt er vor: „Vater, ich komme mit!“",
+          "Der Vater schaut ihn lange an und nickt.",
+          "„Ein Knappe gehört an die Seite seines Ritters.“"
+        ],
+        "es": [
+          "El caballero Gerardo se pone la armadura y coge su gran escudo.",
+          "—Iré a caballo hasta la Peña a ver qué pasa allí —dice con calma.",
+          "Conrado traga saliva, pero da un paso al frente: —¡Padre, voy contigo!",
+          "Su padre lo mira un buen rato y asiente con la cabeza.",
+          "—El sitio de un escudero está al lado de su caballero."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "„Bitte geht nicht!“, schluchzt Adelheid, „der Drache ist bestimmt riesig und böse.“",
+          "Die Mutter nimmt sie in den Arm und streicht ihr übers Haar.",
+          "Dann schenkt sie Konrad ein blaues Tuch für seinen Ärmel, damit er an zu Hause denkt.",
+          "„Kommt beide gesund zurück“, sagt sie leise.",
+          "Vater und Sohn reiten durch das Burgtor hinaus."
+        ],
+        "es": [
+          "—¡No os vayáis, por favor! —solloza Adelaida—. Seguro que el dragón es enorme y malo.",
+          "Su madre la abraza y le acaricia el pelo.",
+          "Luego le da a Conrado un pañuelo azul para la manga, para que se acuerde de casa.",
+          "—Volved los dos sanos y salvos —dice en voz baja.",
+          "Padre e hijo salen a caballo por la puerta del castillo."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Der Weg zum Felsenberg führt durch einen dunklen Tannenwald.",
+          "Jedes Knacken klingt wie ein Drachenschritt, und Konrads Knie zittern ein bisschen.",
+          "„Hast du Angst?“, fragt der Vater.",
+          "„Ein wenig“, gibt Konrad zu und reitet trotzdem weiter.",
+          "„Genau das ist Mut“, sagt Ritter Gerold und lächelt unter seinem Helm."
+        ],
+        "es": [
+          "El camino hacia la Peña atraviesa un bosque de abetos muy oscuro.",
+          "Cada crujido suena como un paso de dragón, y a Conrado le tiemblan un poco las rodillas.",
+          "—¿Tienes miedo? —pregunta su padre.",
+          "—Un poco —reconoce Conrado, pero sigue adelante.",
+          "—Eso es justo el valor —dice el caballero Gerardo, sonriendo bajo el yelmo."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Am Waldrand hören sie es hinter sich rascheln.",
+          "Aus einem Busch schaut ein blaues Kleid hervor, mit einem zerdrückten Blumenkranz obendrauf.",
+          "„Adelheid!“, rufen beide gleichzeitig.",
+          "„Ich wollte euch nicht allein lassen“, piepst sie mit roten Wangen.",
+          "Der Vater seufzt, hebt sie zu sich aufs Pferd und hält sie gut fest."
+        ],
+        "es": [
+          "Al salir del bosque oyen un ruido entre las matas, a sus espaldas.",
+          "De un arbusto asoma un vestido azul, con una corona de flores algo aplastada encima.",
+          "—¡Adelaida! —exclaman los dos a la vez.",
+          "—No quería dejaros solos —dice ella con un hilo de voz y las mejillas coloradas.",
+          "Su padre suspira, la sube a su caballo y la sujeta bien."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Oben am Felsenberg qualmt es aus einer Höhle.",
+          "Da ertönt ein Brüllen, so laut, dass kleine Steine den Hang hinunterkullern.",
+          "Ritter Gerold stellt sich mit dem Schild vor seine Kinder.",
+          "Aus der Höhle humpelt ein Drache, grün wie Moos, aber kaum größer als ein Pony.",
+          "Er hält eine Tatze hoch und jammert."
+        ],
+        "es": [
+          "En lo alto de la Peña sale humo de una cueva.",
+          "De pronto se oye un rugido tan fuerte que unas piedrecitas ruedan ladera abajo.",
+          "El caballero Gerardo se planta delante de sus hijos con el escudo.",
+          "De la cueva sale cojeando un dragón verde como el musgo, poco más grande que un poni.",
+          "Lleva una pata en alto y se queja."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Adelheid zittert noch, doch sie schaut dem Drachen in die feuchten Augen.",
+          "„Vater, er ist nicht böse“, flüstert sie.",
+          "„Er hat Schmerzen, und er ist ganz dünn vor Hunger.“",
+          "Jetzt sehen es alle: In seiner Tatze steckt ein langer, spitzer Dorn.",
+          "Weil er nicht jagen konnte, hat er sich die Schafe geholt."
+        ],
+        "es": [
+          "Adelaida todavía tiembla, pero mira al dragón a los ojos, que están llenos de lágrimas.",
+          "—Padre, no es malo —susurra.",
+          "—Le duele algo y está muy flaco de tanta hambre.",
+          "Ahora todos lo ven: en la pata tiene clavada una espina larga y puntiaguda.",
+          "Como no podía cazar, se llevaba las ovejas."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "„Ich ziehe ihn heraus“, sagt Konrad, und sein Herz klopft wie eine Trommel.",
+          "Der Vater steht dicht neben ihm, den Schild bereit, falls der Drache erschrickt.",
+          "Adelheid streichelt dem Drachen den Kopf und summt ein Lied, damit er ruhig bleibt.",
+          "Konrad packt den Dorn mit beiden Händen und zieht mit aller Kraft.",
+          "Plopp – heraus ist er!"
+        ],
+        "es": [
+          "—Yo se la saco —dice Conrado, y el corazón le late como un tambor.",
+          "Su padre se queda pegado a él, con el escudo listo por si el dragón se asusta.",
+          "Adelaida le acaricia la cabeza al dragón y le tararea una canción para que esté tranquilo.",
+          "Conrado agarra la espina con las dos manos y tira con todas sus fuerzas.",
+          "¡Plop, ya ha salido!"
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Der Drache bläst vor Freude einen Ring aus Rauch und leckt Konrad quer übers Gesicht.",
+          "„Igitt!“, lacht Konrad, und alle lachen mit.",
+          "Sie nehmen den Drachen mit nach Hause, und die Mutter lässt einen großen Kessel Haferbrei kochen.",
+          "Adelheid tauft ihn Funke.",
+          "Von nun an hütet Funke die Schafe, und kein Wolf traut sich mehr in ihre Nähe."
+        ],
+        "es": [
+          "De pura alegría, el dragón echa un anillo de humo y le da a Conrado un lametón en toda la cara.",
+          "—¡Puaj! —se ríe Conrado, y todos se ríen con él.",
+          "Se llevan al dragón a casa, y su madre manda preparar un enorme caldero de gachas.",
+          "Adelaida lo llama Chispa.",
+          "Desde entonces, Chispa cuida de las ovejas, y ningún lobo se atreve a acercarse."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Am Sonntag feiert die ganze Burg ein Fest mit Musik und Kuchen.",
+          "Ritter Gerold steckt Konrad eine silberne Spange an: „Für den mutigsten Knappen im Land.“",
+          "Dann stapft Funke herbei und legt Adelheid vorsichtig einen Kranz aus Bergblumen aufs Haar.",
+          "„Und für das freundlichste Herz“, sagt die Mutter.",
+          "Adelheid strahlt und dreht sich im Kreis, bis alle klatschen."
+        ],
+        "es": [
+          "El domingo todo el castillo celebra una fiesta con música y pasteles.",
+          "El caballero Gerardo le prende a Conrado un broche de plata: —Para el escudero más valiente del reino.",
+          "Entonces llega Chispa a pasitos y, con mucho cuidado, le pone a Adelaida una corona de flores de montaña.",
+          "—Y esta, para el corazón más bueno —dice su madre.",
+          "Adelaida sonríe radiante y da vueltas hasta que todos aplauden."
+        ]
+      }
+    }
+  ]
+}

@@ -50,9 +50,11 @@ Die Startseite zeigt zwei Regale (Feld `shelf` in `book.json`):
   Der Rattenfänger von Hameln (Sage) sowie aus Spanien El Ratoncito Pérez (Coloma),
   La ratita presumida und Garbancito.
 - **Neue Geschichten** (ohne `shelf`): Luna, Pip, Bruno (ab 3–4); Emma und der Roboter Bolt,
-  Juli und der Leuchtturm (ab 6–7, 12 Seiten, längere Texte).
+  Juli und der Leuchtturm (ab 6–7, 12 Seiten, längere Texte); ab 7: Die Spürnasen und das Geheimnis
+  der alten Mühle, Max will Feuerwehrmann werden, Knappe Konrad, Familie Weber zeltet, Sofias Festkleid.
 - **Interaktive Geschichten** (`"shelf": "interaktiv"`, `"interactive": true`): Luzi, Ole (ab 4); Nils und das Drachenei, Opa Kunos Zeitmaschine,
-  Detektivin Mila (ab 6–7, 23–26 Seiten, 3 Entscheidungen pro Weg, 5 Enden) – das Kind
+  Detektivin Mila (ab 6–7, 23–26 Seiten, 3 Entscheidungen pro Weg, 5 Enden); ab 7: Die Spürnasen und
+  der verschwundene Preishund, Kapitän Jonas, Ritter Lukas, Expedition in den Regenwald, Ferien auf Opas Bauernhof – das Kind
   entscheidet an mehreren Stellen über große Knöpfe (Symbol, Farbe, Nummer, ein Wort), wie es weitergeht.
 
 `origin` nennt die Quelle (wird auf der Karte angezeigt).

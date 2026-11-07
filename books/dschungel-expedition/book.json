@@ -1,0 +1,215 @@
+{
+  "id": "dschungel-expedition",
+  "accent": "#1f9e6e",
+  "age": 7,
+  "shelf": "interaktiv",
+  "interactive": true,
+  "title": { "de": "Expedition in den Regenwald", "es": "Expedición a la selva" },
+  "blurb": {
+    "de": "Familie Brandt erforscht den Regenwald von Costa Rica! Fahre mit dem Boot oder wandere zu Fuß, wage dich über die Hängebrücke und entscheide selbst, welche Tiere Paul und Clara entdecken.",
+    "es": "¡La familia Brandt explora la selva de Costa Rica! Ve en barca o a pie, atrévete a cruzar el puente colgante y decide tú qué animales descubren Pablo y Clara."
+  },
+  "endings": [
+    { "id": "wasserfall", "icon": "🌈", "title": { "de": "Der Regenbogen-Wasserfall", "es": "La cascada del arcoíris" } },
+    { "id": "quetzal", "icon": "🐦", "title": { "de": "Der Quetzal im Morgenlicht", "es": "El quetzal entre las nubes" } },
+    { "id": "faultier", "icon": "🦥", "title": { "de": "Das gerettete Faultier-Baby", "es": "El perezoso rescatado" } },
+    { "id": "affen", "icon": "🐒", "title": { "de": "Die Affenfamilie", "es": "La familia de monos" } }
+  ],
+  "pages": [
+    {
+      "id": "start",
+      "image": "p01.svg",
+      "text": {
+        "de": ["Familie Brandt ist in Costa Rica gelandet, mitten in den Tropen.", "Papa Stefan ist Tierforscher und trägt seinen alten Tropenhut.", "Mama Anna hat ihr leichtes Sommerkleid an und die Kamera schon in der Hand.", "Paul ist acht und hält sein Fernglas fest: „Ich will einen Quetzal finden, den schönsten Vogel der Welt!“", "Clara ist sechs und rückt ihren Haarreif mit den Blüten zurecht."],
+        "es": ["La familia Brandt acaba de aterrizar en Costa Rica, en pleno trópico.", "Papá Stefan es investigador de animales y lleva su viejo sombrero de explorador.", "Mamá Anna lleva su vestido de verano y ya tiene la cámara en la mano.", "Pablo, de ocho años, aprieta sus prismáticos: —¡Quiero encontrar un quetzal, el pájaro más bonito del mundo!", "Clara tiene seis y se coloca bien su diadema de flores."]
+      },
+      "next": "station"
+    },
+    {
+      "id": "station",
+      "image": "p02.svg",
+      "text": {
+        "de": ["Am nächsten Morgen weckt sie ein gewaltiges Brüllen.", "Clara zieht sich die Decke bis zur Nase: „Ist das ein Löwe?“", "Papa lacht: „Das sind Brüllaffen, die singen nur ihr Morgenlied.“", "Nach dem Frühstück zieht Clara ihr Lieblingskleid mit den roten Blumen an.", "Papa packt den Rucksack, die Wasserflaschen und eine kleine Machete, nur für Lianen."],
+        "es": ["A la mañana siguiente los despierta un rugido tremendo.", "Clara se tapa con la sábana hasta la nariz: —¿Es un león?", "Papá se ríe: —Son monos aulladores, solo están cantando su canción de buenos días.", "Después del desayuno, Clara se pone su vestido favorito de flores rojas.", "Papá prepara la mochila, las cantimploras y un pequeño machete, solo para apartar lianas."]
+      },
+      "next": "fluss"
+    },
+    {
+      "id": "fluss",
+      "image": "p03.svg",
+      "text": {
+        "de": ["Am Rand des Regenwalds glitzert ein breiter, brauner Fluss.", "Am Steg schaukelt ein bunt bemaltes Holzboot.", "Daneben verschwindet ein schmaler Pfad zwischen riesigen Blättern im grünen Dämmerlicht.", "„Mit dem Boot sehen wir Tiere am Ufer, auf dem Pfad Tiere im Wald“, sagt Papa.", "Wie soll die Familie in den Regenwald reisen?"],
+        "es": ["En el borde de la selva brilla un río ancho y marrón.", "Junto al embarcadero se mece una barca de madera pintada de colores.", "Al lado, un sendero estrecho se pierde entre hojas gigantes y una luz verde y suave.", "—En barca veremos animales en la orilla; por el sendero, animales del bosque —dice papá.", "¿Cómo debe entrar la familia en la selva?"]
+      },
+      "choices": [
+        { "icon": "🛶", "color": "#4aa3ff", "label": { "de": "Boot", "es": "Barca" }, "to": "boot" },
+        { "icon": "🥾", "color": "#4cc38a", "label": { "de": "Pfad", "es": "Sendero" }, "to": "pfad" }
+      ]
+    },
+    {
+      "id": "boot",
+      "image": "p04.svg",
+      "text": {
+        "de": ["Das Boot gleitet leise flussaufwärts.", "Auf einer Sandbank liegt ein Kaiman und sonnt sich mit offenem Maul, ganz faul und zufrieden.", "Über ihnen fliegt ein Tukan mit seinem riesigen bunten Schnabel vorbei, und Mama fotografiert ihn.", "An der Anlegestelle führt eine schwankende Hängebrücke über eine tiefe Schlucht, ein Umweg geht außen herum.", "Welchen Weg nimmt die Familie?"],
+        "es": ["La barca se desliza despacio río arriba.", "En un banco de arena, un caimán toma el sol con la boca abierta, tan perezoso y feliz.", "Por encima pasa volando un tucán con su enorme pico de colores, y mamá le hace una foto.", "En el embarcadero, un puente colgante cruza un barranco muy hondo, y un camino más largo lo rodea.", "¿Qué camino elige la familia?"]
+      },
+      "choices": [
+        { "icon": "🌉", "color": "#ff9f43", "label": { "de": "Brücke", "es": "Puente" }, "to": "bruecke" },
+        { "icon": "🌿", "color": "#a77bf3", "label": { "de": "Umweg", "es": "Rodeo" }, "to": "umweg" }
+      ]
+    },
+    {
+      "id": "pfad",
+      "image": "p05.svg",
+      "text": {
+        "de": ["Papa geht voran und schiebt mit der Machete die Lianen zur Seite.", "Über den Boden marschieren Blattschneiderameisen, jede mit einem Blattstück wie ein Sonnenschirm.", "Plötzlich quietscht Clara: Vor ihr hängt eine große Spinne in ihrem goldenen Netz!", "Mama nimmt sie in den Arm, und Clara flüstert: „Sie ist ja nur beim Weben.“", "Vor ihnen liegt eine tiefe Schlucht mit einer Hängebrücke.", "Gehen sie hinüber oder nehmen sie den Umweg?"],
+        "es": ["Papá va delante y aparta las lianas con el machete.", "Por el suelo desfilan hormigas cortadoras, cada una con un trozo de hoja como una sombrilla.", "De pronto Clara da un chillido: ¡delante de ella cuelga una araña enorme en su tela dorada!", "Mamá la abraza, y Clara susurra: —Solo está tejiendo.", "Ante ellos hay un barranco con un puente colgante.", "¿Lo cruzan o dan un rodeo?"]
+      },
+      "choices": [
+        { "icon": "🌉", "color": "#ff9f43", "label": { "de": "Brücke", "es": "Puente" }, "to": "bruecke" },
+        { "icon": "🌿", "color": "#a77bf3", "label": { "de": "Umweg", "es": "Rodeo" }, "to": "umweg" }
+      ]
+    },
+    {
+      "id": "bruecke",
+      "image": "p06.svg",
+      "text": {
+        "de": ["Paul geht als Erster auf die Hängebrücke, Schritt für Schritt.", "Tief unten rauscht der Bach, und die Brücke schaukelt ein bisschen.", "Clara bleibt stehen und hält ihren Haarreif fest: „Ich trau mich nicht.“", "Da nimmt Papa sie auf seine starken Schultern, und Mama hält ihre Hand.", "Von oben sieht Clara Schmetterlinge, so blau wie der Himmel."],
+        "es": ["Pablo es el primero en pisar el puente colgante, paso a paso.", "Muy abajo murmura el arroyo, y el puente se balancea un poquito.", "Clara se para y se sujeta la diadema: —No me atrevo.", "Entonces papá la sube a sus fuertes hombros, y mamá le da la mano.", "Desde arriba, Clara ve mariposas tan azules como el cielo."]
+      },
+      "next": "regen"
+    },
+    {
+      "id": "regen",
+      "image": "p07.svg",
+      "text": {
+        "de": ["Auf der anderen Seite wird es plötzlich dunkel.", "Dicke Tropfen prasseln auf die Blätter, und gleich darauf regnet es wie aus Eimern.", "„Mein Kleid wird ganz nass!“, ruft Clara.", "Links gähnt eine Felshöhle, rechts steht ein Baumhaus der Forschungsstation hoch oben zwischen den Ästen.", "Wo sollen sie Schutz suchen?"],
+        "es": ["Al otro lado, de repente, se oscurece el cielo.", "Gruesas gotas golpean las hojas y enseguida llueve a cántaros.", "—¡Se me está empapando el vestido! —grita Clara.", "A la izquierda se abre una cueva, y a la derecha, en lo alto, hay una cabaña en un árbol de la estación científica.", "¿Dónde deben refugiarse?"]
+      },
+      "choices": [
+        { "icon": "🪨", "color": "#ffb547", "label": { "de": "Höhle", "es": "Cueva" }, "to": "hoehle" },
+        { "icon": "🏡", "color": "#4cc38a", "label": { "de": "Baumhaus", "es": "Cabaña" }, "to": "baumhaus" }
+      ]
+    },
+    {
+      "id": "hoehle",
+      "image": "p08.svg",
+      "text": {
+        "de": ["In der Höhle ist es trocken und kühl.", "An der Decke hängen kleine Fledermäuse kopfüber und schlafen eingewickelt in ihre Flügel.", "Clara rückt näher an Mama, doch dann muss sie kichern: „Die sehen aus wie kleine Regenschirme.“", "Paul leuchtet mit der Taschenlampe nach hinten.", "„Hört ihr das?“, fragt er.", "Von hinten rauscht es laut, wie ein riesiger Wasserhahn."],
+        "es": ["Dentro de la cueva hace fresco y está seco.", "Del techo cuelgan murciélagos pequeñitos cabeza abajo, dormidos y envueltos en sus alas.", "Clara se arrima a mamá, pero luego se le escapa una risita: —Parecen paraguas chiquitos.", "Pablo alumbra el fondo con la linterna.", "—¿Lo oís? —pregunta.", "Al fondo se oye un rumor de agua muy fuerte, como un grifo gigante."]
+      },
+      "next": "wasserfall"
+    },
+    {
+      "id": "wasserfall",
+      "image": "p09.svg",
+      "text": {
+        "de": ["Am anderen Ende der Höhle scheint schon wieder die Sonne.", "Vor ihnen stürzt ein riesiger Wasserfall in einen türkisblauen Teich.", "Über dem Wasser leuchtet ein Regenbogen, und blaue Morphofalter tanzen im Glitzerstaub.", "„Wow!“, sagt Paul und vergisst ganz, durch sein Fernglas zu schauen.", "Papa schiebt eine Liane beiseite, damit alle gut sehen können."],
+        "es": ["Al otro lado de la cueva ya vuelve a brillar el sol.", "Delante de ellos, una cascada gigante cae en una poza de color turquesa.", "Sobre el agua brilla un arcoíris, y unas mariposas morfo azules bailan entre las gotitas.", "—¡Hala! —dice Pablo, y se olvida de mirar por los prismáticos.", "Papá aparta una liana para que todos puedan verlo bien."]
+      },
+      "next": "wasserfall-ende"
+    },
+    {
+      "id": "wasserfall-ende",
+      "image": "p10.svg",
+      "text": {
+        "de": ["Die Kinder ziehen die Schuhe aus und lassen die Füße ins warme Wasser baumeln.", "Clara hält ihr Kleid hoch, damit es nicht nass wird, und ein Falter setzt sich auf ihren Haarreif.", "„Er findet meine Blumen schön“, flüstert sie.", "Mama macht ein Foto, das später in Papas Forschungsbuch klebt.", "Es ist der schönste Platz im ganzen Regenwald."],
+        "es": ["Los niños se quitan los zapatos y meten los pies en el agua templada.", "Clara se sujeta el vestido para que no se moje, y una mariposa se posa en su diadema.", "—Le gustan mis flores —susurra.", "Mamá hace una foto que luego pegarán en el cuaderno de papá.", "Es el rincón más bonito de toda la selva."]
+      },
+      "end": "wasserfall"
+    },
+    {
+      "id": "baumhaus",
+      "image": "p11.svg",
+      "text": {
+        "de": ["Papa klettert zuerst die Leiter hinauf und hilft dann allen nach oben.", "Im Baumhaus ist es gemütlich und trocken, der Regen trommelt auf das Blätterdach.", "Mama trocknet Claras Locken mit einem Handtuch und flicht ihr einen Zopf.", "Neben dem Baumhaus ragt ein hoher Aussichtsturm über die Baumkronen.", "Als der Regen aufhört, steht Paul schon an der Leiter."],
+        "es": ["Papá sube primero por la escalera y luego ayuda a todos a subir.", "En la cabaña se está calentito, y la lluvia tamborilea sobre el tejado.", "Mamá le seca los rizos a Clara con una toalla y le hace una trenza.", "Junto a la cabaña, una alta torre de observación asoma por encima de los árboles.", "Cuando deja de llover, Pablo ya está al pie de la escalera."]
+      },
+      "next": "turm"
+    },
+    {
+      "id": "turm",
+      "image": "p12.svg",
+      "text": {
+        "de": ["Der Turm ist so hoch wie zehn Häuser.", "Paul klettert mutig Stufe um Stufe hinauf, und Papa bleibt immer dicht hinter ihm.", "Ganz oben liegt der Regenwald wie ein grünes Meer unter ihnen, und Nebel steigt aus den Tälern.", "Ein Tukan landet auf dem Geländer und schaut neugierig.", "Paul hebt sein Fernglas und hält plötzlich den Atem an."],
+        "es": ["La torre es tan alta como diez casas.", "Pablo sube valiente peldaño a peldaño, y papá va siempre justo detrás de él.", "Arriba del todo, la selva se extiende como un mar verde y la niebla sube de los valles.", "Un tucán se posa en la barandilla y los mira con curiosidad.", "Pablo levanta los prismáticos y de repente contiene la respiración."]
+      },
+      "next": "quetzal"
+    },
+    {
+      "id": "quetzal",
+      "image": "p13.svg",
+      "text": {
+        "de": ["In einem wilden Avocadobaum sitzt ein Vogel, grün schimmernd wie ein Smaragd.", "Seine Brust ist leuchtend rot, und seine langen Schwanzfedern wehen wie Bänder im Wind.", "„Ein Quetzal!“, flüstert Paul, ganz leise, um ihn nicht zu verscheuchen.", "Papa nickt stolz: „Den suchen manche Forscher jahrelang.“", "Der Vogel pickt eine kleine Frucht und bleibt ganz ruhig sitzen."],
+        "es": ["En un aguacate silvestre está posado un pájaro de un verde brillante como una esmeralda.", "Tiene el pecho rojo intenso, y sus larguísimas plumas de la cola ondean al viento como cintas.", "—¡Un quetzal! —susurra Pablo, muy bajito para no asustarlo.", "Papá asiente orgulloso: —Hay investigadores que lo buscan durante años.", "El pájaro picotea una frutita y se queda allí, tranquilo."]
+      },
+      "next": "quetzal-ende"
+    },
+    {
+      "id": "quetzal-ende",
+      "image": "p14.svg",
+      "text": {
+        "de": ["Unten winken Mama und Clara, und Mama macht mit dem langen Objektiv ein wunderschönes Foto.", "Dann breitet der Quetzal die Flügel aus und fliegt davon, die Federn glitzern in der Sonne.", "„Du warst sehr mutig“, sagt Papa und legt Paul den Arm um die Schultern.", "Paul strahlt über das ganze Gesicht.", "Diesen Tag wird er nie vergessen."],
+        "es": ["Abajo, mamá y Clara saludan con la mano, y mamá saca una foto preciosa con su objetivo largo.", "Entonces el quetzal abre las alas y se aleja volando, con las plumas brillando al sol.", "—Has sido muy valiente —dice papá, y le pasa el brazo por los hombros.", "Pablo sonríe de oreja a oreja.", "Nunca olvidará este día."]
+      },
+      "end": "quetzal"
+    },
+    {
+      "id": "umweg",
+      "image": "p15.svg",
+      "text": {
+        "de": ["Der Umweg führt durch ein Meer aus Farnen, und Papa schlägt mit der Machete einen Durchgang.", "Paul entdeckt angebissene Früchte und hört lautes Schnattern aus den Bäumen.", "Clara aber bleibt stehen: Neben einem Baumstamm sind winzige Krallenspuren, und von dort kommt ein leises, trauriges Fiepen.", "„Da weint jemand“, sagt sie.", "Welcher Spur sollen sie folgen?"],
+        "es": ["El rodeo pasa por un mar de helechos, y papá abre camino con el machete.", "Pablo descubre frutas mordisqueadas y oye un parloteo muy alto entre los árboles.", "Pero Clara se detiene: junto a un tronco hay unas huellas de garras diminutas, y de allí sale un silbidito triste.", "—Alguien está llorando —dice ella.", "¿Qué pista deben seguir?"]
+      },
+      "choices": [
+        { "icon": "🍌", "color": "#ffb547", "label": { "de": "Früchte", "es": "Frutas" }, "to": "affen" },
+        { "icon": "🐾", "color": "#ff6b6b", "label": { "de": "Krallen", "es": "Garras" }, "to": "faultier" }
+      ]
+    },
+    {
+      "id": "faultier",
+      "image": "p16.svg",
+      "text": {
+        "de": ["Im Laub sitzt ein kleines Faultier-Baby mit verwuschelten Haaren und einem Kratzer am Arm.", "Es ist vom Baum gefallen und fiept nach seiner Mama.", "Clara kniet sich hin und spricht ganz leise: „Hab keine Angst, wir helfen dir.“", "Das Baby hört auf zu zittern und schaut sie mit großen dunklen Augen an.", "Papa ruft sofort über Funk die Tierretterin der Station."],
+        "es": ["Entre la hojarasca hay una cría de perezoso con el pelo revuelto y un arañazo en el brazo.", "Se ha caído del árbol y silba llamando a su mamá.", "Clara se arrodilla y le habla muy bajito: —No tengas miedo, vamos a ayudarte.", "La cría deja de temblar y la mira con sus grandes ojos oscuros.", "Papá llama enseguida por radio a la cuidadora de animales de la estación."]
+      },
+      "next": "rettung"
+    },
+    {
+      "id": "rettung",
+      "image": "p17.svg",
+      "text": {
+        "de": ["Bald kommt Lucía von der Station mit einem Verbandskasten.", "Sie streicht Salbe auf den Kratzer und lobt Clara: „Du hast genau richtig gemacht, so ruhig und lieb.“", "Mit dicken Handschuhen hebt Papa das Baby vorsichtig hoch und setzt es auf einen niedrigen Ast.", "Hoch oben im Baum bewegt sich etwas Graues.", "Ganz langsam klettert die Faultier-Mama herab."],
+        "es": ["Pronto llega Lucía, de la estación, con un botiquín.", "Le pone pomada en el arañazo y felicita a Clara: —Lo has hecho genial, con mucha calma y cariño.", "Con unos guantes gruesos, papá levanta a la cría con cuidado y la deja en una rama baja.", "Muy arriba, en el árbol, algo gris se mueve.", "Despacito, muy despacito, la mamá perezosa empieza a bajar."]
+      },
+      "next": "faultier-ende"
+    },
+    {
+      "id": "faultier-ende",
+      "image": "p18.svg",
+      "text": {
+        "de": ["Es dauert eine ganze Weile, denn Faultiere haben es nie eilig.", "Dann klammert sich das Baby an den Bauch seiner Mama und schmiegt sich an.", "Clara hat Tränen in den Augen, aber es sind Freudentränen.", "Mama fotografiert die beiden, und Lucía schenkt Clara eine kleine Faultier-Brosche für ihr Kleid.", "„Für die beste Tierretterin“, sagt sie."],
+        "es": ["Tarda un buen rato, porque los perezosos nunca tienen prisa.", "Al fin, la cría se agarra a la barriga de su mamá y se acurruca contra ella.", "A Clara se le llenan los ojos de lágrimas, pero son lágrimas de alegría.", "Mamá les hace una foto, y Lucía le regala a Clara un broche de perezoso para su vestido.", "—Para la mejor rescatadora de animales —le dice."]
+      },
+      "end": "faultier"
+    },
+    {
+      "id": "affen",
+      "image": "p19.svg",
+      "text": {
+        "de": ["Paul folgt den Fruchtschalen bis zu einem riesigen Feigenbaum.", "Dort turnt eine ganze Familie Kapuzineraffen mit weißen Gesichtern durch die Äste.", "Ein Affenbaby reitet auf dem Rücken seiner Mutter und schaut neugierig herunter.", "Da schwingt sich ein frecher Affe herab und schnappt sich Papas Tropenhut!", "„He, der gehört mir!“, ruft Papa und muss trotzdem lachen."],
+        "es": ["Pablo sigue las cáscaras de fruta hasta una higuera gigantesca.", "Allí, una familia entera de monos capuchinos de cara blanca hace acrobacias entre las ramas.", "Un monito va montado en la espalda de su madre y los mira con curiosidad.", "¡De pronto, un mono travieso baja de un salto y le quita a papá el sombrero!", "—¡Eh, que es mío! —grita papá, aunque no puede dejar de reírse."]
+      },
+      "next": "affen-ende"
+    },
+    {
+      "id": "affen-ende",
+      "image": "p20.svg",
+      "text": {
+        "de": ["Der Affe setzt sich den Hut auf und schaut so ernst wie ein Forscher.", "Alle lachen, und Mama fotografiert ihn schnell.", "Clara hält ihm freundlich eine heruntergefallene Feige hin, und er tauscht sie gegen den Hut.", "„Du hast ein gutes Händchen für Tiere“, sagt Papa stolz.", "Die Affenfamilie schnattert zum Abschied, als würde sie winken."],
+        "es": ["El mono se pone el sombrero y pone cara seria, como un investigador.", "Todos se ríen, y mamá le hace una foto rápida.", "Clara le ofrece con cariño un higo caído, y el mono se lo cambia por el sombrero.", "—Tienes muy buena mano con los animales —dice papá, orgulloso.", "La familia de monos parlotea para despedirse, como si les dijera adiós."]
+      },
+      "end": "affen"
+    }
+  ]
+}

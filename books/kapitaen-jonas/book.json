@@ -1,0 +1,237 @@
+{
+  "id": "kapitaen-jonas",
+  "accent": "#0b6fa8",
+  "age": 7,
+  "shelf": "interaktiv",
+  "interactive": true,
+  "title": { "de": "Kapitän Jonas und die Schatzinsel", "es": "El capitán Jonás y la isla del tesoro" },
+  "blurb": {
+    "de": "Aus einem Karton im Garten wird das Piratenschiff „Möwe“! Segle mit Kapitän Jonas, Emma und dem verletzten Papagei Kiki zur Schatzinsel und entscheide selbst, welchen Weg ihr nehmt.",
+    "es": "¡Una caja de cartón del jardín se convierte en el barco pirata La Gaviota! Navega con el capitán Jonás, Emma y el loro Kiki hasta la isla del tesoro y decide tú qué camino tomar."
+  },
+  "endings": [
+    { "id": "kiki", "icon": "🦜", "title": { "de": "Kiki, der Freund", "es": "Kiki, el amigo" } },
+    { "id": "schatz", "icon": "💰", "title": { "de": "Der geteilte Schatz", "es": "El tesoro compartido" } },
+    { "id": "muscheln", "icon": "🐚", "title": { "de": "Der Muschelschatz", "es": "El tesoro de conchas" } },
+    { "id": "freunde", "icon": "🤝", "title": { "de": "Freundschaft mit Rotbart", "es": "Amigos de Barbarroja" } }
+  ],
+  "pages": [
+    {
+      "id": "start",
+      "image": "p01.svg",
+      "text": {
+        "de": ["Jonas ist acht Jahre alt und will später einmal Kapitän werden.", "Heute hat er sich einen Dreispitz aus Zeitung gefaltet und im Garten ein Schiff aus einem riesigen Karton gebaut.", "Seine Schwester Emma ist sechs und trägt ihr Kopftuch mit den roten Blumen.", "Sie bringt ihre Lieblingsmuscheln mit an Bord.", "„Leinen los!“, ruft Jonas, und plötzlich schaukelt der Karton wie auf einer echten Welle."],
+        "es": ["Jonás tiene ocho años y de mayor quiere ser capitán.", "Hoy se ha hecho un sombrero pirata de periódico y ha montado un barco en el jardín con una caja enorme.", "Su hermana Emma, de seis años, lleva su pañuelo de flores rojas en la cabeza.", "Ha subido a bordo sus conchas favoritas.", "—¡Soltad amarras! —grita Jonás, y de repente la caja se balancea como sobre una ola de verdad."]
+      },
+      "next": "schiff"
+    },
+    {
+      "id": "schiff",
+      "image": "p02.svg",
+      "text": {
+        "de": ["Wo eben noch der Rasen war, glitzert auf einmal das weite Meer.", "Aus dem Karton ist ein stolzes Piratenschiff geworden: die „Möwe“!", "Am Steuerrad steht Papa, groß und stark, und brummt: „Bootsmann Bär meldet sich zum Dienst!“", "Mama ist die Schiffsköchin, und ihr langes Haar weht im Wind.", "Emma hält sich an der Reling fest und staunt mit großen Augen."],
+        "es": ["Donde hace un momento había césped, ahora brilla el mar inmenso.", "¡La caja se ha convertido en un orgulloso barco pirata: La Gaviota!", "Al timón está papá, alto y fuerte, que dice con su vozarrón: —¡El contramaestre Oso, a sus órdenes!", "Mamá es la cocinera del barco, y su larga melena ondea al viento.", "Emma se agarra a la barandilla y lo mira todo con los ojos como platos."]
+      },
+      "next": "papagei"
+    },
+    {
+      "id": "papagei",
+      "image": "p03.svg",
+      "text": {
+        "de": ["Hinter den Fässern sitzt ein bunter Papagei und lässt traurig einen Flügel hängen.", "Emma verbindet ihn ganz sanft und flüstert: „Keine Angst, Kiki, wir passen auf dich auf.“", "Dann rollt Jonas die Schatzkarte aus.", "Drei Wege führen zur Schatzinsel: durch die Nebelbucht, vorbei an den Haifelsen oder quer über das Sturmmeer.", "Welchen Weg soll die Möwe nehmen?"],
+        "es": ["Detrás de los barriles hay un loro de colores con un ala caída.", "Emma se la venda con mucho cuidado y le susurra: —No tengas miedo, Kiki, nosotros te cuidamos.", "Luego Jonás despliega el mapa del tesoro.", "Hay tres caminos hasta la isla: por la Bahía de la Niebla, junto a las Rocas del Tiburón o cruzando el Mar de las Tormentas.", "¿Qué camino debe tomar La Gaviota?"]
+      },
+      "choices": [
+        { "icon": "🌫️", "color": "#4aa3ff", "label": { "de": "Nebel", "es": "Niebla" }, "to": "nebel" },
+        { "icon": "🦈", "color": "#a77bf3", "label": { "de": "Haifelsen", "es": "Tiburón" }, "to": "hai" },
+        { "icon": "⛈️", "color": "#ff9f43", "label": { "de": "Sturm", "es": "Tormenta" }, "to": "sturm" }
+      ]
+    },
+    {
+      "id": "nebel",
+      "image": "p04.svg",
+      "text": {
+        "de": ["In der Nebelbucht wird es still und weiß, als segle man mitten durch eine Wolke.", "Papa kann kaum den Bug sehen und lenkt ganz langsam.", "„Ich klettere hinauf in den Mastkorb!“, ruft Jonas mutig.", "Emma zupft ihn am Ärmel: „Oder wir lesen zusammen die Karte, da steht bestimmt etwas über den Nebel.“", "Und was meinst du, was soll Jonas jetzt tun?"],
+        "es": ["En la Bahía de la Niebla todo se vuelve blanco y silencioso, como si navegaran dentro de una nube.", "Papá apenas ve la proa y gira el timón muy despacio.", "—¡Voy a subir a la cofa! —exclama Jonás, muy valiente.", "Emma le tira de la manga: —O leemos juntos el mapa, seguro que dice algo de la niebla.", "¿Qué debe hacer Jonás?"]
+      },
+      "choices": [
+        { "icon": "🧗", "color": "#4cc38a", "label": { "de": "Mastkorb", "es": "Cofa" }, "to": "mast" },
+        { "icon": "🗺️", "color": "#ffb547", "label": { "de": "Karte", "es": "Mapa" }, "to": "karte" }
+      ]
+    },
+    {
+      "id": "mast",
+      "image": "p05.svg",
+      "text": {
+        "de": ["Jonas klettert die Strickleiter hinauf, Sprosse für Sprosse, bis ganz nach oben.", "Unten ruft Mama: „Halt dich gut fest, mein tapferer Kapitän!“", "Im Mastkorb ist er über dem Nebel, und die Sonne scheint ihm ins Gesicht.", "Durch sein Fernrohr entdeckt er eine grüne Insel mit drei Palmen.", "„Land in Sicht!“, ruft er, und Papa dreht das Steuer genau in diese Richtung."],
+        "es": ["Jonás sube por la escala de cuerda, peldaño a peldaño, hasta lo más alto.", "Desde abajo, mamá le grita: —¡Agárrate fuerte, mi valiente capitán!", "En la cofa ya está por encima de la niebla, y el sol le da en la cara.", "Con su catalejo descubre una isla verde con tres palmeras.", "—¡Tierra a la vista! —grita, y papá gira el timón justo hacia allí."]
+      },
+      "next": "insel"
+    },
+    {
+      "id": "karte",
+      "image": "p06.svg",
+      "text": {
+        "de": ["Emma und Jonas beugen sich über die Karte, und Mama hält die Laterne.", "Am Rand steht in krakeliger Schrift: „Folge dem Glockenklang.“", "Emma lauscht ganz genau und hört leise eine Glocke bimmeln.", "„Nach links, Papa!“, rufen beide, und Bootsmann Bär lenkt die Möwe sicher durch den Nebel.", "Bald taucht eine grüne Insel mit drei Palmen auf."],
+        "es": ["Emma y Jonás se inclinan sobre el mapa mientras mamá sostiene el farol.", "En el borde pone, con letra torcida: «Sigue el sonido de la campana».", "Emma escucha con mucha atención y oye, muy bajito, el tintineo de una campana.", "—¡A la izquierda, papá! —gritan los dos, y el contramaestre Oso guía La Gaviota a través de la niebla.", "Pronto aparece una isla verde con tres palmeras."]
+      },
+      "next": "insel"
+    },
+    {
+      "id": "hai",
+      "image": "p07.svg",
+      "text": {
+        "de": ["Die Haifelsen ragen aus dem Wasser wie riesige graue Flossen.", "Zwischen zwei Felsen steckt ein Schiff mit roten Segeln fest.", "Ein dicker Pirat mit rotem Bart schwenkt seinen riesigen Hut: „Hallo! Ich bin Kapitän Rotbart, und ich stecke hier schon seit Dienstag fest!“", "Emma flüstert: „Er sieht eigentlich ganz nett aus.“", "Wie sollen sie Rotbart helfen?"],
+        "es": ["Las Rocas del Tiburón salen del agua como enormes aletas grises.", "Entre dos rocas hay un barco de velas rojas encallado.", "Un pirata barrigón de barba roja agita su enorme sombrero: —¡Hola! Soy el capitán Barbarroja, ¡y llevo aquí atascado desde el martes!", "Emma susurra: —Pues parece muy simpático.", "¿Cómo deben ayudar a Barbarroja?"]
+      },
+      "choices": [
+        { "icon": "🪢", "color": "#ff6b6b", "label": { "de": "Seil", "es": "Cuerda" }, "to": "seil" },
+        { "icon": "🎂", "color": "#4aa3ff", "label": { "de": "Kuchen", "es": "Pastel" }, "to": "kuchen" }
+      ]
+    },
+    {
+      "id": "seil",
+      "image": "p08.svg",
+      "text": {
+        "de": ["Papa wirft ein dickes Seil hinüber, und Rotbart bindet es mit einem wackeligen Knoten fest.", "„Hau ruck!“, rufen alle, und Papa zieht mit seinen starken Armen, bis das rote Schiff mit einem Plopp freikommt.", "Rotbart plumpst vor Freude auf sein Hinterteil.", "„Danke, Freunde! Ich weiß, wo die Schatzinsel liegt“, lacht er.", "Gemeinsam segeln die beiden Schiffe weiter."],
+        "es": ["Papá lanza una cuerda gruesa, y Barbarroja la ata con un nudo bastante torcido.", "—¡Aúpa! —gritan todos, y papá tira con sus brazos fuertes hasta que el barco rojo se suelta con un «¡plop!».", "Barbarroja se cae de culo de pura alegría.", "—¡Gracias, amigos! Yo sé dónde está la isla del tesoro —se ríe.", "Los dos barcos siguen navegando juntos."]
+      },
+      "next": "bucht"
+    },
+    {
+      "id": "kuchen",
+      "image": "p09.svg",
+      "text": {
+        "de": ["Mama hat eine bessere Idee und holt ihren großen Schokoladenkuchen aus der Kombüse.", "Sie legt ein Brett zwischen die Schiffe, und Rotbart balanciert herüber, weil der Kuchen so herrlich duftet.", "Ohne den dicken Rotbart ist sein Schiff so leicht, dass es von allein freischwimmt!", "„Das ist der beste Kuchen der sieben Meere“, schmatzt er glücklich.", "Dann segeln die beiden Schiffe gemeinsam weiter."],
+        "es": ["Mamá tiene una idea mejor y saca de la cocina su gran pastel de chocolate.", "Pone una tabla entre los dos barcos, y Barbarroja cruza haciendo equilibrios porque el pastel huele de maravilla.", "¡Sin la barriga de Barbarroja, su barco pesa tan poco que se suelta solo!", "—Es el mejor pastel de los siete mares —dice relamiéndose.", "Luego los dos barcos navegan juntos."]
+      },
+      "next": "bucht"
+    },
+    {
+      "id": "sturm",
+      "image": "p10.svg",
+      "text": {
+        "de": ["Im Sturmmeer werden die Wellen so hoch wie Häuser.", "Emma hat Angst und klammert sich an Mama, die sie fest in den Arm nimmt.", "Papa hält das Steuer mit beiden Händen, und die Möwe tanzt sicher über jede Welle.", "Als der Wind leiser wird, schlägt Kiki aufgeregt mit dem gesunden Flügel, und in der Ferne blinkt ein Leuchtturm.", "Wem sollen sie folgen?"],
+        "es": ["En el Mar de las Tormentas, las olas son tan altas como casas.", "Emma tiene miedo y se abraza a mamá, que la estrecha muy fuerte.", "Papá sujeta el timón con las dos manos, y La Gaviota baila sobre cada ola sin peligro.", "Cuando el viento se calma, Kiki agita nervioso el ala sana, y a lo lejos parpadea un faro.", "¿A quién deben seguir?"]
+      },
+      "choices": [
+        { "icon": "🦜", "color": "#4cc38a", "label": { "de": "Kiki", "es": "Kiki" }, "to": "kiki" },
+        { "icon": "🗼", "color": "#a77bf3", "label": { "de": "Leuchtturm", "es": "Faro" }, "to": "leuchtturm" }
+      ]
+    },
+    {
+      "id": "kiki",
+      "image": "p11.svg",
+      "text": {
+        "de": ["Kiki flattert auf die Reling und krächzt: „Hier lang! Hier lang!“", "Sein Flügel ist schon fast wieder gesund, weil Emma ihn so lieb gepflegt hat.", "Über dem Meer leuchtet ein Regenbogen, und Kiki fliegt genau darunter hindurch.", "Die Möwe folgt ihm, bis eine grüne Insel mit drei Palmen auftaucht.", "„Kiki kennt den Weg nach Hause“, sagt Emma leise."],
+        "es": ["Kiki se posa en la barandilla y grazna: —¡Por aquí! ¡Por aquí!", "Su ala ya está casi curada, porque Emma lo ha cuidado con mucho cariño.", "Sobre el mar brilla un arcoíris, y Kiki vuela justo por debajo.", "La Gaviota lo sigue hasta que aparece una isla verde con tres palmeras.", "—Kiki conoce el camino a casa —dice Emma en voz baja."]
+      },
+      "next": "insel"
+    },
+    {
+      "id": "leuchtturm",
+      "image": "p12.svg",
+      "text": {
+        "de": ["Neben dem Leuchtturm ankert ein Schiff mit roten Segeln, und ein dicker Pirat mit rotem Bart winkt verzweifelt.", "„Ich bin Kapitän Rotbart! Die Lampe ist aus, und ohne Licht finde ich den Weg nicht.“", "Papa trägt die schwere Ölkanne hinauf, und Jonas klettert mutig hinterher, bis die Lampe wieder strahlt.", "Rotbart umarmt alle so fest, dass Jonas’ Zeitungshut verrutscht.", "Zusammen segeln die beiden Schiffe weiter."],
+        "es": ["Junto al faro hay un barco de velas rojas, y un pirata de barba roja les hace señas.", "—¡Soy el capitán Barbarroja! La lámpara se ha apagado y sin luz no encuentro el camino.", "Papá sube el bidón de aceite y Jonás trepa detrás, hasta que la lámpara brilla de nuevo.", "Barbarroja los abraza tan fuerte que a Jonás se le tuerce el sombrero.", "Los dos barcos siguen navegando juntos."]
+      },
+      "next": "bucht"
+    },
+    {
+      "id": "insel",
+      "image": "p13.svg",
+      "text": {
+        "de": ["Auf der Insel ist schon jemand: Ein dicker Pirat mit rotem Bart buddelt überall Löcher.", "Plumps, da fällt er in sein eigenes Loch!", "Papa zieht ihn mit einem Ruck heraus, und der Pirat lacht: „Danke! Ich bin Kapitän Rotbart und suche den Schatz schon ewig.“", "Kiki zappelt aufgeregt in Richtung einer Höhle, aber auf der Karte ist ein Kreuz bei der höchsten Palme.", "Wo sollen sie suchen?"],
+        "es": ["En la isla ya hay alguien: un pirata barrigón de barba roja que cava agujeros por todas partes.", "¡Plaf, se cae en su propio agujero!", "Papá lo saca de un tirón, y el pirata se ríe: —¡Gracias! Soy el capitán Barbarroja y llevo siglos buscando el tesoro.", "Kiki aletea nervioso hacia una cueva, pero en el mapa hay una cruz junto a la palmera más alta.", "¿Dónde deben buscar?"]
+      },
+      "choices": [
+        { "icon": "🦜", "color": "#4cc38a", "label": { "de": "Höhle", "es": "Cueva" }, "to": "hoehle" },
+        { "icon": "🌴", "color": "#ff9f43", "label": { "de": "Palme", "es": "Palmera" }, "to": "palme" }
+      ]
+    },
+    {
+      "id": "bucht",
+      "image": "p14.svg",
+      "text": {
+        "de": ["In der Bucht der Schatzinsel werfen beide Schiffe den Anker.", "Doch Rotbart schaut traurig auf seine Karte, denn sie ist mitten durchgerissen.", "Emma merkt es sofort, nimmt seine große Hand und sagt: „Wir helfen dir.“", "Am Strand glitzern unzählige Muscheln in der Sonne, und Emmas Augen leuchten.", "Was wollen sie zuerst tun?"],
+        "es": ["En la bahía de la isla del tesoro, los dos barcos echan el ancla.", "Pero Barbarroja mira triste su mapa, porque está roto por la mitad.", "Emma se da cuenta enseguida, le coge la mano grandota y le dice: —Nosotros te ayudamos.", "En la playa brillan al sol montones de conchas, y a Emma se le iluminan los ojos.", "¿Qué quieren hacer primero?"]
+      },
+      "choices": [
+        { "icon": "🗺️", "color": "#4aa3ff", "label": { "de": "Karte", "es": "Mapa" }, "to": "freund" },
+        { "icon": "🐚", "color": "#ff6b6b", "label": { "de": "Muscheln", "es": "Conchas" }, "to": "muschel" }
+      ]
+    },
+    {
+      "id": "hoehle",
+      "image": "p15.svg",
+      "text": {
+        "de": ["Kiki fliegt voraus in eine Höhle, und Mama hält die Laterne hoch.", "Die Wände glitzern wie tausend kleine Sterne.", "Emma hat ein bisschen Angst im Dunkeln, aber Jonas nimmt ihre Hand und geht mutig vorneweg.", "Papa und Rotbart stapfen hinterher und ziehen die Köpfe ein.", "Da hören sie von überall fröhliches Gekrächze."],
+        "es": ["Kiki entra volando en una cueva, y mamá levanta el farol.", "Las paredes brillan como mil estrellitas.", "A Emma le da un poco de miedo la oscuridad, pero Jonás le coge la mano y va delante, muy valiente.", "Papá y Barbarroja los siguen con la cabeza agachada.", "De pronto oyen graznidos alegres por todas partes."]
+      },
+      "next": "kiki-ende"
+    },
+    {
+      "id": "kiki-ende",
+      "image": "p16.svg",
+      "text": {
+        "de": ["In der Höhle wohnt Kikis ganze Familie, und alle Papageien schwatzen fröhlich durcheinander.", "Sie bewachen eine Truhe voller Gold, und Rotbart bekommt eine Handvoll Münzen, die ihn vor Rührung schniefen lassen.", "Kiki aber schenkt Emma seine schönste rote Feder.", "„Du bist mein bester Freund“, sagt Emma und steckt sie an ihr Kopftuch.", "Seitdem sitzt jeden Morgen ein bunter Vogel auf dem Karton im Garten."],
+        "es": ["En la cueva vive toda la familia de Kiki, y los loros parlotean sin parar.", "Guardan un cofre lleno de oro, y Barbarroja recibe un puñado de monedas y moquea de emoción.", "Pero Kiki le regala a Emma su pluma roja más bonita.", "—Eres mi mejor amigo —dice Emma, y se la prende en el pañuelo.", "Desde entonces, cada mañana hay un pájaro de colores sobre la caja del jardín."]
+      },
+      "end": "kiki"
+    },
+    {
+      "id": "palme",
+      "image": "p17.svg",
+      "text": {
+        "de": ["Unter der höchsten Palme ist ein großes X in den Sand gemalt.", "Papa krempelt die Ärmel hoch und gräbt, dass der Sand nur so fliegt.", "Rotbart hilft mit und schaufelt Papa aus Versehen Sand in die Stiefel.", "Jonas und Emma kichern, bis es plötzlich laut „Klonk!“ macht.", "Eine alte Holztruhe kommt zum Vorschein."],
+        "es": ["Debajo de la palmera más alta hay una gran X dibujada en la arena.", "Papá se remanga y cava tan rápido que la arena sale volando.", "Barbarroja le ayuda y, sin querer, le echa arena dentro de las botas.", "Jonás y Emma se ríen hasta que, de repente, suena un «¡clonc!».", "Ha aparecido un viejo cofre de madera."]
+      },
+      "next": "schatz-ende"
+    },
+    {
+      "id": "schatz-ende",
+      "image": "p18.svg",
+      "text": {
+        "de": ["Jonas öffnet den Deckel, und Gold, Perlen und Edelsteine funkeln in der Sonne.", "„Wir teilen!“, sagt Jonas wie ein echter Kapitän, und Rotbart bekommt genauso viel wie alle anderen.", "Emma sucht sich eine Perlenkette aus und legt Mama eine glänzende Brosche an.", "Zum Feiern kocht Mama am Strand ihre berühmte Fischsuppe.", "Und Rotbart singt so schief, dass sogar die Möwen lachen."],
+        "es": ["Jonás abre la tapa, y el oro, las perlas y las piedras preciosas brillan al sol.", "—¡Lo repartimos! —dice Jonás como un auténtico capitán, y Barbarroja recibe lo mismo que los demás.", "Emma elige un collar de perlas y le prende a mamá un broche reluciente.", "Para celebrarlo, mamá prepara en la playa su famosa sopa de pescado.", "Y Barbarroja canta tan desafinado que hasta las gaviotas se ríen."]
+      },
+      "end": "schatz"
+    },
+    {
+      "id": "muschel",
+      "image": "p19.svg",
+      "text": {
+        "de": ["Emma läuft den Strand entlang und sammelt die schönsten Muscheln: rosa, weiße und gestreifte.", "Jonas trägt den Eimer, und Rotbart benutzt seinen riesigen Hut als Korb.", "Hinter einem Felsen liegt eine Muschel, so groß wie ein Waschbecken.", "Vorsichtig öffnet Papa sie mit seinen starken Händen.", "Darin schimmert eine Perle, so rund und groß wie ein Apfel."],
+        "es": ["Emma recorre la playa y recoge las conchas más bonitas: rosas, blancas y de rayas.", "Jonás lleva el cubo, y Barbarroja usa su enorme sombrero como cesta.", "Detrás de una roca hay una concha tan grande como un lavabo.", "Papá la abre con cuidado con sus manos fuertes.", "Dentro brilla una perla tan redonda y tan grande como una manzana."]
+      },
+      "next": "muschel-ende"
+    },
+    {
+      "id": "muschel-ende",
+      "image": "p20.svg",
+      "text": {
+        "de": ["„Das ist der schönste Schatz von allen!“, ruft Emma.", "Am Abend fädelt sie für alle Ketten aus Muscheln auf, und die mit der großen Perle bekommt Mama.", "Mama sieht damit aus wie eine Königin des Meeres.", "Sogar Rotbart trägt stolz eine Kette und dreht sich vor Kiki im Kreis.", "„Ein Muschelschatz für die ganze Familie“, sagt Papa und lacht."],
+        "es": ["—¡Este es el tesoro más bonito de todos! —exclama Emma.", "Por la noche ensarta collares de conchas para todos, y el de la perla grande es para mamá.", "Con él, mamá parece una reina del mar.", "Hasta Barbarroja lleva orgulloso un collar y da vueltas delante de Kiki para lucirlo.", "—Un tesoro de conchas para toda la familia —dice papá riéndose."]
+      },
+      "end": "muscheln"
+    },
+    {
+      "id": "freund",
+      "image": "p21.svg",
+      "text": {
+        "de": ["Mama holt Klebeband aus ihrer Küchenkiste, und gemeinsam flicken sie Rotbarts Karte.", "Jetzt sieht man den Weg zu einem Felsen, der aussieht wie ein schlafender Bär.", "Jonas geht mutig voran, und unter dem Felsen finden sie eine kleine Truhe.", "Darin liegen ein altes Fernrohr und ein Bild von Rotbart als kleinem Jungen in einem Schiff aus Karton.", "„Mein erstes Schiff!“, ruft Rotbart gerührt."],
+        "es": ["Mamá saca cinta adhesiva de su caja de cocina, y entre todos arreglan el mapa de Barbarroja.", "Ahora se ve el camino hasta una roca con forma de oso dormido.", "Jonás va delante, muy valiente, y debajo de la roca encuentran un cofre pequeño.", "Dentro hay un catalejo antiguo y un dibujo de Barbarroja de niño, en un barco de cartón.", "—¡Mi primer barco! —exclama Barbarroja, emocionado."]
+      },
+      "next": "freunde-ende"
+    },
+    {
+      "id": "freunde-ende",
+      "image": "p22.svg",
+      "text": {
+        "de": ["„Ich habe immer allein gesucht“, sagt Rotbart, „aber mit Freunden macht es viel mehr Spaß.“", "Die beiden Schiffe werden aneinandergebunden, und Mama deckt an Deck einen langen Tisch.", "Rotbart tanzt mit Papa einen Piratentanz, bis die Planken knarren.", "Jonas schenkt Rotbart seinen Zeitungshut, und Rotbart schenkt ihm dafür das alte Fernrohr.", "So wird aus einer Schatzsuche eine echte Freundschaft."],
+        "es": ["—Siempre he buscado solo —dice Barbarroja—, pero con amigos es mucho más divertido.", "Atan los dos barcos uno al otro, y mamá pone una mesa larga en cubierta.", "Barbarroja baila con papá un baile pirata hasta que crujen las tablas.", "Jonás le regala a Barbarroja su sombrero de periódico, y él le da a cambio el catalejo.", "Así, la búsqueda de un tesoro se convierte en una amistad de verdad."]
+      },
+      "end": "freunde"
+    }
+  ]
+}

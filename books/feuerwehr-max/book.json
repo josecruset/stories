@@ -1,0 +1,226 @@
+{
+  "id": "feuerwehr-max",
+  "accent": "#e0302a",
+  "age": 7,
+  "title": {
+    "de": "Max will Feuerwehrmann werden",
+    "es": "Max quiere ser bombero"
+  },
+  "blurb": {
+    "de": "Max möchte so mutig sein wie sein Papa, der Feuerwehrmann. Beim Tag der offenen Tür lernt er, dass Mut auch Vorsicht braucht – und schon am selben Abend kommt es darauf an.",
+    "es": "Max quiere ser tan valiente como su padre, que es bombero. En la jornada de puertas abiertas aprende que el valor también necesita prudencia… y esa misma tarde tendrá que demostrarlo."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Max Hoffmann ist sieben Jahre alt und weiß ganz genau, was er einmal werden will: Feuerwehrmann, genau wie Papa!",
+          "Papa Thomas ist groß und stark und hat einen Schnurrbart, der beim Lachen wackelt.",
+          "Am Frühstückstisch zeigt er ein Plakat: Am Samstag ist Tag der offenen Tür bei der Feuerwache.",
+          "„Juhu!“, ruft Max und springt so hoch, dass die Milch überschwappt."
+        ],
+        "es": [
+          "Max Hoffmann tiene siete años y tiene clarísimo lo que quiere ser de mayor: ¡bombero, igual que papá!",
+          "Papá Thomas es alto y fuerte, y tiene un bigote que se le mueve cuando se ríe.",
+          "En el desayuno les enseña un cartel: el sábado hay jornada de puertas abiertas en el parque de bomberos.",
+          "—¡Bieeen! —grita Max, y da un salto tan alto que se derrama la leche."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Am Samstag zieht Lena ihr gelbes Lieblingskleid an und steckt sich zwei Spangen mit Marienkäfern ins Haar.",
+          "Mama Sabine bindet ihre blonden Locken zusammen und nimmt beide Kinder an die Hand.",
+          "Vor der Feuerwache glänzt ein riesiges rotes Löschfahrzeug in der Sonne.",
+          "Als zur Probe die Sirene heult, hält sich Lena schnell die Ohren zu und kuschelt sich an Mama."
+        ],
+        "es": [
+          "El sábado, Lena se pone su vestido amarillo favorito y dos horquillas de mariquitas en el pelo.",
+          "Mamá Sabine se recoge los rizos rubios y coge a los dos niños de la mano.",
+          "Delante del parque de bomberos brilla al sol un camión rojo enorme.",
+          "Cuando la sirena suena de prueba, Lena se tapa los oídos y se acurruca contra mamá."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Papa hebt Max ins Führerhaus des Löschfahrzeugs.",
+          "Überall gibt es Knöpfe, Hebel und Lämpchen, und das Lenkrad ist so groß wie ein Wagenrad.",
+          "Max drückt auf die Hupe, und es tutet so laut, dass ein Feuerwehrmann vor Schreck seinen Kaffee verschüttet.",
+          "Papa lacht, bis sein Schnurrbart zittert, und setzt Max seinen echten Helm auf.",
+          "Der rutscht ihm bis über die Nase."
+        ],
+        "es": [
+          "Papá sube a Max a la cabina del camión de bomberos.",
+          "Hay botones, palancas y lucecitas por todas partes, y el volante es enorme.",
+          "Max aprieta el claxon, y suena tan fuerte que a un bombero se le derrama el café del susto.",
+          "Papá se ríe tanto que le tiembla el bigote, y le pone a Max su casco de verdad.",
+          "Le tapa hasta la nariz."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Im Hof steht die lange Drehleiter, und Max rennt sofort los.",
+          "„Ich klettere ganz nach oben!“, ruft er und hat schon einen Fuß auf der ersten Sprosse.",
+          "Doch Papa hält ihn mit seiner großen Hand sanft an der Schulter fest.",
+          "„Ein guter Feuerwehrmann rennt nie einfach los“, sagt er.",
+          "„Mut ist wichtig, aber Mut braucht immer auch Vorsicht.“"
+        ],
+        "es": [
+          "En el patio está la escalera larguísima del camión, y Max sale corriendo hacia ella.",
+          "—¡Voy a subir hasta arriba del todo! —grita, con un pie ya en el primer peldaño.",
+          "Pero papá lo sujeta con suavidad por el hombro con su manaza.",
+          "—Un buen bombero nunca sale corriendo sin pensar —le dice—. El valor es importante, pero siempre tiene que ir de la mano de la prudencia."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Dann setzt sich Papa mit den Kindern auf eine Bank und zählt an den Fingern ab.",
+          "„Wenn es brennt: nie selbst hineingehen, sofort einen Erwachsenen holen und die 112 anrufen.“",
+          "„Und bei Rauch bleibt man ganz tief unten, wo die Luft noch gut ist.“",
+          "Lena sagt die Zahlen leise mit, und Max wiederholt sie so laut, dass es durch die ganze Halle schallt."
+        ],
+        "es": [
+          "Luego papá se sienta con los niños en un banco y cuenta con los dedos.",
+          "—Si hay fuego, nunca entréis solos: avisad enseguida a un adulto y llamad al 112.",
+          "Y si hay humo, hay que agacharse mucho, porque abajo el aire está más limpio.",
+          "Lena repite los números en voz bajita, y Max los dice tan alto que retumban en toda la nave."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Papa muss noch auf der Wache bleiben, also gehen Mama und die Kinder allein nach Hause.",
+          "Max hüpft voraus und spielt Feuerwehr: „Tatü, tata!“",
+          "Am Gartenzaun von Frau Kurz, der alten Nachbarin, bleibt er plötzlich stehen.",
+          "Aus dem kleinen Holzschuppen hinter ihrem Haus quillt grauer Rauch."
+        ],
+        "es": [
+          "Papá tiene que quedarse en el parque de bomberos, así que mamá y los niños vuelven solos a casa.",
+          "Max va dando saltitos por delante y juega a los bomberos: —¡Nino, nino, nino!",
+          "De repente se para en seco junto a la valla de la señora Kurz, la vecina mayor.",
+          "Del pequeño cobertizo de madera detrás de su casa sale humo gris."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "Max' Herz klopft wie eine Trommel.",
+          "Am liebsten würde er sofort durch das Gartentor stürmen und das Feuer ausmachen.",
+          "Aber dann hört er Papas Stimme in seinem Kopf: Mut braucht Vorsicht.",
+          "Lena krallt sich ängstlich an seinen Ärmel.",
+          "„Wir gehen nicht hinein“, sagt Max fest, und dann ruft er so laut er kann: „Mama, es brennt!“"
+        ],
+        "es": [
+          "A Max el corazón le late como un tambor.",
+          "Le encantaría cruzar la verja corriendo y apagar el fuego él solo.",
+          "Pero entonces oye la voz de papá dentro de su cabeza: el valor necesita prudencia.",
+          "Lena se agarra a su manga, muerta de miedo.",
+          "—No vamos a entrar —dice Max muy serio, y luego grita con todas sus fuerzas—: ¡Mamá, hay fuego!"
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Mama ist sofort da und gibt Max ihr Handy.",
+          "Mit zitternden Fingern tippt er eins, eins, zwei.",
+          "„Hier ist Max Hoffmann, im Schuppen von Frau Kurz im Lindenweg sieben brennt es!“",
+          "Er beantwortet alle Fragen ganz ruhig, und die Frau am Telefon sagt: „Gut gemacht, die Feuerwehr ist schon unterwegs.“"
+        ],
+        "es": [
+          "Mamá llega enseguida y le da a Max su móvil.",
+          "Con los dedos temblorosos, marca uno, uno, dos.",
+          "—Soy Max Hoffmann. ¡Hay fuego en el cobertizo de la señora Kurz, en la calle de los Tilos, número siete!",
+          "Contesta a todas las preguntas con calma, y la señora del teléfono le dice: —Muy bien, los bomberos ya van para allá."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Mama klingelt bei Frau Kurz, und die alte Dame kommt erschrocken in Hausschuhen heraus.",
+          "„Meine Minka!“, jammert sie. „Wo ist nur meine Katze?“",
+          "Lena nimmt ihre Hand und sagt sanft: „Keine Sorge, wir finden sie.“",
+          "Da entdeckt Lena zwei grüne Augen unter der Hecke, ganz weit weg vom Schuppen.",
+          "Mit leiser Stimme lockt sie Minka zu sich."
+        ],
+        "es": [
+          "Mamá llama al timbre de la señora Kurz, y la anciana sale asustada, en zapatillas de casa.",
+          "—¡Mi Minka! —se lamenta—. ¿Dónde está mi gata?",
+          "Lena le coge la mano y le dice con dulzura: —No se preocupe, la encontraremos.",
+          "Entonces Lena descubre dos ojos verdes bajo el seto, muy lejos del cobertizo.",
+          "Con voz suave, llama a Minka hasta que se acerca."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Tatü, tata – das Löschfahrzeug biegt um die Ecke!",
+          "Lena drückt Minka fest an sich, und diesmal hält sie tapfer durch, obwohl die Sirene so laut ist.",
+          "Papa springt als Erster heraus, und seine Kameraden rollen in Windeseile die Schläuche aus.",
+          "Ein dicker Wasserstrahl zischt auf den Schuppen, bis nur noch ein bisschen Dampf aufsteigt."
+        ],
+        "es": [
+          "¡Nino, nino, nino! ¡El camión de bomberos dobla la esquina!",
+          "Lena abraza fuerte a Minka, y esta vez aguanta valiente, aunque la sirena suena muy fuerte.",
+          "Papá es el primero en saltar del camión, y sus compañeros despliegan las mangueras en un periquete.",
+          "Un chorro de agua enorme silba sobre el cobertizo hasta que solo queda un poco de vapor."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Der Schuppen ist ein bisschen schwarz, aber das Haus ist gerettet.",
+          "Papa nimmt den Helm ab und hebt Max hoch in die Luft.",
+          "„Du hast alles richtig gemacht“, sagt er stolz. „Du warst mutig und vorsichtig zugleich.“",
+          "Frau Kurz wischt sich eine Träne ab und drückt Lena einen Kuss auf die Wange, weil sie so lieb getröstet hat."
+        ],
+        "es": [
+          "El cobertizo ha quedado un poco negro, pero la casa se ha salvado.",
+          "Papá se quita el casco y levanta a Max por los aires.",
+          "—Lo has hecho todo bien —le dice orgulloso—. Has sido valiente y prudente a la vez.",
+          "La señora Kurz se seca una lágrima y le da a Lena un beso en la mejilla, por haberla consolado con tanto cariño."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Eine Woche später lädt der Wehrführer die ganze Familie auf die Feuerwache ein.",
+          "Vor allen Feuerwehrleuten bekommt Max einen kleinen roten Helm, der genau passt.",
+          "Lena bekommt eine glitzernde Anstecknadel, die sie gleich an ihr gelbes Kleid steckt.",
+          "Und Frau Kurz hat einen riesigen Kirschkuchen mitgebracht, für alle Helden auf einmal."
+        ],
+        "es": [
+          "Una semana después, el jefe de bomberos invita a toda la familia al parque.",
+          "Delante de todos los bomberos, Max recibe un casco rojo pequeñito que le queda perfecto.",
+          "Lena recibe un broche brillante y se lo prende enseguida en su vestido amarillo.",
+          "Y la señora Kurz ha traído una tarta de cerezas gigante, para todos los héroes a la vez."
+        ]
+      }
+    }
+  ]
+}

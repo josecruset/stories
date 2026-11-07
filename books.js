@@ -11,8 +11,10 @@ window.BOOKS = [
   'raton-perez', 'ratita', 'garbancito', 'rattenfaenger', 'sterntaler',
   // Neue Geschichten (ab 3–4, dann ab 6–7)
   'luna', 'pip', 'bruno', 'roboter-bolt', 'leuchtturm',
+  'spuernasen-muehle', 'feuerwehr-max', 'knappe-konrad', 'zelten-am-see', 'sofias-festkleid',
   // Interaktive Geschichten (ab 4, dann ab 6–7)
   'luzi', 'ole', 'drachenei', 'zeitmaschine', 'detektivin-mila',
+  'spuernasen-hund', 'kapitaen-jonas', 'ritter-lukas', 'dschungel-expedition', 'ferien-bauernhof',
 ];
 
 // Märchen in der Originalfassung (wie aufgeschrieben, nicht entschärft): kindgerechte id → Original.
