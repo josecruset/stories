@@ -6,7 +6,7 @@
   "interactive": true,
   "title": { "de": "Kapitän Jonas und die Schatzinsel", "es": "El capitán Jonás y la isla del tesoro" },
   "blurb": {
-    "de": "Aus einem Karton im Garten wird das Piratenschiff „Möwe“! Segle mit Kapitän Jonas, Emma und dem verletzten Papagei Kiki zur Schatzinsel und entscheide selbst, welchen Weg ihr nehmt.",
+    "de": "Aus einem Karton im Garten wird das Piratenschiff „Möwe“! Segle mit Kapitän Jonas, Emma und dem verletzten Papagei Kiki zur Schatzinsel und entscheide selbst, welchen Weg Ihr nehmt.",
     "es": "¡Una caja de cartón del jardín se convierte en el barco pirata La Gaviota! Navega con el capitán Jonás, Emma y el loro Kiki hasta la isla del tesoro y decide tú qué camino tomar."
   },
   "endings": [
@@ -51,7 +51,7 @@
       "id": "nebel",
       "image": "p04.svg",
       "text": {
-        "de": ["In der Nebelbucht wird es still und weiß, als segle man mitten durch eine Wolke.", "Papa kann kaum den Bug sehen und lenkt ganz langsam.", "„Ich klettere hinauf in den Mastkorb!“, ruft Jonas mutig.", "Emma zupft ihn am Ärmel: „Oder wir lesen zusammen die Karte, da steht bestimmt etwas über den Nebel.“", "Und was meinst du, was soll Jonas jetzt tun?"],
+        "de": ["In der Nebelbucht wird es still und weiß, als segle man mitten durch eine Wolke.", "Papa kann kaum den Bug sehen und lenkt ganz langsam.", "„Ich klettere hinauf in den Mastkorb!“, ruft Jonas mutig.", "Emma zupft ihn am Ärmel: „Oder wir lesen zusammen die Karte, da steht bestimmt etwas über den Nebel.“", "Und was meinst Du, was soll Jonas jetzt tun?"],
         "es": ["En la Bahía de la Niebla todo se vuelve blanco y silencioso, como si navegaran dentro de una nube.", "Papá apenas ve la proa y gira el timón muy despacio.", "—¡Voy a subir a la cofa! —exclama Jonás, muy valiente.", "Emma le tira de la manga: —O leemos juntos el mapa, seguro que dice algo de la niebla.", "¿Qué debe hacer Jonás?"]
       },
       "choices": [
