@@ -57,6 +57,9 @@ Die Startseite zeigt zwei Regale (Feld `shelf` in `book.json`):
   der verschwundene Preishund, Kapitän Jonas, Ritter Lukas, Expedition in den Regenwald, Ferien auf Opas Bauernhof – das Kind
   entscheidet an mehreren Stellen über große Knöpfe (Symbol, Farbe, Nummer, ein Wort), wie es weitergeht.
 
+- **Wahre Geschichten** (`"shelf": "wahre"`): überlieferte, reale Geschichten, kein Märchen –
+  bisher Sankt Martin.
+
 `origin` nennt die Quelle (wird auf der Karte angezeigt).
 
 ## Märchen-Fassungen

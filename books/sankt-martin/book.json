@@ -1,0 +1,228 @@
+{
+  "id": "sankt-martin",
+  "shelf": "wahre",
+  "accent": "#c8322f",
+  "age": 5,
+  "origin": {
+    "de": "Martin von Tours (316–397)",
+    "es": "San Martín de Tours (316–397)"
+  },
+  "title": {
+    "de": "Sankt Martin",
+    "es": "San Martín"
+  },
+  "blurb": {
+    "de": "Die wahre Geschichte des Soldaten Martin, der an einem eiskalten Wintertag seinen Mantel mit einem Bettler teilte – und warum Kinder bis heute am 11. November mit Laternen durch die Straßen ziehen.",
+    "es": "La historia verdadera del soldado Martín, que un día helado de invierno partió su capa con un mendigo, y por qué en Alemania los niños siguen saliendo cada 11 de noviembre con farolillos por las calles."
+  },
+  "pages": [
+    {
+      "image": "p01.svg",
+      "text": {
+        "de": [
+          "Vor sehr langer Zeit, vor ungefähr 1700 Jahren, wurde ein Junge namens Martin geboren.",
+          "Er kam in Pannonien zur Welt, in dem Land, das wir heute Ungarn nennen.",
+          "Damals herrschten dort die Römer.",
+          "Martins Vater war ein römischer Offizier, ein strenger und tapferer Soldat.",
+          "Schon als Kind hörte Martin aber gern von Gott und von Jesus, der alle Menschen liebt."
+        ],
+        "es": [
+          "Hace muchísimo tiempo, unos mil setecientos años, nació un niño llamado Martín.",
+          "Vino al mundo en Panonia, la tierra que hoy llamamos Hungría.",
+          "En aquella época mandaban allí los romanos.",
+          "El padre de Martín era oficial del ejército romano, un soldado serio y valiente.",
+          "Pero a Martín, ya de pequeño, le encantaba escuchar historias de Dios y de Jesús, que quiere a todas las personas."
+        ]
+      }
+    },
+    {
+      "image": "p02.svg",
+      "text": {
+        "de": [
+          "Als Martin fünfzehn Jahre alt war, musste er selbst Soldat werden, so wollte es das Gesetz.",
+          "Er wurde Reitersoldat und bekam einen Helm, ein Schwert und einen weiten roten Mantel.",
+          "Auf seinem weißen Pferd ritt er bis nach Gallien, in das Land, das heute Frankreich heißt.",
+          "Martin war ein guter Soldat, aber vor allem war er freundlich zu allen."
+        ],
+        "es": [
+          "Cuando Martín cumplió quince años, tuvo que hacerse soldado, porque así lo mandaba la ley.",
+          "Lo hicieron soldado de caballería y le dieron un casco, una espada y una amplia capa roja.",
+          "Montado en su caballo blanco, llegó hasta la Galia, la tierra que hoy se llama Francia.",
+          "Martín era un buen soldado, pero sobre todo era amable con todo el mundo."
+        ]
+      }
+    },
+    {
+      "image": "p03.svg",
+      "text": {
+        "de": [
+          "Einmal kam ein Winter, der war so kalt wie lange keiner mehr.",
+          "Der Schnee lag hoch, und der Wind pfiff eisig um die Mauern der Stadt Amiens.",
+          "Viele Menschen erfroren in diesem Winter, weil sie nichts Warmes zum Anziehen hatten.",
+          "An einem dieser Tage ritt Martin mit seinem Pferd auf das große Stadttor zu."
+        ],
+        "es": [
+          "Un año llegó un invierno tan frío como no se recordaba otro.",
+          "La nieve lo cubría todo y el viento soplaba helado entre las murallas de la ciudad de Amiens.",
+          "Aquel invierno mucha gente murió de frío, porque no tenía ropa con la que abrigarse.",
+          "Uno de esos días, Martín se acercaba a caballo a la gran puerta de la ciudad."
+        ]
+      }
+    },
+    {
+      "image": "p04.svg",
+      "text": {
+        "de": [
+          "Am Tor saß ein armer Mann im Schnee, fast ohne Kleider, und zitterte vor Kälte.",
+          "Er bat die Leute, die vorbeigingen, um ein wenig Hilfe.",
+          "Doch alle liefen schnell an ihm vorüber, als hätten sie ihn gar nicht gesehen.",
+          "Martin hielt sein Pferd an und dachte: „Diesen Mann hat Gott mir geschickt, denn sonst hilft ihm keiner.“"
+        ],
+        "es": [
+          "Junto a la puerta había un pobre hombre sentado en la nieve, casi sin ropa, temblando de frío.",
+          "Pedía un poco de ayuda a la gente que pasaba.",
+          "Pero todos pasaban deprisa a su lado, como si ni siquiera lo vieran.",
+          "Martín detuvo su caballo y pensó: «Dios me ha puesto a este hombre en el camino, porque nadie más lo ayuda»."
+        ]
+      }
+    },
+    {
+      "image": "p05.svg",
+      "text": {
+        "de": [
+          "Aber was sollte er ihm geben?",
+          "Sein Geld hatte Martin schon an andere Arme verschenkt, und er besaß nur noch seine Waffen und seinen Mantel.",
+          "Da zog er sein Schwert, nahm den roten Mantel von den Schultern und schnitt ihn mitten durch.",
+          "Eine Hälfte reichte er dem frierenden Mann, die andere legte er sich selbst wieder um."
+        ],
+        "es": [
+          "Pero ¿qué podía darle?",
+          "Martín ya había regalado su dinero a otros pobres, y solo le quedaban sus armas y su capa.",
+          "Entonces sacó la espada, se quitó la capa roja de los hombros y la cortó por la mitad.",
+          "Le dio una mitad al hombre que temblaba de frío y él se volvió a poner la otra."
+        ]
+      }
+    },
+    {
+      "image": "p06.svg",
+      "text": {
+        "de": [
+          "Der arme Mann wickelte sich in den warmen Stoff und sah Martin dankbar an.",
+          "Einige Leute am Tor lachten über den Soldaten mit dem halben, viel zu kurzen Mantel.",
+          "Andere aber schämten sich, weil sie selbst genug gehabt hätten und doch nichts gegeben hatten.",
+          "Martin ritt ruhig weiter, und in seinem Herzen war es warm."
+        ],
+        "es": [
+          "El pobre hombre se envolvió en la tela caliente y miró a Martín con agradecimiento.",
+          "Algunos de los que estaban en la puerta se rieron del soldado con media capa, demasiado corta.",
+          "Otros, en cambio, sintieron vergüenza, porque ellos tenían de sobra y no habían dado nada.",
+          "Martín siguió su camino tranquilo, y por dentro se sentía calentito."
+        ]
+      }
+    },
+    {
+      "image": "p07.svg",
+      "text": {
+        "de": [
+          "In der Nacht hatte Martin einen wunderbaren Traum.",
+          "Er sah Jesus, ganz hell und freundlich, und Jesus trug die Hälfte seines roten Mantels.",
+          "Jesus sagte zu den Engeln um ihn herum: „Martin hat mich mit diesem Mantel bekleidet.“",
+          "Da verstand Martin, was Jesus einmal gesagt hatte: „Was ihr dem Geringsten getan habt, das habt ihr mir getan.“"
+        ],
+        "es": [
+          "Esa noche, Martín tuvo un sueño maravilloso.",
+          "Vio a Jesús, lleno de luz y de bondad, y Jesús llevaba puesta la mitad de su capa roja.",
+          "Jesús dijo a los ángeles que lo rodeaban: «Martín me ha cubierto con esta capa».",
+          "Entonces Martín entendió lo que Jesús había dicho una vez: «Lo que hicisteis con el más pequeño, conmigo lo hicisteis»."
+        ]
+      }
+    },
+    {
+      "image": "p08.svg",
+      "text": {
+        "de": [
+          "Bald darauf ließ Martin sich taufen, denn er wollte ganz zu Jesus gehören.",
+          "Ein paar Jahre blieb er noch Soldat, dann bat er darum, die Armee verlassen zu dürfen.",
+          "„Bisher habe ich dem Kaiser gedient“, sagte er, „jetzt will ich Gott dienen.“",
+          "Er legte Helm und Schwert ab und zog los, ohne Waffen, nur mit einem einfachen Gewand."
+        ],
+        "es": [
+          "Poco después, Martín se bautizó, porque quería pertenecer del todo a Jesús.",
+          "Siguió siendo soldado unos años más, y después pidió permiso para dejar el ejército.",
+          "—Hasta ahora he servido al emperador —dijo—, y ahora quiero servir a Dios.",
+          "Dejó el casco y la espada y se puso en camino sin armas, con una túnica sencilla."
+        ]
+      }
+    },
+    {
+      "image": "p09.svg",
+      "text": {
+        "de": [
+          "Martin wurde Mönch und lebte ganz einfach, mit wenig Essen und viel Gebet.",
+          "In Gallien gründete er ein Kloster, eines der ersten in diesem Land.",
+          "Andere Männer kamen zu ihm, um zu lernen, wie man so lebt wie er.",
+          "Und immer, wenn ein Kranker oder Armer an die Tür klopfte, nahm Martin sich Zeit für ihn."
+        ],
+        "es": [
+          "Martín se hizo monje y vivía con mucha sencillez, comiendo poco y rezando mucho.",
+          "En la Galia fundó un monasterio, uno de los primeros de aquella tierra.",
+          "Otros hombres fueron a vivir con él para aprender a vivir como él.",
+          "Y siempre que un enfermo o un pobre llamaba a la puerta, Martín encontraba tiempo para atenderlo."
+        ]
+      }
+    },
+    {
+      "image": "p10.svg",
+      "text": {
+        "de": [
+          "Die Menschen in der Stadt Tours wollten Martin unbedingt als ihren Bischof haben.",
+          "Martin aber fand, dass er dafür nicht gut genug sei.",
+          "Man erzählt sich, dass er sich deshalb in einem Gänsestall versteckte.",
+          "Doch die Gänse schnatterten so laut, dass die Leute ihn sofort fanden!",
+          "So wurde Martin doch noch Bischof von Tours."
+        ],
+        "es": [
+          "La gente de la ciudad de Tours quería a toda costa que Martín fuera su obispo.",
+          "Pero Martín pensaba que él no era lo bastante bueno para eso.",
+          "Cuenta la leyenda que por eso se escondió en un corral de gansos.",
+          "¡Pero los gansos graznaban tan fuerte que la gente lo encontró enseguida!",
+          "Y así Martín acabó siendo obispo de Tours."
+        ]
+      }
+    },
+    {
+      "image": "p11.svg",
+      "text": {
+        "de": [
+          "Auch als Bischof blieb Martin bescheiden und wohnte in einer einfachen Hütte.",
+          "Sein ganzes Leben lang half er Armen, Kranken und allen, die Trost brauchten.",
+          "Als er schon sehr alt war, starb er am 8. November im Jahr 397.",
+          "Am 11. November wurde er in Tours begraben, und unzählige Menschen kamen, um Abschied zu nehmen."
+        ],
+        "es": [
+          "Aun siendo obispo, Martín siguió siendo humilde y vivía en una cabaña sencilla.",
+          "Durante toda su vida ayudó a los pobres, a los enfermos y a todos los que necesitaban consuelo.",
+          "Ya muy anciano, murió el 8 de noviembre del año 397.",
+          "El 11 de noviembre lo enterraron en Tours, y muchísima gente acudió a despedirse de él."
+        ]
+      }
+    },
+    {
+      "image": "p12.svg",
+      "text": {
+        "de": [
+          "Darum ziehen Kinder bis heute am 11. November mit leuchtenden Laternen durch die Straßen und singen Martinslieder.",
+          "Vorne reitet Sankt Martin auf einem Schimmel, mit rotem Mantel.",
+          "Papa trägt die kleine Schwester auf den Schultern, Mama singt mit, und der große Bruder hält stolz seine Laterne hoch.",
+          "Hinterher teilen alle süße Weckmänner, so wie Martin seinen Mantel geteilt hat."
+        ],
+        "es": [
+          "En Alemania existe una bonita costumbre: cada 11 de noviembre, los niños recorren las calles con farolillos encendidos y cantan canciones de San Martín.",
+          "Delante va un jinete vestido de San Martín, con capa roja y caballo blanco.",
+          "Papá lleva a la hermana pequeña a hombros, mamá canta y el hermano mayor levanta orgulloso su farolillo.",
+          "Al final todos comparten bollos dulces, igual que Martín compartió su capa."
+        ]
+      }
+    }
+  ]
+}

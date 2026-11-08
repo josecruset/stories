@@ -15,6 +15,8 @@ window.BOOKS = [
   // Interaktive Geschichten (ab 4, dann ab 6–7)
   'luzi', 'ole', 'drachenei', 'zeitmaschine', 'detektivin-mila',
   'spuernasen-hund', 'kapitaen-jonas', 'ritter-lukas', 'dschungel-expedition', 'ferien-bauernhof',
+  // Wahre Geschichten
+  'sankt-martin',
 ];
 
 // Märchen in der Originalfassung (wie aufgeschrieben, nicht entschärft): kindgerechte id → Original.

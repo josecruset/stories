@@ -12,6 +12,7 @@
     { id: 'maerchen', icon: '🏰' },
     { id: 'geschichten', icon: '🌈' },
     { id: 'interaktiv', icon: '🔀' },
+    { id: 'wahre', icon: '🕯️' },
   ];
   const shelfOf = (b) => b.shelf || 'geschichten';
   let books = [];
